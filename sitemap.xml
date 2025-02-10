@@ -1,127 +1,127 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://noramcgregor.github.io/ds-essentials/contributing.html</loc>
-    <lastmod>2025-02-10T14:25:41.883Z</lastmod>
-  </url>
-  <url>
-    <loc>https://noramcgregor.github.io/ds-essentials/guidelines.html</loc>
-    <lastmod>2025-02-10T14:25:41.886Z</lastmod>
-  </url>
-  <url>
-    <loc>https://noramcgregor.github.io/ds-essentials/topicguides.html</loc>
-    <lastmod>2025-02-10T14:25:41.952Z</lastmod>
-  </url>
-  <url>
-    <loc>https://noramcgregor.github.io/ds-essentials/licensing.html</loc>
-    <lastmod>2025-02-10T14:25:41.950Z</lastmod>
-  </url>
-  <url>
-    <loc>https://noramcgregor.github.io/ds-essentials/training-platforms.html</loc>
-    <lastmod>2025-02-10T14:25:41.952Z</lastmod>
-  </url>
-  <url>
-    <loc>https://noramcgregor.github.io/ds-essentials/dataviz.html</loc>
-    <lastmod>2025-02-10T14:25:41.884Z</lastmod>
-  </url>
-  <url>
-    <loc>https://noramcgregor.github.io/ds-essentials/project-overview.html</loc>
-    <lastmod>2025-02-10T14:25:41.951Z</lastmod>
-  </url>
-  <url>
-    <loc>https://noramcgregor.github.io/ds-essentials/computer-vision.html</loc>
-    <lastmod>2025-02-10T14:25:41.883Z</lastmod>
-  </url>
-  <url>
-    <loc>https://noramcgregor.github.io/ds-essentials/updates.html</loc>
-    <lastmod>2025-02-10T14:25:41.952Z</lastmod>
-  </url>
-  <url>
-    <loc>https://noramcgregor.github.io/ds-essentials/github.html</loc>
-    <lastmod>2025-02-10T14:25:41.885Z</lastmod>
+    <loc>https://noramcgregor.github.io/ds-essentials/digitalmapping.html</loc>
+    <lastmod>2025-02-10T14:27:05.358Z</lastmod>
   </url>
   <url>
     <loc>https://noramcgregor.github.io/ds-essentials/collectionsasdata.html</loc>
-    <lastmod>2025-02-10T14:25:41.883Z</lastmod>
+    <lastmod>2025-02-10T14:27:05.356Z</lastmod>
   </url>
   <url>
-    <loc>https://noramcgregor.github.io/ds-essentials/ml-ai.html</loc>
-    <lastmod>2025-02-10T14:25:41.951Z</lastmod>
-  </url>
-  <url>
-    <loc>https://noramcgregor.github.io/ds-essentials/crowdsourcing.html</loc>
-    <lastmod>2025-02-10T14:25:41.884Z</lastmod>
-  </url>
-  <url>
-    <loc>https://noramcgregor.github.io/ds-essentials/iiif.html</loc>
-    <lastmod>2025-02-10T14:25:41.886Z</lastmod>
-  </url>
-  <url>
-    <loc>https://noramcgregor.github.io/ds-essentials/getting-started-with-programming.html</loc>
-    <lastmod>2025-02-10T14:25:41.885Z</lastmod>
-  </url>
-  <url>
-    <loc>https://noramcgregor.github.io/ds-essentials/copyright.html</loc>
-    <lastmod>2025-02-10T14:25:41.883Z</lastmod>
-  </url>
-  <url>
-    <loc>https://noramcgregor.github.io/ds-essentials/references.html</loc>
-    <lastmod>2025-02-10T14:25:41.951Z</lastmod>
-  </url>
-  <url>
-    <loc>https://noramcgregor.github.io/ds-essentials/reports.html</loc>
-    <lastmod>2025-02-10T14:25:41.951Z</lastmod>
-  </url>
-  <url>
-    <loc>https://noramcgregor.github.io/ds-essentials/r.html</loc>
-    <lastmod>2025-02-10T14:25:41.951Z</lastmod>
-  </url>
-  <url>
-    <loc>https://noramcgregor.github.io/ds-essentials/atr.html</loc>
-    <lastmod>2025-02-10T14:25:41.883Z</lastmod>
+    <loc>https://noramcgregor.github.io/ds-essentials/contributing.html</loc>
+    <lastmod>2025-02-10T14:27:05.357Z</lastmod>
   </url>
   <url>
     <loc>https://noramcgregor.github.io/ds-essentials/python.html</loc>
-    <lastmod>2025-02-10T14:25:41.951Z</lastmod>
-  </url>
-  <url>
-    <loc>https://noramcgregor.github.io/ds-essentials/dstp.html</loc>
-    <lastmod>2025-02-10T14:25:41.885Z</lastmod>
+    <lastmod>2025-02-10T14:27:05.425Z</lastmod>
   </url>
   <url>
     <loc>https://noramcgregor.github.io/ds-essentials/lod.html</loc>
-    <lastmod>2025-02-10T14:25:41.951Z</lastmod>
+    <lastmod>2025-02-10T14:27:05.425Z</lastmod>
   </url>
   <url>
-    <loc>https://noramcgregor.github.io/ds-essentials/introduction.html</loc>
-    <lastmod>2025-02-10T14:25:41.950Z</lastmod>
-  </url>
-  <url>
-    <loc>https://noramcgregor.github.io/ds-essentials/llms.html</loc>
-    <lastmod>2025-02-10T14:25:41.951Z</lastmod>
-  </url>
-  <url>
-    <loc>https://noramcgregor.github.io/ds-essentials/workingwdata.html</loc>
-    <lastmod>2025-02-10T14:25:41.952Z</lastmod>
+    <loc>https://noramcgregor.github.io/ds-essentials/project-overview.html</loc>
+    <lastmod>2025-02-10T14:27:05.425Z</lastmod>
   </url>
   <url>
     <loc>https://noramcgregor.github.io/ds-essentials/index.html</loc>
-    <lastmod>2025-02-10T14:25:41.950Z</lastmod>
+    <lastmod>2025-02-10T14:27:05.424Z</lastmod>
   </url>
   <url>
-    <loc>https://noramcgregor.github.io/ds-essentials/contact.html</loc>
-    <lastmod>2025-02-10T14:25:41.883Z</lastmod>
+    <loc>https://noramcgregor.github.io/ds-essentials/crowdsourcing.html</loc>
+    <lastmod>2025-02-10T14:27:05.357Z</lastmod>
   </url>
   <url>
-    <loc>https://noramcgregor.github.io/ds-essentials/networks.html</loc>
-    <lastmod>2025-02-10T14:25:41.951Z</lastmod>
+    <loc>https://noramcgregor.github.io/ds-essentials/atr.html</loc>
+    <lastmod>2025-02-10T14:27:05.356Z</lastmod>
   </url>
   <url>
     <loc>https://noramcgregor.github.io/ds-essentials/api.html</loc>
-    <lastmod>2025-02-10T14:25:41.882Z</lastmod>
+    <lastmod>2025-02-10T14:27:05.356Z</lastmod>
   </url>
   <url>
-    <loc>https://noramcgregor.github.io/ds-essentials/digitalmapping.html</loc>
-    <lastmod>2025-02-10T14:25:41.884Z</lastmod>
+    <loc>https://noramcgregor.github.io/ds-essentials/computer-vision.html</loc>
+    <lastmod>2025-02-10T14:27:05.357Z</lastmod>
+  </url>
+  <url>
+    <loc>https://noramcgregor.github.io/ds-essentials/r.html</loc>
+    <lastmod>2025-02-10T14:27:05.425Z</lastmod>
+  </url>
+  <url>
+    <loc>https://noramcgregor.github.io/ds-essentials/contact.html</loc>
+    <lastmod>2025-02-10T14:27:05.357Z</lastmod>
+  </url>
+  <url>
+    <loc>https://noramcgregor.github.io/ds-essentials/dstp.html</loc>
+    <lastmod>2025-02-10T14:27:05.359Z</lastmod>
+  </url>
+  <url>
+    <loc>https://noramcgregor.github.io/ds-essentials/getting-started-with-programming.html</loc>
+    <lastmod>2025-02-10T14:27:05.359Z</lastmod>
+  </url>
+  <url>
+    <loc>https://noramcgregor.github.io/ds-essentials/guidelines.html</loc>
+    <lastmod>2025-02-10T14:27:05.359Z</lastmod>
+  </url>
+  <url>
+    <loc>https://noramcgregor.github.io/ds-essentials/updates.html</loc>
+    <lastmod>2025-02-10T14:27:05.426Z</lastmod>
+  </url>
+  <url>
+    <loc>https://noramcgregor.github.io/ds-essentials/ml-ai.html</loc>
+    <lastmod>2025-02-10T14:27:05.425Z</lastmod>
+  </url>
+  <url>
+    <loc>https://noramcgregor.github.io/ds-essentials/iiif.html</loc>
+    <lastmod>2025-02-10T14:27:05.359Z</lastmod>
+  </url>
+  <url>
+    <loc>https://noramcgregor.github.io/ds-essentials/dataviz.html</loc>
+    <lastmod>2025-02-10T14:27:05.358Z</lastmod>
+  </url>
+  <url>
+    <loc>https://noramcgregor.github.io/ds-essentials/workingwdata.html</loc>
+    <lastmod>2025-02-10T14:27:05.426Z</lastmod>
+  </url>
+  <url>
+    <loc>https://noramcgregor.github.io/ds-essentials/reports.html</loc>
+    <lastmod>2025-02-10T14:27:05.425Z</lastmod>
+  </url>
+  <url>
+    <loc>https://noramcgregor.github.io/ds-essentials/licensing.html</loc>
+    <lastmod>2025-02-10T14:27:05.424Z</lastmod>
+  </url>
+  <url>
+    <loc>https://noramcgregor.github.io/ds-essentials/networks.html</loc>
+    <lastmod>2025-02-10T14:27:05.425Z</lastmod>
+  </url>
+  <url>
+    <loc>https://noramcgregor.github.io/ds-essentials/training-platforms.html</loc>
+    <lastmod>2025-02-10T14:27:05.425Z</lastmod>
+  </url>
+  <url>
+    <loc>https://noramcgregor.github.io/ds-essentials/llms.html</loc>
+    <lastmod>2025-02-10T14:27:05.424Z</lastmod>
+  </url>
+  <url>
+    <loc>https://noramcgregor.github.io/ds-essentials/github.html</loc>
+    <lastmod>2025-02-10T14:27:05.359Z</lastmod>
+  </url>
+  <url>
+    <loc>https://noramcgregor.github.io/ds-essentials/references.html</loc>
+    <lastmod>2025-02-10T14:27:05.425Z</lastmod>
+  </url>
+  <url>
+    <loc>https://noramcgregor.github.io/ds-essentials/copyright.html</loc>
+    <lastmod>2025-02-10T14:27:05.357Z</lastmod>
+  </url>
+  <url>
+    <loc>https://noramcgregor.github.io/ds-essentials/topicguides.html</loc>
+    <lastmod>2025-02-10T14:27:05.425Z</lastmod>
+  </url>
+  <url>
+    <loc>https://noramcgregor.github.io/ds-essentials/introduction.html</loc>
+    <lastmod>2025-02-10T14:27:05.424Z</lastmod>
   </url>
 </urlset>
