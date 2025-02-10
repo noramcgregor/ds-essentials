@@ -6,8 +6,11 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
+<meta name="author" content="Gustavo Candela">
+<meta name="dcterms.date" content="2024-06-04">
+<meta name="keywords" content="TBD, TBD">
 
-<title>collectionsasdata</title>
+<title>Collections as Data: Getting Started</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -258,30 +261,69 @@ gtag('config', 'G-54HL7T1Z2K', { 'anonymize_ip': true});
     <h2 id="toc-title">Jump to…</h2>
    
   <ul class="collapse">
-  <li><a href="#collections-as-data-getting-started" id="toc-collections-as-data-getting-started" class="nav-link active" data-scroll-target="#collections-as-data-getting-started">Collections as Data: Getting Started</a>
-  <ul class="collapse">
-  <li><a href="#introduction-what-is-the-concept-of-collections-as-data-and-how-can-my-institution-get-started" id="toc-introduction-what-is-the-concept-of-collections-as-data-and-how-can-my-institution-get-started" class="nav-link" data-scroll-target="#introduction-what-is-the-concept-of-collections-as-data-and-how-can-my-institution-get-started">Introduction: What is the concept of Collections as Data and how can my institution get started?</a></li>
+  <li><a href="#introduction-what-is-the-concept-of-collections-as-data-and-how-can-my-institution-get-started" id="toc-introduction-what-is-the-concept-of-collections-as-data-and-how-can-my-institution-get-started" class="nav-link active" data-scroll-target="#introduction-what-is-the-concept-of-collections-as-data-and-how-can-my-institution-get-started">Introduction: What is the concept of Collections as Data and how can my institution get started?</a></li>
   <li><a href="#relevance-to-the-library-sector-case-studiesuse-cases" id="toc-relevance-to-the-library-sector-case-studiesuse-cases" class="nav-link" data-scroll-target="#relevance-to-the-library-sector-case-studiesuse-cases">Relevance to the Library Sector (Case Studies/Use Cases)</a></li>
   <li><a href="#hands-on-activity-and-other-self-guided-tutorials" id="toc-hands-on-activity-and-other-self-guided-tutorials" class="nav-link" data-scroll-target="#hands-on-activity-and-other-self-guided-tutorials">Hands-on activity and other self-guided tutorial(s)</a></li>
   <li><a href="#recommended-readingviewing" id="toc-recommended-readingviewing" class="nav-link" data-scroll-target="#recommended-readingviewing">Recommended Reading/Viewing</a></li>
   <li><a href="#taking-the-next-step" id="toc-taking-the-next-step" class="nav-link" data-scroll-target="#taking-the-next-step">Taking the next step</a></li>
-  </ul></li>
   </ul>
 </nav>
     </div>
 <!-- main -->
-<main class="content" id="quarto-document-content"><header id="title-block-header" class="quarto-title-block"></header>
+<main class="content" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title">Collections as Data: Getting Started</h1>
+</div>
 
 
+<div class="quarto-title-meta-author">
+  <div class="quarto-title-meta-heading">Author</div>
+  <div class="quarto-title-meta-heading">Affiliation</div>
+  
+    <div class="quarto-title-meta-contents">
+    <p class="author">Gustavo Candela <a href="mailto:gcandela@ua.es" class="quarto-title-author-email"><i class="bi bi-envelope"></i></a> <a href="https://orcid.org/0000-0001-6122-0777" class="quarto-title-author-orcid"> <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAA2ZpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuMC1jMDYwIDYxLjEzNDc3NywgMjAxMC8wMi8xMi0xNzozMjowMCAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wTU09Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9tbS8iIHhtbG5zOnN0UmVmPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvc1R5cGUvUmVzb3VyY2VSZWYjIiB4bWxuczp4bXA9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC8iIHhtcE1NOk9yaWdpbmFsRG9jdW1lbnRJRD0ieG1wLmRpZDo1N0NEMjA4MDI1MjA2ODExOTk0QzkzNTEzRjZEQTg1NyIgeG1wTU06RG9jdW1lbnRJRD0ieG1wLmRpZDozM0NDOEJGNEZGNTcxMUUxODdBOEVCODg2RjdCQ0QwOSIgeG1wTU06SW5zdGFuY2VJRD0ieG1wLmlpZDozM0NDOEJGM0ZGNTcxMUUxODdBOEVCODg2RjdCQ0QwOSIgeG1wOkNyZWF0b3JUb29sPSJBZG9iZSBQaG90b3Nob3AgQ1M1IE1hY2ludG9zaCI+IDx4bXBNTTpEZXJpdmVkRnJvbSBzdFJlZjppbnN0YW5jZUlEPSJ4bXAuaWlkOkZDN0YxMTc0MDcyMDY4MTE5NUZFRDc5MUM2MUUwNEREIiBzdFJlZjpkb2N1bWVudElEPSJ4bXAuZGlkOjU3Q0QyMDgwMjUyMDY4MTE5OTRDOTM1MTNGNkRBODU3Ii8+IDwvcmRmOkRlc2NyaXB0aW9uPiA8L3JkZjpSREY+IDwveDp4bXBtZXRhPiA8P3hwYWNrZXQgZW5kPSJyIj8+84NovQAAAR1JREFUeNpiZEADy85ZJgCpeCB2QJM6AMQLo4yOL0AWZETSqACk1gOxAQN+cAGIA4EGPQBxmJA0nwdpjjQ8xqArmczw5tMHXAaALDgP1QMxAGqzAAPxQACqh4ER6uf5MBlkm0X4EGayMfMw/Pr7Bd2gRBZogMFBrv01hisv5jLsv9nLAPIOMnjy8RDDyYctyAbFM2EJbRQw+aAWw/LzVgx7b+cwCHKqMhjJFCBLOzAR6+lXX84xnHjYyqAo5IUizkRCwIENQQckGSDGY4TVgAPEaraQr2a4/24bSuoExcJCfAEJihXkWDj3ZAKy9EJGaEo8T0QSxkjSwORsCAuDQCD+QILmD1A9kECEZgxDaEZhICIzGcIyEyOl2RkgwAAhkmC+eAm0TAAAAABJRU5ErkJggg=="></a></p>
+  </div>
+  <div class="quarto-title-meta-contents">
+        <p class="affiliation">
+            <a href="https://cvnet.cpd.ua.es/curriculum-breve/en/candela-romero-gustavo/10165">
+            University of Alicante
+            </a>
+          </p>
+      </div>
+  </div>
+
+<div class="quarto-title-meta">
+
+      
+    <div>
+    <div class="quarto-title-meta-heading">Published</div>
+    <div class="quarto-title-meta-contents">
+      <p class="date">June 4, 2024</p>
+    </div>
+  </div>
+  
+    
+  </div>
+  
+<div>
+  <div class="abstract">
+    <div class="block-title">Abstract</div>
+    <p>A quick overview of the Collections as Data movement and what it can do for your library, along with some practical advice on how to take steps to transform your own library collections.</p>
+  </div>
+</div>
+
+<div>
+  <div class="keywords">
+    <div class="block-title">Keywords</div>
+    <p>TBD, TBD</p>
+  </div>
+</div>
+
+</header>
 
 
-<section id="collections-as-data-getting-started" class="level1 unnumbered">
-<h1 class="unnumbered">Collections as Data: Getting Started</h1>
-<blockquote class="blockquote">
-<p>Contributed by: Gustavo Candela, <a href="https://orcid.org/0000-0001-6122-0777">ORCID iD</a><br><br>
-Original published date: [04/06/2024] <br> Last modified: See Github page history</p>
-<p>Suggested Citation: Gustavo Candela, “Collections as Data: Getting Started,” <em>Digital Scholarship &amp; Data Science Essentials for Library Professionals</em> (2024), [DOI link tbd]</p>
-</blockquote>
 <section id="introduction-what-is-the-concept-of-collections-as-data-and-how-can-my-institution-get-started" class="level2">
 <h2 class="anchored" data-anchor-id="introduction-what-is-the-concept-of-collections-as-data-and-how-can-my-institution-get-started">Introduction: What is the concept of Collections as Data and how can my institution get started?</h2>
 <p>GLAM (Galleries, Libraries, Archives and Museums) institutions have been making their content available to the public and researchers in a variety of formats for different purposes for decades. From maps, images, text, historical newspapers or postcards, digitising collections and displaying our items online are at the core of making this information accessible for research and enjoyment. But recent advances in and expansion of the use of <a href="ml-ai.html">AI and Machine Learning</a> in library work and library research have transformed the way in which we and our users expect to access, view, use and search our collections. As the demand for computationally accessible cultural heritage collections continues to grow, and we’re being asked to provide our collections in the form of datasets for instance, how do we go about this practically?</p>
@@ -332,7 +374,6 @@ Original published date: [04/06/2024] <br> Last modified: See Github page histor
 <p>Joining the <a href="https://glamlabs.io/">International GLAM Labs Community</a> is a great way to get started on the path of opening your collections up as data as well as the <a href="https://groups.google.com/g/collectionsasdata">Collections as Data - Google Group</a> as both communities are very active and have a wide range of experience and expertise to share on this topic.</p>
 
 
-</section>
 </section>
 
 </main> <!-- /main -->
