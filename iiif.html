@@ -6,8 +6,11 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
+<meta name="author" content="Nora McGregor">
+<meta name="dcterms.date" content="2024-11-27">
+<meta name="keywords" content="TBD, TBD">
 
-<title>iiif</title>
+<title>IIIF</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -266,31 +269,71 @@ gtag('config', 'G-54HL7T1Z2K', { 'anonymize_ip': true});
     <h2 id="toc-title">Jump to…</h2>
    
   <ul class="collapse">
-  <li><a href="#iiif" id="toc-iiif" class="nav-link active" data-scroll-target="#iiif">IIIF</a>
-  <ul class="collapse">
-  <li><a href="#introduction-what-is-iiif" id="toc-introduction-what-is-iiif" class="nav-link" data-scroll-target="#introduction-what-is-iiif">Introduction: What is IIIF?</a></li>
+  <li><a href="#introduction" id="toc-introduction" class="nav-link active" data-scroll-target="#introduction">Introduction</a></li>
   <li><a href="#relevance-to-the-library-sector-case-studiesuse-cases" id="toc-relevance-to-the-library-sector-case-studiesuse-cases" class="nav-link" data-scroll-target="#relevance-to-the-library-sector-case-studiesuse-cases">Relevance to the Library Sector (Case Studies/Use Cases)</a></li>
   <li><a href="#hands-on-activity-and-other-self-guided-tutorials" id="toc-hands-on-activity-and-other-self-guided-tutorials" class="nav-link" data-scroll-target="#hands-on-activity-and-other-self-guided-tutorials">Hands-on activity and other self-guided tutorial(s)</a></li>
   <li><a href="#recommended-readingviewing" id="toc-recommended-readingviewing" class="nav-link" data-scroll-target="#recommended-readingviewing">Recommended Reading/Viewing</a></li>
-  <li><a href="#taking-the-next-step" id="toc-taking-the-next-step" class="nav-link" data-scroll-target="#taking-the-next-step">Taking the next step</a></li>
-  </ul></li>
+  <li><a href="#finding-communities-of-practice" id="toc-finding-communities-of-practice" class="nav-link" data-scroll-target="#finding-communities-of-practice">Finding Communities of Practice</a></li>
   </ul>
 <div class="toc-actions"><ul class="collapse"><li><a href="https://github.com/noramcgregor/ds-essentials/blob/main/book/iiif.qmd" class="toc-action"><i class="bi bi-github"></i>View source</a></li><li><a href="https://github.com/noramcgregor/ds-essentials/issues/new" class="toc-action"><i class="bi empty"></i>Report an issue</a></li></ul></div></nav>
     </div>
 <!-- main -->
-<main class="content" id="quarto-document-content"><header id="title-block-header" class="quarto-title-block"></header>
+<main class="content" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title">IIIF</h1>
+</div>
 
 
+<div class="quarto-title-meta-author">
+  <div class="quarto-title-meta-heading">Author</div>
+  <div class="quarto-title-meta-heading">Affiliation</div>
+  
+    <div class="quarto-title-meta-contents">
+    <p class="author">Nora McGregor <a href="mailto:digitalresearch@bl.uk" class="quarto-title-author-email"><i class="bi bi-envelope"></i></a> <a href="https://orcid.org/0000-0001-6560-5586" class="quarto-title-author-orcid"> <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAA2ZpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuMC1jMDYwIDYxLjEzNDc3NywgMjAxMC8wMi8xMi0xNzozMjowMCAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wTU09Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9tbS8iIHhtbG5zOnN0UmVmPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvc1R5cGUvUmVzb3VyY2VSZWYjIiB4bWxuczp4bXA9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC8iIHhtcE1NOk9yaWdpbmFsRG9jdW1lbnRJRD0ieG1wLmRpZDo1N0NEMjA4MDI1MjA2ODExOTk0QzkzNTEzRjZEQTg1NyIgeG1wTU06RG9jdW1lbnRJRD0ieG1wLmRpZDozM0NDOEJGNEZGNTcxMUUxODdBOEVCODg2RjdCQ0QwOSIgeG1wTU06SW5zdGFuY2VJRD0ieG1wLmlpZDozM0NDOEJGM0ZGNTcxMUUxODdBOEVCODg2RjdCQ0QwOSIgeG1wOkNyZWF0b3JUb29sPSJBZG9iZSBQaG90b3Nob3AgQ1M1IE1hY2ludG9zaCI+IDx4bXBNTTpEZXJpdmVkRnJvbSBzdFJlZjppbnN0YW5jZUlEPSJ4bXAuaWlkOkZDN0YxMTc0MDcyMDY4MTE5NUZFRDc5MUM2MUUwNEREIiBzdFJlZjpkb2N1bWVudElEPSJ4bXAuZGlkOjU3Q0QyMDgwMjUyMDY4MTE5OTRDOTM1MTNGNkRBODU3Ii8+IDwvcmRmOkRlc2NyaXB0aW9uPiA8L3JkZjpSREY+IDwveDp4bXBtZXRhPiA8P3hwYWNrZXQgZW5kPSJyIj8+84NovQAAAR1JREFUeNpiZEADy85ZJgCpeCB2QJM6AMQLo4yOL0AWZETSqACk1gOxAQN+cAGIA4EGPQBxmJA0nwdpjjQ8xqArmczw5tMHXAaALDgP1QMxAGqzAAPxQACqh4ER6uf5MBlkm0X4EGayMfMw/Pr7Bd2gRBZogMFBrv01hisv5jLsv9nLAPIOMnjy8RDDyYctyAbFM2EJbRQw+aAWw/LzVgx7b+cwCHKqMhjJFCBLOzAR6+lXX84xnHjYyqAo5IUizkRCwIENQQckGSDGY4TVgAPEaraQr2a4/24bSuoExcJCfAEJihXkWDj3ZAKy9EJGaEo8T0QSxkjSwORsCAuDQCD+QILmD1A9kECEZgxDaEZhICIzGcIyEyOl2RkgwAAhkmC+eAm0TAAAAABJRU5ErkJggg=="></a></p>
+  </div>
+  <div class="quarto-title-meta-contents">
+        <p class="affiliation">
+            <a href="www.bl.uk">
+            British Library
+            </a>
+          </p>
+      </div>
+  </div>
+
+<div class="quarto-title-meta">
+
+      
+    <div>
+    <div class="quarto-title-meta-heading">Published</div>
+    <div class="quarto-title-meta-contents">
+      <p class="date">November 27, 2024</p>
+    </div>
+  </div>
+  
+    
+  </div>
+  
+<div>
+  <div class="abstract">
+    <div class="block-title">Abstract</div>
+    <p>Demystifying the process behind automatic text recognition and offering practical tips on how anyone can get started in their your own library.</p>
+  </div>
+</div>
+
+<div>
+  <div class="keywords">
+    <div class="block-title">Keywords</div>
+    <p>TBD, TBD</p>
+  </div>
+</div>
+
+</header>
 
 
-<section id="iiif" class="level1 unnumbered">
-<h1 class="unnumbered">IIIF</h1>
-<blockquote class="blockquote">
-<p>Contributed by: Nora McGregor, <a href="https://orcid.org/0000-0001-6560-5586">ORCID iD</a><br> Original published date: 27/03/2024<br> Last modified: See Github page history</p>
-<p>Suggested Citation: Nora McGregor, “IIIF,” <em>Digital Scholarship &amp; Data Science Essentials for Library Professionals</em> (2024), [DOI link tbd]</p>
-</blockquote>
-<section id="introduction-what-is-iiif" class="level2">
-<h2 class="anchored" data-anchor-id="introduction-what-is-iiif">Introduction: What is IIIF?</h2>
+<section id="introduction" class="level2">
+<h2 class="anchored" data-anchor-id="introduction">Introduction</h2>
 <p>IIIF (pronounced “triple-eye-eff”) stands for the <a href="https://iiif.io/">International Image Interoperability Framework</a>. Quite a tongue twister that one, but it broadly represents two things:</p>
 <ul>
 <li>a set of open standards for delivering high-quality, attributed digital objects online at scale.</li>
@@ -355,17 +398,17 @@ gtag('config', 'G-54HL7T1Z2K', { 'anonymize_ip': true});
 </section>
 <section id="recommended-readingviewing" class="level2">
 <h2 class="anchored" data-anchor-id="recommended-readingviewing">Recommended Reading/Viewing</h2>
-<p>There is a useful collection of articles and data related to IIIF being compiled by the community at https://zenodo.org/communities/iiif/records?q=&amp;l=list&amp;p=1&amp;s=10&amp;sort=newest</p>
-<p>The IIIF organisation has also created a number of useful resources alongside their training materials such as <a href="https://iiif.io/get-started/how-iiif-works/">How It Works, a plain-language guide to how the IIIF API’s work</a> and a glossary of “Key concepts you’ll encounter when working with IIIF”</p>
+<p>There is a useful collection of articles and data related to IIIF being compiled by the community on <a href="https://zenodo.org/communities/iiif/records?q=&amp;l=list&amp;p=1&amp;s=10&amp;sort=newest">Zenodo</a></p>
+<p>The IIIF organisation has also created a number of useful resources alongside their training materials such as <a href="https://iiif.io/get-started/how-iiif-works/">How It Works, a plain-language guide to how the IIIF API’s work</a> and a glossary of “Key concepts you’ll encounter when working with IIIF”.</p>
+<p>It’s worth having a look at how other institutions have provided <a href="https://iiif.io/guides/finding_resources/">IIIF Resources</a>.</p>
+<p>There is also a massive list of learning resources, <a href="https://github.com/IIIF/awesome-iiif">Awesome IIIF</a>, compiled and maintained by the IIIF Community if you are looking to take your knowledge a bit further and dig deeper into some of the exciting implementations of IIIF.</p>
 </section>
-<section id="taking-the-next-step" class="level2">
-<h2 class="anchored" data-anchor-id="taking-the-next-step">Taking the next step</h2>
+<section id="finding-communities-of-practice" class="level2">
+<h2 class="anchored" data-anchor-id="finding-communities-of-practice">Finding Communities of Practice</h2>
 <p>Learning about IIIF can be overwhelming at first, especially if you’re not a programmer, but the IIIF Community is a very supportive and engaged one and has created a number of ways to get involved and find support and help.</p>
 <p>I recommend checking out their community page <a href="https://iiif.io/community/">IIIF Community</a> to find details of their next open community calls, or to join their Slack Channel where you can post questions and join the discussion with other users.</p>
-<p>There is also a massive list of resources, <a href="https://github.com/IIIF/awesome-iiif">Awesome IIIF</a>, compiled and maintained by the IIIF Community if you are looking to take your knowledge a bit further and dig deeper into some of the exciting implementations of IIIF.</p>
 
 
-</section>
 </section>
 
 </main> <!-- /main -->
