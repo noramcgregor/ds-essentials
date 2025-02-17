@@ -364,8 +364,8 @@ gtag('config', 'G-54HL7T1Z2K', { 'anonymize_ip': true});
 
 <section id="introduction" class="level2">
 <h2 class="anchored" data-anchor-id="introduction">Introduction</h2>
-<p>API (Application Programming Interface) can sound intimidating, but the ideas behind them are not unfamiliar. An <a href="https://en.wikipedia.org/wiki/API">application programming interface (API)</a> allows a connection between computers or between computer programs, it is a type of software interface offering a service to other pieces of software. A common analogy that can be helpful in understanding the process of how APIs work is the restaurant analogy.</p>
-<p>Imagine going to a restaurant (server). You first consult the menu provided (API documentation/specification) to understand what is available for you to order (request). After consulting the menu (documentation) you have a good idea of what is likely to result in a successful order from the kitchen. The waiter is a bit like the restaurant’s API. Behind the waiter is a whole world of kitchen staff, bar staff, wholesalers, suppliers, shareholders and so on. You don’t need to worry about any of them, you probably won’t even ever speak to them. All your food orders (requests) and any extra instructions such as “chips or mash?” (parameters) will be passed to the kitchen (server) by the waiter (API). The kitchen (server) prepares your order (request) and passes it to the waiter (API) to deliver to your meal (response).</p>
+<p>APIs (Application Programming Interfaces) can sound intimidating, but the ideas behind them are not unfamiliar. An <a href="https://en.wikipedia.org/wiki/API">application programming interface (API)</a> allows a connection between computers or between computer programs, it is a type of software interface offering a service to other pieces of software. A common analogy that can be helpful in understanding the process of how APIs work is the restaurant analogy.</p>
+<p>Imagine going to a restaurant (server). You first consult the menu provided (API documentation / specification) to understand what is available for you to order (request). After consulting the menu (documentation) you have a good idea of what is likely to result in a successful order from the kitchen. The waiter is a bit like the restaurant’s API. Behind the waiter is a whole world of kitchen staff, bar staff, wholesalers, suppliers, shareholders and so on. You don’t need to worry about any of them, you probably won’t even ever speak to them. All your food orders (requests) and any extra instructions such as “chips or mash?” (parameters) will be passed to the kitchen (server) by the waiter (API). The kitchen (server) prepares your order (request) and passes it to the waiter (API) to deliver to your meal (response).</p>
 <p><img src="https://github.com/noramcgregor/ds-essentials/blob/main/book/images/api1.png?raw=true" class="img-fluid"></p>
 <p>Just as in our analogy above, sites will offer an API, and anyone can use it without having to know anything about the internal workings of that system. You don’t need to see the source code, the technologies they used to build it or know the name of the person who keeps it running at weekends. All you need to know is how to make a request to the API, and for this, APIs will normally have a site that will document what you can request and how. A good example is <a href="https://openlibrary.org/developers/api">OpenLibrary’s API</a> pages. API Documentation will detail individual <em>methods</em> (GET, POST, etc) with any <em>parameters</em> (see <a href="https://openlibrary.org/dev/docs/api/lists">Lists API | Open Library</a> for examples) you will need to pass for a successful response. It may also state any security considerations such as needing authentication (an API Key) or a log in before using the method.</p>
 <p>This Topic Guide will focus on REST APIs as an example as it’s the most likely you’ll encounter in your day to day library work, just be aware that REST APIs are not the only type of API though, there are other API types such as:</p>
@@ -389,7 +389,7 @@ gtag('config', 'G-54HL7T1Z2K', { 'anonymize_ip': true});
 </colgroup>
 <thead>
 <tr class="header">
-<th>Request</th>
+<th>Http Request Method</th>
 <th>Description</th>
 </tr>
 </thead>
@@ -425,11 +425,36 @@ gtag('config', 'G-54HL7T1Z2K', { 'anonymize_ip': true});
 <p><strong>GET /v1/desserts/{id}</strong></p>
 <p>You will notice that the first part of the address, <a href="http://api.example.org" class="uri">http://api.example.org</a>, is omitted. This part of the web address routes to the whole API. Think of it as an address for a company, and everything that follows is different departments.</p>
 <p>The rest we can break down like this:</p>
-<div class="line-block">— | — |<br>
-GET | The type of request we are making (see above). In this case we are reading information, not changing it or deleting it. |<br>
-/v1 | The version number of the API. Having versions of the API allows providers to provide new versions of APIs, that may work in different ways, without breaking existing API requests. |<br>
-desserts | This part of the URL tells you the type of resource you will be working. In this case dessert listings on our menu. |<br>
-{id} | A unique identifier for the resource. This could be a number such as 56 or a string such as “sticky-toffee-pudding” |</div>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 50%">
+<col style="width: 50%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>—</th>
+<th>—</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>GET</td>
+<td>The type of request we are making (see above). In this case we are reading information, not changing it or deleting it.</td>
+</tr>
+<tr class="even">
+<td>/v1</td>
+<td>The version number of the API. Having versions of the API allows providers to provide new versions of APIs, that may work in different ways, without breaking existing API requests.</td>
+</tr>
+<tr class="odd">
+<td>desserts</td>
+<td>This part of the URL tells you the type of resource you will be working. In this case dessert listings on our menu.</td>
+</tr>
+<tr class="even">
+<td>{id}</td>
+<td>A unique identifier for the resource. This could be a number such as 56 or a string such as “sticky-toffee-pudding”</td>
+</tr>
+</tbody>
+</table>
 <p>Assuming your request was successful, the response from the server could be any sort of file type, it depends on the resources it handles. If the endpoint deals with metadata, then you might get back a <a href="https://www.json.org/json-en.html">JSON</a> or <a href="https://developer.mozilla.org/en-US/docs/Web/XML/XML_introduction">XML</a> encoded document. These are both ways of representing data in a way that can be easily understood by a computer program.</p>
 <p>For instance, a response from our fictional restaurant menu API above which might look like this:</p>
 <p><strong>{“id”: 56, “title”: “Rhubarb Crumble”, “description”: “A modern take on a classic pudding, served with custard or ice cream”, “gluten_free”: false, “vegetarian”: true, “vegan”: true, “price”: 5.99}</strong></p>
@@ -488,13 +513,13 @@ desserts | This part of the URL tells you the type of resource you will be worki
 <section id="hands-on-activity-and-other-self-guided-tutorials" class="level2">
 <h2 class="anchored" data-anchor-id="hands-on-activity-and-other-self-guided-tutorials">Hands-on activity and other self-guided tutorial(s)</h2>
 <p>Let’s try a few real-world examples of getting information from an API as this is the easiest way to understand the process.</p>
-<section id="exercise-1-using-an-api-for-the-very-first-timeadapted-from-using-an-api-a-hands-on-exercise-a-tutorial-created-for-british-library-staff-by-owen-stephens" class="level3">
-<h3 class="anchored" data-anchor-id="exercise-1-using-an-api-for-the-very-first-timeadapted-from-using-an-api-a-hands-on-exercise-a-tutorial-created-for-british-library-staff-by-owen-stephens">Exercise 1: Using an API for the very first time(adapted from <a href="http://www.meanboyfriend.com/overdue_ideas/2014/10/using-an-api-hands-on-exercise/">Using an API: a hands on exercise</a> a tutorial created for British Library staff by Owen Stephens)</h3>
+<section id="exercise-1-using-an-api-for-the-very-first-time" class="level3">
+<h3 class="anchored" data-anchor-id="exercise-1-using-an-api-for-the-very-first-time"><strong>Exercise 1: Using an API for the very first time</strong></h3>
 <p><strong>1. Introduction</strong></p>
-<p>In this exercise, you are going to use a Google Spreadsheet to retrieve records from the Flickr API and display the results.</p>
+<p>In this exercise, adapted from <a href="http://www.meanboyfriend.com/overdue_ideas/2014/10/using-an-api-hands-on-exercise/">Using an API: a hands on exercise</a> a tutorial created for British Library staff by Owen Stephens) you are going to use a Google Spreadsheet to retrieve records from the Flickr API and display the results.</p>
 <p>The API you are going to use simply allows you to submit some search terms and get a list of results in a format called RSS. You are going to use a Spreadsheet to submit a search to the API, and display the results.</p>
 <p><strong>2. Understanding the API</strong></p>
-<p>The API you are going to use is an interface to Flickr. Flickr has a very powerful API with lots of functions, but for simplicity in this exercise you are just going to use the Flickr RSS feeds, rather than the full API which is more complex and requires you to register.</p>
+<p>The API you are going to use is an interface to <a href="https://www.flickr.com/commons">Flickr</a>, a photo sharing website where many cultural heritage institutions have hosted some of their collection images. Flickr has a very <a href="https://www.flickr.com/services/api/">powerful API with lots of functions</a>, but for simplicity in this exercise you are just going to use the Flickr RSS feeds, rather than the full API which is more complex and requires you to register.</p>
 <p>Before you can start working with the API, you need to understand how it works. To do this, we are going to look at an example URL:</p>
 <p><a href="https://api.flickr.com/services/feeds/photos_public.gne?tags=food&amp;format=rss"><strong>https://api.flickr.com/services/feeds/photos_public.gne?tags=food&amp;format=rss</strong></a></p>
 <p>The first part of the URL is the address of the API. Everything after the ‘?’ are ‘parameters’ which form the input to the API. There are two parameters listed and they each consist of the parameter name, followed by an ‘=’ sign, then a value.</p>
@@ -566,7 +591,7 @@ In cell B3 enter the text ‘rss’ (omitting the inverted commas)</p>
 <p>By adding a row to the spreadsheet, for this parameter, and modifying the ‘concatenate’ statement that builds the API Call, can you make the spreadsheet only return images with a specific tag in the British Library Flickr collection? (The Flickr ID for the British Library is ‘12403504@N02’</p>
 </section>
 <section id="exercise-2-find-out-information-for-a-location-using-google-apis" class="level3">
-<h3 class="anchored" data-anchor-id="exercise-2-find-out-information-for-a-location-using-google-apis">Exercise 2: Find out information for a location using Google APIs</h3>
+<h3 class="anchored" data-anchor-id="exercise-2-find-out-information-for-a-location-using-google-apis"><strong>Exercise 2: Find out information for a location using Google APIs</strong></h3>
 <p><strong>1.</strong> Go to <a href="https://developers.google.com/maps/documentation/places/web-service/text-search" class="uri">https://developers.google.com/maps/documentation/places/web-service/text-search</a> in your browser <br> <strong>2.</strong> Click on “Web Service” as the platform<br> <strong>3.</strong> You may be asked to log in using your Google account.<br> <strong>4.</strong> Click on the “API” button in the right-hand section.<br> <strong>5.</strong> Click on the “Fullscreen” icon along the top of this section, it is the icon that looks like edges of a square.<br> <strong>6.</strong> In the APIs Explorer window, click on “HTTP” – this lets you see the API request in terms of the web requests that are made.<br> <strong>7.</strong> The “Request Body” is the information you are going to send. In this case, the name of the place you would like to know more about.<br> <strong>8.</strong> Try a place you know, e.g.&nbsp;“British Library” as the value<br> <strong>9.</strong> Click “Execute”<br> <strong>10.</strong> You may be prompted to authorise the request, do so.</p>
 <p>All being well you will see a response in the right-hand side. “200” will be prominently displayed, you might remember this code from the “How did the request go?” section earlier. Underneath, you will see a structured response with everything Google knows about that place. Notice lots of information mixed in together, what type of location it is, coordinates on a map and opening hours are examples of what you might see.</p>
 </section>
