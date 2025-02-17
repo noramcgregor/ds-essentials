@@ -379,7 +379,7 @@ gtag('config', 'G-54HL7T1Z2K', { 'anonymize_ip': true});
 <section id="making-an-api-request" class="level3">
 <h3 class="anchored" data-anchor-id="making-an-api-request">Making an API request</h3>
 <section id="types-of-requests" class="level4">
-<h4 class="anchored" data-anchor-id="types-of-requests"><strong>Types of Requests</strong></h4>
+<h4 class="anchored" data-anchor-id="types-of-requests">Types of Requests</h4>
 <p>Different types of requests are made to an API depending on what you want to do and whether you just want to read from the API or maybe send some information back. In a REST Api we call these types of requests “HTTP request <em>methods</em>”, and they are designed as a simple way to describe what you are trying to do. Have a look at <a href="https://developer.mozilla.org/en-US/docs/Web/HTTP/Methods">Mozilla’s pages on methods</a> for more in-depth details.</p>
 <p>The main HTTP request methods are described in the table below:</p>
 <table class="caption-top table">
@@ -389,20 +389,24 @@ gtag('config', 'G-54HL7T1Z2K', { 'anonymize_ip': true});
 </colgroup>
 <thead>
 <tr class="header">
-<th>GET</th>
-<th>Reads information from an API, does not change what is on the server, e.g.&nbsp;a list of available images or in individual image</th>
+<th>Request</th>
+<th>Description</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
+<td>GET</td>
+<td>Reads information from an API, does not change what is on the server, e.g.&nbsp;a list of available images or in individual image</td>
+</tr>
+<tr class="even">
 <td>POST</td>
 <td>Adds a new resource to the server, e.g.&nbsp;upload a new image to the server with its metadata</td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td>PUT</td>
 <td>Amends a resource on a server, e.g.&nbsp;edit the metadata of one of the images</td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td>DELETE</td>
 <td>Removes a resource from the server.</td>
 </tr>
@@ -413,7 +417,7 @@ gtag('config', 'G-54HL7T1Z2K', { 'anonymize_ip': true});
 <p>Occasionally, our editor will not be happy with the book at all. In which case they will ask the publisher to put every existing copy in the bin and thus DELETE it.</p>
 </section>
 <section id="working-out-the-right-web-address-url" class="level4">
-<h4 class="anchored" data-anchor-id="working-out-the-right-web-address-url"><strong>Working out the right web address (URL)</strong></h4>
+<h4 class="anchored" data-anchor-id="working-out-the-right-web-address-url">Working out the right web address (URL)</h4>
 <p>In our restaurant example, sending our requests to the right person, in this case the waiter or waitress, is essential. We do not want to accidentally ask another customer for our food! When using APIs it is essential to also make sure that we are sending our requests to the right place. However, when using APIs this can be a little more complicated as we must construct a web address that corresponds with what we want to do.</p>
 <p>API web addresses are made up of several parts. Take this URL as an example:</p>
 <p><a href="https://api.example.org/v1/desserts/56" class="uri">https://api.example.org/v1/desserts/56</a></p>
@@ -421,47 +425,26 @@ gtag('config', 'G-54HL7T1Z2K', { 'anonymize_ip': true});
 <p><strong>GET /v1/desserts/{id}</strong></p>
 <p>You will notice that the first part of the address, <a href="http://api.example.org" class="uri">http://api.example.org</a>, is omitted. This part of the web address routes to the whole API. Think of it as an address for a company, and everything that follows is different departments.</p>
 <p>The rest we can break down like this:</p>
-<table class="caption-top table">
-<colgroup>
-<col style="width: 50%">
-<col style="width: 50%">
-</colgroup>
-<thead>
-<tr class="header">
-<th>GET</th>
-<th>The type of request we are making (see above). In this case we are reading information, not changing it or deleting it.</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>/v1</td>
-<td>The version number of the API. Having versions of the API allows providers to provide new versions of APIs, that may work in different ways, without breaking existing API requests.</td>
-</tr>
-<tr class="even">
-<td>desserts</td>
-<td>This part of the URL tells you the type of resource you will be working. In this case dessert listings on our menu.</td>
-</tr>
-<tr class="odd">
-<td>{id}</td>
-<td>A unique identifier for the resource. This could be a number such as 56 or a string such as “sticky-toffee-pudding”</td>
-</tr>
-</tbody>
-</table>
+<div class="line-block">— | — |<br>
+GET | The type of request we are making (see above). In this case we are reading information, not changing it or deleting it. |<br>
+/v1 | The version number of the API. Having versions of the API allows providers to provide new versions of APIs, that may work in different ways, without breaking existing API requests. |<br>
+desserts | This part of the URL tells you the type of resource you will be working. In this case dessert listings on our menu. |<br>
+{id} | A unique identifier for the resource. This could be a number such as 56 or a string such as “sticky-toffee-pudding” |</div>
 <p>Assuming your request was successful, the response from the server could be any sort of file type, it depends on the resources it handles. If the endpoint deals with metadata, then you might get back a <a href="https://www.json.org/json-en.html">JSON</a> or <a href="https://developer.mozilla.org/en-US/docs/Web/XML/XML_introduction">XML</a> encoded document. These are both ways of representing data in a way that can be easily understood by a computer program.</p>
 <p>For instance, a response from our fictional restaurant menu API above which might look like this:</p>
-<p>{“id”: 56, “title”: “Rhubarb Crumble”, “description”: “A modern take on a classic pudding, served with custard or ice cream”, “gluten_free”: false, “vegetarian”: true, “vegan”: true, “price”: 5.99}</p>
+<p><strong>{“id”: 56, “title”: “Rhubarb Crumble”, “description”: “A modern take on a classic pudding, served with custard or ice cream”, “gluten_free”: false, “vegetarian”: true, “vegan”: true, “price”: 5.99}</strong></p>
 <p>Sometimes you might not want to work with an individual resource, but instead a group. In this case the call will look slightly different, and we might use a parameter after a “?” symbol.</p>
 <p>For example, let us find all the vegan desserts in our menu. To do this we need to “search”:</p>
 <p><a href="https://api.example.org/v1/desserts/search?vegan=true" class="uri">https://api.example.org/v1/desserts/search?vegan=true</a></p>
 <p>There will be some practical examples that will step you through how to make different API calls like this in the next section.</p>
 </section>
 <section id="how-did-the-request-go" class="level4">
-<h4 class="anchored" data-anchor-id="how-did-the-request-go"><strong>How did the request go?</strong></h4>
+<h4 class="anchored" data-anchor-id="how-did-the-request-go">How did the request go?</h4>
 <p>When you make a request to an API you will get a three-digit number returned. This is called the <em>HTTP status code</em>. These codes can be broadly classified as follows:</p>
-<p>2XX: The request was understood, the right authorisation was present, and the server could process your request</p>
-<p>3XX: The web address you are trying to use is now at a different web address</p>
-<p>4XX: You have made an error, this could be caused by the server not understanding your request, or an authorisation problem</p>
-<p>5XX: There was an error on the server side. This could be a temporary or permanent problem, it could be caused by things like a fault in the server-side code, or a database being down.</p>
+<p><strong>2XX</strong>: The request was understood, the right authorisation was present, and the server could process your request</p>
+<p><strong>3XX</strong>: The web address you are trying to use is now at a different web address</p>
+<p><strong>4XX</strong>: You have made an error, this could be caused by the server not understanding your request, or an authorisation problem</p>
+<p><strong>5XX</strong>: There was an error on the server side. This could be a temporary or permanent problem, it could be caused by things like a fault in the server-side code, or a database being down.</p>
 </section>
 </section>
 </section>
