@@ -1148,8 +1148,8 @@
     ]
   },
   {
-    "objectID": "collectionsasdata.html#introduction-what-is-the-concept-of-collections-as-data-and-how-can-my-institution-get-started",
-    "href": "collectionsasdata.html#introduction-what-is-the-concept-of-collections-as-data-and-how-can-my-institution-get-started",
+    "objectID": "collectionsasdata.html#introduction",
+    "href": "collectionsasdata.html#introduction",
     "title": "Collections as Data: Getting Started",
     "section": "",
     "text": "GLAM (Galleries, Libraries, Archives and Museums) institutions have been making their content available to the public and researchers in a variety of formats for different purposes for decades. From maps, images, text, historical newspapers or postcards, digitising collections and displaying our items online are at the core of making this information accessible for research and enjoyment. But recent advances in and expansion of the use of AI and Machine Learning in library work and library research have transformed the way in which we and our users expect to access, view, use and search our collections. As the demand for computationally accessible cultural heritage collections continues to grow, and we’re being asked to provide our collections in the form of datasets for instance, how do we go about this practically?\nIn this new context, where GLAM institutions now find themselves playing a leading role as data providers and data curators, the Collections as Data concept emerged as a new approach, guidance and framework to support responsible development and computational use of digital cultural heritage collections. By computational use we mean the application of computational techniques such as natural language process, computer vision, and more to the analysis, exploration and reuse at scale of digitised cultural heritage content. For more practical use cases see our AI and Machine Learning in Libraries topic guide.\nThree particularly useful outputs from the Collections as Data community of practice are:\n\nFifty things (2018)\n\n“Want to support collections as data at your institution, but not sure how to begin? Drawing on what we learned from engaging with practitioners and researchers throughout the Always Already Computational project, the project team compiled a list of 50 Things you can do to get started. 50 Things is intended to open eyes, stimulate conversation, encourage stepping back, generate ideas, and surface new possibilities. If any of that gets traction, then perhaps you can make the case for investing in collections as data at your institution in a meaningful, if not systematic, way”\n\nVancouver Statement on Collections as data (2023)\n\n“The Vancouver Statement suggests a set of principles for thinking through questions that collections-as-data work produces, as part of an expanding global, interprofessional, and interdisciplinary effort to empower memory, knowledge, and data stewards (e.g., practitioners and scholars) who aim to support responsible development and computational use of collections as data. This stewardship role only grows in importance as artificial intelligence applications, trained on vast amounts of data, including collections as data, impact our lives ever more pervasively.”\n\nA Checklist to Publish Collections as Data in GLAM Institutions (2023)\n\nDeveloped as a result of a community-led effort, the checklist covers different aspects such as providing a suggested citation, including documentation about the datasets (e.g., README files or tutorials) or sharing examples of use (e.g., prototypes or Jupyter Notebooks).",
@@ -1192,11 +1192,11 @@
     ]
   },
   {
-    "objectID": "collectionsasdata.html#taking-the-next-step",
-    "href": "collectionsasdata.html#taking-the-next-step",
+    "objectID": "collectionsasdata.html#finding-communities-of-practice",
+    "href": "collectionsasdata.html#finding-communities-of-practice",
     "title": "Collections as Data: Getting Started",
-    "section": "Taking the next step",
-    "text": "Taking the next step\nJoining the International GLAM Labs Community is a great way to get started on the path of opening your collections up as data as well as the Collections as Data - Google Group as both communities are very active and have a wide range of experience and expertise to share on this topic.",
+    "section": "Finding Communities of Practice",
+    "text": "Finding Communities of Practice\nJoining the International GLAM Labs Community is a great way to get started on the path of opening your collections up as data as well as the Collections as Data - Google Group as both communities are very active and have a wide range of experience and expertise to share on this topic.",
     "crumbs": [
       "Topic Guides",
       "Collections as Data: Getting Started"
