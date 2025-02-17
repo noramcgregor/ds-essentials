@@ -395,11 +395,11 @@
     ]
   },
   {
-    "objectID": "computer-vision.html#taking-the-next-step",
-    "href": "computer-vision.html#taking-the-next-step",
+    "objectID": "computer-vision.html#finding-communities-of-practice",
+    "href": "computer-vision.html#finding-communities-of-practice",
     "title": "Computer Vision",
-    "section": "Taking the next step",
-    "text": "Taking the next step\nThere are AI4LAM, CENL network group ‘AI in libraries’ and IFLA Artificial Intelligence Special Interest Group communities, while in the IIIF community there is AI/ML community group. There are also conferences like Fantastic Futures.\nTop universities, for example Harvard, Stanford and Helsinki, offer, sometimes free, online courses. Also sites like Coursera, FutureLearn, and Udemy are worth a look. Open-source tools like OpenCV and TensorFlow mentioned above, but also PyTorch are handy.\nOne can join Slack workspaces of AI4LAM or IIIF.",
+    "section": "Finding Communities of Practice",
+    "text": "Finding Communities of Practice\nThere are AI4LAM, CENL network group ‘AI in libraries’ and IFLA Artificial Intelligence Special Interest Group communities, while in the IIIF community there is AI/ML community group. There are also conferences like Fantastic Futures.\nTop universities, for example Harvard, Stanford and Helsinki, offer, sometimes free, online courses. Also sites like Coursera, FutureLearn, and Udemy are worth a look. Open-source tools like OpenCV and TensorFlow mentioned above, but also PyTorch are handy.\nOne can join Slack workspaces of AI4LAM or IIIF.",
     "crumbs": [
       "Topic Guides",
       "Computer Vision"
