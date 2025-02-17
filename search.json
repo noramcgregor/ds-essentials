@@ -816,7 +816,7 @@
     "href": "programming.html#recommended-readingviewing",
     "title": "Programming for Librarians: Where to begin",
     "section": "Recommended Reading/Viewing",
-    "text": "Recommended Reading/Viewing\nPaul Vierthaler’s [Hacking the Humanities Tutorials](https://www.youtube.com/playlist?list=PL6kqrM2i6BPIpEF5yHPNkYhjHm-FYWh17) video series is quite useful for beginners.\nWe can highly recommend this recent book Hands-On Data Science for Librarians written by Sarah Lin and Dorris Scot (Boca Raton : CRC Press, 2023, ISBN 978-1-032-10999-2).\nThough not written specifically for librarians, but probably the best introduction to the topic of data science with R is R for Data Science. 2nd edition by Hadley Wickham, Mine Çetinkaya-Rundel and Garrett Grolemund (O’Reilly, 2023, ISBN 978–1-492-09740-2), and available online.",
+    "text": "Recommended Reading/Viewing\nPaul Vierthaler’s Hacking the Humanities Tutorials video series is quite useful for beginners.\nWe can highly recommend this recent book Hands-On Data Science for Librarians written by Sarah Lin and Dorris Scot (Boca Raton : CRC Press, 2023, ISBN 978-1-032-10999-2).\nThough not written specifically for librarians, but probably the best introduction to the topic of data science with R is R for Data Science. 2nd edition by Hadley Wickham, Mine Çetinkaya-Rundel and Garrett Grolemund (O’Reilly, 2023, ISBN 978–1-492-09740-2), and available online.",
     "crumbs": [
       "Topic Guides",
       "Programming for Librarians: Where to begin"
