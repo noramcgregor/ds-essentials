@@ -19,7 +19,7 @@ website:
     background: primary
     pinned: true
     search: true
-    type: overlay
+    type: textbox
     logo: Favicon.png
     
     left:
