@@ -39,7 +39,7 @@ You only need to take a look at a few of the Topic Guides, **Relevance to the Li
 
 Read more about [Graham Jevon's digital transformation journey](https://blogs.bl.uk/digital-scholarship/2024/05/recovered-pages-graham-jevon.html) on the British Library Digital Scholarship blog or have a look at this [series of videos](https://youtube.com/playlist?list=PLVRvouzCZmFdVQZn-pJvI_GXip_16sg_R&feature=shared) we created to mark the 10th Anniversary of the [British Library Digital Scholarship Training Programme](https://blogs.bl.uk/digital-scholarship/2024/04/recovered-pages-dstp.html) in 2022. It highlights specific transformative experiences for staff who took time out to engage in our Digital Scholarship Training Programme over the years.
 
-[![How are you using your new skills in your own work?](https://github.com/libereurope/ds-essentials/blob/main/book/images/DSTP.png?raw=true)](https://www.youtube.com/embed/CrCP5rYai9M?si=A9kw93B_TvOoDFnV)
+[![How are you using your new skills in your own work?](images/DSTP.png)](https://www.youtube.com/embed/CrCP5rYai9M?si=A9kw93B_TvOoDFnV)
 
 ## Hands-on activity and other self-guided tutorial(s)
 
