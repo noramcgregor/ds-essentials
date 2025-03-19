@@ -36,6 +36,7 @@ citation:
   doi: TBD
 format:
   pdf: default
+  html: default
 ---
 
 ## Introduction
