@@ -23,6 +23,9 @@ citation:
   volume: 1
   issue: 1
   doi: 10.5555/12345678
+format:
+  pdf: default
+  html: default
 ---
 
 ## Introduction 
@@ -39,24 +42,24 @@ How do we visualise data? There are a huge variety of tools available. Practitio
 ## Relevance to the Library Sector (Case Studies/Use Cases)
 Exploratory data visualisations are both quite generic and very dataset specific. Simple plots like bar charts, histograms, scatter plots, and time series are simple enough to be reliable and fit the ethos of being quick and informative of the features of your data. This Power BI dashboard from [Brandi Jagars](https://www.ala.org/acrl/publications/keeping_up_with/data-visualization) at University of South Florida Libraries shows how simple visualisations give quick insights into a visitor dataset.
 
-![A dashboard of exploratory graphs](https://github.com/libereurope/ds-essentials/blob/main/book/images/dataviz_exploratory.png?raw=true){fig-alt="A dashboard of bar and pie charts showing distributions of visitor types at a university library"}
+![A dashboard of exploratory graphs](images/dataviz_exploratory.png){fig-alt="A dashboard of bar and pie charts showing distributions of visitor types at a university library"}
 
 Visualisations designed for users and for publication are much more varied, and (usually) more polished. Maps are an eye-catching and engaging interface into collections that tap into users' sense of place. The [Mapping Manuscript Migrations](https://mappingmanuscriptmigrations.org/en/) project offers a map view of global manuscript migrations allowing users to track the movement of manuscripts filtered by things like collection, author and date of publication.
 
-![Movement of manuscripts from the collection of Sir Thomas Phillipps](https://github.com/libereurope/ds-essentials/blob/main/book/images/dataviz_manuscriptmap.png?raw=true){fig-alt="A world map showing movements of manuscripts as arcs between countries"}
+![Movement of manuscripts from the collection of Sir Thomas Phillipps](images/dataviz_manuscriptmap.png){fig-alt="A world map showing movements of manuscripts as arcs between countries"}
 
 [Peripleo](https://github.com/britishlibrary/peripleo) is a browser based map viewer that can be used with any cultural heritage dataset with associated location information. It was used in the [Heritage for All](https://britishlibrary.github.io/locating-a-national-collection/Heritage_for_All.html) project to displaying items in hyper-local contexts.
 
-![Map of cultural heritage item locations around Exeter](https://github.com/libereurope/ds-essentials/blob/main/book/images/dataviz_exetermap.png?raw=true){fig-alt="A street map of Exeter in England with coloured dots showing locations of hundreds of cultural heritage buildings and artifacts as coloured dots"}
+![Map of cultural heritage item locations around Exeter](images/dataviz_exetermap.png){fig-alt="A street map of Exeter in England with coloured dots showing locations of hundreds of cultural heritage buildings and artifacts as coloured dots"}
 
 Both of these initiatives rely on the concept of [Linked Open Data](https://libereurope.github.io/ds-essentials/lod.html). Each element of linked data is linked to other elements by one of a defined set of relationships, rather than the traditional spreadsheet model where each row is an item with a certain set of properties. This transforms the data into a network, which allows for intuitive, interactive visualisations that let users navigate material contextualised by the items closely linked to it.  
 The [Semantic Name Authority Cymru](https://snarc-llgc.wikibase.cloud/wiki/Main_Page) (SNARC) provides views into a linked database of name authority records linked to Wales and the Welsh language. This makes graphs like this [family tree](https://www.entitree.com/en/family_tree/Q272542?0u0=u&0u0u0=u&0u0u0u0=u&0d0=d&0d0d1=d) of Charlotte Guest, a translator, businesswoman and noble, easy to produce. Displaying parts of the network let users understand the connections within it, as in this rather large, but very satisfying, graph of [Welsh estates, houses and their owners](https://tinyurl.com/235rpyb2).
 
-![SNARC Welsh estates network graph](https://github.com/libereurope/ds-essentials/blob/main/book/images/dataviz_networkgraph.png?raw=true){fig-alt="A large network of linked elipses with small thumbnails. Each elipse represents a Welsh estate, house or its owner."}
+![SNARC Welsh estates network graph](images/dataviz_networkgraph.png){fig-alt="A large network of linked elipses with small thumbnails. Each elipse represents a Welsh estate, house or its owner."}
 
 There’s also huge value in making visualisations like this available in physical form within the spaces of a library. The [Bohemian Bookshelf](http://www.utahinrichs.de/Projects/BohemianBookshelf) was a 2011 project to increase serendipitous book discovery that was installed in the University of Calgary Library. It used 5 different visualisations to ‘entice curiosity’ by taking users to books and authors they might not have otherwise explored. This echoes Dr Mia Ridge’s proposed metric of [‘clicks to curiosity inspired’](https://www.openobjects.org.uk/2023/09/is-clicks-to-curiosity-triggered-a-good-metric-for-glam-collections-online/) in seeking ways to make it easy for users to be inspired by the collection. The ‘book pile’ arranged books by size and page count, acknowledging our natural fascination with the very large and the very small.
 
-![The Bohemian Bookshelf 'Book Pile'](https://github.com/libereurope/ds-essentials/blob/main/book/images/dataviz_bookpile.png?raw=true){fig-alt="A stack of hundreds of multi-coloured squares representing books, with small squares at the bottom and large squares at the top. Some display book covers."}
+![The Bohemian Bookshelf 'Book Pile'](images/dataviz_bookpile.png){fig-alt="A stack of hundreds of multi-coloured squares representing books, with small squares at the bottom and large squares at the top. Some display book covers."}
 
 You can explore other use cases in this [helpful list](https://libguides.umn.edu/c.php?g=921727&p=7785953) from the University of Minnesota Libraries. They've catalogued library specific resources for a range of use cases like the teaching, evaluation, and history of data visualisation in libraries. 
 
@@ -90,7 +93,7 @@ Much data visualisation is communication, and so is deeply subjective. Good visu
 
 If visualisation is communication and how we understand visual communication is subjective, then catering generously to how different people process visual information is important. We might call this accessibility. [This talk](https://www.youtube.com/watch?v=xAoljeRJ3lU&ab_channel=Enthought) explains some of the basics of how our brains handle colour, and the importance of colour in visualisation. The Seaborn [explanation of colour palettes](https://seaborn.pydata.org/tutorial/color_palettes.html) is a helpful reference, and there is a free [colour blindness tester](https://www.color-blindness.com/coblis-color-blindness-simulator/) to check that your visualisations encode information in colours that everyone can distinguish. Use alt-text for screen reader access and review for keyboard and content accessibility. Harvard have a [helpful guide](https://accessibility.huit.harvard.edu/data-viz-charts-graphs).  
 
-![The importance of colour in recognising categories](https://github.com/libereurope/ds-essentials/blob/main/book/images/dataviz_color_palettes.png?raw=true){fig-alt="Two scatter plots, each with two categories of data. All points are blue in the left plot, one category has round points and the other has triangles. They are hard to distinguish. The categories are also round and triangles in the right plot, but the triangles are now orange. They are easy to distinguish."}
+![The importance of colour in recognising categories](images/dataviz_color_palettes.png){fig-alt="Two scatter plots, each with two categories of data. All points are blue in the left plot, one category has round points and the other has triangles. They are hard to distinguish. The categories are also round and triangles in the right plot, but the triangles are now orange. They are easy to distinguish."}
 
 With these considerations in mind there are graphics catalogues that help guide you towards the best visualisation for your purposes. [from Data to Viz](https://www.data-to-viz.com/) starts with types of data and leads you to appropriate graphs, while the Financial Times [Visual Vocabulary](https://ft-interactive.github.io/visual-vocabulary/) starts with relationships between elements of your data and guides from there. Both are valuable.
 
