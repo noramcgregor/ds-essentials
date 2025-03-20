@@ -29,7 +29,7 @@ Contribute a new [Topic Guide](topicguides.qmd) (individually or in collaboratio
 
 ## Suggest edits to an existing [Topic Guide](topicguides.qmd)
 
-Know of a good case study, report or community of practice that LIBER members should know about? Open a new [Issue](https://github.com/libereurope/ds-essentials/issues) or add to the discussion on existing Issues on the project Github. If you're new to GitHub don't worry, we have a Topic Guide for that: [GitHub: How to navigate and contribute to Git-based projects](https://libereurope.github.io/ds-essentials/github.html)!
+Know of a good case study, report or community of practice that LIBER members should know about? Open a new [Issue](https://github.com/libereurope/ds-essentials/issues) or add to the discussion on existing Issues on the project Github. If you're new to GitHub don't worry, we have a Topic Guide for that: [GitHub: How to navigate and contribute to Git-based projects](github.qmd)!
 
 ## Join a working group and help with ongoing maintenance and review
 
