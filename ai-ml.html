@@ -10,7 +10,7 @@
 <meta name="dcterms.date" content="2024-06-04">
 <meta name="keywords" content="TBD, TBD">
 
-<title>AI &amp; Machine Learning in Libraries</title>
+<title>AI &amp; Machine Learning in Libraries – Digital Scholarship &amp; Data Science Topic Guides for Library Professionals</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -92,18 +92,15 @@ gtag('config', 'G-54HL7T1Z2K', { 'anonymize_ip': true});
     <a href="./index.html" class="navbar-brand navbar-brand-logo">
     <img src="./Favicon.png" alt="" class="navbar-logo">
     </a>
+    <a class="navbar-brand" href="./index.html">
+    <span class="navbar-title">Digital Scholarship &amp; Data Science Topic Guides for Library Professionals</span>
+    </a>
   </div>
             <div id="quarto-search" class="" title="Search"></div>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" role="menu" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
   <span class="navbar-toggler-icon"></span>
 </button>
           <div class="collapse navbar-collapse" id="navbarCollapse">
-            <ul class="navbar-nav navbar-nav-scroll me-auto">
-  <li class="nav-item">
-    <a class="nav-link" href="./index.html"> 
-<span class="menu-text"><strong>Digital Scholarship &amp; Data Science Topic Guides for Library Professionals</strong></span></a>
-  </li>  
-</ul>
             <ul class="navbar-nav navbar-nav-scroll ms-auto">
   <li class="nav-item">
     <a class="nav-link active" href="./topicguides.html" aria-current="page"> 
@@ -120,15 +117,15 @@ gtag('config', 'G-54HL7T1Z2K', { 'anonymize_ip': true});
     <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="nav-menu-contribute">    
         <li>
     <a class="dropdown-item" href="./contributing.html">
- <span class="dropdown-text"><strong>CONTRIBUTE TO OUR PROJECT</strong></span></a>
+ <span class="dropdown-text">Contribute to our Project</span></a>
   </li>  
         <li>
     <a class="dropdown-item" href="./guidelines.html">
- <span class="dropdown-text"><strong>AUTHOR GUIDANCE &amp; STYLE GUIDE</strong></span></a>
+ <span class="dropdown-text">Author Guidance &amp; Style Guide</span></a>
   </li>  
         <li>
     <a class="dropdown-item" href="./licensing.html">
- <span class="dropdown-text"><strong>LICENSING &amp; RE-USE</strong></span></a>
+ <span class="dropdown-text">Licensing &amp; Re-use</span></a>
   </li>  
     </ul>
   </li>
@@ -296,7 +293,7 @@ gtag('config', 'G-54HL7T1Z2K', { 'anonymize_ip': true});
   <li><a href="#recommended-readingviewing" id="toc-recommended-readingviewing" class="nav-link" data-scroll-target="#recommended-readingviewing">Recommended Reading/Viewing</a></li>
   <li><a href="#finding-communities-of-practice" id="toc-finding-communities-of-practice" class="nav-link" data-scroll-target="#finding-communities-of-practice">Finding Communities of Practice</a></li>
   </ul>
-<div class="toc-actions"><ul class="collapse"><li><a href="https://github.com/libereurope/ds-essentials/blob/main/book/ai-ml.qmd" class="toc-action"><i class="bi bi-github"></i>View source</a></li><li><a href="https://github.com/libereurope/ds-essentials/issues/new" class="toc-action"><i class="bi empty"></i>Report an issue</a></li></ul></div></nav>
+<div class="toc-actions"><ul class="collapse"><li><a href="https://github.com/libereurope/ds-topic-guides/blob/main/book/ai-ml.qmd" class="toc-action"><i class="bi bi-github"></i>View source</a></li><li><a href="https://github.com/libereurope/ds-topic-guides/issues/new" class="toc-action"><i class="bi empty"></i>Report an issue</a></li></ul></div><div class="quarto-alternate-formats"><h2>Other Formats</h2><ul><li><a href="ai-ml.pdf"><i class="bi bi-file-pdf"></i>PDF</a></li></ul></div></nav>
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
@@ -385,7 +382,7 @@ gtag('config', 'G-54HL7T1Z2K', { 'anonymize_ip': true});
 <p><strong>Here’s a super simplistic example of this type of process in action:</strong><br> <br> Let’s say I have thousands of images of handwritten manuscript pages digitised from our library collection and ready to go online. The problem is, I want to make them all text searchable as well, but to transcribe these all by hand would take me well into my retirement and I have other things to be getting on with. I would like to train a machine learning model to help me automatically recognise the handwritten text in this collection. I would first need to somehow show my machine learning algorithm examples of a correct result so that it could start to recognise the pattern of that (in this case, text on a page). To do this I can show it images with associated text annotations which have been transcribed perfectly by me, the more, the better! Once the algorithm has learned a bit about what a correct page of handwritten text looks like, a model is then created which contains all the rules and parameters and calculations ready for the particular task I have set it of predicting what handwritten text is on pages of this particular collection that it’s never seen before!</p>
 </blockquote>
 <p>We actually <a href="https://blogs.bl.uk/digital-scholarship/2020/01/using-transkribus-for-arabic-handwritten-text-recognition.html">do quite alot of the above</a> at the British Library, you can read more about the actual process and results here, and I’ll cover a bit more of this in the next section!</p>
-<p><img src="https://github.com/libereurope/ds-essentials/blob/main/book/images/ArabicHTR.jpg?raw=true" class="img-fluid"> Snapshot of an interface from Transkribus software used to create data to train a model to recognise handwritten arabic manuscript pages from a British Library collection.</p>
+<p><img src="images/ArabicHTR.jpg" class="img-fluid"> Snapshot of an interface from Transkribus software used to create data to train a model to recognise handwritten arabic manuscript pages from a British Library collection.</p>
 <section id="ok-quick-quiz-time" class="level3">
 <h3 class="anchored" data-anchor-id="ok-quick-quiz-time">Ok, quick quiz time!</h3>
 <p>Remembering that Machine Learning is about prediction, which of the following do you think would require ML?</p>
@@ -416,7 +413,7 @@ gtag('config', 'G-54HL7T1Z2K', { 'anonymize_ip': true});
 <section id="subject-indexing-to-enhance-library-catalogue-search" class="level4">
 <h4 class="anchored" data-anchor-id="subject-indexing-to-enhance-library-catalogue-search"><strong>Subject indexing to enhance library catalogue search</strong></h4>
 <p><strong>Named Entity Recognition (NER)</strong> is a text analysis process within NLP that helps turn unstructured text into structured text. A sentence or a chunk of text is parsed through to find entities that can be put under categories like names, organisations, locations, quantities, monetary values, percentages, etc.</p>
-<p><img src="https://github.com/libereurope/ds-essentials/blob/main/book/images/NER.png?raw=true" class="img-fluid"></p>
+<p><img src="images/NER.png" class="img-fluid"></p>
 <p><br>In the library world it can be used as part of a process to understand what subjects (people, places, concepts) are contained within a digitised text and help us enhance our catalogue records for items or search functionality. There is a very nicely outlined use case here of how the <a href="https://blog.ehri-project.eu/2018/08/27/named-entity-recognition/">United States Holocaust Memorial Museum used NER</a> to automatically extract person names and location from Oral History Transcript to improve indexing and search in their catalogue.</p>
 </section>
 <section id="automatic-language-detection-genre-classification" class="level4">
@@ -445,7 +442,7 @@ gtag('config', 'G-54HL7T1Z2K', { 'anonymize_ip': true});
 <h3 class="anchored" data-anchor-id="computer-vision-cv-use-cases">Computer Vision (CV) use cases</h3>
 <p>We can use computer vision to train models to automatically analyse and understand useful information from images and videos.</p>
 <p>In the library world we can use this to label millions of images with descriptive metadata (“this is a picture of a cat”), or, as we see below, a model can be trained to classify this image as a newspaper based on objects identified in the layout (for example, a nameplate for the newspaper, a headline, photographs, and illustrations and so on). The model learns how to identify that this is the NYT based on learning from other newspaper images it’s seen (for example, if given NY Tribune, NY Times, and NY Post images, it can distinguish between the various titles).</p>
-<p><img src="https://github.com/libereurope/ds-essentials/blob/main/book/images/CV.png?raw=true" class="img-fluid"></p>
+<p><img src="images/CV.png" class="img-fluid"></p>
 </section>
 <section id="putting-it-altogether-ml-cv-nlp" class="level3">
 <h3 class="anchored" data-anchor-id="putting-it-altogether-ml-cv-nlp">Putting it altogether: ML + CV + NLP</h3>
@@ -505,7 +502,7 @@ gtag('config', 'G-54HL7T1Z2K', { 'anonymize_ip': true});
 <p>Much of this topic guide is based on both a <a href="https://carpentries-incubator.github.io/machine-learning-librarians-archivists/">Library Carpentry Intro to AI for GLAM</a> lesson I have developed with colleagues and a 2024 talk I gave as part of a Research Libraries UK Digital Shift Forum so if you’d like to view/listen to the content covered in this topic guide as a lecture:</p>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><a href="https://www.youtube.com/embed/CrCP5rYai9M?si=A9kw93B_TvOoDFnV"><img src="https://github.com/libereurope/ds-essentials/blob/main/book/images/YouTube.png?raw=true" class="img-fluid figure-img" alt="Watch the video"></a></p>
+<p><a href="https://www.youtube.com/embed/CrCP5rYai9M?si=A9kw93B_TvOoDFnV"><img src="images/YouTube.png" class="img-fluid figure-img" alt="Watch the video"></a></p>
 <figcaption>Watch the video</figcaption>
 </figure>
 </div>
@@ -944,11 +941,11 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     </div>   
     <div class="nav-footer-center">
 <p>A 2023-2027 <a href="https://libereurope.eu/working-groups">LIBER Working Group</a> collaboration between <a href="https://libereurope.eu/working-group/digital-scholarship-and-digital-cultural-heritage-collections-working-group/">Digital Scholarship and Digital Cultural Heritage </a> and <a href="https://libereurope.eu/working-group/liber-data-science-in-libraries-working-group/">Data Science in Libraries</a></p>
-<div class="toc-actions d-sm-block d-md-none"><ul><li><a href="https://github.com/libereurope/ds-essentials/blob/main/book/ai-ml.qmd" class="toc-action"><i class="bi bi-github"></i>View source</a></li><li><a href="https://github.com/libereurope/ds-essentials/issues/new" class="toc-action"><i class="bi empty"></i>Report an issue</a></li></ul></div></div>
+<div class="toc-actions d-sm-block d-md-none"><ul><li><a href="https://github.com/libereurope/ds-topic-guides/blob/main/book/ai-ml.qmd" class="toc-action"><i class="bi bi-github"></i>View source</a></li><li><a href="https://github.com/libereurope/ds-topic-guides/issues/new" class="toc-action"><i class="bi empty"></i>Report an issue</a></li></ul></div></div>
     <div class="nav-footer-right">
       <ul class="footer-items list-unstyled">
     <li class="nav-item compact">
-    <a class="nav-link" href="https://github.com/libereurope/ds-essentials">
+    <a class="nav-link" href="https://github.com/libereurope/ds-topic-guides">
       <i class="bi bi-github" role="img">
 </i> 
     </a>

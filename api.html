@@ -10,7 +10,7 @@
 <meta name="dcterms.date" content="2024-06-04">
 <meta name="keywords" content="TBD, TBD">
 
-<title>APIs: A starter guide for Librarians</title>
+<title>APIs: A starter guide for Librarians – Digital Scholarship &amp; Data Science Topic Guides for Library Professionals</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -92,18 +92,15 @@ gtag('config', 'G-54HL7T1Z2K', { 'anonymize_ip': true});
     <a href="./index.html" class="navbar-brand navbar-brand-logo">
     <img src="./Favicon.png" alt="" class="navbar-logo">
     </a>
+    <a class="navbar-brand" href="./index.html">
+    <span class="navbar-title">Digital Scholarship &amp; Data Science Topic Guides for Library Professionals</span>
+    </a>
   </div>
             <div id="quarto-search" class="" title="Search"></div>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" role="menu" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
   <span class="navbar-toggler-icon"></span>
 </button>
           <div class="collapse navbar-collapse" id="navbarCollapse">
-            <ul class="navbar-nav navbar-nav-scroll me-auto">
-  <li class="nav-item">
-    <a class="nav-link" href="./index.html"> 
-<span class="menu-text"><strong>Digital Scholarship &amp; Data Science Topic Guides for Library Professionals</strong></span></a>
-  </li>  
-</ul>
             <ul class="navbar-nav navbar-nav-scroll ms-auto">
   <li class="nav-item">
     <a class="nav-link active" href="./topicguides.html" aria-current="page"> 
@@ -120,15 +117,15 @@ gtag('config', 'G-54HL7T1Z2K', { 'anonymize_ip': true});
     <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="nav-menu-contribute">    
         <li>
     <a class="dropdown-item" href="./contributing.html">
- <span class="dropdown-text"><strong>CONTRIBUTE TO OUR PROJECT</strong></span></a>
+ <span class="dropdown-text">Contribute to our Project</span></a>
   </li>  
         <li>
     <a class="dropdown-item" href="./guidelines.html">
- <span class="dropdown-text"><strong>AUTHOR GUIDANCE &amp; STYLE GUIDE</strong></span></a>
+ <span class="dropdown-text">Author Guidance &amp; Style Guide</span></a>
   </li>  
         <li>
     <a class="dropdown-item" href="./licensing.html">
- <span class="dropdown-text"><strong>LICENSING &amp; RE-USE</strong></span></a>
+ <span class="dropdown-text">Licensing &amp; Re-use</span></a>
   </li>  
     </ul>
   </li>
@@ -296,7 +293,7 @@ gtag('config', 'G-54HL7T1Z2K', { 'anonymize_ip': true});
   <li><a href="#recommended-readingviewing" id="toc-recommended-readingviewing" class="nav-link" data-scroll-target="#recommended-readingviewing">Recommended Reading/Viewing</a></li>
   <li><a href="#finding-communities-of-practice" id="toc-finding-communities-of-practice" class="nav-link" data-scroll-target="#finding-communities-of-practice">Finding Communities of Practice</a></li>
   </ul>
-<div class="toc-actions"><ul class="collapse"><li><a href="https://github.com/libereurope/ds-essentials/blob/main/book/api.qmd" class="toc-action"><i class="bi bi-github"></i>View source</a></li><li><a href="https://github.com/libereurope/ds-essentials/issues/new" class="toc-action"><i class="bi empty"></i>Report an issue</a></li></ul></div></nav>
+<div class="toc-actions"><ul class="collapse"><li><a href="https://github.com/libereurope/ds-topic-guides/blob/main/book/api.qmd" class="toc-action"><i class="bi bi-github"></i>View source</a></li><li><a href="https://github.com/libereurope/ds-topic-guides/issues/new" class="toc-action"><i class="bi empty"></i>Report an issue</a></li></ul></div><div class="quarto-alternate-formats"><h2>Other Formats</h2><ul><li><a href="api.pdf"><i class="bi bi-file-pdf"></i>PDF</a></li></ul></div></nav>
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
@@ -363,7 +360,7 @@ gtag('config', 'G-54HL7T1Z2K', { 'anonymize_ip': true});
 <h2 class="anchored" data-anchor-id="introduction">Introduction</h2>
 <p>APIs (Application Programming Interfaces) can sound intimidating, but the ideas behind them are not unfamiliar. An <a href="https://en.wikipedia.org/wiki/API">application programming interface (API)</a> allows a connection between computers or between computer programs, it is a type of software interface offering a service to other pieces of software. A common analogy that can be helpful in understanding the process of how APIs work is the restaurant analogy.</p>
 <p>Imagine going to a restaurant (server). You first consult the menu provided (API documentation / specification) to understand what is available for you to order (request). After consulting the menu (documentation) you have a good idea of what is likely to result in a successful order from the kitchen. The waiter is a bit like the restaurant’s API. Behind the waiter is a whole world of kitchen staff, bar staff, wholesalers, suppliers, shareholders and so on. You don’t need to worry about any of them, you probably won’t even ever speak to them. All your food orders (requests) and any extra instructions such as “chips or mash?” (parameters) will be passed to the kitchen (server) by the waiter (API). The kitchen (server) prepares your order (request) and passes it to the waiter (API) to deliver to your meal (response).</p>
-<p><img src="https://github.com/libereurope/ds-essentials/blob/main/book/images/api1.png?raw=true" class="img-fluid"></p>
+<p><img src="images/api1.png" class="img-fluid"></p>
 <p>Just as in our analogy above, sites will offer an API, and anyone can use it without having to know anything about the internal workings of that system. You don’t need to see the source code, the technologies they used to build it or know the name of the person who keeps it running at weekends. All you need to know is how to make a request to the API, and for this, APIs will normally have a site that will document what you can request and how. A good example is <a href="https://openlibrary.org/developers/api">OpenLibrary’s API</a> pages. API Documentation will detail individual <em>methods</em> (GET, POST, etc) with any <em>parameters</em> (see <a href="https://openlibrary.org/dev/docs/api/lists">Lists API | Open Library</a> for examples) you will need to pass for a successful response. It may also state any security considerations such as needing authentication (an API Key) or a log in before using the method.</p>
 <p>This Topic Guide will focus on REST APIs as an example as it’s the most likely you’ll encounter in your day to day library work, just be aware that REST APIs are not the only type of API though, there are other API types such as:</p>
 <ul>
@@ -557,12 +554,12 @@ In cell A5 enter ‘Results’</p>
 In cell B2 enter a simple, one word tag<br>
 In cell B3 enter the text ‘rss’ (omitting the inverted commas)</p>
 <p>The first three rows of the spreadsheet should look something like (with whatever tag you’ve chased to search in B2):</p>
-<p><img src="https://github.com/libereurope/ds-essentials/blob/main/book/images/api2.png?raw=true" class="img-fluid"></p>
+<p><img src="images/api2.png" class="img-fluid"></p>
 <p>You now have all the parameters we need to build the API call. To do this you want to create a URL very similar to the one you looked at above. You can do this using a handy spreadsheet function/formula called ‘Concatenate’ which allows you to combine the contents of a number of spreadsheet cells with other text.</p>
 <p>In Cell B4 type the following formula:</p>
 <p>=CONCATENATE(B1,“?”,“tags=”,B2,“&amp;format=”,B3)</p>
 <p>This joins the contents of cells B1, B2 with the text included in inverted commas in formula. Once you have entered this formula and pressed enter your spreadsheet should look like:</p>
-<p><img src="https://github.com/libereurope/ds-essentials/blob/main/book/images/api3.png?raw=true" class="img-fluid"></p>
+<p><img src="images/api3.png" class="img-fluid"></p>
 <p>The final step is to send this query, and retrieve and display the results. This is where the fact that the API returns results as an RSS feed comes in extremely useful. Google Spreadsheets has a special function for retrieving and displaying RSS feeds.</p>
 <p>To use this, in Cell B5 type the following formula:</p>
 <p>=importFeed(B4)</p>
@@ -1055,11 +1052,11 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     </div>   
     <div class="nav-footer-center">
 <p>A 2023-2027 <a href="https://libereurope.eu/working-groups">LIBER Working Group</a> collaboration between <a href="https://libereurope.eu/working-group/digital-scholarship-and-digital-cultural-heritage-collections-working-group/">Digital Scholarship and Digital Cultural Heritage </a> and <a href="https://libereurope.eu/working-group/liber-data-science-in-libraries-working-group/">Data Science in Libraries</a></p>
-<div class="toc-actions d-sm-block d-md-none"><ul><li><a href="https://github.com/libereurope/ds-essentials/blob/main/book/api.qmd" class="toc-action"><i class="bi bi-github"></i>View source</a></li><li><a href="https://github.com/libereurope/ds-essentials/issues/new" class="toc-action"><i class="bi empty"></i>Report an issue</a></li></ul></div></div>
+<div class="toc-actions d-sm-block d-md-none"><ul><li><a href="https://github.com/libereurope/ds-topic-guides/blob/main/book/api.qmd" class="toc-action"><i class="bi bi-github"></i>View source</a></li><li><a href="https://github.com/libereurope/ds-topic-guides/issues/new" class="toc-action"><i class="bi empty"></i>Report an issue</a></li></ul></div></div>
     <div class="nav-footer-right">
       <ul class="footer-items list-unstyled">
     <li class="nav-item compact">
-    <a class="nav-link" href="https://github.com/libereurope/ds-essentials">
+    <a class="nav-link" href="https://github.com/libereurope/ds-topic-guides">
       <i class="bi bi-github" role="img">
 </i> 
     </a>
