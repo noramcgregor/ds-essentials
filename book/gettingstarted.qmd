@@ -90,14 +90,14 @@ In the recommended reading section of this Topic Guide we have linked to a numbe
 
 Each Topic Guide on this site includes a range of specific hands-on activities and other self-guided tutorials colleagues across Europe personally recommend. When you’re ready to go further and have a better idea of the specific skills you need for a particular task, we can recommend having a good search through these excellent platforms which host or link to a great many in-depth training materials:
 
+### AI4Culture [https://ai4culture.eu/](https://ai4culture.eu/)
+AI4Culture is a capacity building platform for the application of AI in the Cultural Heritage Sector. AI4Culture has been co-funded by the European Union under the Digital Europe Programme. Their aim is to enable professionals, researchers, and enthusiasts within the sector with the resources they need to integrate AI into their daily workflow, find creative ways to use them and solve their current problems. The platform hosts a pool of readily deployed AI software tools, along with training and testing datasets that have been curated for use within the sector. 
+
 ### DARIAH-Campus [https://campus.dariah.eu/](https://campus.dariah.eu/)
 DARIAH is a pan-European infrastructure for arts and humanities scholars working with computational methods. It supports digital research as well as the teaching of digital research methods. Though not specific to the library professional context, tutorials here are useful for applying techniques to digital collections. 
 
 ### The Glam Workbench [https://glam-workbench.net/](https://glam-workbench.net/)
 The GLAM Workbench is the brainchild of Tim Sherratt, a historian, and is a collection of Jupyter notebooks to help you explore and use data from GLAM institutions (galleries, libraries, archives, and museums). It includes tools, tutorials, examples, hacks, and even some pre-harvested datasets. It's aimed at researchers in the humanities but has useful tutorials for anyone interested in working with GLAM data.
-
-### AI4Culture [https://ai4culture.eu/]
-AI4Culture is a capacity building platform for the application of AI in the Cultural Heritage Sector. AI4Culture has been co-funded by the European Union under the Digital Europe Programme. Their aim is to enable professionals, researchers, and enthusiasts within the sector with the resources they need to integrate AI into their daily workflow, find creative ways to use them and solve their current problems. The platform hosts a pool of readily deployed AI software tools, along with training and testing datasets that have been curated for use within the sector. 
 
 ### Ineo [https://www.ineo.tools/](https://www.ineo.tools/)
 Ineo is a project developed and maintained by CLARIAH that lets you search, browse, find and select digital resources for research in humanities and social sciences. It offers access to thousands of tools, datasets, workflows, standards and learning material. It is a work in progress so do keep that in mind when browsing.
@@ -164,7 +164,7 @@ Working groups are open to staff at participating [LIBER Member institutions](ht
  - [IMPACT Centre of Competence](https://www.digitisation.eu/)
  - [Museums Computer Group](https://museumscomputergroup.org.uk/)
  - [Transkribus](https://readcoop.eu/transkribus/)
- - [Wikidata Community)](https://www.wikidata.org/wiki/Special:MyLanguage/Project:Community_portal)
+ - [Wikidata Community](https://www.wikidata.org/wiki/Special:MyLanguage/Project:Community_portal)
  
 ### National Networks (European)
  
