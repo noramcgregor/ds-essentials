@@ -23,6 +23,9 @@ citation:
   volume: 1
   issue: 1
   doi: TBD
+format:
+  pdf: default
+  html: default
 ---
 
 ## Introduction
@@ -33,7 +36,7 @@ What does publishing linked open data enable? Linked Open Data (LOD) is a method
 
 Have a quick look at this video from Europeana explaining the high-level basic principle of LOD before we dive a bit deeper into how it practically works:
 
-[![Watch the video](https://github.com/libereurope/ds-essentials/blob/main/book/images/Lod3.png?raw=true)](https://player.vimeo.com/video/36752317?h=1af34f93f0)
+[![Watch the video](images/Lod3.png)](https://player.vimeo.com/video/36752317?h=1af34f93f0)
 [Linked Open Data | Europeana PRO](https://pro.europeana.eu/page/linked-open-data)
 
 
@@ -53,7 +56,7 @@ An example of a triple stating "Miguel de Cervantes is author of El Quijote." wo
 
 In a [2020 survey](https://libereurope.eu/article/linked-open-data-impressions-challenges-among-europes-research-libraries/#:~:text=LIBER%E2%80%99s%20Linked%20Open%20Data%20Working%20Group%20aims%20to,libraries%20follow%20in%20making%20data%20linked%20and%20open.) of LIBER members, the LIBER Linked Open Data Working Group identified the following as the most frequently used datasets by libraries to enrich their catalogues but there are many more that can be used depending on your needs [Linked Data Survey (oclc.org)](https://www.oclc.org/research/areas/data-science/linkeddata/linked-data-survey.html) and some examples of advanced data models are [Bibliographic Framework (BIBFRAME)](https://www.loc.gov/bibframe/) and [Library Reference Model (LRM)](https://en.wikipedia.org/wiki/IFLA_Library_Reference_Model). In addition, the [lod-cloud](https://lod-cloud.net/) provides more than one thousand LOD repositories classified by categories and based on different domains such as geography and government.  
 
-![](https://github.com/libereurope/ds-essentials/blob/main/book/images/lod2.png?raw=true)
+![](images/lod2.png)
 
 So let’s go back to our triple that describes the relationship between the resource "Miguel de Cervantes" and the book of "El Quijote". When different triples share the same URI for a subject, predicate, or object, they create a connection. For example:
 
@@ -128,7 +131,7 @@ Though there are many benefits, SPARQL is the means by with Linked Open Data is 
 
 This example shows how to use Wikidata, a community-driven approach based on the Semantic Web and LOD that enables volunteers to edit the metadata, to describe manuscripts. It shows the expressivity of the vocabulary provided by Wikidata and the benefits of using Wikidata as a repository in terms of visibility and reuse.
 
-![](https://github.com/libereurope/ds-essentials/blob/main/book/images/Lod4.png?raw=true)
+![](images/Lod4.png)
 
 ## Hands-on activity and other self-guided tutorial(s) 
 
@@ -160,7 +163,7 @@ If you are interested in learning more about LOD in terms of how to transform tr
 
 I can also recommend the excellent [Best Practices for Library Linked Open Data (LOD) guide](https://libereurope.eu/article/libers-linked-open-data-working-group-publishes-best-practices-for-library-linked-open-data-lod-publication/) published by the LIBER Linked Open Data (LOD) Working Group in 2021 which outlines in detail six steps for publishing library linked data.
 
-![](https://github.com/libereurope/ds-essentials/blob/main/book/images/lod.png?raw=true)
+![](images/lod.png)
 
 Some examples of research articles to read providing additional details and information include:
 
