@@ -23,9 +23,7 @@ website:
     type: overlay
     logo: Favicon.png
     
-    left:
-      - text: "**Digital Scholarship & Data Science Topic Guides for Library Professionals**"
-        href: index.qmd
+    
 
     right:
       - text: "TOPIC GUIDES"
