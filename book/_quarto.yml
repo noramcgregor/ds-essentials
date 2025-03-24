@@ -7,6 +7,7 @@ language:
   search-text-placeholder: Search
 
 website: 
+  title: "Digital Scholarship & Data Science Topic Guides for Library Professionals"
   favicon: images/Favicon.png
   google-analytics: 
     tracking-id: "G-54HL7T1Z2K"
