@@ -41,7 +41,7 @@ Today we have at our disposal these advanced imaging methods:
 
 ### High-Resolution 2D Imaging
 You’ll have heard phone manufacturers boasting about how many megapixels their camera has. But this isn’t always an indicator of quality, there are lots of other factors, the more important factor being the size and quality of the imaging sensor. So while using your phone camera may seem a cost-effective and easy solution for digitising collection items, it is unlikely to provide the high-resolution and preservation quality you’re after long term. The guide '[Remote Capture: Digitising Documentary Heritage in Challenging Locations](https://doi.org/10.11647/obp.0138)' explains this quite well in their chapter on Equipment and skills for digitising in the field. 
-![An illustration showing example digital image sensor sizes.]({{site.url}}/book/images/Image-Sensor-Sizes.jpg)
+![An illustration showing example digital image sensor sizes.](images/Image-Sensor-Sizes.jpg)
 
 ### 3D Modelling 
 3D modeling uses “Lidar” which stands for ‘light detection and ranging’ and is a remote sensing method that uses pulses of light to measure distances and angles as they bounce back into the sensor. The data produced can be used to build 3D models of the terrain or objects.  
@@ -50,18 +50,18 @@ When might you want to employ 3D Modelling?
 
 ### Multispectral Imaging
 This is a method of examining an object under different wavelengths of light – you’ve probably heard of infrared and ultraviolet, but there’s a huge spectrum that can be applied in order to reveal underwriting or investigate faded text and even the structure of the medium.  
-![A photo of multispectral imaging in process.]({{site.url}}/book/images/HYPERSPECTRAL-IMAGING.jpg)
+![A photo of multispectral imaging in process.](images/HYPERSPECTRAL-IMAGING.jpg)
 
 ### RTI
 Reflectance Transformation Imaging (RTI) is a technique that creates hyper-real digital images with which the viewer can interact. It creates texture mapping by capturing multiple images of the subject from a fixed point whilst the light source varies in position.  
-![An illustration showing an example RTI setup.]({{site.url}}/book/images/LIBER-RTI.jpg)
+![An illustration showing an example RTI setup.](images/LIBER-RTI.jpg)
 
 ### Other Considerations
 - **Lighting** is often as important, if not more so, than the camera you are using, so it pays to learn a bit about that too. 
 - **Ethics & Cultural Sensitivities** Another thing to remember when selecting and preparing to digitise collections is the impact of our own narrative into the process. What we choose to select, our interactions, and the choices we make for providing access to objects, become entwined and embedded through the process of digitisation, and this should be thought through as well (see Fafinski…).
 - **Facsimile, surrogate, object or edition?** Opinions often vary on how/what we consider digitised objects to be and what we call them. You may have come across the terms “digital surrogate”, “digital facsimile” or “digital edition” for example. But regardless of what we call them, it is now widely considered that the outputs of digitisation, whilst inherently connected to the analogue original, ontologically constitute a new thing in themselves. (cite?) It’s therefore important to be aware that digitisation processes remove or reduce some aspects but can add or increase others.
-- **Copyright and licensing** is a complex issue, but an essential consideration when digitising anything. [!!!See COPYRIGHT guide page!!!]({{site.url}}/copyright.html)
-- **Hosting** Your institution might have one or more hosting solutions on which you can store your digitisation and make it available over the web and integrate it into existing systems. If not, then [IIIF](https://iiif.io/) might be worth exploring, and a great place to start is the [Topic Guide on IIIF]({{site.url}}/iiif.html). But whilst regular image hosting options are common, more complex digital objects can be a challenge. If you are creating 3D models, RTI or other specialist imaging, you will need to consider a number of options. Many cultural institutions have been hosting their 3D models through a platform called (Sketchfab)[https://sketchfab.com/], but at the time of writing, the platform has recently been absorbed into a bigger gaming company, and its future is in doubt, providing a good example of how challenging it can be relying on third party services. Other options to consider include (MorphoSource)[https://www.morphosource.org/], a data repository that is more focussed on research and academia. The IIIF community are currently working on support for 3D objects, so keep an eye on developments there!  
+- **Copyright and licensing** is a complex issue, but an essential consideration when digitising anything. [!!!See COPYRIGHT guide page!!!](copyright.qmd)
+- **Hosting** Your institution might have one or more hosting solutions on which you can store your digitisation and make it available over the web and integrate it into existing systems. If not, then [IIIF](https://iiif.io/) might be worth exploring, and a great place to start is the [Topic Guide on IIIF](iiif.qmd). But whilst regular image hosting options are common, more complex digital objects can be a challenge. If you are creating 3D models, RTI or other specialist imaging, you will need to consider a number of options. Many cultural institutions have been hosting their 3D models through a platform called (Sketchfab)[https://sketchfab.com/], but at the time of writing, the platform has recently been absorbed into a bigger gaming company, and its future is in doubt, providing a good example of how challenging it can be relying on third party services. Other options to consider include (MorphoSource)[https://www.morphosource.org/], a data repository that is more focussed on research and academia. The IIIF community are currently working on support for 3D objects, so keep an eye on developments there!  
 - **Digital Preservation** is also important to consider - digitisation can be expensive, so don't risk losing your valuable assets. [See Digit Pres Coalition]
 
 ## Relevance to the Library Sector (Case Studies/Use Cases)
