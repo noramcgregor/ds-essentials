@@ -129,6 +129,7 @@ $btn-close-hover-opacity:    1 !default;
 
 // Variables
 
+// LIBER Fonts
 $web-font-path: "https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;1,400&display=swap" !default;
 @if $web-font-path {
   @import url($web-font-path);
@@ -138,10 +139,13 @@ $web-font-path: "https://fonts.google.com/share?selection.family=Crimson+Text:it
   @import url($web-font-path);
 }
 
+// LIBER Colours
 $LIBER-Dark-Blue:    #00517B;
 $LIBER-Yellow:    #EEB111;
 $LIBER-Light-Blue:    #659AD2;
 $LIBER-Orange:    #F37432;  
+
+$presentation-heading-font: "$font-family-serif";  
 
 // Navbar
 
