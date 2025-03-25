@@ -30,6 +30,11 @@ $yellow:  #EEB111 !default;
 $green:   #18bc9c !default;
 $teal:    #20c997 !default;
 $cyan:    #3498db !default;
+$LIBER-Dark-Blue:    #00517B !default;
+$LIBER-Yellow:    #EEB111 !default;
+$LIBER-Light-Blue:    #659AD2 !default;
+$LIBER-Orange:    #F37432 !default;
+$LIBER-Grey:    #5a6165 !default;
 
 $primary:       $blue !default;
 $secondary:     $gray-600 !default;
@@ -48,9 +53,11 @@ $link-color:                $success !default;
 
 // Fonts
 
+$presentation-heading-font: "$font-family-serif" !default; 
+
 // stylelint-disable-next-line value-keyword-case
-$font-family-sans-serif:      "Lato", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol" !default;
-$font-family-serif:      "Crimson Text"; 
+$font-family-sans-serif:      'Lato', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", 'Arial', sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol" !default;
+$font-family-serif:      'Crimson Text', 'Times New Roman', !default;
 $h1-font-size:                2rem !default;
 $h2-font-size:                1.5rem !default;
 $h3-font-size:                1rem !default;
@@ -137,15 +144,7 @@ $web-font-path: "https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0
 $web-font-path: "https://fonts.google.com/share?selection.family=Crimson+Text:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700" !default;
 @if $web-font-path {
   @import url($web-font-path);
-}
-
-// LIBER Colours
-$LIBER-Dark-Blue:    #00517B;
-$LIBER-Yellow:    #EEB111;
-$LIBER-Light-Blue:    #659AD2;
-$LIBER-Orange:    #F37432;  
-
-$presentation-heading-font: "$font-family-serif";  
+} 
 
 // Navbar
 
