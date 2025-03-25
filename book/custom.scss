@@ -36,10 +36,10 @@ $LIBER-Light-Blue:    #659AD2 !default;
 $LIBER-Orange:    #F37432 !default;
 $LIBER-Grey:    #5a6165 !default;
 
-$primary:       $blue !default;
-$secondary:     $gray-600 !default;
-$success:       $ltblue !default;
-$info:          $cyan !default;
+$primary:       $$LIBER-Dark-Blue !default;
+$secondary:     $LIBER-Yellow !default;
+$success:       $LIBER-Orange !default;
+$info:          $LIBER-Light-Blue !default;
 $warning:       $yellow !default;
 $danger:        $red !default;
 $light:         $gray-200 !default;
