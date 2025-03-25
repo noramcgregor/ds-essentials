@@ -11,9 +11,9 @@ author:
       - name: Cambridge University Library
         city: Cambridge
         country: UK
-        url: https://www.lib.cam.ac.uk/research-institute/people/andy-corrigan
+        url: "https://www.lib.cam.ac.uk/research-institute/people/andy-corrigan"
 abstract: > 
-  A quick guide to help navigate the terrific topic of digitisation.
+  "A quick guide to help navigate the terrific topic of digitisation."
 keywords:
   - TBD
   - TBD
