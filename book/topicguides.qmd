@@ -1,7 +1,8 @@
 ---
 format:
   pdf: default
-  html: default
+  html:
+    embed-resources: true
 ---
 # **TOPIC GUIDES** {.unnumbered .unlisted}
 
