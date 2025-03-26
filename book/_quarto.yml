@@ -8,7 +8,7 @@ language:
 
 website: 
   title: "DS Topic Guides"
-  favicon: favicon.ico
+  favicon: /logo/favicon.ico
   google-analytics: 
     tracking-id: "G-54HL7T1Z2K"
   repo-url: https://github.com/libereurope/ds-topic-guides/
@@ -21,7 +21,7 @@ website:
     pinned: true
     search: true
     type: overlay
-    logo: Liber-DS-logo.png
+    logo: /logo/Liber-DS-logo-long-white.png
     
     
 
