@@ -35,7 +35,7 @@ typography:
       source: google   
   base: 
     family: Lato
-    color: foreground
+    color: "#525252"
   headings: 
     family: Crimson Text
     color: LIBER-Dark-Blue
