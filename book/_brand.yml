@@ -33,9 +33,7 @@ typography:
       source: google
     - family: Crimson Text
       source: google   
-  base: 
-    family: Lato
-    color: "#525252"
+  base: Lato
   headings: 
     family: Crimson Text
     color: LIBER-Dark-Blue
