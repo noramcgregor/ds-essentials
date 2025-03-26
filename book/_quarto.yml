@@ -7,7 +7,7 @@ language:
   search-text-placeholder: Search
 
 website: 
-  title: false
+  title: "DS Topic Guides"
   favicon: favicon.ico
   google-analytics: 
     tracking-id: "G-54HL7T1Z2K"
