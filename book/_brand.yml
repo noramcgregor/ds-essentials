@@ -10,8 +10,8 @@ color:
         LIBER-Light-Blue:    "#659AD2" 
         LIBER-Orange:    "#F37432" 
         LIBER-Grey:    "#5a6165"
-    foreground: "#525252" 
-    background: "#ecf0f1"
+    foreground: "#5a6165" 
+    background: "#f8f9fa"
     primary: LIBER-Dark-Blue
     secondary: LIBER-Light-Blue
     tertiary: LIBER-Orange
