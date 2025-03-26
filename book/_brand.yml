@@ -10,7 +10,7 @@ color:
         LIBER-Light-Blue:    "#659AD2" 
         LIBER-Orange:    "#F37432" 
         LIBER-Grey:    "#5a6165"
-    foreground: "#343a40" 
+    foreground: "#525252" 
     background: "#ecf0f1"
     primary: LIBER-Dark-Blue
     secondary: LIBER-Light-Blue
@@ -35,7 +35,7 @@ typography:
       source: google   
   base: 
   family: Lato
-    color:  
+    color: foreground
   headings: 
     family: Crimson Text
     color: LIBER-Dark-Blue
