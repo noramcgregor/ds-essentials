@@ -17,7 +17,7 @@ color:
     tertiary: LIBER-Orange
     light: LIBER-Light-Blue 
     dark: LIBER-Dark-Blue
-               	 
+    
 logo: 
   small: logo/LIBER-DS-Favicon.png 
   medium: 
@@ -34,11 +34,11 @@ typography:
     - family: Crimson Text
       source: google   
   base: 
-  family: Lato
+    family: Lato
     color: foreground
   headings: 
     family: Crimson Text
     color: LIBER-Dark-Blue
   link: 
     color: LIBER-Orange
-    decoration: underline              
+    decoration: underline
