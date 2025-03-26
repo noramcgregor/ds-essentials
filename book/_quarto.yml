@@ -8,7 +8,7 @@ language:
 
 website: 
   title: "Digital Scholarship & Data Science Topic Guides for Library Professionals"
-  favicon: images/Favicon.png
+  favicon: favicon.ico
   google-analytics: 
     tracking-id: "G-54HL7T1Z2K"
   repo-url: https://github.com/libereurope/ds-topic-guides/
