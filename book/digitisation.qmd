@@ -107,7 +107,7 @@ You might even find that occasionally people want to see inside something! CT Sc
 If you’ve got half an hour and a colleague or friend to spare, why not take your first steps into a virtual world and have a go at making a 3D model.  
 The “Big Me, Little Me” exercise has been developed by the team at [StoryFutures](https://www.storyfutures.com/), and is a great way to start thinking about 3D modeling and the virtual world it creates.  
  
-!Warning! - You’ll probably end up wanting to spend longer!  
+**!Warning!** - You’ll probably end up wanting to spend longer!  :-) 
 The question you always need to ask yourself though, is should you?   
 
 *	**Step 1:** Download the [Scaniverse App](https://scaniverse.com/) to your mobile device.   
@@ -122,31 +122,31 @@ The question you always need to ask yourself though, is should you?
 ## Recommended Reading/Viewing 
 There’s loads out there to read-up on that covers everything from the very technical aspects and guidance to the more philosophical side of things - inspiration is everywhere and creative approaches have a habit of seeding into fruitful outcomes!
   
-*	[**Material Awareness : Exploring the Entanglement of Library Digitization and Digital Textual Scholarship**](https://urn.kb.se/resolve?urn=urn:nbn:se:hb:diva-31790). Martinez, Merisa. (2024). PhD dissertation. Högskolan i Borås.   
+*	[Material Awareness : Exploring the Entanglement of Library Digitization and Digital Textual Scholarship](https://urn.kb.se/resolve?urn=urn:nbn:se:hb:diva-31790). Martinez, Merisa. (2024). PhD dissertation. Högskolan i Borås.   
 
-*	[**Why Do We Digitize? The Case for Slow Digitization**](https://www.archivejournal.net/essays/why-do-we-digitize-the-case-for-slow-digitization/). Prescott, Andrew and Hughes, Lorna. (2018). Archive Journal.      
+*	[Why Do We Digitize? The Case for Slow Digitization](https://www.archivejournal.net/essays/why-do-we-digitize-the-case-for-slow-digitization/). Prescott, Andrew and Hughes, Lorna. (2018). Archive Journal.      
 
-*	[**A Field Guide to Digital Surrogates: Evaluating and Contextualizing a Rapidly Changing Resource**](https://doi.org/10.4324/9780429505188). Stanford, Emma. (2020). In Kathryn Brown (ed.) ‘The Routledge Companion to Digital Humanities and Art History’ (1st ed.). Routledge. Pp 203-214.     
+*	[A Field Guide to Digital Surrogates: Evaluating and Contextualizing a Rapidly Changing Resource](https://doi.org/10.4324/9780429505188). Stanford, Emma. (2020). In Kathryn Brown (ed.) ‘The Routledge Companion to Digital Humanities and Art History’ (1st ed.). Routledge. Pp 203-214.     
 
-*	[**Digital humanities and digitised cultural heritage**](https://doi.org/10.5040/9781350232143.ch-24). Terras, Melissa. (2022). In J O'Sullivan (ed.), ‘The Bloomsbury Handbook to the Digital Humanities’ (1st ed.). Bloomsbury Handbooks, Bloomsbury Academic. pp. 255-266.   
+*	[Digital humanities and digitised cultural heritage](https://doi.org/10.5040/9781350232143.ch-24). Terras, Melissa. (2022). In J O'Sullivan (ed.), ‘The Bloomsbury Handbook to the Digital Humanities’ (1st ed.). Bloomsbury Handbooks, Bloomsbury Academic. pp. 255-266.   
 
-*	[**Facsimile narratives: Researching the past in the age of digital reproduction**](https://doi.org/10.1093/llc/fqab017). Fafinski, Mateusz. (2021). In 'Digital Scholarship in the Humanities', Vol. 37. No. 1, 2022.
+*	[Facsimile narratives: Researching the past in the age of digital reproduction](https://doi.org/10.1093/llc/fqab017). Fafinski, Mateusz. (2021). In 'Digital Scholarship in the Humanities', Vol. 37. No. 1, 2022.
 
 Technical Guidance:  
 
-*	[**Remote Capture: Digitising Documentary Heritage in Challenging Locations**](https://doi.org/10.11647/OBP.0138). Edited by Jody Butterworth, Andrew Pearson, Patrick Sutherland & Adam Farquhar. (2018). Open Book Publishers.  
+*	[Remote Capture: Digitising Documentary Heritage in Challenging Locations](https://doi.org/10.11647/OBP.0138). Edited by Jody Butterworth, Andrew Pearson, Patrick Sutherland & Adam Farquhar. (2018). Open Book Publishers.  
 
-*	[**From Shelf to Europeana: Digitization Workflow Handbook**](https://europeana.github.io/fste-digitization-handbook/). Europeana.  
+*	[From Shelf to Europeana: Digitization Workflow Handbook](https://europeana.github.io/fste-digitization-handbook/). Europeana.  
 
-*	[**Basic principles and tips for 3D digitisation of cultural heritage**](https://digital-strategy.ec.europa.eu/en/library/basic-principles-and-tips-3d-digitisation-cultural-heritage). Europeana (2020).    
+*	[Basic principles and tips for 3D digitisation of cultural heritage](https://digital-strategy.ec.europa.eu/en/library/basic-principles-and-tips-3d-digitisation-cultural-heritage). Europeana (2020).    
 
-*	[**Learning hub**](https://ahfap.org.uk/learning-hub). Association for Historical & Fine Art Photography (AHFAP).  
+*	[Learning hub](https://ahfap.org.uk/learning-hub). Association for Historical & Fine Art Photography (AHFAP).  
 
-*	[**Manual for the photography of 3D objects**](http://colostateprofessionalpractices.weebly.com/uploads/5/8/8/5/58856297/rijksmuseum_manual-3d.pdf). Rijksmuseum (2017).  
+*	[Manual for the photography of 3D objects](http://colostateprofessionalpractices.weebly.com/uploads/5/8/8/5/58856297/rijksmuseum_manual-3d.pdf). Rijksmuseum (2017).  
 
-*	[**Technical Guidelines for Digitizing Cultural Heritage Materials** (3rd ed.)](https://www.digitizationguidelines.gov/guidelines/digitize-technical.html). Federal Agencies Digital Guidelines Initiative (FADGI), (2023).   
+*	[Technical Guidelines for Digitizing Cultural Heritage Materials (3rd ed.)](https://www.digitizationguidelines.gov/guidelines/digitize-technical.html). Federal Agencies Digital Guidelines Initiative (FADGI), (2023).   
 
-*	[**The London Charter: For the Computer-Based Visualisation of Cultural Heritage**](https://londoncharter.org/). (2009).     
+*	[The London Charter: For the Computer-Based Visualisation of Cultural Heritage](https://londoncharter.org/). (2009).     
 
 ## Taking the next step
 As we all know, libraries are friendly places and often keen on collaborating. Why not reach out to some libraries with digitisation studios and see if you can go and visit them to learn a bit more about how they operate or what equipment they’re using first hand - it can really help to see a variety of different set-ups in person to start building up an idea of what might work for you.   
