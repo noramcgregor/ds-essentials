@@ -37,23 +37,26 @@ Of course, now that almost everyone has a camera available to them via their pho
 
 Identifying the right imaging method (2D? 3D? RTI?) for different objects, and then the specific technology or combination of them to use can be confusing, and is often restricted by what resources you might have available. Knowing and understanding why you are digitising something from the outset, and what it will be used for, will also inform the decision process, so spend some time thinking about that - the wrong choices can be costly and time consuming. That said, in my experience many of the technologies advance so quickly that whatever you choose, no matter how thoughtfully, will likely be out of date by the time you’ve finished - so my advice is to accept this inevitably, don’t let it stop you, start with a sound approach, do the best with what you can, and know who, and when, to ask for advice!  
 
-Today we have at our disposal these advanced imaging methods:
+Here are brief introductions to some these advanced imaging methods we have at our disposal:
 
 ### High-Resolution 2D Imaging
-You’ll have heard phone manufacturers boasting about how many megapixels their camera has. But this isn’t always an indicator of quality, there are lots of other factors, the more important factor being the size and quality of the imaging sensor. So while using your phone camera may seem a cost-effective and easy solution for digitising collection items, it is unlikely to provide the high-resolution and preservation quality you’re after long term. The guide '[Remote Capture: Digitising Documentary Heritage in Challenging Locations](https://doi.org/10.11647/obp.0138)' explains this quite well in their chapter on Equipment and skills for digitising in the field. 
+Most imaging methods build on a foundation of high quality 2D imaging. You’ll have heard phone manufacturers boasting about how many megapixels their camera has. But this isn’t always an indicator of quality, there are lots of other factors, the more important factor being the size and quality of the imaging sensor. So while using your phone camera may seem a cost-effective and easy solution for digitising collection items, it is unlikely to provide the high-resolution and preservation quality you’re after long term. The guide '[Remote Capture: Digitising Documentary Heritage in Challenging Locations](https://doi.org/10.11647/obp.0138)' explains this quite well in their chapter on Equipment and skills for digitising in the field. 
+
 ![An illustration showing example digital image sensor sizes.](images/Image-Sensor-Sizes.jpg)
 
 ### 3D Modelling 
-3D modeling uses “Lidar” which stands for ‘light detection and ranging’ and is a remote sensing method that uses pulses of light to measure distances and angles as they bounce back into the sensor. The data produced can be used to build 3D models of the terrain or objects.  
-When might you want to employ 3D Modelling?  
-3D models of cultural heritage objects can be used in AR/VR/XR environments by game designers. You might have come across all three of these terms and been slightly confused as to what the difference is. Augmented reality (AR) is an experience where reality is enhanced in some way using technology. Virtual reality (VR) is usually an entirely simulated experience in which you are immersed. Extended reality (XR) is an umbrella term that encompasses AR, VR or even mixed reality (MR).
+3D modeling can be generated through different methods. These include photogrammetry, which uses images to obtain accurate measurable information of real-world objects and the terrain, or LIDAR which stands for ‘light detection and ranging’ and is a remote sensing method that uses pulses of light to measure distances and angles as they bounce back into the sensor. The data produced from these methods can then be used to build 3D models of objects or the terrain.  
+
+3D models of cultural heritage objects can then be used in AR/VR/XR environments. You might have come across all three of these terms and been slightly confused as to what the difference is. Augmented reality (AR) is an experience where reality is enhanced in some way using technology. Virtual reality (VR) is usually an entirely simulated experience in which you are immersed. Extended reality (XR) is an umbrella term that encompasses AR, VR or even mixed reality (MR).
 
 ### Multispectral Imaging
 This is a method of examining an object under different wavelengths of light – you’ve probably heard of infrared and ultraviolet, but there’s a huge spectrum that can be applied in order to reveal underwriting or investigate faded text and even the structure of the medium.  
+
 ![A photo of multispectral imaging in process.](images/HYPERSPECTRAL-IMAGING.jpg)
 
 ### RTI
 Reflectance Transformation Imaging (RTI) is a technique that creates hyper-real digital images with which the viewer can interact. It creates texture mapping by capturing multiple images of the subject from a fixed point whilst the light source varies in position.  
+
 ![An illustration showing an example RTI setup.](images/LIBER-RTI.jpg)
 
 ### Other Considerations
