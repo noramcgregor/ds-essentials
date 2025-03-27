@@ -29,7 +29,7 @@ format:
 ---
 ## Introduction
 
-Over recent decades research library collections, operations, and audiences have moved from a largely analogue to a mixed analogue/digital environment. Advances in digital imaging have put digitisation in the position of being one of the most prominent demonstrations of this digital shift. Cultural heritage institutions of all sizes must have some level of digitisation and imaging workflows and standards in place, either through in-house imaging labs or outsourcing through mass digitisation projects like Google Books to keep up with this shift. Many seek to take advantage of uniqueness in their collection by exploiting advanced imaging methods such as 3D modeling, Multispectral Imaging and Reflectance Transformation Imaging (RTI).  
+Over recent decades research library collections, operations, and audiences have moved from a largely analogue to a mixed analogue/digital environment. Advances in digital imaging have put digitisation in the position of being one of the most prominent demonstrations of this digital shift. Cultural heritage institutions of all sizes must have some level of digitisation and imaging workflows and standards in place, either through in-house imaging labs or outsourcing through mass digitisation projects like Google Books to keep up with this shift. Many seek to take advantage of uniqueness in their collection by exploiting advanced imaging methods such as 3D modelling, Multispectral Imaging and Reflectance Transformation Imaging (RTI).  
 
 Of course, now that almost everyone has a camera available to them via their phone, it may appear easy for anyone to digitise collection items quickly, or even make their own 3D model, but navigating this complex landscape of technologies, terminologies, methodologies, gadgets and gizmos can be quite daunting for anyone. Those working in cultural heritage institutions also need to consider not just how the technologies work, but how they can be employed within budget, integrated at scale into larger workflows, support preservation alongside access, and be deployed sensitively. This guide aims to help library professionals to understand some of the questions and considerations they need to keep in mind while exploring and having a play with some of these new advanced imaging methods for collection digitisation. 
 
@@ -40,24 +40,24 @@ Identifying the right imaging method (2D? 3D? RTI?) for different objects, and t
 Here are brief introductions to some of the advanced imaging methods we have at our disposal:
 
 ### High-Resolution 2D Imaging
-Most imaging methods build on a foundation of high quality 2D imaging. You’ll have heard phone manufacturers boasting about how many megapixels their camera has. But this isn’t always an indicator of quality, there are lots of other factors, the more important factor being the size and quality of the imaging sensor. So while using your phone camera may seem a cost-effective and easy solution for digitising collection items, it is unlikely to provide the high-resolution and preservation quality you’re after long term. The guide '[Remote Capture: Digitising Documentary Heritage in Challenging Locations](https://doi.org/10.11647/obp.0138)' explains this quite well in their chapter on Equipment and skills for digitising in the field. 
+Most imaging methods build on a foundation of high quality 2D imaging. You’ll have heard phone manufacturers boasting about how many megapixels their camera has. But this isn’t always an indicator of quality, there are lots of other factors, the more important factor being the size and quality of the imaging sensor. So while using your phone camera may seem a cost-effective and easy solution for digitising collection items, it is unlikely to provide the high-resolution and preservation quality you’re after long term. The guide '[Remote Capture: Digitising Documentary Heritage in Challenging Locations](https://doi.org/10.11647/obp.0138)' explains this quite well in their chapter on Equipment and skills for digitising in the field. You can see some great examples that demonstrate why high-quality imaging is a must in my [case-study](digitisation.qmd#flat-digitisation).
 
 ![An illustration showing example digital image sensor sizes, by Andy Corrigan.](images/Image-Sensor-Sizes.jpg)
 
 ### 3D Modelling 
-3D modeling can be generated through different methods. These include photogrammetry, which uses images to obtain accurate measurable information of real-world objects and the terrain, or LIDAR which stands for ‘light detection and ranging’ and is a remote sensing method that uses pulses of light to measure distances and angles as they bounce back into the sensor. The data produced from these methods can then be used to build 3D models of objects or the terrain.  
+3D modelling can be generated through different methods. These include photogrammetry, which uses images to obtain accurate measurable information of real-world objects and the terrain, or LIDAR which stands for ‘light detection and ranging’ and is a remote sensing method that uses pulses of light to measure distances and angles as they bounce back into the sensor. The data produced from these methods can then be used to build 3D models of objects or the terrain. It works well on most objects, but can run into difficulties with reflective materials like polished glass and metal. Check out some examples in my [case-study](digitisation.qmd#d-and-other-multidimensional-media).  
 
 3D models of cultural heritage objects can then be used in AR/VR/XR environments. You might have come across all three of these terms and been slightly confused as to what the difference is. Augmented reality (AR) is an experience where reality is enhanced in some way using technology. Virtual reality (VR) is usually an entirely simulated experience in which you are immersed. Extended reality (XR) is an umbrella term that encompasses AR, VR or even mixed reality (MR).
 
 ### Multispectral Imaging
-This is a method of examining an object under different wavelengths of light – you’ve probably heard of infrared and ultraviolet, but there’s a huge spectrum that can be applied in order to reveal underwriting or investigate faded text and even the structure of the medium.  
+This is a method of examining an object under different wavelengths of light – you’ve probably heard of infrared and ultraviolet, but there’s a huge spectrum that can be applied in order to reveal underwriting or investigate faded text and even the structure of the medium, revealing things like paper manufacturing watermarks. Whilst multispectral images can be hard for the average user to interpret, specialists can use them to transcribe long lost texts. For an example of this, check out the digital edition of the [Codex Zacynthius](https://cudl.lib.cam.ac.uk/collections/codexzacynthius).  
 
 ![A photo of multispectral imaging in process, by Cambridge University Library, and the Institute for Textual Scholarship and Electronic Editing,
 University of Birmingham](images/HYPERSPECTRAL-IMAGING.jpg)
 
 ### RTI
-Reflectance Transformation Imaging (RTI) is a technique that creates hyper-real digital images with which the viewer can interact. It creates texture mapping by capturing multiple images of the subject from a fixed point whilst the light source varies in position.  
-
+Reflectance Transformation Imaging (RTI) is a technique that creates hyper-real digital images with which the viewer can interact. It creates texture mapping by capturing multiple images of the subject from a fixed point whilst the light source varies in position. This is really useful for revealing the textured detail in surfaces of objects such as coins, engravings or pressed plant material - there are some examples of a herbarium sheet in my [case-study](digitisation.qmd#d-and-other-multidimensional-media).  
+  
 ![An illustration showing an example RTI setup, by Andy Corrigan.](images/LIBER-RTI.jpg)
 
 ### Other Considerations
@@ -88,7 +88,7 @@ Whilst we might normally expect the written word to occur on a page, the world i
 
 <iframe width="90%" height="480" src="https://www.youtube.com/embed/VPidJGCETFc?si=SJ2hTU_cMbkg73Gy" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>  
 
-So, as we can see, 3D modeling can facilitate deeper study and reduce the need to handle fragile objects. But 3D printing them can also be a great way to bring collections to life and enable increased handling via replicas. This is a great way to engage anyone with handling collection items, but can be a particularly pertinent way to bring them to life for people with visual impairments, as we can see in [The tale of the 'Old Horse'](https://exhibit.cdh.cam.ac.uk/exhibits/Fch2bvzWEIZPyVuW4vci) for example:  
+So, as we can see, 3D modelling can facilitate deeper study and reduce the need to handle fragile objects. But 3D printing them can also be a great way to bring collections to life and enable increased handling via replicas. This is a great way to engage anyone with handling collection items, but can be a particularly pertinent way to bring them to life for people with visual impairments, as we can see in [The tale of the 'Old Horse'](https://exhibit.cdh.cam.ac.uk/exhibits/Fch2bvzWEIZPyVuW4vci) for example:  
 
 <iframe src="https://exhibit.cdh.cam.ac.uk/exhibits/Fch2bvzWEIZPyVuW4vci?embedded=true" width="90%" height="480" allowfullscreen allow="autoplay" frameborder="0"></iframe>  
 
@@ -105,11 +105,11 @@ You might even find that occasionally people want to see inside something! CT Sc
 ## Hands-on activity and other self-guided tutorial(s)
 
 If you’ve got half an hour and a colleague or friend to spare, why not take your first steps into a virtual world and have a go at making a 3D model.  
-The “Big Me, Little Me” exercise has been developed by the team at [StoryFutures](https://www.storyfutures.com/), and is a great way to start thinking about 3D modeling and the virtual world it creates.  
+The “Big Me, Little Me” exercise has been developed by the team at [StoryFutures](https://www.storyfutures.com/), and is a great way to start thinking about 3D modelling and the virtual world it creates.  
  
-**!Warning!** - You’ll probably end up wanting to spend longer!  
-:-) 
-The question you always need to ask yourself though, is should you?   
+> **!Warning!** - You’ll probably end up wanting to spend longer!  
+> :-) 
+> The question you always need to ask yourself though, is should you?   
 
 *	**Step 1:** Download the [Scaniverse App](https://scaniverse.com/) to your mobile device.   
 *	**Step 2:** Scan your friend or colleague. Here are some tips:   
@@ -154,4 +154,4 @@ As we all know, libraries are friendly places and often keen on collaborating. W
   
 If you don’t have the confidence or resources to digitise your content yourself then there are plenty of options available. For example, some larger institutions already have well equipped imaging studios/labs, so it is worth asking for advice or seeing what services might be available. There are also commercial companies that specialise in different aspects of digitisation as well, so it’s worth looking around and doing your research when planning a project as a wide range of budgets can be catered for. It’s also worth hunting around for any pots of funding that might be available to assist you – a little can go a long way, but you need to make every penny count.   
 
-Or try and find a workshop or summer school to attend that will give you some hand-on experience?
+Or try and find a workshop or summer school to attend that will give you some hands-on experience?
