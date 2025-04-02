@@ -23,12 +23,6 @@ website:
     type: overlay
     logo: /logo/Liber-DS-logo-long-white.png
     
-    left:
-      - title: false
-      - logo: /logo/Liber-DS-logo-long-white.png
-      - logo-alt: The LIBER DS Topic Guide logo
-      - logo-href: index.qmd
-
     right:
       - text: "Topic Guides"
         href: topicguides.qmd
