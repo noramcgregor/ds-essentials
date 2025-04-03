@@ -10,24 +10,15 @@ Written by [LIBER](https://libereurope.eu/) professionals working in research li
 
 <div class="card text-white bg-primary mb-3" style="max-width: 20rem;">
   <div class="card-header">Where do I start?</div>
-  <div class="card-body">
-    <h4 class="card-title">Where do I start?</h4>
-    <p class="card-text">We have a DS Topic Guide for that! Try [Getting Started in DS](gettingstarted.qmd).</p>
-  </div>
+  <div class="card-body">We have a DS Topic Guide for that! Try [Getting Started in DS](gettingstarted.qmd).</div>
 </div>
 <div class="card text-white bg-secondary mb-3" style="max-width: 20rem;">
   <div class="card-header">If only I coud make these work...</div>
-  <div class="card-body">
-    <h4 class="card-title">Secondary card title</h4>
-    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-  </div>
+  <div class="card-body">Some quick example text to build on the card title and make up the bulk of the card's content.</div>
 </div>
 <div class="card text-white bg-success mb-3" style="max-width: 20rem;">
   <div class="card-header">Help!</div>
-  <div class="card-body">
-    <h4 class="card-title">Success card title</h4>
-    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-  </div>
+  <div class="card-body">Some quick example text to build on the card title and make up the bulk of the card's content.</div>
 </div>
 
 ## How to use DS Topic Guides
