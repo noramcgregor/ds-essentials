@@ -1,7 +1,9 @@
 /*-- scss:defaults --*/
 // quarto-scss-analysis-annotation { "origin": "flatly (builtin theme)" }
 
+$theme: default # bootstrap 5 default
 $theme: "flatly" !default;
+$theme: pandoc  # pandoc default html treatment
 
 //
 // Color system
@@ -211,5 +213,7 @@ $web-font-path: "https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0
   }
 }
 
-
+ // Cards
+ 
+ 
 // quarto-scss-analysis-annotation { "origin": null }
