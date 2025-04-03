@@ -1,9 +1,9 @@
 /*-- scss:defaults --*/
 // quarto-scss-analysis-annotation { "origin": "flatly (builtin theme)" }
 
-$theme: default # bootstrap 5 default
-$theme: "flatly" !default;
-$theme: pandoc  # pandoc default html treatment
+$theme: "default" 
+$theme: "flatly" 
+$theme: "pandoc" 
 
 //
 // Color system
