@@ -88,7 +88,7 @@ By far the most common approach is to make use of an existing pre-trained model,
 
 > A __foundation model__ is a large-scale AI model built using significant data and computational resources to cover a general application (e.g., image processing, text processing) in a non-domain-specific way.
 
-Foundation models are typically provided by big companies with access to the resources required for building these models. Not all pre-trained models are foundation models, but they are generally the ones which your machine project will leverage as they can cover a variety of different objectives in terms of input and output due to the huge amounts of data and computation required to build one of these models from the ground up. Some examples of foundation models available in one way or another to the public at the time of writing include:
+Foundation models are typically provided by big companies with access to the resources required for building these models. Not all pre-trained models are foundation models, but these are generally the ones which your machine project will leverage as they can cover a variety of different objectives in terms of input and output due to the huge amounts of data and computation required to build one of these models from the ground up. Some examples of foundation models available in one way or another to the public at the time of writing include:
 
 - The [GPT](https://platform.openai.com/docs/models) family of models, provided by OpenAI as the basis for the ChatGPT conversational AI as well as for development through OpenAI's development platform;
 - The [Llama](https://www.llama.com/) family of models, which are, like GPT, models that facilitate text-based linguistic interaction and are provided as open source resources developed by Meta;
@@ -97,15 +97,15 @@ Foundation models are typically provided by big companies with access to the res
 - [Whisper](https://openai.com/index/whisper/), a family of models for converting spoken audio input into textual transcriptions, provided by OpenAI;
 - [DALL-E](https://openai.com/index/dall-e/), a family of models for converting text into generated images, provided by OpenAI.
 
-GPT, Llama and BERT are more strictly speaking **Large language models (LLMs)**. **Language models** in general are a type of machine learning model designed to predict the likelihood of a sequence of text, which means that they can be set up to predict the most likely way to continue a conversation. LLM's are highly complex neural networks that have been exposed to an enormous amount of text from books, articles, websites, and more. Not all foundation models are strictly LLM's though, for instance Whisper is a foundation model for audio (an automatic speech recognition model) and though DALL·E uses language models to understand your prompt, at its core is an image-generation model trained on images, not text, and its output is an image, not text.
+GPT, Llama and BERT are more strictly speaking **Large Language Models (LLMs)**. **Language models** in general are a type of machine learning model designed to predict the likelihood of a sequence of text, which means that they can be set up to predict the most likely way to continue a conversation. LLM's are highly complex neural networks that have been exposed to an enormous amount of text from books, articles, websites, and more. Not all foundation models are strictly LLM's though, for instance Whisper is a foundation model for audio (an automatic speech recognition model) and though DALL·E uses language models to understand your prompt, at its core is an image-generation model trained on images, not text, and its output is an image, not text.
 
-OH, and there are **small language models (SLM)** too which are becoming increasingly, particularly as they are lighter, quicker and can be more efficient, generating much less of a carbon footprint when in use. Like LLMs they have been trained on an enormous quantity of data, however they have been optimised using various clever model compression techniques to use far fewer parameters than the big ones, and in turn not as much memory and computing resource. Current SLMs you might hear of today are:
+Oh, and there are **small language models (SLM)** too which are becoming increasingly, particularly as they are lighter, quicker and can be more efficient, generating much less of a carbon footprint when in use. Like LLMs they have been trained on an enormous quantity of data, however they have been optimised using various clever model compression techniques to use far fewer parameters than the big ones, and in turn not as much memory and computing resource. Current SLMs you might hear of today are:
 
 - [DistilBERT](https://huggingface.co/docs/transformers/en/model_doc/distilbert)
 - [Gemma](https://blog.google/technology/developers/gemma-open-models/)
 - [GPT-4o mini](https://openai.com/index/gpt-4o-mini-advancing-cost-efficient-intelligence/)
 
-SLMs may be right for institutions interested in supporting digital sustainability initiatives as a means of saving computing resource and energy where possible and are worth exploring at any rate.
+SLMs may be right for institutions interested in supporting digital sustainability initiatives as a means of saving computing resource and energy where possible and are worth exploring.
 
 #### Finding and using a pre-trained/foundation model
 
@@ -118,7 +118,7 @@ You can visit the websites above for all of the major foundation models but it's
 
 Most sites which provide models will include vast amounts of detailed instructions for accessing the model, from setting up your environment, structuring your data, running the model, evaluating the results, updating the model and so on. 
 
-But for our more general overview purposes here, the basic process would unfold a little like the following: 
+But for our more basic overview purposes here, the general idea is this: 
 
 Having defined our task and [need for machine learning](https://carpentries-incubator.github.io/machine-learning-librarians-archivists/06-applying-machine-learning.html), we would begin with selecting an existing model based on the task we want to accomplish (in our use case it's language identification so you might like to start with (TODO:GPT?)). We would set up our environment, then show the foundation model our unlabelled data (in our example, this might be the text from the OCR pages of our digitised texts, delivered to the model in a structure it can read, like plain text) and see how well it does what we want it to do (ie, it identifies the languages featured on each page with a level of accuracy we expect). We would evaluate how the output that the current state of the model offers compares to the target output (our benchmark). For instance if we know that a sentence is "tengo mi dos huevos", we want the model output to be "spanish".  A standard set-up would involve a model which outputs a probability associated with each possible target - in this case the target language - such that all possible targets add up to 1 (this is called multi-class classification).  
 
@@ -147,7 +147,6 @@ The seminal publication on the topic of acting responsibly with regards to exper
 More recently, the authors of the [Introduction to the Special Issue: Responsible AI in Libraries and Archives](https://publishing.escholarship.umassmed.edu/jeslib/article/id/860/) of the Journal of eScience Librarianship discuss seven overarching ethical issues that come to light in seven presented case studies of AI. These overarching issues are privacy, consent, accuracy, labor considerations, the digital divide, [bias] (https://carpentries-incubator.github.io/machine-learning-librarians-archivists/05-managing-data-bias.html#bias-in-machine-learning), and transparency and describes strategies suggested by case study authors to reduce harms and mitigate these issues. 
 
 The case studies are compiled by the [Responsible AI in Libraries and Archives](https://www.lib.montana.edu/responsible-ai/) project which aims to support ethical decision-making for AI projects in libraries and archives by producing tools and strategies that support responsible use of AI in our profession. 
-
 
 ## Relevance to the Library Sector (Case Studies/Use Cases)  
 
