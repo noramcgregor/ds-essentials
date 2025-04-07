@@ -118,9 +118,9 @@ You can visit the websites above for all of the major foundation models but it's
 
 Most sites which provide models will include vast amounts of detailed instructions for accessing the model, from setting up your environment, structuring your data, running the model, evaluating the results, updating the model and so on. 
 
-But for our more general overview purposes here, the basic process would look a little like the following: 
+But for our more general overview purposes here, the basic process would unfold a little like the following: 
 
-Having defined our task and [need for machine learning](https://carpentries-incubator.github.io/machine-learning-librarians-archivists/06-applying-machine-learning.html), we would begin with selecting an existing model based on the task we want to accomplish (in our use case it's language identification so you might like to start with (TODO:GPT?)). We would set up our environment then show the foundation model our unlabelled data (in our example, this might be the text from the OCR pages of our digitised texts, delivered to the model in a structure it can read, like plain text) and see how well it does what we want it to do (ie, it identifies the languages featured on each page with a level of accuracy we expect). We would evaluate how the output that the current state of the model offers compares to the target output or benchmark. For instance if we know that a sentence is "tengo mi dos huevos", we want the model output to be "spanish".  A standard set-up would involve a model which outputs a probability associated with each possible target - in this case the target language - such that all possible targets add up to 1 (this is called multi-class classification).  
+Having defined our task and [need for machine learning](https://carpentries-incubator.github.io/machine-learning-librarians-archivists/06-applying-machine-learning.html), we would begin with selecting an existing model based on the task we want to accomplish (in our use case it's language identification so you might like to start with (TODO:GPT?)). We would set up our environment, then show the foundation model our unlabelled data (in our example, this might be the text from the OCR pages of our digitised texts, delivered to the model in a structure it can read, like plain text) and see how well it does what we want it to do (ie, it identifies the languages featured on each page with a level of accuracy we expect). We would evaluate how the output that the current state of the model offers compares to the target output (our benchmark). For instance if we know that a sentence is "tengo mi dos huevos", we want the model output to be "spanish".  A standard set-up would involve a model which outputs a probability associated with each possible target - in this case the target language - such that all possible targets add up to 1 (this is called multi-class classification).  
 
 Depending on how well the model performs there are several ways in which we can then work with the pre-trained model to improve its results. 
 
@@ -138,16 +138,15 @@ When we're happy with the way the model handles the training data we have provid
 
 **Retrieval Augmented Generation (RAG)** is another method you can use to help guide a pre-trained model to _respond_ more contextually without changing the weights of the model itself. RAG is a method where the LLM is connected to an external knowledge base or document store, allowing it to fetch relevant real-time information and then generate responses based on that retrieved content. Some recent experiments in using RAG in the library world are being explored for tasks like [optimising search of web archive files]( https://lil.law.harvard.edu/blog/2024/02/12/warc-gpt-an-open-source-tool-for-exploring-web-archives-with-ai/), or as a [means for interactive sensitively with Indigenous data](https://kdl.kcl.ac.uk/blog/ireal-rag/).
 
-### Important things for librarians to watch out for
+### Acting Responsibly
 
-TODO paragraph on bias and climate and getting started with AI framework
+>Librarians and archivists are often early adopters and experimenters with new technologies. Our field is also interested in critically engaging with technology, and we are well-positioned to be leaders in the slow and careful consideration of new technologies. Therefore, as librarians and archivists have begun using artificial intelligence (AI) to enhance library services, we also aim to interrogate the ethical issues that arise while using AI to enhance collection description and discovery and streamline reference services and teaching. -[Introduction to the Special Issue: Responsible AI in Libraries and Archives](https://publishing.escholarship.umassmed.edu/jeslib/article/id/860/) 
 
+The seminal publication on the topic of acting responsibly with regards to experimenting with and implementing AI in libraries is [Responsible Operations: Data Science, Machine Learning, and AI in Libraries by Thomas Padilla](https://www.oclc.org/research/publications/2019/oclcresearch-responsible-operations-data-science-machine-learning-ai.html). Though it came out in 2019 it is still a vital reference resource for libraries to understand challenges and opportunities around their institutions and people engaging with data science, machine learning, and artificial intelligence (AI).  
 
+More recently, the authors of the [Introduction to the Special Issue: Responsible AI in Libraries and Archives](https://publishing.escholarship.umassmed.edu/jeslib/article/id/860/) of the Journal of eScience Librarianship discuss seven overarching ethical issues that come to light in seven presented case studies of AI. These overarching issues are privacy, consent, accuracy, labor considerations, the digital divide, [bias] (https://carpentries-incubator.github.io/machine-learning-librarians-archivists/05-managing-data-bias.html#bias-in-machine-learning), and transparency and describes strategies suggested by case study authors to reduce harms and mitigate these issues. 
 
-
-
-
-
+The case studies are compiled by the [Responsible AI in Libraries and Archives](https://www.lib.montana.edu/responsible-ai/) project which aims to support ethical decision-making for AI projects in libraries and archives by producing tools and strategies that support responsible use of AI in our profession. 
 
 
 ## Relevance to the Library Sector (Case Studies/Use Cases)  
