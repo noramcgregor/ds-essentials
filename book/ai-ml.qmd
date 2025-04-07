@@ -142,26 +142,21 @@ When we're happy with the way the model handles the training data we have provid
 
 For a really great overview of a wide range of AI use cases in Libraries I recommend having a read of Section 3: Library Applications in Cox A & Mazumdar's [Defining artificial intelligence for librarians (2022)](https://journals.sagepub.com/doi/10.1177/09610006221142029#sec-3) from 2022 which covers back-end operations and library services for users.
 
-In this guide we’ll focus our attention on just these two particular subfields of AI research areas to give you a general sense of how machine learning is practically applied in the library context today:
-
-- **Natural Language Processing (NLP):** which is concerned with making AI systems more capable of natural and effective interaction with humans **(text and speech)**
-- **Computer Vision (CV):** which is concerned with enabling machines to interpret and make decisions based on **visual data** from the world.
-
-Let’s have a look at some NLP and Computer Vision use cases in a library setting:
+In this guide we’ll focus our attention on just these two particular subfields of AI research areas, **Natural Language Processing (NLP):** and **Computer Vision (CV):**  to give you a general sense of how machine learning is practically applied in the library context today.
 
 ### Natural Language Processing (NLP)
 
-NLP involves the development of a wide range of algorithms, models, and systems for analysing, understanding and extracting meaningful information from textual and speech data representing human language. We can use NLP for things like:
+>**Natural Language Processing (NLP)** is concerned with making AI systems more capable of natural and effective interaction with humans **(text and speech)**. It involves the development of a wide range of algorithms, models, and systems for analysing, understanding and extracting meaningful information from textual and speech data representing human language.
 
 #### **Text & Conversation Generation**
 
-There are and have been for many years, language models out there but [ChatGPT](https://youtu.be/VCli1bOo4Qg?si=UXTNoNoW6ss_-gXT) has currently caught the popular imagination because of its publicly available interface and remarkable performance, so it's worth spending a little time here unpacking just what ChatGPT is and its potential impact on library work. 
+Language models have been around for decades without generating headlines or much of a fuss. They perform natural language processing tasks such as generating and classifying text, answering questions, and translating text and are the backbone of NLP. It wasn't until the release of [ChatGPT](https://youtu.be/VCli1bOo4Qg?si=UXTNoNoW6ss_-gXT) where the text & conversation generation capabilities of these new powerful large language models truly caught the popular imagination! ChatGPT's publicly available interface and remarkable performance has allowed anyone with access to the internet to experiment with LLMs, so it's worth spending a little time here unpacking just what ChatGPT is and its potential impact on library work. 
 
-The large language models behind ChatGPT have learned something about patterns in grammar and word meaning, including the way that meaning arises contextually across multiple sentences and multiple turns in a conversation. If we compare this latest generation of LLM's to early AI chat systems like ELIZA, the former was limited to a specific set of scripted responses, whereas when you ask ChatGPT a question, you are presenting the machine learning model with new information it tries to make a prediction on, in this case, it tries to generate a response that matches the pattern of conversation.
+The large language models behind ChatGPT and other similar systems, have learned something about patterns in grammar and word meaning, including the way that meaning arises contextually across multiple sentences and multiple turns in a conversation. If we compare this latest generation of LLM's to early AI chat systems like ELIZA, mentioned earlier, the latter, without ML, was limited to a specific set of scripted responses. When you ask ChatGPT a question, you are presenting the machine learning model with new information it tries to make a prediction on, in this case, it tries to newly generate/newly create a response most likely to match the pattern of conversation.
 
 You ask questions or give prompts to the model, and it provides responses in natural language, or rather, estimates what should come next in a conversation. 
 
-> When ChatGPT gives a response, it isn’t actually looking up information and then composing that information into a response; it's just making an estimation of a response based on patterns it has seen. So, when you ask it factual questions, especially ones with common answers or phrases, it might give you an answer that sounds right but remember this is because it’s mimicking what it has seen in its training data.
+> When a system like ChatGPT gives a response, it isn’t actually looking up information and then composing that information into a response; it's just making an estimation of a response based on patterns it has seen. So, when you ask it factual questions, especially ones with common answers or phrases, it might give you an answer that sounds right but remember this is because it’s mimicking what it has seen in its training data.
 
 Librarians are still investigating use cases for new Generative AI applications such as this, but for now at least, ChatGPT is certainly useful as a personal writing assistant or tool to help give you ideas for
 
@@ -186,8 +181,10 @@ It’s also good to get in the habit of trying out and being aware of how these 
 
 The British Library has used different machine learning techniques and experiments derived from the field of NLP to assign language codes and genre classification to catalogue records, in order to enhance resources described. In the first phase of the [Automated Language Identification of Bibliographic Resources](https://bl.iro.bl.uk/concern/articles/6c99ffcb-0003-477d-8a58-64cf8c45ecf5) project, language codes were assigned to 1.15 million records with 99.7% confidence. The automated language identification tools developed will be used to contribute to future enhancement of over 4 million legacy records. The [genre classification case study](https://living-with-machines.github.io/genre-classification/genre_classification.html) includes a nice description of machine learning as well as references to other use cases for metadata clean up.
 
-### Computer Vision (CV) use cases
+### Computer Vision (CV)
 
+
+>**Computer Vision (CV)** is concerned with enabling machines to interpret and make decisions based on **visual data** from the world.
 We can use [computer vision] (https://libereurope.github.io/ds-topic-guides/computer-vision.html) to train models to automatically analyse and understand useful information from images and videos.
 
 In the library world we can use this to label millions of images with descriptive metadata ("this is a picture of a cat"), or, as we see below, a model can be trained to classify this image as a newspaper based on objects identified in the layout (for example, a nameplate for the newspaper, a headline, photographs, and illustrations and so on). The model learns how to identify that this is the NYT based on learning from other newspaper images it’s seen (for example, if given NY Tribune, NY Times, and NY Post images, it can distinguish between the various titles). 
