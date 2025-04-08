@@ -166,7 +166,7 @@ Let’s try a few real-world examples of getting information from an API as this
 
 **1. Introduction**
 
-In this exercise, adapted from [Using an API: a hands on exercise](http://www.meanboyfriend.com/overdue_ideas/2014/10/using-an-api-hands-on-exercise/) a tutorial created for British Library staff by Owen Stephens) you are going to use a Google Spreadsheet to retrieve records from the Flickr API and display the results.
+In this exercise, adapted from [Using an API: a hands on exercise](http://www.meanboyfriend.com/overdue_ideas/2014/10/using-an-api-hands-on-exercise/) (a tutorial created for British Library staff by Owen Stephens) you are going to use a Google Spreadsheet to retrieve records from the Flickr API and display the results.
 
 The API you are going to use simply allows you to submit some search terms and get a list of results in a format called RSS. You are going to use a Spreadsheet to submit a search to the API, and display the results.
 
