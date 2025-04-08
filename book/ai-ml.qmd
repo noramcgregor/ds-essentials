@@ -12,9 +12,9 @@ author:
         city: London
         country: UK
         url: https://www.bl.uk
-reviewed by:
+author:
   - name: Stephen McGregor
-    id: jc
+    roles: editing
     orcid: 0000-0001-6560-5586
     email: Digitalresearch@bl.uk
     affiliation: 
