@@ -1,0 +1,35 @@
+---
+title: "------"
+date: yyyy-mm-dd
+date-modified: yyyy-mm-dd
+author:
+  - name: 
+    id: jc
+    orcid: 
+    email: 
+    affiliation: 
+      - name: 
+        city: 
+        country: 
+        url: 
+abstract: > 
+license: "CC BY"
+citation: 
+  container-title: Digital Scholarship & Data Science Topic Guides
+  volume: 1
+  issue: 1
+  doi: TBD
+format:
+  pdf: default
+  html: default
+---
+
+## Introduction
+
+## Relevance to the Library Sector (Case Studies/Use Cases)
+
+## Hands-on activity and other self-guided tutorial(s)  
+
+## Recommended Reading & Viewing
+
+## Finding Communities of Practice
