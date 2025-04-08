@@ -52,7 +52,7 @@ The main thing to keep in mind is the idea that an API enables the exchange of d
 
 #### Types of Requests
 
-Different types of requests are made to an API depending on what you want to do and whether you just want to read from the API or maybe send some information back. In a REST Api we call these types of requests “HTTP request _methods_”, and they are designed as a simple way to describe what you are trying to do. Have a look at [Mozilla’s pages on methods](https://developer.mozilla.org/en-US/docs/Web/HTTP/Methods) for more in-depth details.
+Different types of requests are made to an API depending on what you want to do and whether you just want to read from the API or maybe send some information back. In a REST API we call these types of requests “HTTP request _methods_”, and they are designed as a simple way to describe what you are trying to do. Have a look at [Mozilla’s pages on methods](https://developer.mozilla.org/en-US/docs/Web/HTTP/Methods) for more in-depth details.
 
 The main HTTP request methods are described in the table below:
 
@@ -120,7 +120,7 @@ When you make a request to an API you will get a three-digit number returned. Th
 
 ## Relevance to the Library Sector (Case Studies/Use Cases)
 
-Why do Libraries and cultural heritage organisations provide and/or use APIs? [](https://www.apis4librarians.com/)[APIs for Librarians](https://www.apis4librarians.com/) gives a really nice view of the various ways librarians may want to use APIs big and small for various purposes, from displaying Word of the Day on your website to providing access to Internet Archive material and [Overcoming disintermediation: a call for librarians to learn to use web service APIs | Emerald Insight](https://www.emerald.com/insight/content/doi/10.1108/lht-03-2017-0056/full/html) outlines what APIs can enable for our institutions and users. Below are some additional use cases for providing and using APIs in a cultural heritage context:
+Why do Libraries and cultural heritage organisations provide and/or use APIs? [](https://www.apis4librarians.com/)[APIs for Librarians](https://www.apis4librarians.com/) gives a really nice view of the various ways librarians may want to use APIs big and small for various purposes, from displaying Word of the Day on your website to providing access to Internet Archive material and [Overcoming disintermediation: a call for librarians to learn to use web service APIs](https://www.emerald.com/insight/content/doi/10.1108/lht-03-2017-0056/full/html) outlines what APIs can enable for our institutions and users. Below are some additional use cases for providing and using APIs in a cultural heritage context:
 
 ### Integrate
 
@@ -166,7 +166,7 @@ Let’s try a few real-world examples of getting information from an API as this
 
 **1. Introduction**
 
-In this exercise, adapted from [Using an API: a hands on exercise](http://www.meanboyfriend.com/overdue_ideas/2014/10/using-an-api-hands-on-exercise/) a tutorial created for British Library staff by Owen Stephens) you are going to use a Google Spreadsheet to retrieve records from the Flickr API and display the results.
+In this exercise, adapted from [Using an API: a hands on exercise](http://www.meanboyfriend.com/overdue_ideas/2014/10/using-an-api-hands-on-exercise/) (a tutorial created for British Library staff by Owen Stephens) you are going to use a Google Spreadsheet to retrieve records from the Flickr API and display the results.
 
 The API you are going to use simply allows you to submit some search terms and get a list of results in a format called RSS. You are going to use a Spreadsheet to submit a search to the API, and display the results.
 
