@@ -14,11 +14,9 @@ Each Topic Guide follows a distinct structure, beginning with a Header Section (
 This [markdown template](template.qmd) shows an example of what information is required for the header, and how each section should be formatted and can be used as the basis for starting a new guide. Note: The project team will ensure each Topic Guide is given an individual DOI either through Zenodo once published. 
 
 ### I: Introduction to the topic 
-This introduction section should be pitched at a beginner/foundational level and gives a concise overview of the topic. It should be written in a relaxed and natural way. This section does not need to contain the world’s knowledge, just enough high-level knowledge to get the key concepts across. 
+This section should be pitched at a beginner/foundational level and give a concise overview of the topic. It should be written in a relaxed and natural way, does not need to contain the world’s knowledge, just enough high-level knowledge to get the key concepts across. 
 
->Imagine that a colleague has come to you casually asking about the topic over tea. How might you go about explaining it to them in your own words? During the course of that casual conversation what key things would you leave in and what might you leave out in the interest of getting them to a basic understanding quickly?
-
-Linking can be used liberally for jargon busting throughout if explaining a particular term is more complex than our word count allows. Please see the Style Guidelines below for more writing tips!
+Linking can be used liberally for jargon busting throughout if explaining a particular term is more complex than space allows. Please see the Style Guidelines below for more writing tips!
 
 ### II: Relevance to the Library Sector 
 This section provides a clear explanation of the topics’ specific relevance to the work of libraries.
@@ -57,9 +55,12 @@ This section provides guidance to library professionals on where they can find n
 
 ## Style Guidelines
 
-### Writing Accessible, Natural, and Internationally Inclusive Content
+### Think: Natural, Casual, Accessible, and Internationally Inclusive Content
 
-To ensure consistency and inclusivity across our content, please consider these general guidelines:
+ 
+>Imagine that a colleague has come to you casually asking about the topic over tea. How might you go about explaining it to them in your own words? During the course of that casual conversation what key things would you leave in and what might you leave out in the interest of getting them to a basic understanding of a complex topic quickly?
+
+Though reviewed and edited by peers, _DS Topics Guides_ are not meant to be written in the style of scholarly papers or journal articles, and instead their style is more in keeping with LibGuides, blogs and personal articles. As such, they should be written in a natural and relaxed manner, but to ensure consistency and inclusivity across our content, please consider these general guidelines:
 
 - **Clarity and Simplicity**: Write in a clear and straightforward manner, using simple language that is easy to understand for learners of all backgrounds and proficiency levels.
 - **Linking to Technical Terms**: When introducing technical terms or concepts that may be unfamiliar to some learners, provide hyperlinks to additional resources or definitions where they can learn more. This helps to enhance understanding and allows learners to explore topics in more depth at their own pace. Ensure that the linked resources are reliable and authoritative to provide accurate information to the learners. 
@@ -68,42 +69,42 @@ To ensure consistency and inclusivity across our content, please consider these 
 - **Gender Neutrality**: Use gender-neutral language whenever possible to ensure inclusivity and avoid assumptions about gender roles or identities.
 - **Global Perspective**: Consider the international nature of our audience when crafting examples, scenarios, and references. Aim for content that resonates with learners from various cultural backgrounds and geographical locations.
 
-### Editor/Reviewer/Author Checklist 
+## Author/Reviewer/Editor Checklist 
 
-#### Front Matter (for Topic Guides only)
+The following checklist reflects the key areas Reviewers and Editors will be checking over with each submitted _DS Topic Guide_. Authors should find this helpful too!
+
+### Front Matter (for Topic Guides only)
 - [ ] Abstract is clear, concise and reflective of topic
 - [ ] Author names are linked to LIBER profile where possible
 - [ ] Author orcid id's are included and resolving correctly
 - [ ] Title follows correct capitalisation
 - [ ] ...
 
-#### Content
+### Content
 - [ ] Content is clear and complete and follows the Writing Accessible, Natural, and Internationally Inclusive Content
 - [ ] Each section text reflects the aim of that structure (for example, Finding Communities of Practice points to networks, rather than advanced tutorials/lessons)
 - [ ] Written in British English/EU standard English
 - [ ] Images on the page are directly illustrative of the point/necessary
 - [ ] Check for typos
 
-#### Text Formatting Edits
+### Text Formatting Edits
 - [ ] Check for markdown errors
 - [ ] Check for references to old "DS Essentials" and replace with "DS Topic Guides" 
-- [ ] "Topic Guides" is always referred to as "DS Topic Guides" and should be bolded
-- [ ] Headings correctly formatted: The title of each guide is already in h1# so main section headers such as "Introduction" should be second-level header with h2 tag ##.
+- [ ] "Topic Guides" is always referred to as "_DS Topic Guides_"
+- [ ] "_Digital Scholarship & Data Science Topic Guides for Library Professionals_" is always italicised when referenced in text
+- [ ] Headings are correctly formatted. The title of each guide is already in h1# so main section headers such as "Introduction" should be second-level header with h2 tag ##.
 - [ ] Capitalise the first, last and ‘important’ words of every heading; for example, ‘Snow White and the Seven Dwarves’.
-- [ ] Key words and jargon should be in bold
+- [ ] Replace [Latin abbreviation](https://book.the-turing-way.org/community-handbook/style#avoid-latin-abbreviation) (eg., ex., etc.,) with full text (Accessibility)
 
-#### Links
-- [ ] Check all links for broken ones
+### Links
+- [ ] Check all links to ensure there are no broken ones
 - [ ] Internal links to content within the site (such as reference to other Topic Guides) should be *relative* rather than *absolute* and use the .qmd extenstion. For example the markdown would look like "See the \[IIIF Topic Guide](iiif.qmd)\." rather than "See the \[IIIF Topic Guide](https://libereurope.github.io/ds-topic-guides/iiif.html)\."
 - [ ] External links should include the "https://"
 
 
-#### Images
+### Images
 - [ ] Images are all saved in the project GitHub folder: https://github.com/libereurope/ds-topic-guides/tree/main/book/images
 - [ ] Images are in .jpg or .png or .svg format and ideally less than 1MB 
 - [ ] Images should be public domain or CC0 as our guides are shared under CC-BY
 - [ ] Images are no larger than the width of our body text column (width should be less than 949 pixels)
-- [ ] Images have alt-tags and captions
-
-Accessibility 
-- [ ] Replace [Latin abbreviation](https://book.the-turing-way.org/community-handbook/style#avoid-latin-abbreviation) (eg., ex., etc.,) with full text
+- [ ] Images have alt-tags and captions (Accessibility)
