@@ -37,7 +37,7 @@ format:
   pdf: default
   html: default
 ---
-## Introduction 
+# Introduction 
 
 Talk of AI is now firmly part of our everyday discourse at home and at work. In the library profession it takes centre stage in our conferences, in our strategies, funding calls, research proposals, and even our library systems. There is hope and excitement around the current capabilities of AI, but also hype, fear and anger, all of which can obfuscate our ability to truly get to grips with its implications. 
 
@@ -47,7 +47,7 @@ By providing a bit of jargon busting alongside practical examples and links to f
 
 So let's get started!
 
-### Artificial Intelligence & Machine Learning: How do they relate to each other?
+## Artificial Intelligence & Machine Learning: How do they relate to each other?
 
 **Artificial intelligence (AI)** has many definitions, and a simple google search will make your head spin, but I find it's best understood as a really broad field of Computer Science, an umbrella term you could say, that refers to the research and development of systems capable of **doing tasks that simulate human capabilities** such as: 
 
