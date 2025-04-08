@@ -52,7 +52,7 @@ The main thing to keep in mind is the idea that an API enables the exchange of d
 
 #### Types of Requests
 
-Different types of requests are made to an API depending on what you want to do and whether you just want to read from the API or maybe send some information back. In a REST Api we call these types of requests “HTTP request _methods_”, and they are designed as a simple way to describe what you are trying to do. Have a look at [Mozilla’s pages on methods](https://developer.mozilla.org/en-US/docs/Web/HTTP/Methods) for more in-depth details.
+Different types of requests are made to an API depending on what you want to do and whether you just want to read from the API or maybe send some information back. In a REST API we call these types of requests “HTTP request _methods_”, and they are designed as a simple way to describe what you are trying to do. Have a look at [Mozilla’s pages on methods](https://developer.mozilla.org/en-US/docs/Web/HTTP/Methods) for more in-depth details.
 
 The main HTTP request methods are described in the table below:
 
