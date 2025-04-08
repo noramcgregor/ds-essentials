@@ -70,5 +70,40 @@ To ensure consistency and inclusivity across our content, please consider these 
 
 ### Editor/Reviewer/Author Checklist 
 
-(TBD)
+#### Front Matter (for Topic Guides only)
+- [ ] Abstract is clear, concise and reflective of topic
+- [ ] Author names are linked to LIBER profile where possible
+- [ ] Author orcid id's are included and resolving correctly
+- [ ] Title follows correct capitalisation
+- [ ] ...
 
+#### Content
+- [ ] Content is clear and complete and follows the Writing Accessible, Natural, and Internationally Inclusive Content
+- [ ] Each section text reflects the aim of that structure (for example, Finding Communities of Practice points to networks, rather than advanced tutorials/lessons)
+- [ ] Written in British English/EU standard English
+- [ ] Images on the page are directly illustrative of the point/necessary
+- [ ] Check for typos
+
+#### Text Formatting Edits
+- [ ] Check for markdown errors
+- [ ] Check for references to old "DS Essentials" and replace with "DS Topic Guides" 
+- [ ] "Topic Guides" is always referred to as "DS Topic Guides" and should be bolded
+- [ ] Headings correctly formatted: The title of each guide is already in h1# so main section headers such as "Introduction" should be second-level header with h2 tag ##.
+- [ ] Capitalise the first, last and ‘important’ words of every heading; for example, ‘Snow White and the Seven Dwarves’.
+- [ ] Key words and jargon should be in bold
+
+#### Links
+- [ ] Check all links for broken ones
+- [ ] Internal links to content within the site (such as reference to other Topic Guides) should be *relative* rather than *absolute* and use the .qmd extenstion. For example the markdown would look like "See the \[IIIF Topic Guide](iiif.qmd)\." rather than "See the \[IIIF Topic Guide](https://libereurope.github.io/ds-topic-guides/iiif.html)\."
+- [ ] External links should include the "https://"
+
+
+#### Images
+- [ ] Images are all saved in the project GitHub folder: https://github.com/libereurope/ds-topic-guides/tree/main/book/images
+- [ ] Images are in .jpg or .png or .svg format and ideally less than 1MB 
+- [ ] Images should be public domain or CC0 as our guides are shared under CC-BY
+- [ ] Images are no larger than the width of our body text column (width should be less than 949 pixels)
+- [ ] Images have alt-tags and captions
+
+Accessibility 
+- [ ] Replace [Latin abbreviation](https://book.the-turing-way.org/community-handbook/style#avoid-latin-abbreviation) (eg., ex., etc.,) with full text
