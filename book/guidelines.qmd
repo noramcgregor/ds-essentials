@@ -38,7 +38,7 @@ For the sake of consistency across the various topic guides, it is helpful if tu
 - The title/name of the activity/tutorial, the URL (added as a hyperlink) and/or provide a DOI if there is one)
 - A brief, personal explanation below it (no more than 200 words) as to why the author recommends this particular tutorial, and, optionally, an indication of topics covered and the level of complexity.
 
-### IV: Recommended Reading & Viewing (*Approximately 200-400 words*)  
+### IV: Recommended Reading & Viewing 
 The section on recommended reading and viewing contains references to more passive learning resources such as:
 
 - Open access articles discussing the topic at a general level, or containing contextual information.
