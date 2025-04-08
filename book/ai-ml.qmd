@@ -12,6 +12,16 @@ author:
         city: London
         country: UK
         url: https://www.bl.uk
+reviewed by:
+  - name: Stephen McGregor
+    id: jc
+    orcid: 0000-0001-6560-5586
+    email: Digitalresearch@bl.uk
+    affiliation: 
+      - name: British Library
+        city: London
+        country: UK
+        url: https://www.bl.uk
 abstract: > 
   A gentle introduction to AI & Machine Learning demystifying concepts and technologies through the examples of practical applications in library work today.
 keywords:
