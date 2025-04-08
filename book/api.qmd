@@ -120,7 +120,7 @@ When you make a request to an API you will get a three-digit number returned. Th
 
 ## Relevance to the Library Sector (Case Studies/Use Cases)
 
-Why do Libraries and cultural heritage organisations provide and/or use APIs? [](https://www.apis4librarians.com/)[APIs for Librarians](https://www.apis4librarians.com/) gives a really nice view of the various ways librarians may want to use APIs big and small for various purposes, from displaying Word of the Day on your website to providing access to Internet Archive material and [Overcoming disintermediation: a call for librarians to learn to use web service APIs | Emerald Insight](https://www.emerald.com/insight/content/doi/10.1108/lht-03-2017-0056/full/html) outlines what APIs can enable for our institutions and users. Below are some additional use cases for providing and using APIs in a cultural heritage context:
+Why do Libraries and cultural heritage organisations provide and/or use APIs? [](https://www.apis4librarians.com/)[APIs for Librarians](https://www.apis4librarians.com/) gives a really nice view of the various ways librarians may want to use APIs big and small for various purposes, from displaying Word of the Day on your website to providing access to Internet Archive material and [Overcoming disintermediation: a call for librarians to learn to use web service APIs](https://www.emerald.com/insight/content/doi/10.1108/lht-03-2017-0056/full/html) outlines what APIs can enable for our institutions and users. Below are some additional use cases for providing and using APIs in a cultural heritage context:
 
 ### Integrate
 
