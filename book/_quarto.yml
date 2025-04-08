@@ -62,6 +62,8 @@ website:
           - text: "---"
           - digitalmapping.qmd
           - text: "---"
+          - digitisation.qmd
+          - text: "---"
           - github.qmd
           - text: "---"
           - iiif.qmd
