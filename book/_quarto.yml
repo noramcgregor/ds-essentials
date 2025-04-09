@@ -18,7 +18,7 @@ website:
     icon: info-circle
     dismissable: true
     content: "**Currently under construction** - we're hard at work finalising the content of _DS Topic Guides_ ahead of our July 4 launch at the LIBER Annual 2025 conference! Stay tuned!"
-    type: primary
+    type: light
     position: below-navbar
     
   navbar:
