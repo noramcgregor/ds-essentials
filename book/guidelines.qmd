@@ -77,14 +77,14 @@ The following checklist reflects the key areas Reviewers and Editors will be che
 
 ### Front Matter (for Topic Guides only)
 - [ ] Abstract is clear, concise and reflective of topic
-- [ ] Author names are linked to LIBER profile where possible
+- [ ] Author names are linked to a LIBER profile where possible or a personal/business bio page
 - [ ] Author orcid id's are included and resolving correctly
-- [ ] Title follows correct capitalisation
+- [ ] Title follows correct capitalisation (Capitalise the first, last and ‘important’ words)
 - [ ] Check for references to old "DS Essentials" and replace with "_DS Topic Guides_" 
 
 ### Content
 - [ ] Content is clear and complete and follows the Style Guidelines above
-- [ ] Text reflects the aim of the section (for example, Finding Communities of Practice points to networks, rather than advanced tutorials/lessons)
+- [ ] Text reflects the aim of the section (for example, Finding Communities of Practice recommends networks/networking/conferences etc. rather than advanced tutorials/lessons)
 - [ ] Images on the page are directly illustrative of the point/necessary
 - [ ] Check for typos
 - [ ] Check any activities provided work
@@ -92,10 +92,10 @@ The following checklist reflects the key areas Reviewers and Editors will be che
 - [ ] Recommended Reading & Viewing content (scholarly texts/articles/books/manuals) should be Open Access by default and not behind a paywall. (We recommend use of a VPN for verifying this as sometimes library institution set-ups can make it harder to realise that articles are not free!) If this is not possible and it is a seminal reference work, provide a full reference for it, explain that it is paywalled content, and point readers to [Worldcat](https://search.worldcat.org/) if possible so they can find it in their library.  
 
 ### Text Formatting Edits
-- [ ] Written in British English/EU standard English
+- [ ] Written in British English which is the style of the EU
 - [ ] Check for markdown errors
 - [ ] Check for references to old "DS Essentials" and replace with "_DS Topic Guides_" 
-- [ ] "Topic Guides" is always referred to as "_DS Topic Guides_"
+- [ ] "Topic Guides" is always referred to and written in italics as "_DS Topic Guides_"
 - [ ] "_Digital Scholarship & Data Science Topic Guides for Library Professionals_" is always italicised when referenced in text. Note the use of "&" and not "and"
 - [ ] Headings are correctly formatted. The title of each guide is already in h1# so main section headers such as "Introduction" should be second-level header with h2 tag ##.
 - [ ] Capitalise the first, last and ‘important’ words of every heading; for example, ‘Snow White and the Seven Dwarves’.
@@ -109,8 +109,9 @@ The following checklist reflects the key areas Reviewers and Editors will be che
 
 
 ### Images
-- [ ] Images are all saved in the project GitHub folder: https://github.com/libereurope/ds-topic-guides/tree/main/book/images
-- [ ] Images are in .jpg or .png or .svg format and ideally less than 1MB 
-- [ ] Images are no larger than the width of our body text column (width should be less than 949 pixels)
 - [ ] Images should be public domain or CC0 as our guides are shared under CC-BY
 - [ ] Images have alt-tags and captions (Accessibility)
+- [ ] Images are all saved in the project GitHub folder: https://github.com/libereurope/ds-topic-guides/tree/main/book/images (this will be automated, reviewer can ignore)
+- [ ] Images are in .jpg or .png or .svg format and ideally less than 1MB (this will be automated, reviewer can ignore)
+- [ ] Images are no larger than the width of our body text column (width should be less than 949 pixels) (this will be automated, reviewer can ignore)
+
