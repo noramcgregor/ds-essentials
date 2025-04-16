@@ -99,11 +99,14 @@ Foundation models are typically provided by big companies with access to the res
 
 GPT, Llama and BERT are more strictly speaking **Large Language Models (LLMs)**. **Language models** in general are a type of machine learning model designed to predict the likelihood of a sequence of text, which means that they can be set up to predict the most likely way to continue a conversation. LLM's are highly complex neural networks that have been exposed to an enormous amount of text from books, articles, websites, and more. Not all foundation models are strictly LLM's though, for instance Whisper is a foundation model for audio (an automatic speech recognition model) and though DALL·E uses language models to understand your prompt, at its core is an image-generation model trained on images, not text, and its output is an image, not text.
 
-Oh, and there are **small language models (SLM)** too which are becoming increasingly, particularly as they are lighter, quicker and can be more efficient, generating much less of a carbon footprint when in use. Like LLMs they have been trained on an enormous quantity of data, however they have been optimised using various clever model compression techniques to use far fewer parameters than the big ones, and in turn not as much memory and computing resource. Current SLMs you might hear of today are:
+Oh, and there are **small language models (SLM)** too which are becoming increasingly of interest, particularly as they are lighter, quicker and can be more efficient, generating much less of a carbon footprint when in use. Some SLMs are derived directly from existing LLMs, while others have been independently trained on a less enormous quantity of data, but all have been optimised using various clever model compression techniques to use far fewer parameters than the big ones, and in turn not as much memory and computing resource. Current SLMs you might hear of today are:
 
 - [DistilBERT](https://huggingface.co/docs/transformers/en/model_doc/distilbert)
-- [Gemma](https://blog.google/technology/developers/gemma-open-models/)
+- [Gemma 2B/7B](https://blog.google/technology/developers/gemma-open-models/)
 - [GPT-4o mini](https://openai.com/index/gpt-4o-mini-advancing-cost-efficient-intelligence/)
+- [Phi-2](https://www.microsoft.com/en-us/research/blog/phi-2-the-surprising-power-of-small-language-models/)
+- [Mistral 7B](https://mistral.ai/news/announcing-mistral-7b)
+- [TinyLlama](https://github.com/jzhang38/TinyLlama)
 
 SLMs may be right for institutions interested in supporting digital sustainability initiatives as a means of saving computing resource and energy where possible and are worth exploring.
 
