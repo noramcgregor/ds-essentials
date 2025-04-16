@@ -12,6 +12,8 @@ author:
         city: London
         country: UK
         url: https://www.bl.uk
+  - name: Stephen McGregor
+    roles: "Reviewer"
 abstract: > 
   A gentle introduction to AI & Machine Learning demystifying concepts and technologies through the examples of practical applications in library work today.
 keywords:
