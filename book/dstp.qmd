@@ -28,21 +28,48 @@ format:
   html: default
 ---
 
+---
+title: "Start your own local DS Training Programme"
+date: 2025-03-11
+date-modified: 2025-03-11
+author:
+  - name: Nora McGregor
+    id: jc
+    orcid: 0000-0001-6560-5586
+    email: Digitalresearch@bl.uk
+    affiliation: 
+      - name: British Library
+        city: London
+        country: UK
+        url: https://www.bl.uk
+abstract: > 
+  A short guide provided by the British Library Digital Research Team with tips on how to set-up a local training programme. 
+keywords:
+  - TBD
+  - TBD
+license: "CC BY"
+citation: 
+  container-title: Digital Scholarship & Data Science Essentials
+  volume: 1
+  issue: 1
+  doi: TBD
+format:
+  pdf: default
+  html: default
+---
+
 ## Introduction 
 
-The Digital Research Team at the British Library has been providing training to our staff for over a decade through our bespoke [British Library Digital Scholarship Training Programme](https://blogs.bl.uk/digital-scholarship/2024/04/recovered-pages-dstp.html). 
+The Digital Research Team has been providing training to British Library staff for over a decade through our bespoke [Digital Scholarship Training Programme](https://blogs.bl.uk/digital-scholarship/2024/04/recovered-pages-dstp.html).
 
-This Topic Guide shares a few things we've learned along the way about establishing an internal community of practice and training programme, with pointers for how to practically use the materials presented here to start your own localised and sustainable digital scholarship and data science training programme at your own institution! 
+This DS Topic Guide shares a few things we've learned along the way about establishing an internal community of practice and training programme, with pointers for how to practically use the materials presented here to start your own localised and sustainable digital scholarship and data science training programme at your own institution! 
 
 ## Relevance to the Library Sector (Case Studies/Use Cases)  
 
-You only need to take a look at a few of the Topic Guides, **Relevance to the Library Sector (Case Studies/Use Cases)** for useful real-life applications of new technologies being put into action to understand the importance of supporting the development of digital skills amongst Library professionals. Nothing compares to individual staff digital transformation stories though, and at the British Library we've started to capture these which help to demonstrate the tangible value such training has for individuals and institutions.
+To understand the importance of supporting the development of the digital skills in our sector, one only needs to look at any of the _Digital Scholarship & Data Science Topic Guides for Library Professionals_, all of which contain a plethora of useful real-life applications of new technologies being put into action in libraries. The [Getting Started in Libraries Topic Guide](gettingstarted.qmd.qmd) also points to Digital Scholarship & Data Science Skills Competency Frameworks which underscore the urgent need for upskilling.   
 
->_"The Digital Scholarship Training Programme has introduced me to new software, opened my eyes to digital opportunities, provided inspiration for me to improve, and helped me attain new skills"_ -Graham Jevon, British Library
+But what are the benefits in particular of establishing a local programme for staff in your institution/community?  {TODO:}
 
-Read more about [Graham Jevon's digital transformation journey](https://blogs.bl.uk/digital-scholarship/2024/05/recovered-pages-graham-jevon.html) on the British Library Digital Scholarship blog or have a look at this [series of videos](https://youtube.com/playlist?list=PLVRvouzCZmFdVQZn-pJvI_GXip_16sg_R&feature=shared) we created to mark the 10th Anniversary of the [British Library Digital Scholarship Training Programme](https://blogs.bl.uk/digital-scholarship/2024/04/recovered-pages-dstp.html) in 2022. It highlights specific transformative experiences for staff who took time out to engage in our Digital Scholarship Training Programme over the years.
-
-[![How are you using your new skills in your own work?](images/DSTP.png)](https://www.youtube.com/embed/CrCP5rYai9M?si=A9kw93B_TvOoDFnV)
 
 ## Hands-on activity and other self-guided tutorial(s)
 
@@ -56,6 +83,21 @@ Get a small group of willing colleagues at your institution together and set up 
 
 ### Get Buy-in (if you need to!)
 In some cases you may need buy-in from managers to allow staff time and space to dedicate to learning these new skills. It can be difficult to convince managers sometimes of the value of learning skills now which may take some years to truly embed or come to practical fruition. Spending time building ones "awareness" of the landscape is not always deemed a strong enough basis for approving time away from more immediate tangible deliverables, but awareness is the first step on the learning ladder and is essential for transformation. This resource, Digital Scholarship & Data Science Topic Guides, contains loads of evidence to share with your management for why investing in digital scholarship and data science staff skills and awareness is key to sustainable digital transformation over time. Have a look at the [Getting Started in DS Topic Guide](gettingstarted.qmd), particularly the section on [Relevance to the Library Sector](gettingstarted.qmd#relevance-to-the-library-sector-case-studiesuse-cases) for the latest supporting reports and competency & skills frameworks on this.
+
+We also laid out some specific objectives to make clear to ourselves and colleagues what we ultimately hoped to achieve with the training programme:
+
+* Staff are familiar and conversant with the foundational concepts, methods and tools of digital scholarship. 
+* Staff are empowered to innovate. 
+* Collaborative digital initiatives flourish across subject areas within the Library as well as externally.
+* Our internal capacity for training and skill-sharing in digital scholarship are a shared responsibility across the Library. 
+
+Nothing compares to individual staff digital transformation stories though, and at the British Library we've started to capture these which help to demonstrate the tangible value such training has for individuals and institutions.
+
+>_"The Digital Scholarship Training Programme has introduced me to new software, opened my eyes to digital opportunities, provided inspiration for me to improve, and helped me attain new skills"_ -Graham Jevon, British Library
+
+Read more about [Graham Jevon's digital transformation journey](https://blogs.bl.uk/digital-scholarship/2024/05/recovered-pages-graham-jevon.html) on the British Library Digital Scholarship blog or have a look at this [series of videos](https://youtube.com/playlist?list=PLVRvouzCZmFdVQZn-pJvI_GXip_16sg_R&feature=shared) we created to mark the 10th Anniversary of the [British Library Digital Scholarship Training Programme](https://blogs.bl.uk/digital-scholarship/2024/04/recovered-pages-dstp.html) in 2022. It highlights specific transformative experiences for staff who took time out to engage in our Digital Scholarship Training Programme over the years.
+
+[![How are you using your new skills in your own work?](images/DSTP.png)](https://www.youtube.com/embed/CrCP5rYai9M?si=A9kw93B_TvOoDFnV)
 
 ### Try running a monthly "Hack & Yack"
 Establishing what we call a regular Hack & Yack style meeting is a really nice way to learn something new with other colleagues and removing the planning and expectations around a formal training offering. At the British Library our Hack & Yack's are once a month for two hours on a set day and time. It is a casual, hands-on session where colleagues from across all departments of the institution come together to understand a current topic or digital method by working through an online tutorial or demonstration at everyone's own pace but with support of each other. 
@@ -87,12 +129,11 @@ After your group of the willing has been running for awhile it's useful to creat
 
 ## Recommended Reading/Viewing  
 
+[![Watch the video](images/DSTPvideo.png)](https://youtu.be/1Oll8FloOes?si=LNalkTzQ2Qjwk7M1&t=42)
+
+In this short video from a Culture24 Digital Leaders - digital skills, literacy and capacity online seminar, I talk about inspiring and supporting team members from The British Library to pursue digital skills and literacy development through their Digital Scholarship Staff Training Programme.
+
+
 ## Finding Communities of Practice
 
-
-
-
-
-
-
-
+The Digital Research Team of the British Library are more than happy to be contacted at digitalresearch@bl.uk for a chat about their experiences in starting up a local DS training programme.
