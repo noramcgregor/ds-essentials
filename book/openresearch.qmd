@@ -148,13 +148,16 @@ Library staff can also help their institutions to recognise, showcase, and rewar
 
 ## Recommended Reading/Viewing  
 
-&nbsp;[**UNESCO Recommendation on Open Science**](https://en.unesco.org/science-sustainable-future/open-science/recommendation) **(2021)**
+[UKRN Open Research Resources](https://www.ukrn.org/open-research-resources/) is an excellent resource for getting to grips with supporting open research. They provide helpful animations, primers, videos and training materials as well as [discipline specific case studies of open research](https://www.ukrn.org/disciplines/) including [Library and Information Science](https://www.ukrn.org/library-information-science/) related examples.
 
-**UKRN resources** <https://www.ukrn.org/open-research-resources/> & UKRN resources on Open Science applied to each discipline <https://www.ukrn.org/disciplines/>
+[UNESCO Recommendation on Open Science](https://en.unesco.org/science-sustainable-future/open-science/recommendation) (2021)
 
-The Community Sourced Open Research glossary is a good place to start to find out more about the terminology connected to Open Research, which can be sometimes overwhelming and confusing:
+The [Community Sourced Open Research glossary](https://www.researchgate.net/publication/358753577_A_community-sourced_glossary_of_open_scholarship_terms) is a good place to start to find out more about the terminology connected to Open Research, which can be sometimes overwhelming and confusing
 
-_Parsons, S., Azevedo, F., Elsherif, M. M., Guay, S., Shahim, O. N., Govaart, G. H., … & Aczel, B. (2022). A Community-Sourced Glossary of Open Scholarship Terms. Nature human behaviour, 6(3), 312-318._ [_https://doi.org/10.1038/s41562-021-01269-4_](https://doi.org/10.1038/s41562-021-01269-4)
+If you prefer podcasts, I can recommend:
+
+- [Everything Hertz](https://everythinghertz.com/) (in particular podcast 57 & 176) & [Orion Open Science](https://orionopenscience.podbean.com/) will give you a perspective or Open research from different fields and
+- The first few episodes of [ReproducibilitiTea](https://soundcloud.com/reproducibilitea) are an excellent introduction to Open research
 
 If you prefer podcasts, I can recommend:
 
