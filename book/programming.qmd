@@ -68,18 +68,21 @@ The [code4lib](https://code4lib.org/) journal publishes many articles with case 
 
 ## Hands-on activity and other self-guided tutorial(s)
 
-To develop a basic understanding of the main features of Python, you can follow the [Introductory course on Python](https://cdsleiden.github.io/python-tutorial/Welcome.html) that was developed at the University of Leiden.
+### Python Tutorials
 
-It is a self-paced course which you can follow to familiarise yourself with central concepts such as variables, operators, flow control, data structures and functions. The tutorial also explains some of the code libraries which can be used more specifically for data science tasks such as data acquisition, working with APIs, data analysis and data visualisation. The tutorial includes a large number of exercises with which you hone your programming skills, together with model answers which can help you if you get stuck.
+* The [Bits and Bots study group](https://openpreservation.org/blogs/study-group-bits-and-bots-here-we-go-again/) is an excellent place to begin to get to grips with Python in a playful way. The study group was founded by professionals in digital preservation Francesca Mackenzie (National Archives UK), Lotte Wijsman, and Susanne van den Eijkel (National Archives of the Netherlands) who realised that a basic level of technical skills can significantly enhance their work in archives. You can join their study group when it's running or just follow along with the course materials on their project github at your own pace:
+    - [Guide to building games with Python Modules 1-8. pdf](https://github.com/Lotte-W/Bits-and-Bots-study-group/blob/main/2024/Python_recources/Python%20Guide%20-%20modules%201%20-%208.pdf)
+    - [Guide to Website/Twine Based Games Modules 1-8.pdf](https://github.com/Lotte-W/Bits-and-Bots-study-group/blob/main/2024/front-end_resources/HTML_Twine%20Guide%20-%20modules%201-8.pdf) 
 
-Once you gained a basic proficiency of the central Python concepts, you can follow the tutorial ["Python for Librarians"](http://librarycarpentry.github.io/library-python/), which was developed by the Library Carpentry.
+* To develop a basic understanding of the main features of Python, you can also follow the [Introductory course on Python](https://cdsleiden.github.io/python-tutorial/Welcome.html) that was developed at the University of Leiden. It is a self-paced course which you can follow to familiarise yourself with central concepts such as variables, operators, flow control, data structures and functions. The tutorial also explains some of the code libraries which can be used more specifically for data science tasks such as data acquisition, working with APIs, data analysis and data visualisation. The tutorial includes a large number of exercises with which you can hone your programming skills, together with answers which can help you if you get stuck.
 
+* Once you've gained a basic proficiency of the central Python concepts, there are a number of useful resources to improve your programming skills specifically with library related materials.  
+    - You can follow the tutorial ["Python for Librarians"](http://librarycarpentry.github.io/library-python/), which was developed by the Library Carpentry.
+    - [Tim Sherratt: GLAM Workbench (2021-) ](https://glam-workbench.net/). As its introduction says: “The GLAM Workbench is a collection of Jupyter notebooks to help you explore and use data from GLAM institutions (that's galleries, libraries, archives, and museums). It includes tools, tutorials, examples, hacks, and even some pre-harvested datasets.” Sherratt focuses on Australian and New Zealand datasets, but you can reuse the code for other sources. The notebooks are written in Python. [Jupyter Notebook](https://jupyter.org/>), a web-based interactive computing platform that combines live code, equations, narrative text, visualisations, interactive dashboards and other media. You can find many tutorials and GLAM related scripts in this form.
+    - [Programming Historian](https://programminghistorian.org/) is a set of programming tutorials (both in Python and R) focusing on particular computational problems (such as network analysis, data managements, APIs, machine learning) made mainly for historians, but several tutorials use GLAM data.
+
+### R Tutorials
 To get started with R we recommend the Library Carpenty’s tutorial [“Introduction to R”](  https://librarycarpentry.org/lc-r/) which teaches you how to do basic data science tasks on tabular data, such as spreadsheets or relational database tables.
-
-There are a number of useful resources to improve your programming skills specifically with library related materials.  
-
-- [Tim Sherratt: GLAM Workbench (2021-) ](https://glam-workbench.net/). As its introduction says: “The GLAM Workbench is a collection of Jupyter notebooks to help you explore and use data from GLAM institutions (that's galleries, libraries, archives, and museums). It includes tools, tutorials, examples, hacks, and even some pre-harvested datasets.” Sherratt focuses on Australian and New Zealand datasets, but you can reuse the code for other sources. The notebooks are written in Python. [Jupyter Notebook](https://jupyter.org/>), a web-based interactive computing platform that combines live code, equations, narrative text, visualisations, interactive dashboards and other media. You can find many tutorials and GLAM related scripts in this form.
-- [Programming Historian](https://programminghistorian.org/) is a set of programming tutorials (both in Python and R) focusing on particular computational problems (such as network analysis, data managements, APIs, machine learning) made mainly for historians, but several tutorials use GLAM data.
 
 ## Recommended Reading/Viewing  
 
