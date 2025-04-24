@@ -159,13 +159,6 @@ If you prefer podcasts, I can recommend:
 - [Everything Hertz](https://everythinghertz.com/) (in particular podcast 57 & 176) & [Orion Open Science](https://orionopenscience.podbean.com/) will give you a perspective or Open research from different fields and
 - The first few episodes of [ReproducibilitiTea](https://soundcloud.com/reproducibilitea) are an excellent introduction to Open research
 
-If you prefer podcasts, I can recommend:
-
-- [Everything Hertz](https://everythinghertz.com/) (in particular podcast 57 & 176) & [Orion Open Science](https://orionopenscience.podbean.com/) will give you a perspective or Open research from different fields and
-- The first few episodes of [ReproducibilitiTea](https://soundcloud.com/reproducibilitea) are an excellent introduction to Open research
-
-UKRN has also providing discipline specific case studies: [UKRN case studies for different disciplines](https://www.ukrn.org/disciplines/)
-
 ## Finding Communities of Practice
 
 Learning about Open Research can be overwhelming at first, especially if you are new to it, I would suggest looking at the Open Research or Open Science strategy of your institution first. As it covers the entire research life cycle, you might find you might already know quite a lot about some areas!
