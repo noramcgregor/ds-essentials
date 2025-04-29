@@ -22,7 +22,7 @@ author:
         country: UK
         url: https://libereurope.eu/member/jodie-double/
 abstract: > 
-  A short guide explaining the aim and value of Open Research/Open Science.
+  A short guide explaining how libraries can get started in supporting Open Research (Open Science).
 keywords:
   - TBD
   - TBD
@@ -36,6 +36,7 @@ format:
   pdf: default
   html: default
 ---
+
 ## Introduction 
 Open Research - used interchangeably with Open Science - is an umbrella term that sets values and practises to make research easily discoverable, transparent, equitable, available and re-usable across all disciplines and across the entire research lifecycle. It aims to remove barriers to knowledge and make access as inclusive as possible.
 
@@ -47,7 +48,7 @@ The aim of Open Research is:
 
 ### How does this benefit society?
 
-Universities and researchers are recognising that Open Research has benefits extending far beyond each individual institution:
+Universities and researchers are recognising that Open Research has benefits extending far beyond each individual institution. The [Open Research Group at University of Cambridge](https://osc.cam.ac.uk/open-research) articulates this nicely in their guidance to researchers:
 
 - The general public has free access to quality information that matters in their lives
 - Practitioners and policy makers can put the findings of research into practice more quickly and easily
@@ -59,7 +60,7 @@ Universities and researchers are recognising that Open Research has benefits ext
 
 ### How does this benefit researchers?
 
-Individual researchers also benefit from sharing their research:
+The [Open Research Group at University of Cambridge](https://osc.cam.ac.uk/open-research) note that individual researchers also benefit from sharing their research:
 
 - More visibility as outputs are not restricted by paywalls and other barriers
 - Greater impact as more people read and apply their work
@@ -76,10 +77,6 @@ Funders, institutions, research groups and individual researchers from around th
 The role of libraries on Open Research has been discussed for a while and endorsed publicly by international organisations and stakeholders such as the European commission ([European Commission, 2012](https://www.fosteropenscience.eu/node/1431#ec2012)) and OECD ([OECD, 2015](https://www.fosteropenscience.eu/node/1431#oecd2015)).
 
 OECD defines libraries as enablers “_Libraries have adapted their role and are now active in the preservation, curation, publication and dissemination of digital scientific materials, in the form of publications, data and other research-related content. Libraries and repositories constitute the physical infrastructure that allows scientists to share use and reuse the outcome of their work, and they have been essential in the creation of the Open Science movement”_
-
-There is no ‘one size fits all’ way of adoption Open Research practices, but Libraries are contributing in the following ways:
-
-**1. *Advocating and raising awareness of Open Research and Fair Data Principles***
 
 Library staff have an important role in encouraging their institution to make open research a priority, and deliver practical support to their researchers. 
 
@@ -119,12 +116,17 @@ LIBER’s [Research Data Management Working Group](https://libereurope.eu/workin
 * Encourage researchers to deposit data with archives that embody the FAIR principles;
 * Evaluate the data collections and data management practices at your institution against the FAIR principles.
 
+Here are just a few practical ways in which librarians can support the adoption of Open Research principals at their insitutions:
 
+***1. Make it easier for staff and researchers to find all the info they need about Open Research***
 
+Your institution should have a central place for providing information to staff and researchers about embarking on open research, and where to seek practical support. If it doesn't your library website can be a natural home for such information!
 
-**2. _Providing advice and training to support researchers_**
+**2. *Provide practical support for researchers***
 
-Libraries play an important role supporting researchers across the research life cycle and can help provide training and advice on:
+Researchers may be keen to adopt open research principals, but without a lack of institutional support and practical training they may be more easily deterred. Librarians have an important role in encouraging their institution to make open research a priority, and deliver practical support to their researchers. 
+
+Providing advice and training to support researchers across the research life cycle is a key way for librarians to support open research.
 
 _Planning a Research Project_
 
@@ -148,28 +150,21 @@ _After the end of the Project_
 - How to upload (anonymised if appropriate) research data to a trusted open access data repository
 - How to Publish research findings in open access journals and/or deposit them in open access repositories with a permissive reuse licence
 
-**3. _Finding innovative solutions to help your institution embrace open research publishing practices_**
+***3. Work to understand the barriers***
+The blogpost ["How can librarians support open research?"](https://librarianresources.taylorandfrancis.com/insights/open-access-resources/how-can-librarians-support-open-research/) recommends librarians work closely with researchers to understand their specific barriers to publishing openly and share data more easily, and collaborate with other faculties to understand if their researchers are facing the same challenges. This collaborative communication could help find the right solutions for your researchers’ needs.
 
-Often, a lack of institutional support and funds can negatively affect researchers when they are keen to publish open research. 
+***4. Make use of bibliometrics***
+Another way to help encourage the adoption of Open Research practices is to use bibliometrics to incentivise open practices. The authors of ["How can librarians support open research?"](https://librarianresources.taylorandfrancis.com/insights/open-access-resources/how-can-librarians-support-open-research/) notes that colleagues who work with [bibliometrics/citation analysis](https://pdoehle.github.io/bibliometrics-for-librarians/about/) can help develop their institution’s understanding of the impact of their research and shared data, especially if more outputs across the research lifecycle are being openly published. Library can help institutions to recognise, showcase, and reward high impact data sets which have been shared openly and reused by other researchers. 
 
-To help researchers publish openly and share data more easily, you could work with them to understand their specific barriers. It could also be useful to collaborate with other faculties to understand if their researchers are facing the same challenges. Doing this could help find the right solutions for your researchers’ needs, and even expand their open research publishing options.
+***5. Contribute to and/or create an institution platform***
+Library staff are often responsible for maintaining and enhancing the records deposited on the institutional or national repository, so having a full understanding of open research principals will be essential in some roles. 
 
-Library staff can also help their institutions to recognise, showcase, and reward high impact data sets which have been shared openly and reused by other researchers. Colleagues who work with [bibliometrics/citation analysis](https://pdoehle.github.io/bibliometrics-for-librarians/about/) can help develop their institution’s understanding of the impact of their research and shared data, especially if more outputs across the research lifecycle are being openly published. This activity can encourage open research practices and help institutions incentivise open practices.
+Some institutions may find that creating institutional platforms, such as a repository capable of hosting (and making open) data sets and other useful resources to share across faculties can drive open research at your institution. It is important though to be aware though that such repositories [may often come with some limitations](https://librarianresources.taylorandfrancis.com/insights/open-access-resources/how-can-librarians-support-open-research/) which means they should only be considered as part of a wider plan for supporting open research. 
 
-
-**4. _Directly managing or supporting an open research repository/infrastructure_**
-
-Library staff are often responsible for maintaining and enhancing the records deposited on the institutional or national repository, so having a full understanding of open research principals will be essential in some roles.
-
-Creating institutional platforms, such as a repository capable of hosting (and making open) data sets and other useful resources to share across faculties can drive open research at your institution. It is important to be aware though that such repositories may often come with some limitations which means they should only be considered as part of a wider plan for supporting open research: 
-
-* Institutional repositories are often only accessible to staff at the institution, so there is a lack of opportunity to share contents with external researchers and the public to get their insights.
-* Researchers may rely on librarians to upload their research outputs to a repository, meaning an increased workload for librarians.
-* Many repositories are lacking in uploads of articles, chapters and books, so librarians may need to seek an efficient institutional platform, to protect their workload.
 
 ## Hands-on activity and other self-guided tutorial(s)  
 
-[Skills4EOSC](https://www.skills4eosc.eu/) is an EU funded project that started in 2022 and offers a comprehensive training program designed to equip researchers, data stewards, and other stakeholders with essential skills for navigating the evolving landscape of Open Science and the European Open Science Cloud (EOSC). Some training is asynchronous and you can enroll yourself at any time such as [Learning path for (data) librarians: Technical skills are the bridge to reproducible research](https://learning.skills4eosc.eu/enrol/index.php?id=47).
+[Skills4EOSC](https://www.skills4eosc.eu/) is an EU funded project that started in 2022 and offers "a comprehensive training program designed to equip researchers, data stewards, and other stakeholders with essential skills for navigating the evolving landscape of Open Science and the European Open Science Cloud (EOSC)"". Some training is asynchronous and you can enroll yourself at any time such as [Learning path for (data) librarians: Technical skills are the bridge to reproducible research](https://learning.skills4eosc.eu/enrol/index.php?id=47).
 
 The [Foster Open Science Project](https://www.fosteropenscience.eu/) produced a number of [training materials](https://zenodo.org/communities/foster/records?q=&f=resource_type%3Alesson&l=list&p=1&s=10&sort=newest) which are helpful for librarians wanting to get started in supporting open research.
 
