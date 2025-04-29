@@ -116,7 +116,7 @@ LIBER’s [Research Data Management Working Group](https://libereurope.eu/workin
 * Encourage researchers to deposit data with archives that embody the FAIR principles;
 * Evaluate the data collections and data management practices at your institution against the FAIR principles.
 
-Here are just a few practical ways in which librarians can support the adoption of Open Research principals at their insitutions:
+Here are a few more practical suggestions for ways in which librarians can support the adoption of Open Research principals at their insitutions:
 
 ***1. Make it easier for staff and researchers to find all the info they need about Open Research***
 
