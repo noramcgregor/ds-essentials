@@ -38,7 +38,7 @@ format:
 
 ## Introduction
 
-In this *DS Topic Guide* we'll take a look at broad definitions of digital scholarship and data science in a research library context, and provide high-level general resources for library professionals to learn more about how new technologies and approaches are changing our traditional work of curation, creation, collecting, sharing at cultural heritage institutions and the benefits of gaining new skills in this area! We'll also explain a little bit about how to use **Digital Scholarship & Data Science Topic Guides for Library Professionals** as a personal skillbuilding resource!
+In this *DS Topic Guide*, we aim to help you connect your work in libraries to the world of digital scholarship and data science, and inspire new possibilities for evolving your practices. We'll provide tips on how to **_Digital Scholarship & Data Science Topic Guides for Library Professionals_** as a personal resource for building new skills. We’ll explore broad definitions of digital scholarship and data science in the context of research libraries, and share key resources to help you understand how emerging technologies and methods are transforming the traditional work of collecting, curating, creating, and sharing in cultural heritage institutions—and why developing skills in this area can be so valuable!
 
 ### What is "digital scholarship"?
 
