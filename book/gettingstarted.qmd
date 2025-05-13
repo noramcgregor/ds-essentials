@@ -25,7 +25,7 @@ abstract: >
 keywords:
   - Digital Scholarship
   - Data Science
-  - Skills Frameworks 
+  - Digital Skills Frameworks 
 license: "CC BY"
 citation: 
   container-title: Digital Scholarship & Data Science Topic Guides for Library Professionals
