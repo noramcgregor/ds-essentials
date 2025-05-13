@@ -23,8 +23,9 @@ author:
 abstract: > 
   This guide aims to define Digital Scholarship & Data Science in a research library context and provide an overview of the key competency frameworks, reports, networks and communities of practice for library professionals to explore and learn more.
 keywords:
-  - TBD
-  - TBD
+  - Digital Scholarship
+  - Data Science
+  - Skills Frameworks 
 license: "CC BY"
 citation: 
   container-title: Digital Scholarship & Data Science Topic Guides for Library Professionals
