@@ -47,17 +47,18 @@ Though there are many definitions of what constitutes "digital scholarship" out 
 
 Though closely aligned to, and generously informed by, the academic discipline Digital Humanities, "digital scholarship" allows us to consider more broadly the full range of innovative scholarly activities our users seek to undertake with our digital collections and data, across a diverse range of disciplines. 
 
->**"Digital scholarship" allows us to define a space for us heritage professionals, where research is undertaken, in our own right, during the course of our daily work, utilizing computational methods in the curation, creation, collecting and sharing of our digital collections and data, but is not confined to formal academic pursuits or a particular discipline.** 
-
+>**"Digital scholarship" allows us to define a space for us heritage professionals, where research is undertaken, in our own right, during the course of our daily work, utilising computational methods in the curation, creation, collecting and sharing of our digital collections and data, but is not confined to formal academic pursuits or a particular discipline.** 
 
 ### Is this all just "data science"?
-Not quite. Data science, also an academic field, can be defined as a set of computational methods for the identification of novel and actionable insights from data.  
+Not quite. Data science, also an interdisciplinary academic field, is more specifically focussed on the use of algorithms, machine learning, and statistical modeling to make predictions and uncover deeper insights from noisy, structured, and unstructured data. In libraries, data science is used to improve services, enhance user experiences, and optimize library operations through data-driven insights. Here are a few ways it’s applied:
 
-Data science is an interdisciplinary academic field that uses statistics, scientific computing, scientific methods, processes, algorithms and systems to extract or extrapolate knowledge and insights from noisy, structured, and unstructured data.
+* User Behavior Analysis: By analyzing data on book checkouts, website visits, and user preferences, libraries can understand which genres or materials are most popular, and tailor their collections accordingly. This helps in making data-informed decisions about acquisitions and promotions.
+* Predicting Trends: Data science can help libraries forecast trends — for example, which types of books might become popular in the future or when certain resources are likely to be in demand. This allows libraries to better plan their inventory and schedules.
+* Improving Resource Allocation: Libraries can use data science to optimise staffing and the allocation of resources. By examining patterns in library visits, they can predict busy times and adjust staff schedules, ensuring efficient service delivery.
+* Personalized Recommendations: Just like Netflix recommends movies, libraries can use data science to suggest books or resources to users based on their reading history and preferences, making library services more personalized.
+* Enhancing User Engagement: By analyzing usage patterns and feedback data, libraries can identify gaps in services or areas for improvement. They can use this information to engage users better and develop targeted programs, like workshops or events, based on what users are interested in.
 
-So when we talk about data science in libraries, we're talking about the specific skills and use of particular computational methods in undertaking some types of digital scholarship activities.  
-
->****Digital Scholarship & Data Science Topic Guides for Library Professionals** aims to cover the best of both of these worlds!** 
+>**Digital scholarship and data science intersect in ways that are especially valuable for libraries, offering rich possibilities for advancing library services and operations. _Digital Scholarship & Data Science Topic Guides for Library Professionals_ explores these synergies to support informed, innovative library work.**
 
 ## Relevance to the Library Sector (Case Studies/Use Cases)  
 
@@ -68,15 +69,17 @@ So when we talk about data science in libraries, we're talking about the specifi
 * a library director reading up on the latest in AI and seeking expert perspectives in order to write a strategy document 
 * a metadata specialist packaging up digital collections into datasets that can be used by researchers
 * a digitisation project looking to improve the searchability of printed books in under-resourced languages
+* a marketing analysts using data analytics and data science techniques to understand visitor trends
+* an assistant curator attending meetings of an international knowledge exchange networks (such as [International GLAM Labs Community](https://glamlabs.io/)) 
 * a reference librarian pointing a researcher to datasets that might help them with their research enquiry
 * an imaging technician creating a 3D model of a collection item
 * a licensing manager keeping up to date on the latest uses of Text and Data Mining (TDM) and AI in research so that digital collections meets the needs of library users and staff who want to work with them at scale
 * a project manager leading a major [interdisciplinary research project](https://livingwithmachines.ac.uk/) using the latest technologies to ask research questions of digital heritage collections 
 * a curator creating [an interactive online exhibit](https://www.exhibit.so/) with annotations
-* a research software engineer contributing to international knowledge exchange networks (such as [International GLAM Labs Community](https://glamlabs.io/)) 
+* a research software engineer using a machine learning model to identify genre of digitised texts
 * an assistant librarian attending a [summer school on working with cultural heritage data](https://www.cdh.cam.ac.uk/dataschools/)  
 
-### Why is it important for library staff to learn these skills?
+### Why is it important for library staff to learn Digital Scholarship and Data Science skills?
 
 In the recommended reading section of this *DS Topic Guide* we have linked to a number of key competency and skills reports and frameworks that define the need for such skills in library work. But in the most high-level terms we know that:
 
