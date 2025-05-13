@@ -3,17 +3,7 @@ title: "Getting Started in DS"
 date: 2024-06-04
 date-modified: 2025-02-10
 author:
-  - name: Eleonora Gandolfi
-    id: jc
-    orcid: 0000-0001-8544-1670
-    email: openresearch@surrey.ac.uk
-    affiliation: 
-      - name: University of Surrey
-        city: Guildford
-        country: UK
-        url: https://www.surrey.ac.uk/library/open-research/teams-advance-open-research-surrey
   - name: Nora McGregor
-    id: jc
     orcid: 0000-0001-6560-5586
     email: Digitalresearch@bl.uk
     affiliation: 
@@ -21,7 +11,14 @@ author:
         city: London
         country: UK
         url: https://libereurope.eu/member/nora-mcgregor/
-
+  - name: Eleonora Gandolfi
+    orcid: 0000-0001-8544-1670
+    email: openresearch@surrey.ac.uk
+    affiliation: 
+      - name: University of Surrey
+        city: Guildford
+        country: UK
+        url: https://www.surrey.ac.uk/library/open-research/teams-advance-open-research-surrey
 
 abstract: > 
   This guide aims to define Digital Scholarship & Data Science in a research library context and provide an overview of the key competency frameworks, reports, networks and communities of practice for library professionals to explore and learn more.
@@ -71,10 +68,10 @@ So when we talk about data science in libraries, we're talking about the specifi
 * a reference librarian pointing a researcher to datasets that might help them with their research enquiry
 * an imagining technician creating a 3D model of a collection item
 * a licensing manager keeping up to date on the latest uses of Text and Data Mining (TDM) and AI in research so that digital collections meets the needs of library users and staff who want to work with them at scale
-* a major interdisciplinary research project using the latest technologies to ask research questions of digital heritage collections https://livingwithmachines.ac.uk/
-* a curator creating an online exhibit with annotations https://www.exhibit.so/
+* a project manager leading a major [interdisciplinary research project](https://livingwithmachines.ac.uk/) using the latest technologies to ask research questions of digital heritage collections 
+* a curator creating [an interactive online exhibit](https://www.exhibit.so/) with annotations
 * a research software engineer contributing to international knowledge exchange networks (e.g. IIIF, AI4LAM) 
-* an assistant librarian attending a summer school https://www.cdh.cam.ac.uk/dataschools/ 
+* an assistant librarian attending a [summer school on working with cultural heritage data](https://www.cdh.cam.ac.uk/dataschools/)  
 
 ### Why is it important for library staff to learn these skills?
 
@@ -93,17 +90,17 @@ Each Topic Guide on this site includes a range of specific hands-on activities a
 ### AI4Culture [https://ai4culture.eu/](https://ai4culture.eu/)
 AI4Culture is a capacity building platform for the application of AI in the Cultural Heritage Sector. AI4Culture has been co-funded by the European Union under the Digital Europe Programme. Their aim is to enable professionals, researchers, and enthusiasts within the sector with the resources they need to integrate AI into their daily workflow, find creative ways to use them and solve their current problems. The platform hosts a pool of readily deployed AI software tools, along with training and testing datasets that have been curated for use within the sector. 
 
-### Clarin Learning Resources [https://www.clarin.eu/content/learning-and-training-resources]
-The CLARIN Learning Hub gives access to open educational resources on various topics of relevance to digital scholarship and data science, including full online training modules to learn these new skills.
+### CLARIN Learning Resources https://www.clarin.eu/content/learning-and-training-resources
+CLARIN stands for "Common Language Resources and Technology Infrastructure", it is a European Research Infrastructure Consortium (ERIC). The CLARIN Learning Hub gives access to open educational resources on various topics of relevance to digital scholarship and data science, including full online training modules to learn these new skills. 
 
 ### DARIAH-Campus [https://campus.dariah.eu/](https://campus.dariah.eu/)
-DARIAH is a pan-European infrastructure for arts and humanities scholars working with computational methods. It supports digital research as well as the teaching of digital research methods. Though not specific to the library professional context, tutorials here are useful for applying techniques to digital collections. 
+DARIAH stands for "Digital Research Infrastructure for the Arts and Humanities", like CLARIN it was established as a European Research Infrastructure Consortium (ERIC). As a pan-European infrastructure it supports digital research as well as the teaching of digital research methods for arts and humanities scholars working with computational methods. Though not specific to the library professional context, tutorials here are useful for applying techniques to digital collections. 
 
 ### The Glam Workbench [https://glam-workbench.net/](https://glam-workbench.net/)
-The GLAM Workbench is the brainchild of Tim Sherratt, a historian, and is a collection of Jupyter notebooks to help you explore and use data from GLAM institutions (galleries, libraries, archives, and museums). It includes tools, tutorials, examples, hacks, and even some pre-harvested datasets. It's aimed at researchers in the humanities but has useful tutorials for anyone interested in working with GLAM data.
+The GLAM Workbench is the brainchild of Tim Sherratt, a historian, and is a collection of Jupyter notebooks to help you explore and use data from GLAM institutions (galleries, libraries, archives, and museums). It includes tools, tutorials, examples, hacks, and even some pre-harvested datasets. It is aimed at researchers in the humanities but has useful tutorials for anyone interested in working with GLAM data.
 
 ### Ineo [https://www.ineo.tools/](https://www.ineo.tools/)
-Ineo is a project developed and maintained by CLARIAH that lets you search, browse, find and select digital resources for research in humanities and social sciences. It offers access to thousands of tools, datasets, workflows, standards and learning material. It is a work in progress so do keep that in mind when browsing.
+Ineo is a project developed and maintained by CLARIAH ("Common Lab Research Infrastructure for the Arts and Humanities", a collaboration of CLARIN and DARIAH) that lets you search, browse, find and select digital resources for research in humanities and social sciences. It offers access to thousands of tools, datasets, workflows, standards and learning material. It is a work in progress so do keep that in mind when browsing.
 
 ### Library Carpentry [https://librarycarpentry.org/](https://librarycarpentry.org/)
 Library Carpentry is an international volunteer community, under the Carpentries, focussed building software and data skills within library and information-related communities. The lessons here are meant to be taught as workshops led by a Carpentries certified instructor (for a fee) but you may find it useful to have a read through the content which is open and available to all. 
@@ -122,28 +119,20 @@ There is no shortage of recommended reading lists out there, and again, each Top
 ### *LIBER Publications*
 
 - [LIBER Digital Skills for Library Staff & Researchers Working Group - LIBER Europe](https://libereurope.eu/working-group/liber-digital-skills-services-working-group/) have lots of resources here, including a very useful diagram [Identifying Open Science Skills for Library Staff & Researchers](https://libereurope.eu/article/open-science-skills-diagram/)
-
 - [LIBER Job Description Repository](https://libereurope.eu/job-descriptions/#descriptions) Contains job description examples for Digital Curator and other digital roles which reference the types of skills required for such work.
-
 - [Europe’s Digital Humanities Landscape: A Study From LIBER’s Digital Humanities & Digital Cultural Heritage Working Group](https://zenodo.org/records/3247286#.ZGXqS7XMJjS) is a report based on a Europe-wide survey run by LIBER's Digital Humanities & Digital Cultural Heritage Working Group. The survey focused on digital collections and the activities libraries undertake around them. It covered the following topics and themes including staffing/skills
 
 ### *Key Publications specific to digital scholarship and data science skills for research library staff*
 - The British Library and the Arts and Humanities Research Council published a report on skills: [Scoping Skills and Developing Training Programme for Managing Repository Services in Cultural Heritage Organisations](https://bl.iro.bl.uk/concern/reports/c87fd1ff-5ade-4367-8dc1-f94381c4b018). There is a very useful section (Section 3.) that references several other digital skills frameworks for research library staff across Europe.
-
 - Lippincott, Joan K. [Directions in Digital Scholarship: Support for Digital, Data-Intensive, and Computational Research in Academic Libraries](https://doi.org/10.56561/ULHJ1168). Coalition for Networked Information, June 2023. https://doi.org/10.56561/ULHJ1168
-
 - Padilla, Thomas. [‘Responsible Operations: Data Science, Machine Learning, and AI in Libraries’](https://www.oclc.org/research/publications/2019/oclcresearch-responsible-operations-data-science-machine-learning-ai.html). OCLC, 26 August 2020.
-
 - Cordell, R. C. (2020). [Machine Learning + Libraries: A Report on the State of the Field.](https://labs.loc.gov/static/labs/work/reports/Cordell-LOC-ML-report.pdf) LC Labs, Library of Congress. 
-
 - Federer L. Defining data librarianship: a survey of competencies, skills, and training. J Med Libr Assoc. 2018 Jul;106(3):294-303. doi: 10.5195/jmla.2018.306. Epub 2018 Jul 1. PMID: 29962907; PMCID: PMC6013124.
 
 ### *General Competencies for Librarians which include reference to digital* 
 
 - American Library Association (ALA) [Library Competencies (Various roles): Library Competencies | Tools, Publications & Resources (ala.org)](https://www.ala.org/tools/atoz/library-competencies) (USA)
-
 - Canadian Association of Research Libraries [Competencies for Librarians in Canadian Research Libraries Publications and Documents](https://www.carl-abrc.ca/publications-and-documents/) (including specifically [Competencies-Final-EN-1-2.pdf](https://www.carl-abrc.ca/wp-content/uploads/2020/09/Competencies-Final-EN-1-2.pdf) (Canada)
-
 - CILIP: the library and information association [Professional Knowledge & Skills Base](https://www.cilip.org.uk/page/PKSB) - (UK)
 
 ## Finding Communities of Practice
@@ -157,25 +146,29 @@ Working groups are open to staff at participating [LIBER Member institutions](ht
 * [LIBER Digital Scholarship & Digital Cultural Heritage](https://libereurope.eu/working-group/digital-scholarship-and-digital-cultural-heritage-collections-working-group/)
 * Or have a look at the other [LIBER Working Groups - LIBER Europe](https://libereurope.eu/working-groups/)
  
-### International Networks
+### International Communities/Networks
  - [AI4LAM](https://sites.google.com/view/ai4lam)
+An international, participatory community focused on advancing the use of artificial intelligence in, for and by libraries, archives and museums (Free)
  - [Code4Lib](https://code4lib.org/about/)
- - [Electronic Literature Organisation](https://eliterature.org/)
- - [Flickr Commons](https://www.flickr.com/commons)
- - [Glam Labs International](https://glamlabs.io/)
- - [IIIF/UV Open Collective](https://iiif.io/)
- - [IMPACT Centre of Competence](https://www.digitisation.eu/)
+ International, diverse and inclusive community of developers and technologists for libraries, museums, and archives who are dedicated to seeking to share ideas and build collaboration (Free)
+ - [IIIF Community](https://iiif.io/community/) 
+ IIIF Groups meet regularly to discuss various contexts of IIIF usage for a particular idea or initiative from technical and non-technical perspectives. (Free)
+  - [IMPACT Centre of Competence](https://www.digitisation.eu/) IMPACT is a not for profit organisation with the mission to make the digitisation of text “better, faster, cheaper” and to further advance the state-of-the-art in the field of document imaging, language technology and the processing of historical text (Paid membership model)
+ - [International GLAM Labs Community](https://glamlabs.io/)
+An international group dedicated to sharing knowledge around setting up, maintaining and sustaining Galleries, Libraries, Archives and Museums' cultural heritage innovation Labs (Free)
  - [Museums Computer Group](https://museumscomputergroup.org.uk/)
- - [Transkribus](https://readcoop.eu/transkribus/)
- - [Wikidata Community](https://www.wikidata.org/wiki/Special:MyLanguage/Project:Community_portal)
+ The Museums Computer Group (MCG) is a non-profit association of individuals, volunteers, who share a common interest in encouraging, improving and influencing best practice in the use of technology and digital platforms within the museum and heritage sector. ([Free to join their discussion list](https://museumscomputergroup.org.uk/join/mcg-community-discussion-list/))
+ - [READ Co-op/Transkribus Community](https://readcoop.org/why-coop)
+A co-operative organisation, born out of two major EU projects, with the goal of revolutionising access to archival documents by providing a comprehensive range of tools and services that empower researchers, institutions, and individuals with cutting-edge technology such as Handwritten Text Recognition (Paid membership model, but also some free membership options for students and scholars)
+
  
 ### National Networks (European)
  
 Ireland/UK
  - [RLUK Digital Scholarship Network](https://www.rluk.ac.uk/rluk-dsn/)
  
-::: {.callout-tip collapse=true}
-## Think we're missing something?
-We'd love to hear it! Suggest edits by opening a new Issue or adding to the discussion on existing Issues on the project Github. If you’re new to GitHub don’t worry, we have a Topic Guide for that: GitHub: How to navigate and contribute to Git-based projects! Or just drop us a line! 
-:::
 
+::: {.callout-tip collapse=true}
+## Are we missing something?
+We'd love to hear it! Suggest edits by opening a new Issue or adding to the discussion on existing Issues on the [project Github](https://github.com/libereurope/ds-topic-guides/issues). If you’re new to GitHub don’t worry, we have a *DS Topic Guide* for that: [GitHub: How to navigate and contribute to Git-based projects](github.qmd)! Or just drop us a line at digitalresearch@bl.uk! 
+:::
