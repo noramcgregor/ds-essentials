@@ -11,15 +11,16 @@ author:
       - name: British Library
         city: London
         country: UK
-        url: www.bl.uk
+        url: https://libereurope.eu/member/nora-mcgregor/
 abstract: > 
   A one page guide introducing the basics of the IIIF standard with case studies and practical advice for getting started.
 keywords:
-  - TBD
-  - TBD
+  - IIIF
+  - Digital Collections
+  - Interoperability
 license: "CC BY"
 citation: 
-  container-title: Digital Scholarship & Data Science Essentials
+  container-title: Digital Scholarship & Data Science Topic Guides for Library Professionals
   volume: 1
   issue: 1
   doi: TBD
@@ -42,7 +43,7 @@ Or maybe spent months on end negotiating the terms and methods around sending co
 
 IIIF brings a whole new efficiency to the way in which we in the cultural heritage sector go about sharing and making our digitised collections available online, while greatly expanding the functionality around the way users interact with them. It's an open standard, collaboratively developed and maintained by a host of cultural heritage institutions around the world that defines a consistent method for the delivery of images and audio/visual files from servers to different environments on the Web where they can then be viewed and interacted with in many ways.
 
-IIIF basically specifies a way for browsers to display an image or audio/visual files in a way that enables much richer functionality on the Web:
+IIIF basically specifies a way for browsers to display a digital objects such as images, pdfs, [audio/visual](https://iiif.io/community/groups/av/) files and even [3D files](https://iiif.io/community/groups/3d/) in a way that enables much richer functionality on the Web:
 
 - Makes it easier to display large images on the web in a way that is scalable (enabling deep zoom)
 - Allows easy comparison between two objects, connecting and uniting materials across institutional boundaries
@@ -77,7 +78,7 @@ The example here is of the [Ōmi Kuni-ezu 近江國絵圖 Japanese Tax map](http
 
 ![](images/JapaneseMap.jpg)
 
-Have a play and view this image in their [Universal viewer here](https://purl.stanford.edu/hs631zg4177)
+Have a play and view this image in their [Mirador viewer here](https://purl.stanford.edu/hs631zg4177)
 
 ### Virtual Reconstruction
 
@@ -110,4 +111,3 @@ There is also a massive list of learning resources, [Awesome IIIF](https://githu
 Learning about IIIF can be overwhelming at first, especially if you’re not a programmer, but the IIIF Community is a very supportive and engaged one and has created a number of ways to get involved and find support and help. 
 
 I recommend checking out their community page [IIIF Community](https://iiif.io/community/) to find details of their next open community calls, or to join their Slack Channel where you can post questions and join the discussion with other users. 
-
