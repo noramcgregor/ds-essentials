@@ -57,7 +57,7 @@ Data science is an interdisciplinary academic field that uses statistics, scient
 
 So when we talk about data science in libraries, we're talking about the specific skills and use of particular computational methods in undertaking some types of digital scholarship activities.  
 
->*****Digital Scholarship & Data Science Topic Guides for Library Professionals*** aims to cover the best of both of these worlds!** 
+>*****Digital Scholarship & Data Science Topic Guides for Library Professionals*** aims to cover the best of both of these worlds!**** 
 
 ## Relevance to the Library Sector (Case Studies/Use Cases)  
 
