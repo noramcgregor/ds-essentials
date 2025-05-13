@@ -62,17 +62,17 @@ So when we talk about data science in libraries, we're talking about the specifi
 
 ### So what might "digital scholarship and data science in libraries" actually look like? 
 
-* a subject librarian using a digital tool to clean up a set of catalogue records in order to understand gaps in the metadata and collection scope 
+* a subject librarian using a digital tool (like [OpenRefine](https://librarycarpentry.github.io/lc-open-refine/01-introduction)) to clean up a set of catalogue records in order to understand gaps in the metadata and collection scope 
 * a collaborative project to automatically transcribe handwritten texts from old manuscripts
 * a library director reading up on the latest in AI and seeking expert perspectives in order to write a strategy document 
 * a metadata specialist packaging up digital collections into datasets that can be used by researchers
 * a digitisation project looking to improve the searchability of printed books in under-resourced languages
 * a reference librarian pointing a researcher to datasets that might help them with their research enquiry
-* an imagining technician creating a 3D model of a collection item
+* an imaging technician creating a 3D model of a collection item
 * a licensing manager keeping up to date on the latest uses of Text and Data Mining (TDM) and AI in research so that digital collections meets the needs of library users and staff who want to work with them at scale
 * a project manager leading a major [interdisciplinary research project](https://livingwithmachines.ac.uk/) using the latest technologies to ask research questions of digital heritage collections 
 * a curator creating [an interactive online exhibit](https://www.exhibit.so/) with annotations
-* a research software engineer contributing to international knowledge exchange networks (e.g. IIIF, AI4LAM) 
+* a research software engineer contributing to international knowledge exchange networks (such as [International GLAM Labs Community](https://glamlabs.io/)) 
 * an assistant librarian attending a [summer school on working with cultural heritage data](https://www.cdh.cam.ac.uk/dataschools/)  
 
 ### Why is it important for library staff to learn these skills?
