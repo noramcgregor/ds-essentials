@@ -38,7 +38,7 @@ format:
 
 ## Introduction
 
-In this *DS Topic Guide*, we aim to help you connect your work in libraries to the world of digital scholarship and data science, and inspire new possibilities for evolving your practices. We'll provide tips on how to **_Digital Scholarship & Data Science Topic Guides for Library Professionals_** as a personal resource for building new skills. We’ll explore broad definitions of digital scholarship and data science in the context of research libraries, and share key resources to help you understand how emerging technologies and methods are transforming the traditional work of collecting, curating, creating, and sharing in cultural heritage institutions—and why developing skills in this area can be so valuable!
+In this *DS Topic Guide*, we aim to help you connect your work in libraries to the world of digital scholarship and data science, and inspire new possibilities for evolving your practices. We'll provide tips on how to use **_Digital Scholarship & Data Science Topic Guides for Library Professionals_** as a personal resource for building new skills. We’ll explore broad definitions of digital scholarship and data science in the context of research libraries, and share key resources to help you understand how emerging technologies and methods are transforming the traditional work of collecting, curating, creating, and sharing in cultural heritage institutions—and why developing skills in this area can be so valuable!
 
 ### What is "digital scholarship"?
 
@@ -81,7 +81,7 @@ In the recommended reading section of this *DS Topic Guide* we have linked to a 
 
 * Libraries need to continually keep apace this digital turn in order to understand the change in service requirements and support colleagues and each other keen to make the most of it.
 * Digital scholarship work is collaborative, requires input across disciplines and domain expertise, our curatorial experts have an essential role to play in that. 
-* We’ve so much to gain from understanding digital methods and having closer collaborations with digital scholars—there’s a synergy in solving shared issues (e.g. correcting OCR, enriching collections metadata, conquering back-cataloguing).
+* We’ve so much to gain from understanding digital methods and having closer collaborations with digital scholars—there’s a synergy in solving shared issues such as correcting OCR, enriching collections metadata, conquering back-cataloguing and so on.
 * Digital scholars are, today, using technology in innovative ways, expectations have already changed, they’re seeking access at scale to our collections for computational analysis, they're using Generative AI to ask their research questions, we need to understand these technologies to understand how the nature of archival enquiry is changing
 * Cultural heritage digital collections are only going to grow and we need the digital skills to work confidently with them at scale
 
