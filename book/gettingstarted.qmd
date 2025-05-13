@@ -27,7 +27,7 @@ keywords:
   - TBD
 license: "CC BY"
 citation: 
-  container-title: Digital Scholarship & Data Science Essentials
+  container-title: Digital Scholarship & Data Science Topic Guides for Library Professionals
   volume: 1
   issue: 1
   doi: TBD
@@ -38,7 +38,7 @@ format:
 
 ## Introduction
 
-In this Topic Guide we'll look at broad definitions of digital scholarship & data science in a research library context, and provide recommended resources for library professionals to learn more about how new technologies and approaches are changing our traditional work of curation, creation, collecting, sharing at cultural heritage institutions and the benefits of gaining new skills in this area!
+In this *DS Topic Guide* we'll take a look at broad definitions of digital scholarship and data science in a research library context, and provide high-level general resources for library professionals to learn more about how new technologies and approaches are changing our traditional work of curation, creation, collecting, sharing at cultural heritage institutions and the benefits of gaining new skills in this area! We'll also explain a little bit about how to use **Digital Scholarship & Data Science Topic Guides for Library Professionals** as a personal skillbuilding resource!
 
 ### What is "digital scholarship"?
 
@@ -55,6 +55,8 @@ Not quite. Data science, also an academic field, can be defined as a set of comp
 Data science is an interdisciplinary academic field that uses statistics, scientific computing, scientific methods, processes, algorithms and systems to extract or extrapolate knowledge and insights from noisy, structured, and unstructured data.
 
 So when we talk about data science in libraries, we're talking about the specific skills and use of particular computational methods in undertaking some types of digital scholarship activities.  
+
+>*****Digital Scholarship & Data Science Topic Guides for Library Professionals*** aims to cover the best of both of these worlds!** 
 
 ## Relevance to the Library Sector (Case Studies/Use Cases)  
 
@@ -75,7 +77,7 @@ So when we talk about data science in libraries, we're talking about the specifi
 
 ### Why is it important for library staff to learn these skills?
 
-In the recommended reading section of this Topic Guide we have linked to a number of key competency and skills reports and frameworks that define the need for such skills in library work. But in the most high-level terms we know that:
+In the recommended reading section of this *DS Topic Guide* we have linked to a number of key competency and skills reports and frameworks that define the need for such skills in library work. But in the most high-level terms we know that:
 
 * Libraries need to continually keep apace this digital turn in order to understand the change in service requirements and support colleagues and each other keen to make the most of it.
 * Digital scholarship work is collaborative, requires input across disciplines and domain expertise, our curatorial experts have an essential role to play in that. 
@@ -85,7 +87,7 @@ In the recommended reading section of this Topic Guide we have linked to a numbe
 
 ## Hands-on activity and other self-guided tutorial(s)
 
-Each Topic Guide on this site includes a range of specific hands-on activities and other self-guided tutorials colleagues across Europe personally recommend. When you’re ready to go further and have a better idea of the specific skills you need for a particular task, we can recommend having a good search through these excellent platforms which host or link to a great many in-depth training materials:
+Each *DS Topic Guide* on this site includes a range of specific hands-on activities and other self-guided tutorials colleagues across Europe personally recommend. When you’re ready to go further and have a better idea of the specific skills you need for a particular task, we can recommend having a good search through these excellent platforms which host or link to a great many in-depth training materials:
 
 ### AI4Culture [https://ai4culture.eu/](https://ai4culture.eu/)
 AI4Culture is a capacity building platform for the application of AI in the Cultural Heritage Sector. AI4Culture has been co-funded by the European Union under the Digital Europe Programme. Their aim is to enable professionals, researchers, and enthusiasts within the sector with the resources they need to integrate AI into their daily workflow, find creative ways to use them and solve their current problems. The platform hosts a pool of readily deployed AI software tools, along with training and testing datasets that have been curated for use within the sector. 
@@ -112,7 +114,7 @@ The Programming Historian has been publishing peer-reviewed tutorials on digital
 Built as part of the Social Sciences and Humanities Open Cloud project (SSHOC), the Social Sciences and Humanities Open Marketplace is a discovery portal which pools and contextualises resources for Social Sciences and Humanities research communities: tools, services, training materials, datasets, publications and workflows. The Marketplace highlights and showcases solutions and research practices for every step of the SSH research data life cycle. 
 
 ## Recommended Reading/Viewing  
-There is no shortage of recommended reading lists out there, and again, each Topic Guide on this site will have their own recommended reading on a particular topic. Here we present a number of key reports and publications which articulate the broad sectoral view of why such skills are necessary for library professionals. 
+There is no shortage of recommended reading lists out there, and again, each *DS Topic Guide* on this site will have their own recommended reading on a particular topic. Here we present a number of key reports and publications which articulate the broad sectoral view of why such skills are necessary for library professionals. 
 
 ### Digital Scholarship & Data Science Skills Competency Frameworks
 
