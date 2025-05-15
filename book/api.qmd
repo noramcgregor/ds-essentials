@@ -1,7 +1,7 @@
 ---
 title: "APIs: A starter guide for Librarians"
-date: 2024-06-04
-date-modified: 2025-02-10
+date: 2025-05-15
+date-modified: 2025-05-15
 author:
   - name: Liam Green-Hughes
     id: jc
@@ -15,11 +15,12 @@ author:
 abstract: > 
   A short guide explaining what an API is, how they work and examples of practical uses in library work today.
 keywords:
-  - TBD
-  - TBD
+ - API
+ - application programming interface
+ - REST
 license: "CC BY"
 citation: 
-  container-title: Digital Scholarship & Data Science Essentials
+  container-title: Digital Scholarship & Data Science Topic Guides for Library Professionals
   volume: 1
   issue: 1
   doi: TBD
