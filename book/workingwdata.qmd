@@ -1,10 +1,9 @@
 ---
 title: "Working with Data"
-date: 2024-06-04
-date-modified: 2025-02-10
+date: 2025-05-21
+date-modified: 2025-05-21
 author:
   - name: Niamh Malin
-    id: jc
     orcid: 0000-0002-4735-2113
     email: MalinNiamh@gmail.com 
     affiliation: 
@@ -12,12 +11,22 @@ author:
         city: Cambridge
         country: UK
         url: https://osc.cam.ac.uk/contact-us
+  - name: Nora McGregor
+    orcid: 0000-0001-6560-5586
+    email: Digitalresearch@bl.uk
+    affiliation: 
+      - name: British Library
+        city: London
+        country: UK
+        url: https://libereurope.eu/member/nora-mcgregor/
 abstract: > 
   This guide explores the use of data within libraries through presenting questions to think through when undertaking your own data tasks, alongside practical examples from libraries around the world.
 
 keywords:
-  - TBD
-  - TBD
+  - Data
+  - Data wrangling
+  - Data management
+  - Collections as Data
 license: "CC BY"
 citation: 
   container-title: Digital Scholarship & Data Science Essentials
@@ -31,125 +40,103 @@ format:
 ## Introduction 
 
 
-Data is all around us, and it almost cannot be avoided. Libraries and universities are full of data, but staff often think they do not work with data. Have you ever been asked how many loans a book has had? What about how many visitors came in at the weekend? Or if a certain book is available? These are all data questions, answerable with quantifiable facts.
+Data is all around us. Libraries are full of data, but staff often think they do not work with data. Have you ever been asked how many loans a book has had? What about how many visitors came in at the weekend? Or if a certain book is available? These are all data questions, answerable with quantifiable facts.
 
-Data is often considered to be a number, like the number of times a book has been loaned, but what about who borrowed it, or what their review was? These are all different forms of data, and can provide all new insights to the popularity of a book - maybe a book was borrowed 10 times, but in fact got 10 1-star reviews, versus a book borrowed 5 times with 5 5-star reviews, using this data, which one would you recommend?
+Data is often considered to be a number, like the number of times a book has been loaned, but what about who borrowed it, or what their review was. These are all different forms of data, and can provide all new insights to the popularity of a book - maybe a book was borrowed 10 times, but in fact got 10 1-star reviews, versus a book borrowed 5 times with 5 5-star reviews. Using this data, which one would you recommend?
 
 This guide will explore the use of data within libraries through proposing questions to think through when undertaking your own data tasks, alongside practical examples from libraries around the world.
 
 ### What is Data?
 
-Data is often overwhelming (the term ‘Big Data’ floats around a lot!), but that shouldn’t stop you from exploring it, because it can greatly improve your work. Just to clarify, Big Data will not be discussed here, Big Data requires data to be high in volume and velocity, which is not the case for most library data (think about downloading a document every time the hashtag #photooftheday is used).
+Data is often overwhelming (the term ‘Big Data’ floats around a lot!), but that shouldn’t stop you from exploring it, because it can greatly improve your work. 
 
-So first, let's establish some definitions (for this guide at least) while looking at one of our most central collections of data: 
+First, let's establish some definitions (for this guide at least) of common terms surrounding working with data, particularly library related data: 
 
-|     | **Definition** |
----|---|
-| **Data** | A collection of information.  |
-| **Data Point** | Single point of data (e.g. _a data point could be the title of a book, however alone that information tells us very little about the book. Therefore a ‘record’ containing relevant data points will be created._). |
-| **Metadata** | Data that provides information about other data (e.g. columns of data in a spreadsheet). (e.g. _in a library catalalogue the metadata about the book includes the price information, the isbn, author and title_ |
-| **Dataset** | A collection of data from a single source or for a single project. (e.g. _we might create a dataset of all catalogue records relating to a particular topic of interest to researchers_) |
-| **Database** | A table with structured (organised) data. |
-| **Dataframe** | A structured representation of data |
-| **Software** | Program for a computer. |
-| **Hardware** | The physical components of technology. |
-| **Back-end** | The part of a system that is not usually visible or accessible to a user of that system. |
-| **Front-end** | A software interface designed to enable user-friendly interaction with software. |
-
-
-
+|   **Term**   | **Definition** | **Library Example** |
+---|---|---|
+| **Data**  | A collection of values that convey information |Data about visitors' experience of a library |
+| **Data Point** | A single point of data |  One user review of a library|
+| **Dataset**    | A collection of data from a single source or about a single subject |A spreadsheet of all user reviews of the library |
+| **Metadata**          | Data that provides information about other data. Metadata can also be data, for example if we analysed all the titles in a catalogue, the titles are metadata about works, but become the data for our analysis | Column names in a spreadsheet containing user reviews, or metadata in a library catalogue like price, ISBN, author, and title|
+| **Database** | A place to store data in an organised way |The main catalogue|
+| **Dataframe** | A table of data, particularly in analysis or visualisation software |A dataframe of user reviews in an analysis package|
+| **Qualitative Data** | Descriptive, non-numerical data that captures characteristics, experiences, or meanings through words, observations, or categories  |The text part of reviews where how library users explain how they felt about their visit|
+| **Quantitative Data** | Numerical data that can be analysed using statistical techniques | 1-5 star ratings of user visits |
+| **Data Analytics** | Cleaning, organizing, visualising, and interpreting existing data to support decision-making  | Looking at trends in user visits to see if demand is going up or down|
+| **Data Science** | Combining statistics, programming and machine learning to further examine, interpret, and make predictions from data| Creating a book recommender algorithm|
 ### Where is the data in a library?
 
-Data can be qualitative (sentiment) or quantitative (numerical), therefore when we think about visitors to a library, do you know how they felt about their visit (qualitative data) or how many hours they spent at the library (quantitative data)?
-
-Here are some examples to get you thinking about what data points stem from a library;
-
-| **Institution** | **Staffing** | **Acquisitions** |
-| --- | --- | --- |
-| The Building / Space<br><br>Wider Community<br><br>Stakeholders<br><br>Facilities<br><br>Business<br><br>Opening Hours | Library Staff<br><br>Institution Departments<br><br>Qualifications and Education | Subscriptions (ongoing)<br><br>Purchasing (one time)<br><br>Software<br><br>Suppliers<br><br>Spending / Financial Information |
+Here are some examples to get you thinking about what data points stem from a library. Consider the different aspects of a library below, which do you interact with? What data might they generate? Do you consider yourself to work with data?
 
 
-| **Resources** | **Engagement** | **Patrons** |
-| --- | --- | --- |
-| Materials metadata<br><br>Collection(s)<br><br>Care and Maintenance<br><br>Discovery Services<br><br>Accessibility Services | Research Data Management<br><br>Training<br><br>Outreach<br><br>Tours<br><br>Communication<br><br>Quantity of Users | Helpdesk (in-person)<br><br>Queries (email, online chat etc.)<br><br>User Support<br><br>Feedback<br><br>Interactions |
+|   **Area**   | **Example Data Points** |
+---|---|
+| **Building**              |- Footfall / entry counts <br>- Types of facilities and their usage (reading room reservations / lockers) <br>- Opening hours <br>- Environmental Information (light, humidity, temp) <br>- Maintenance records <br>- Accessibility services <br>- Security incidents <br>- Wif-fi usage patterns |
+| **Institution**        |- Staffing demographics and roles <br>- Departments <br>- Budget allocation and spend <br>- Qualifications & education <br>- Skills & training <br>- Suppliers <br>- Stakeholders/Partnership/Donor Data
+| **Collection**        | - Catalogue Metadata <br>- Collection item counts by format <br>- Digitisation status <br>- Usage statistics (downloads, API hits) <br>- Subscriptions <br>- Purchasing/Acquisitions  <br>- Systems and software in use
+| **Engagement**        | - Event attendance <br>- Helpdesk queries and topics (in-person, email, online chat etc.) <br>- User feedback <br>- Website analytics <br>- Tours & Exhibition attendance  
 
 
-Considering the above, what do you interact with? Do you consider yourself to work with data?
 
 ## Relevance to the Library Sector (Case Studies/Use Cases)  
 
+### Data with purpose
 
-
-### Data exists, so what?
-
-Data should have a purpose. If data has no purpose, why waste your time managing it? The purpose of data could be any of the following;
+Library data should be collected, stored and actively managed *with purpose*. In fact, particularly if it is personally identifiable data, ensuring you have a well defined reason for collecting it (and data management plans in place) may actually be [required by law](https://commission.europa.eu/law/law-topic/data-protection_en). The purpose of data collection could be any of the following:
 
 - Provide insights to pertinent questions, and thus make informed decisions.
 - Provide evidence of a decision or conclusion.
 - Explore relationships / trends, to tell a story and provide insights.
 - Explain (and display) complex information more effectively.
 
-Data can provide additional power when making a decision (big or small) - knowing exactly how many users visit at the weekend can prove the library does require the funding and staffing to stay open on the weekend. However, if it proves no one is visiting, do not fudge the numbers. Use those numbers to question why, such as what else could attract users, what do patrons use it for currently, or was there a cause to the decline in weekend patrons?
+Data can provide additional power when making a decision (big or small) - knowing exactly how many users visit at the weekend can help the library plan a realistic budget for staffing to stay open on the weekend. Conversely if your data collection reveals visitor numbers are low on weekends, those numbers can help direct your institution to investigate this further and make changes to attract more users or change opening hours.
 
-### Proof is in the Pudding
+Data can inform Library decisions about:
 
-Knowing that data exists in a library is the first step, but what can be done with it? While this guide has touched on a few questions you can use data to answer, below will explore real world examples of libraries utilising their data to make powerful changes.
-
-Data can inform decisions about:
-
-- **Collection Management:** what is being used, when, by who, and why (if you have a review system).
+- **Collection Management:** What is being used, when, by who, and why (if you have a review system).
   - Example: Within our collection, how often do users borrow material published before 2000? (But remember, borrowing is not the only form of usage!).
-- **Outreach:** who forms our community, what matters to the community,
+- **Outreach:** Who forms our community, what matters to the community.
   - Example: Does the demographic of people attending our events reflect the demographic of people in our wider community? Which events could make the library more appealing to the wider community?
 - **Funding / Expenditure:** Use data about patron usage, reader requests or patron feedback as part of an application for additional funding or staffing to prove your standing within the community.
   - Example: How much would it cost to buy an additional copy of a book, if it had more than three reservations at a given time?
 - **Reviewing Success:** When starting a new project or approach, consider how it will be measured as a success. Knowing how to measure the impact of a project will enable you to actively reflect and produce solid facts about the success of your project.
   - Example: How can we measure patron satisfaction currently, so that at the end of the project a 10% increase can be quantified and thus the project can be considered a success?
 
-Here are a few real world examples of big data projects within libraries, but remember, small or internal projects should be informed by data too.
+Here are a few real world examples of libraries utilising their data to make powerful changes.
 
 - [**Telling Stories with Library Data**](https://www.metmuseum.org/perspectives/articles/2021/7/library-data-stories) July 2021
-
-The Metropolitan Museum of Art (New York) Watson Library explores their production of data visualisations using Microsoft Power BI in regards to their library activities. Using the library management system (data which they already had), google analytics, digital collections and some manual tallies, they explored six years of library data. This exploration demonstrated the benefit of moving their blog from an external website, created an index of African American Artists,and ease in sharing library metrics for the previous six years publicly.
+In this article by Michael Cummings, Assistant Museum Librarian for Library Systems, he explores how The Metropolitan Museum of Art (New York) Watson Library produces data visualisations using Microsoft Power BI in regards to their library activities. Using the library management system (data which they already had), Google Analytics, digital collections and some manual tallies, they explored six years of library data. This exploration demonstrated the benefit of moving their blog from an external website, created an index of African American Artists, and allowed sharing library metrics for the previous six years publicly.
 
 - [**When is a Year Complete?**](https://openisu.pubpub.org/pub/bcm81w75/release/2) October 2023
 It is well known that publications databases take time to update, but how long? Collection Analysis Librarian at Iowa State University, Eric Schares, wanted to know how long to wait before being able to analyse a calendar year of publications, and set about doing so by comparing data from three different publication services (Dimensions, Web of Science and Open Alex). The data (which continues to be updated), documented the rise of Open Alex, and demonstrated part of the effectiveness of each service for Iowa State University - however he also shares his code and thus you can replicate this data question at your own institution.
-
 - [**Use of Institution Data Analysis for Publisher Negotiations**](https://www.repository.cam.ac.uk/items/8eb57acf-0f49-44eb-95af-c1c8d9cba946) July 2023 | [**Utilising Data to Understand the Institutions Relationship with a Publisher**](https://www.youtube.com/watch?v=jZdMvJgSj4Q) March 2024
 Data Analyst at the University of Cambridge Library Niamh Malin, was responsible for supporting the many publisher negotiations. The first paper addresses the use of Microsoft Excel and Dimensions publications data to document the relationship of the university with Springer Nature. The second presentation documents the transition to Microsoft Power BI to create data dashboards which ensure every publisher negotiation is informed by usage and publications data.
-
-- **Using Analytics to Extract Value from the Library's Data** - Event [Part One: Analytics Behind the Scenes](https://www.niso.org/events/2018/09/part-one-using-analytics-extract-value-librarys-data) and [Part Two: Actionable Data Analysis](https://www.niso.org/events/2018/09/part-two-using-analytics-extract-value-librarys-data) September 2018.
+- **Using Analytics to Extract Value from the Library's Data** - Event [Part One: Analytics Behind the Scenes](https://www.niso.org/events/2018/09/part-one-using-analytics-extract-value-librarys-data) and [Part Two: Actionable Data Analysis](https://www.niso.org/events/2018/09/part-two-using-analytics-extract-value-librarys-data) September 2018
 The National Information Standards Organization (NISO) hosted a two part webinar in 2018 about extracting value from library data. The slides for the six presentations are available, and cover topics such as; setting up a data analysis strategy, analysing metadata, utilising data visualisations, actioning data insights for utilising physical spaces and building confidence in your data analysis skills.
-
-- [**Libraries support data-driven decision making**](https://hangingtogether.org/libraries-support-data-driven-decision-making/) February 2024. 
-An OCLC-Liber blog post following their “Building for the future” program where librarians had gathered to discuss their understanding and practical interpretations of data driven libraries.
-
-- [**Utilising new modes of data to enhance research strategy and collaboration**](https://www.timeshighereducation.com/campus/utilising-new-modes-data-enhance-research-strategy-and-collaboration?spMailingID=27812157&spUserID=MTQ4NjQ5NDYyNDE5MgS2&spJobID=2351611476&spReportId=MjM1MTYxMTQ3NgS2) November 2023. 
-Digital science looks at how institutions can get high-quality insights into research by standardising their data systems.
+- [**Libraries support data-driven decision making**](https://hangingtogether.org/libraries-support-data-driven-decision-making/) February 2024
+An OCLC-Liber blog post by Rebecca Bryant, Senior Programme Officer at the OCLC Research Library Partnership, following their “Building for the future” program. During the program librarians gathered to discuss their understanding and practical interpretations of data driven libraries.
+- [**Utilising new modes of data to enhance research strategy and collaboration**](https://www.timeshighereducation.com/campus/utilising-new-modes-data-enhance-research-strategy-and-collaboration?spMailingID=27812157&spUserID=MTQ4NjQ5NDYyNDE5MgS2&spJobID=2351611476&spReportId=MjM1MTYxMTQ3NgS2) November 2023
+Digital Science, the creators of Altmetric, look at how institutions can get high-quality insights into research by standardising their data systems.
 
 ## Hands-on activity and other self-guided tutorial(s) 
-
-Now that you’ve found some data, and/or you’ve formulated some questions to answer, how do you know the data will be good enough? Let’s take some time to assess the data, and ensure it is fit for purpose, because a key analogy in data analysis is;
-
-        **GIGO: Garbage in, garbage out!.**
 
 The process of utilising data is a cycle, a standard process model that describes a common approach to data is [CRISP-DM](https://www.datascience-pm.com/crisp-dm-2/) (Cross-industry standard process for data mining). It has six stages, listed below.
 
 
 ![](images/WrkData.png)
 
-This section will enable you to assess your data, through a variety of leading questions, at each stage of the cycle. How long each phase takes will depend entirely on the project, there is no right or wrong, and it is cyclical, you will return to questions as you develop the project. These are structured as questions because one guide cannot have all the answers, and therefore giving a variety of questions which hopefully ensure you do not miss anything, and learn much more which is relevant to your project. This approach will enable you to assess if the data you have is relevant to the question, and if it has the potential to answer it correctly.
+This section will enable you to walk through an assessment of your data, through a variety of leading questions, at each stage of the cycle. You can use it to have a think and guided discussion around data held in your Library. How long each phase takes will depend entirely on the project, there is no right or wrong, and it is cyclical, you will return to questions as you develop the project. These are structured as questions because one guide cannot have all the answers, and therefore giving a variety of questions will hopefully ensure you do not miss anything, and learn much more which is relevant to your project. This approach will enable you to assess if the data you have is relevant to the question, and if it has the potential to answer it correctly.
 
 This guide hopes to calm your nerves about using data, and to see that you are capable of answering data questions confidently.
 
 ### Business Understanding
 
-The Business Understanding phase focuses on understanding the objectives and requirements of the project. Here you are planning your project
+The Business Understanding phase focuses on understanding the objectives and requirements of the project. Here you are planning your project.
 
 - What questions are you answering?
 - Who are your stakeholders?
 - What are the criteria and limitations to the project?
-- What is the goal of using this data? Doing this project?
+- What is the goal of using this data? 
 - What resources are (or are not) available?
 - What is the timeline on the project? And the data input specifically?
 - What stage of the project requires data analysis?
@@ -167,26 +154,28 @@ Data Understanding drives the focus to identify, collect, and analyse the releva
 
 ### Data Preparation
 
-A common rule of thumb is that 80% of the project is data preparation.
+A common rule of thumb is that 80% of the project is Data Preparation. Note that many of the prompting questions below relate specifically to tabular data as this is the kind of data that many folks in libraries will encounter when first starting to work with data. [Tidy data for Librarians](https://librarycarpentry.github.io/lc-spreadsheets/aio.html) for instance is an excellent resource with lots more guidance and advice around preparing data, with a particular focus on spreadsheet/tabular data. But do remember that in the library domain there are many other kinds of data representations and data types.  
 
 - What data is not necessary from the dataset?
 - How are errors or duplications handled?
 - What new attributes or formulas are required?
 - How do datasets interact with one another?
-- Is the data formatted correctly?
+- Is the data formatted correctly for the analysis you need to do?
 - What acronyms are in use? Are they formatted correctly?
 - Has the data been standardised?
-- Are the column names useful and appropriate?
+- Are the column names and/or data labels useful and appropriate?
 - Does every database have a unique identifier column?
 - How do you handle missing metadata?
 - Are you editing the master / only copy?
 - Have you documented the process so that you can provide evidence if needed?
-- Is the data in a clear and useable tabular format (rows and columns)?
+- Is the data in a clear and useable format?
 - Have all merged cells been removed / updated?
+
+
 
 ### Modelling
 
-What is often regarded as the most exciting work is also often the shortest phase. Now is the time to build and assess various models or visualisations.
+Modelling is often regarded as the most exciting work, but is also often the shortest phase. Now is the time to build and assess various models or visualise your data. See our *DS Topic Guide* on [Data Visualisation](dataviz.qmd) for more guidance.
 
 - What conclusions can be drawn from the data?
 - What visualisations are appropriate to display the data?
@@ -196,7 +185,7 @@ What is often regarded as the most exciting work is also often the shortest phas
 
 ### Evaluation
 
-This phase looks more broadly at the data project and what to do next.
+The Evaluation phase looks more broadly at the data project and what to do next.
 
 - Did the data fulfil the goal of this project?
 - What was unable to be achieved?
@@ -205,7 +194,7 @@ This phase looks more broadly at the data project and what to do next.
 
 ### Deployment
 
-Depending on the requirements, the deployment phase can be as simple as emailing a graph, or as complex as publishing a live dashboard of intricate data and visuals.
+Depending on the requirements, the Deployment phase can be as simple as emailing a graph, or as complex as publishing a live dashboard of intricate data and visuals.
 
 - Who requires the outcome of this project?
 - Will the outcome need to be presented in multiple formats?
@@ -214,14 +203,17 @@ Depending on the requirements, the deployment phase can be as simple as emailing
 
 #### Storing a datafile / spreadsheet
 
-Once the data exists, it must be accessible. There are a variety of software which can store your data, and taking the time to assess the needs of your data is important.
+Once the data exists, it must be stored in an accessible and organised way. There are a variety of software, or open repositories online (see the *DS Topic Guide* on [Supporting Open Research (Science)](openresearch.qmd), which can store your data, it is important to take some time to decide on the right destination.
 
-- Is the file formatted correctly (CSV vs Microsoft Excel)?
+- Are the files/your dataset in the right format for its intended reuse/requirements of the repository? ([see guidance on different file formats](https://www.geeksforgeeks.org/list-of-file-formats/) and [Choosing the right format for Open Data](https://data.europa.eu/elearning/en/module9/#/id/co-01))
 - Will it need to be accessed online and/or offline?
-- Does the file require a software licence to access?
+- Does the data require a software licence to access?
 - What backups are required?
-- How long are files required to be stored?
-Use this webpage for [guidance on different file formats](https://www.geeksforgeeks.org/list-of-file-formats/).
+- How long are files required to be stored? Will they be deleted or archived?
+- Have you established a naming convention for files? Does it account for versions, dating and author? Tip: Have titles be meaningful, in a relevant order, and versions discernible.
+- Is there clear documentation of the processes undertaken? Therefore ensuring the task can be repeated, or to justify any conclusions. Tip: This should include the source of the data, any cleaning steps made, and all relevant metadata. Consider using [Datasheets for Datasets](https://dl.acm.org/doi/10.1145/3458723).
+
+
 
 ## Recommended Reading/Viewing  
 
@@ -236,7 +228,7 @@ Use this webpage for [guidance on different file formats](https://www.geeksforge
 
 ### Library Endorsed Resources
 
-- **LIBER** members have created the [Digital Scholarship & Data Science Essentials for Library Professionals](https://libereurope.github.io/ds-topic-guides/), which this guide is a part of. Guidance also includes [data visualisation](dataviz.qmd) and [data as collections](collectionsasdata.qmd), and continues to grow.
+- **LIBER** members have created the [Digital Scholarship & Data Science Topic Guides for Library Professionals](https://libereurope.github.io/ds-topic-guides/), which this guide is a part of. Guidance also includes [Data Visualisation](dataviz.qmd) and [Collections as Data](collectionsasdata.qmd), and [Open Research (Open Science)](openresearch.qmd) which further detail important elements of working with library data. 
 - **JISC** has published resources to support [data-driven decisions](https://www.jisc.ac.uk/data-analytics), including interactive insights on graduate outcomes and conducting online surveys as a form of data gathering.
 - The **DSVIL** (Data Science and Visualization Institute for Librarians) provides great [guidance and resources](https://www.lib.ncsu.edu/services/data-visualization) for finding, cleaning, analysing, visualising and managing data.
 - The **Bodleian Library**, University of Oxford, hosts a variety of [resources to support data analysis](https://www.bodleian.ox.ac.uk/collections-and-resources/data/accessing-and-using-data/data-analysis) (including audio-visual), data mining, and visualisation tools.
@@ -245,33 +237,19 @@ Use this webpage for [guidance on different file formats](https://www.geeksforge
 - **IFLA** (International Federation of Library Associations and Institutions) has a variety of [data analytics resources](https://www.ifla.org/resources/?_sfm_resource_topic=1200506&_sfm_resource_type=All) which cover using specific software, trends in the news, and practical applications of data within libraries.
 - The **PLA** (Public Library Association) (which is part of ALA, the American Library Association), have developed [data tools](https://www.ala.org/pla/data) to enable public libraries to be compared across multiple metrics.
 
-### Learning Data Beyond Libraries
+### Learning Data Skills Beyond Libraries
 
-There are numerous platforms dedicated to data skills, listed below are some of the most popular for beginning your data journey.
+There are numerous platforms dedicated to data skills more generally, listed below are some of the most popular for beginning your data journey.
 
 - [**The Carpentries**](https://carpentries.org/): Community-led coding and data science courses for researchers and librarians, with three specialties; [Data Carpentry](https://datacarpentry.org/) (data skills for conducting research), [Library Carpentry](https://librarycarpentry.org/) (software and data skills for librarians), and [Software Carpentry](https://software-carpentry.org/) (lab skills for research computing).
 - [**Datacamp**](https://www.datacamp.com/): great for free cheat sheets (webpage or PDF) on [data literacy](https://www.datacamp.com/blog/what-is-data-literacy-a-comprehensive-guide-for-organizations), understanding [data knowledge](https://www.datacamp.com/cheat-sheet/the-data-information-knowledge-wisdom-pyramid) levels and [data storytelling](https://www.datacamp.com/cheat-sheet/data-storytelling-and-communication-cheat-sheet). As well as resources and courses for a variety of coding and data software.
 - [**LinkedIn Learning**](https://www.linkedin.com/learning/): a wonderful resource of videos for anything from coding to people management to making the perfect Microsoft Excel graph.
-- [**Google Skillshop**](https://skillshop.withgoogle.com/): Training and certification in google analytics which could upport queries about library engagement.
+- [**Google Skillshop**](https://skillshop.withgoogle.com/): Training and certification in google analytics which could support queries about library engagement.
 
-## Taking the next step  
+## Finding Communities of Practice  
 
-### Ensuring Good Practice
-
-Working with data is very exciting and rewarding, but can quickly become overwhelming. There are fears of being hacked and having data stolen, or even losing data due to bad organisation or not knowing it needed saving. Sadly this guide cannot have all of the answers on the practices and policies which should be in place. But it will instead ask a few provoking questions to ensure you can rest the worries of data loss and theft.
-
-- Have you established a naming convention for files? Does it account for versions, dating and author? Tip: Have titles be meaningful, in a relevant order, and versions discernible.
-- When will the file(s) be deleted or archived?
-- Is there clear documentation of the processes undertaken? Therefore ensuring the task can be repeated, or to justify any conclusions. Tip: This should include the source of the data, any cleaning steps made, and all relevant metadata.
-- Where are the files stored, are the folders easy to access? Is there a naming convention and folder hierarchy in place for the project, and the team?
-
-### What skills are you looking for?
-
-If you have read through this guide, and still thirst for more, here are some questions to encourage your exploration in library data!
-
-- What in-house data can you combine (such as the library management system and google analytics)?
-- Think of a report that is repeated regularly but often time consuming, is there a software or data task that could make this quicker?
-- What software do you regularly use, how could you expand those skills? Does the library management system provide specialist training?
-- Is coding, AI or visualisation an area you would like to explore? What else do you want to do with data?
-- Which elements of the data process do you want to focus? Cleaning, analysing, visualising etc.
-- Can you attend a conference which discusses library data you are interested in?
+Depending on what particular area you're interested in learning more about with regards to working with data, there are any number of communities out there to help you along the way such as:
+* The [Collections as Data Community](https://groups.google.com/g/collectionsasdata?pli=1) has an active Google Group open to all where members can ask data related questions and seek advice and support.
+* Look to local universities, particularly Digital Humanities or Data Science groups within them, for summer schools or other group training open to the public which may provide you with the opportunity to meet like-minded individuals while learning new data skills. For example Cambridge Universities offer online and in-person [Cambridge Cultural Heritage Data School](https://www.cdh.cam.ac.uk/dataschools/) annually or the [European Summer University in Digital Humanities “Culture and Technology”](https://esudh.github.io/about/) are great options for learning data skills in a community setting and are open to library professionals, not just academics.
+* OpenRefine is a free, open source tool for data wrangling and is _especially_ popular with librarians! They have a great [OpenRefine community](https://openrefine.org/community) and lots of ways to get in touch for support and to share experiences including the [OpenRefine Forum](https://forum.openrefine.org/).
+* If managing research data is a particular area of interest of yours, the [LIBER Research Data Management Working Group](https://libereurope.eu/working-group/research-data-management/) supports libraries to explore and gain skills to develop services for implementing FAIR research data, data management during research projects, setting up data archives/repositories to store and publish research datasets.
