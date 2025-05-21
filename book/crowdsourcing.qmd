@@ -1,10 +1,9 @@
 ---
 title: "Crowdsourcing and Citizen Science in Cultural Heritage"
-date: 2025-01-28
-date-modified: 2025-01-28
+date: 2025-05-21
+date-modified: 2025-05-21
 author:
   - name: Mia Ridge
-    id: jc
     orcid: 0000-0003-3733-8120
     email: digitalresearch@bl.uk
     affiliation: 
@@ -13,13 +12,13 @@ author:
         country: UK
         url: https://libereurope.eu/member/mia-ridge/
 abstract: > 
-  A quick guide offering practical tips on how anyone can get started with crowdsourcing in their your own library or cultural heritage institution.
+  A quick guide offering practical tips on how anyone can get started with crowdsourcing in their own library or cultural heritage institution.
 keywords:
-  - TBD
-  - TBD
+  - Crowdsourcing
+  - Citizen Science
 license: "CC BY"
 citation: 
-  container-title: Digital Scholarship & Data Science Essentials
+  container-title: Digital Scholarship & Data Science Topic Guides for Library Professionals
   volume: 1
   issue: 1
   doi: 10.5555/12345678
@@ -30,27 +29,31 @@ format:
 
 ## Introduction  
 
-Crowdsourcing in cultural heritage is a method for enabling meaningful public participation in research or practical tasks based on cultural heritage collections or knowledge (adapted from Ridge et al 2021). In practical terms, a typical example involves asking people outside the institution to contribute effort via tasks such as transcribing, tagging, researching or sharing artefacts. Crowdsourcing projects tend to focus on creating enjoyable, inherently rewarding experiences that lead to high quality data with minimal risk of errors. This means that crowdsourcing platforms can also be a great way for staff to work with their own collections.
+Crowdsourcing in cultural heritage is a method for enabling meaningful public participation in research or practical tasks based on cultural heritage collections or knowledge (adapted from the [Collective Wisdom Handbook](https://britishlibrary.pubpub.org/the-collective-wisdom-handbook-perspectives-on-crowdsourcing-in-cultural-heritage---community-review-version). In practical terms, a typical example involves asking people outside the institution to contribute effort via tasks such as transcribing, tagging, researching or sharing artefacts. Crowdsourcing projects tend to focus on creating enjoyable, inherently rewarding experiences that lead to high quality data with minimal risk of errors. This means that crowdsourcing platforms can also be a great way for staff to work with their own collections.
 
-For example, you could ask locals to share their memories, stories or artefacts about your region, or you could work with the public to co-create an exhibition or collaborate with international experts on research tasks. Volunteers can follow their interests on specific topics, or encounter parts of a collection that are entirely new to them.
+For example, you could ask locals to share their memories, stories or artefacts about your region, or you could work with the public to co-create an exhibition or collaborate with international experts on research tasks. Some volunteers want follow their interests in specific topics, while others enjoy serendipitious glimpses into varied collections.
 
 So perhaps more importantly than the data collected or enhanced, crowdsourcing in cultural heritage is a way of inviting people to spend time with collections and institutions that they might never encounter otherwise. For example, the Living with Machines project engaged over 5000 online volunteers on the citizen science platform, many of whom had [no previous experience with library or humanities research](https://livingwithmachines.ac.uk/whos-who-on-the-zooniverse/), and no previous relationship with the British Library.
 
-While crowdsourcing in other fields might involve payment for tasks completed (for example, via Mechanical Turk), the rewards for contributing to crowdsourcing in cultural heritage are usually intrinsic or altruistic. Thinking of it as a form of online volunteering can be helpful - participants can help enhance collections metadata, research objects or stories, contribute their own knowledge and experience, etc, with opportunities to learn or socialise during the process. But unlike traditional volunteering, crowdsourcing isn't limited to a venue's location or hours of operation - online projects can be open to anyone, anywhere in the world, 24 hours a day.
+While crowdsourcing in other fields might involve payment for tasks completed (for example, via Amazon's Mechanical Turk), the rewards for contributing to crowdsourcing in cultural heritage are usually intrinsic or altruistic. Thinking of it as a form of online volunteering can be helpful - participants can help enhance collections metadata, research objects or stories, contribute their own knowledge and experience, etc, with opportunities to learn or socialise during the process. But unlike traditional volunteering, crowdsourcing isn't limited to a venue's location or hours of operation - online projects can be open to anyone, anywhere in the world, 24 hours a day.
 
 Volunteers are often motivated by their interest in a topic or source type (e.g. beautiful maps or interesting photographs), the challenge of completing a task well (e.g. deciphering old handwriting), developing their skills and knowledge (e.g. becoming more accurate as they practise palaeography, or learning more about a collection or research question). They often stay motivated because they get feedback from project teams, and gain a sense of purpose or community.
 
-Increasingly, libraries might combine crowdsourcing with machine learning and AI tools, ideally by building workflows and systems that take care of lower-level tasks such as pre-selecting relevant records, distributing and verifying tasks, and quality checking and formatting the results, supporting innovation in creating enjoyable volunteer or staff experiences. For example, the ['Ad or not' task](https://livingwithmachines.ac.uk/ad-or-not-new-crowdsourcing-task/) we created for Living with Machines relies on people's ability to understand the purpose of short pieces of text; the results of this task become the 'ground truth' dataset for training an experimental machine learning model. This simple 'yes or no' format also meant that the task was available in the Zooniverse app, further increasing its reach.
+Increasingly, libraries might combine crowdsourcing with [machine learning and AI](ai-ml.qmd) tools. For example, by building workflows that automate work such as pre-selecting relevant records, distributing tasks to volunteers with matching skills and interests, then supporting staff in quality checking and formatting the results. Automating tedious (and easily verifiable) tasks with machine learning can help create enjoyable volunteer or staff experiences. 
 
-![Screenshot of the Zooniverse task interface, with an historical newspaper image on the left, and options to label it 'yes' or 'no' in response to a question asking if it is an ad](images/zooniverse.png)
+It can also be used to 'scale up' the results of volunteer work. For example, the ['Ad or not' task](https://livingwithmachines.ac.uk/ad-or-not-new-crowdsourcing-task/) we created for Living with Machines relies on people's ability to understand the purpose of short pieces of text - was it an advertisement or part of an article? The results of this task became the 'ground truth' dataset for training an experimental machine learning model that could assess whether other texts were ads or not. 
 
-Screenshot of an early version of the 'ad or not' task on Zooniverse.
+![Screenshot of the Zooniverse task interface, with an historical newspaper image on the left, and options to label it 'yes' or 'no' in response to a question asking if it is an advertisement](images/zooniverse.png)
+
+Screenshot of an early version of the 'ad or not' task on Zooniverse. This simple 'yes or no' format also meant that the task was available in the Zooniverse app, further increasing its reach.
 
 ### What's in a name?
 
-'Crowdsourcing' is an awkward name, with implications of 'outsourcing' and anonymous crowds, but thus far it has the most traction and recognition. Other terms used for similar work include digital public participation, community-generated digital content (CGDC), online volunteering, and variations such as 'niche-sourcing' for small or invitation-only projects.
+'Crowdsourcing' is an awkward name, with implications of 'outsourcing' and anonymous crowds, but to date it is the most widely recognised term. Other terms used for similar work include digital public participation, community-generated digital content (CGDC), online volunteering, and variations such as 'niche-sourcing' for small or invitation-only projects.
 
-'[Citizen science](https://libereurope.eu/working-group/liber-citizen-science-working-group/)' is another commonly used term with a lot of overlap with crowdsourcing. Citizen science projects might include natural history observations in the world (for example, recording wildlife, or monitoring water quality) or screen-based tasks such as counting penguins in photographs. With roots in a broader concept of 'science' (Wissenschaft) as knowledge or areas of study, 'citizen science' also includes citizen history, humanities (Geisteswissenschaften), social sciences and any other field that works with knowledge about the world.
+'[Citizen science](https://libereurope.eu/working-group/liber-citizen-science-working-group/)' is another commonly used term with a lot of overlap with crowdsourcing. Citizen science projects might include natural history observations in the world (for example, recording wildlife, or monitoring water quality) or screen-based tasks such as counting penguins in photographs. With roots in a broader concept of 'science' (Wissenschaft) as knowledge or areas of study, 'citizen science' also includes citizen history, humanities (Geisteswissenschaften), social sciences and any other field that works with knowledge about the world. As inherently interdisciplinary spaces that welcome specialists and the public, libraries are excellent places to host crowdsourcing and citizen science projects.
+
+Whatever it's called, recognising the work that volunteers put into projects is important. Some projects do this by hosting events for volunteers, others ensure that they are named and credited in publications and datasets.
 
 ### Is crowdsourcing right for you?
 
@@ -62,7 +65,7 @@ Ideally, you would also be able to ensure that the source collections, desired d
 
 Cultural heritage institutions can support citizen science projects that ask participants to make observations about the natural world. For example, [community science projects at the UK's Natural History Museum](https://www.nhm.ac.uk/take-part/monitor-and-encourage-nature/community-science.html) ask people to help investigate noise pollution and local pondlife.
 
-Libraries, archives and museums can ask volunteers to help create or enhance collection data by transcribing handwritten text, entering data from catalogue or specimen cards into databases, or adding tags or labels to describe images. For example, [Smithsonian Digital Volunteers: Transcription Center](https://transcription.si.edu/).
+Libraries, archives and museums can ask volunteers to help create or enhance collection data by [transcribing handwritten text](atr.qmd), entering data from catalogue or specimen cards into databases, or adding tags or labels to describe images. For example, [Smithsonian Digital Volunteers: Transcription Center](https://transcription.si.edu/).
 
 They might also ask volunteers to research objects or record information from their personal knowledge. For example, photos on [Flickr Commons](https://www.flickr.com/commons) have been tagged with locations, personal names and histories, and specialist object labels identified by people with local or historical knowledge about photographs.
 
@@ -70,9 +73,11 @@ Library and other GLAM staff can initiate projects, help manage and run them, an
 
 Libraries can support projects run on national portals, such as Latvia's [iesaisties.lv](https://iesaisties.lv). They can point language learners or people with local knowledge to projects in a range of languages and [other national portals](https://www.openobjects.org.uk/2023/01/national-approaches-to-crowdsourcing-citizen-science/).
 
+There's a strong relationship between [IIIF](iiif.qmd) and crowdsourcing. In 2017 the British Library used [IIIF images for the 'In the Spotlight' project](https://blogs.bl.uk/digital-scholarship/2017/11/crowdsourcing-using-iiif-and-web-annotations.html), in part to save hosting costs, and in part to explore the potential for IIIF annotations in crowdsourcing. This later inspired a [collaboration with Zooniverse to support importing media into Zooniverse via IIIF manifests](https://blogs.bl.uk/digital-scholarship/2022/04/importing-images-into-zooniverse-with-a-iiif-manifest-introducing-an-experimental-feature.html). Crowdsourcing platforms that support IIIF include the [Digirati / National Library of Wales/Madoc platform](https://madoc.digirati.com/) and [From the Page](https://fromthepage.com/).
+
 ## Hands-on activity and other self-guided tutorial(s)  
 
-The best way to learn more about crowdsourcing is to try a range of different projects. This will help you understand participant motivations, get a sense of the importance of great text in getting you started, and think about how data might move between GLAM systems and crowdsourcing platforms.
+The best way to learn more about crowdsourcing is to try a range of different projects. This will help you understand participant motivations, get a sense of the importance of great titles and instrutions in getting you started, and think about how data might move between GLAM systems and crowdsourcing platforms.
 
 You can find projects to try at:
 
@@ -86,7 +91,7 @@ If your organisation has records in Europeana, you might be able to devise crowd
 
 ## Recommended Reading/Viewing
 
-If you are interested in learning more about participating in, creating or using data from crowdsourcing projects, a recent comprehensive publication is the open access publication, [T_he Collective Wisdom Handbook: Perspectives on Crowdsourcing in Cultural Heritage_](https://doi.org/10.21428/a5d7554f.1b80974b).
+If you are interested in learning more about participating in, creating or using data from crowdsourcing projects, a recent comprehensive publication is the open access publication, [The Collective Wisdom Handbook: Perspectives on Crowdsourcing in Cultural Heritage](https://doi.org/10.21428/a5d7554f.1b80974b).
 
 The [Collective Wisdom Handbook](https://doi.org/10.21428/a5d7554f.1b80974b) is designed to answer the most common questions that people have as they think about starting, maintaining and using data from a crowdsourcing or citizen science project. Topics covered include:
 
