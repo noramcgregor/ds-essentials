@@ -32,6 +32,9 @@ citation:
   volume: 1
   issue: 1
   doi: TBD
+format:
+  pdf: default
+  html: default
 ---
 
 ## Introduction
@@ -40,7 +43,7 @@ This guide aims to provide library professionals at European research institutio
 
 If it’s been awhile since you’ve had a look at copyright rules closely, let’s take a minute to cover the basics so we have a good foundation for understanding the more complex considerations of copyright in an AI context today. 
 
-Equally, if you feel well versed in the basics already and are keen to dive straight into the AI context, **feel free to hop on down to the [Relevance to the Library section](https://libereurope.github.io/ds-essentials/copyright.html#relevance-to-the-library-sector-case-studiesuse-cases)**.
+Equally, if you feel well versed in the basics already and are keen to dive straight into the AI context, **feel free to hop on down to the [Relevance to the Library section](#relevance-to-the-library-sector-case-studiesuse-cases)**.
 
 ### Copyright basics
 
@@ -269,6 +272,10 @@ In the Court’s opinion, the image cannot as a matter of principle be protected
 This guide contains a ton of resources for learning about copyright but for something a little bit different, check out the [Copyright Card Game](https://copyrightliteracy.org/resources/copyright-the-card-game/) or online quizzes such as [European Copyright 10 Questions](https://www.era-comm.eu/stream/Free_e-presentations/Demo_Course_European_Copyright_10_Questions/story_html5.html). 
 
 ## Recommended Reading/Viewing  
+
+On February 26 2025, the LIBER Copyright & Legal Matters Working Group hosted a webinar to explore the implications of the AI Act for scientific libraries and how they can prepare for its implementation. The session aimed to provide the attendees with a deeper understanding of the AI Act and you can watch it here:
+
+[![Watch the video](images/YouTubeCopyright.png)](https://www.youtube.com/embed/UZl2_MXybYw?si=HJ8uQehkB7H0nrvV)
 
 Copyright and AI is a constantly moving area and it can be hard to keep up with the latest developments but we can recommend following the [The IPKat (ipkitten.blogspot.com)](https://ipkitten.blogspot.com/) and [Kluwer Copyright Blog (kluweriplaw.com)](https://copyrightblog.kluweriplaw.com/) and [News from the LIBER Copyright & Legal Matters Working Group](https://libereurope.eu/working-group/liber-copyright-legal-matters-working-group/news/) for excellent updates.
 

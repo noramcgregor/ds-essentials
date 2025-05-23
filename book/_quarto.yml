@@ -7,37 +7,39 @@ language:
   search-text-placeholder: Search
 
 website: 
-  favicon: images/Favicon.png
+  title: "DS Topic Guides"
+  favicon: /logo/favicon.ico
   google-analytics: 
     tracking-id: "G-54HL7T1Z2K"
-  repo-url: https://github.com/libereurope/ds-essentials/
+  repo-url: https://github.com/libereurope/ds-topic-guides/
   repo-subdir: book
   repo-actions: [source, issue] 
-
+  announcement: 
+    icon: info-circle
+    dismissable: true
+    content: "**Currently under construction** - we're hard at work finalising the content of _DS Topic Guides_ ahead of our July 4 launch at the LIBER Annual 2025 conference! Stay tuned!"
+    type: light
+    position: below-navbar
     
   navbar:
     background: primary
     pinned: true
     search: true
     type: overlay
-    logo: Favicon.png
+    logo: /logo/Liber-DS-logo-long-white.png
     
-    left:
-      - text: "**Digital Scholarship & Data Science Topic Guides for Library Professionals**"
-        href: index.qmd
-
     right:
-      - text: "TOPIC GUIDES"
+      - text: "Topic Guides"
         href: topicguides.qmd
-      - text: "ABOUT"
+      - text: "About"
         href: project-overview.qmd 
-      - text: "CONTRIBUTE"
+      - text: "Contribute"
         menu:
         - contributing.qmd
         - guidelines.qmd
         - licensing.qmd
   sidebar:  
-      - title: "TOPIC GUIDES"
+      - title: "Topic Guides"
         style: "docked"
         background: light
         contents:
@@ -63,6 +65,8 @@ website:
           - text: "---"
           - digitalmapping.qmd
           - text: "---"
+          - digitisation.qmd
+          - text: "---"
           - github.qmd
           - text: "---"
           - iiif.qmd
@@ -83,7 +87,7 @@ website:
       A 2023-2027 <a href="https://libereurope.eu/working-groups">LIBER Working Group</a> collaboration between <a href="https://libereurope.eu/working-group/digital-scholarship-and-digital-cultural-heritage-collections-working-group/">Digital Scholarship and Digital Cultural Heritage </a> and <a href="https://libereurope.eu/working-group/liber-data-science-in-libraries-working-group/">Data Science in Libraries</a> 
     right:
       - icon: github
-        href: https://github.com/libereurope/ds-essentials
+        href: https://github.com/libereurope/ds-topic-guides
 
 format:
   html:
@@ -101,7 +105,7 @@ format:
 #About DS Essentials - Topic Guides  -   Additional Resources  -  Contribute   -   Search
 
 book:  
-  title: "Digital Scholarship & Data Science Essentials for Library Professionals"
+  title: "Digital Scholarship & Data Science Topic Guides for Library Professionals"
   google-analytics: 
     tracking-id: "G-54HL7T1Z2K"
   reader-mode: true
@@ -113,7 +117,7 @@ book:
       A 2023-2027 <a href="https://libereurope.eu/working-groups">LIBER Working Group</a> collaboration between <a href="https://libereurope.eu/working-group/digital-scholarship-and-digital-cultural-heritage-collections-working-group/">Digital Scholarship and Digital Cultural Heritage </a> and <a href="https://libereurope.eu/working-group/liber-data-science-in-libraries-working-group/">Data Science in Libraries</a> 
   
   chapters:
-    - part: "**ABOUT**"
+    - part: "**About**"
       chapters:
         - index.qmd
         - project-overview.qmd
@@ -131,10 +135,11 @@ book:
     - iiif.qmd
     - dataviz.qmd
     - digitalmapping.qmd
+    - digitisation.qmd
     - crowdsourcing.qmd
     - github.qmd
     - workingwdata.qmd
-    - part: "**GENERAL RESOURCES**"
+    - part: "**General Resources**"
       chapters:
         - dstp.qmd
         - references.qmd
@@ -150,7 +155,7 @@ book:
 
   comments: 
     utterances:
-      repo: libereurope/ds-essentials
+      repo: libereurope/ds-topic-guides
 
 bibliography: references.bib
 

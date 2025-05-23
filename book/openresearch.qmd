@@ -1,5 +1,5 @@
 ---
-title: "Open Research (Open Science)"
+title: "Supporting Open Research (Open Science)"
 date: 2025-02-10
 date-modified: 2025-02-10
 author:
@@ -22,7 +22,7 @@ author:
         country: UK
         url: https://libereurope.eu/member/jodie-double/
 abstract: > 
-  A short guide explaining the aim and value of Open Research/Open Science.
+  A short guide explaining how libraries can get started in supporting Open Research (Open Science).
 keywords:
   - TBD
   - TBD
@@ -32,6 +32,9 @@ citation:
   volume: 1
   issue: 1
   doi: TBD
+format:
+  pdf: default
+  html: default
 ---
 
 ## Introduction 
@@ -45,7 +48,7 @@ The aim of Open Research is:
 
 ### How does this benefit society?
 
-Universities and researchers are recognising that Open Research has benefits extending far beyond each individual institution:
+Universities and researchers are recognising that Open Research has benefits extending far beyond each individual institution. The [Open Research Group at University of Cambridge](https://osc.cam.ac.uk/open-research) articulates this nicely in their guidance to researchers:
 
 - The general public has free access to quality information that matters in their lives
 - Practitioners and policy makers can put the findings of research into practice more quickly and easily
@@ -57,21 +60,14 @@ Universities and researchers are recognising that Open Research has benefits ext
 
 ### How does this benefit researchers?
 
-Individual researchers also benefit from sharing their research:
+The [Open Research Group at University of Cambridge](https://osc.cam.ac.uk/open-research) note that individual researchers also benefit from sharing their research:
 
 - More visibility as outputs are not restricted by paywalls and other barriers
 - Greater impact as more people read and apply their work
 - More credibility through making the process of research more transparent
 - Compliance with funders’ requirements and career opportunities
 
-Open research is more than just making research findings public. It’s a philosophy that encourages transparency, accessibility, and collaboration throughout the entire research process. This module focuses on the FAIR principles as an open research practice for improving confidence in research:
-
-### FAIR principles
-
-- **Findable**: Research data, software and publications should be easy to discover using clear and consistent identification methods.
-- **Accessible**: Data, software and publications should be readily available to anyone with minimal barriers, often through open access repositories.
-- **Interoperable**: Data should be presented in a standardised format that allows for seamless integration and analysis with other datasets.
-- **Reusable**: Data, software and publications should be accompanied by clear documentation and licensing, allowing others to understand and build upon them.
+Open Research is more than just making research findings public. It’s a philosophy that encourages transparency, accessibility, and collaboration throughout the entire research process. 
 
 ### Are there any challenges to Open Research?
 
@@ -82,86 +78,116 @@ The role of libraries on Open Research has been discussed for a while and endors
 
 OECD defines libraries as enablers “_Libraries have adapted their role and are now active in the preservation, curation, publication and dissemination of digital scientific materials, in the form of publications, data and other research-related content. Libraries and repositories constitute the physical infrastructure that allows scientists to share use and reuse the outcome of their work, and they have been essential in the creation of the Open Science movement”_
 
-There is no ‘one size fits all’ way of adoption Open Research practices, but Libraries are contributing in the following ways:
+Library staff have an important role in encouraging their institution to make open research a priority, and deliver practical support to their researchers. 
 
-**1. _Advocating and raising awareness of Open Research_**
+[LIBER's Open Science Roadmap](https://zenodo.org/records/1303002) produced by the [LIBER Open Access Working Group](https://libereurope.eu/working-group/open-access-working-group/) is an exceptional resource and outlines the "specific actions libraries can take to champion Open Science, both within and beyond their own institutions". It provides specific recommendations on how libraries can (and *must*) work across many different areas to fully advocate, raise awareness of and support Open Science such as:
 
-Often, a lack of institutional support and funds can negatively affect researchers when they are publishing open research.
+* Scholarly Publishing
+* FAIR Data
+* Research Infrastructure & the EOSC
+* Open Science Skills
 
-Library staff have an important role in encouraging their institution to make open research a priority, and deliver practical support to their researchers.
+The Roadmap also provides a number of helpful case studies, well worth a read, of champions in the Open Research space: 
 
-**2. _Managing or supporting the infrastructure_**
+* Karlsruhe Institute of Technology
+* National Library of Finland
+* Ruder Bošković Institute Library
+* Spanish National Research Council
+* Svetozar Markovic University Library
+* University of Barcelona
+* University College London
+* University Library of Southern Denmark
 
-Libraries are usually responsible to maintain and enhance the records deposited on the institutional or national repository.
+These can be a good source of inspiration and are concrete examples to help your institution practically support Open Research.
 
-It is important to make sure the platform you are using allows researchers to surface
+One of the most important ways librarians can and do support Open Research is through adopting, promoting and supporting [Fair Data Principles]( https://libereurope.eu/article/implementing-fair-data-principles-role-libraries/).
 
-**3. _Training supporting researcher_**
+- **Findable**: Research data, software and publications should be easy to discover using clear and consistent identification methods.
+- **Accessible**: Data, software and publications should be readily available to anyone with minimal barriers, often through open access repositories.
+- **Interoperable**: Data should be presented in a standardised format that allows for seamless integration and analysis with other datasets.
+- **Reusable**: Data, software and publications should be accompanied by clear documentation and licensing, allowing others to understand and build upon them.
 
-Libraries play an important role supporting researchers across the research life cycle as follow:
+LIBER’s [Research Data Management Working Group](https://libereurope.eu/working-group/research-data-management/) produced a helpful factsheet, [Implementing FAIR Data Principles: The Role of Libraries](https://libereurope.eu/article/implementing-fair-data-principles-role-libraries/), specifically to help libraries understand how to get started incorporating the FAIR Data Principles in their work: 
+
+* Promote the FAIR principles to local research and IT staff;
+* Incorporate the FAIR principles in your Data Management Plans and your digital preservation practices and policies;
+* Seek opportunities to curate, enrich, capture and preserve research data that will aid in making data findable, accessible, interoperable and reusable. Good starting points are collections of individual researchers, or a data collection of a research group;
+* Train subject and data librarians on disciplinary metadata, vocabularies and tools to make data FAIR;
+* Encourage researchers to deposit data with archives that embody the FAIR principles;
+* Evaluate the data collections and data management practices at your institution against the FAIR principles.
+
+Here are a few more practical suggestions for ways in which librarians can support the adoption of Open Research principals at their insitutions:
+
+***1. Make it easier for staff and researchers to find all the info they need about Open Research***
+
+Your institution should have a central place for providing information to staff and researchers about embarking on open research, and where to seek practical support. If it doesn't your library website can be a natural home for such information!
+
+**2. *Provide practical support for researchers***
+
+Researchers may be keen to adopt open research principals, but without a lack of institutional support and practical training they may be more easily deterred. Librarians have an important role in encouraging their institution to make open research a priority, and deliver practical support to their researchers. 
+
+Providing advice and training to support researchers across the research life cycle is a key way for librarians to support open research.
 
 _Planning a Research Project_
 
-- Explored Pre-registered studies and protocols
-- Using existing open datasets can inspire new research questions and applications.
+- Exploring pre-registered studies and protocols
+- Using existing open datasets to inspire new research questions and applications.
 - Open Peer Review practices
-- Name your chosen data repository and outline your data management plans for during and after the project including file type
-- Develop a Research Data Management plan
+- Choosing the right data repository 
+- Develop a Research Data Management plan and outlining data management plans for during and after the project
 
 _During the Research Project_
 
-- Develop a pre-registration document (<https://osf.io/preprints/osf/8v2n7>)
-- Explore the use of open source software and tools (UKRN Primer: [Open Code and Software](https://osf.io/qw9ck))
-- How to best document data collection process ( e.g. [The Turing Way: A handbook for reproducible, ethical and collaborative research: open notebooks](https://book.the-turing-way.org/reproducible-research/open/open-notebooks))
-- Use of pre-prints as way to share preliminary results (see[Preprints](https://osf.io/m4zyh))
+- Developing a [pre-registration document](https://osf.io/preprints/osf/8v2n7)
+- Exploring the use of [Open Code and Software](https://osf.io/qw9ck)
+- How best to document data collection process ([The Turing Way: A handbook for reproducible, ethical and collaborative research: open notebooks](https://book.the-turing-way.org/reproducible-research/open/open-notebooks))
+- How to share preliminary results through the use of [Preprints](https://osf.io/m4zyh)
+- Help researchers to manage their personal  identifiers ([ORCID](https://orcid.org/)
 
 _After the end of the Project_
 
-- How to sharer results in an open and suitable long-term format (e.g. [UK Data Service: Recommended File Formats](https://ukdataservice.ac.uk/learning-hub/research-data-management/format-your-data/recommended-formats/) &[Library of Congress Recommended Formats](https://www.loc.gov/preservation/resources/rfs/))
+- How to share results in an open and suitable long-term format (e.g. [UK Data Service: Recommended File Formats](https://ukdataservice.ac.uk/learning-hub/research-data-management/format-your-data/recommended-formats/) & [Library of Congress Recommended Formats](https://www.loc.gov/preservation/resources/rfs/))
 - How to upload (anonymised if appropriate) research data to a trusted open access data repository
 - How to Publish research findings in open access journals and/or deposit them in open access repositories with a permissive reuse licence
 
-**4. _Finding innovative solutions to help your institution embrace open research publishing practices_**
+***3. Work to understand the barriers***
+The blogpost ["How can librarians support open research?"](https://librarianresources.taylorandfrancis.com/insights/open-access-resources/how-can-librarians-support-open-research/) recommends librarians work closely with researchers to understand their specific barriers to publishing openly and share data more easily, and collaborate with other faculties to understand if their researchers are facing the same challenges. This collaborative communication could help find the right solutions for your researchers’ needs.
 
-To help researchers publish openly and share data more easily, you could work with them to understand their specific barriers. It could also be useful to collaborate with other faculties to understand if their researchers are facing the same challenges. Doing this could help find the right solutions for your researchers’ needs, and even expand their open research publishing options.
+***4. Make use of bibliometrics***
+Another way to help encourage the adoption of Open Research practices is to use bibliometrics to incentivise open practices. The authors of ["How can librarians support open research?"](https://librarianresources.taylorandfrancis.com/insights/open-access-resources/how-can-librarians-support-open-research/) notes that colleagues who work with [bibliometrics/citation analysis](https://pdoehle.github.io/bibliometrics-for-librarians/about/) can help develop their institution’s understanding of the impact of their research and shared data, especially if more outputs across the research lifecycle are being openly published. Library can help institutions to recognise, showcase, and reward high impact data sets which have been shared openly and reused by other researchers. 
 
-One way this could be approached is by creating institutional platforms, such as a repository capable of hosting (and making open) data sets and other materials. These would be useful resources to share across faculties, to drive open research at your institution.
+***5. Contribute to and/or create an institution platform***
+Library staff are often responsible for maintaining and enhancing the records deposited on the institutional or national repository, so having a full understanding of open research principals will be essential in some roles. 
 
-It is important to remember there are a few limitations if you were to rely solely on repositories to support open research.
+Some institutions may find that creating institutional platforms, such as a repository capable of hosting (and making open) data sets and other useful resources to share across faculties can drive open research at your institution. It is important though to be aware though that such repositories [may often come with some limitations](https://librarianresources.taylorandfrancis.com/insights/open-access-resources/how-can-librarians-support-open-research/) which means they should only be considered as part of a wider plan for supporting open research. 
 
-They are often only accessible to staff at the institution, so there is a lack of opportunity to share contents with external researchers and the public to get their insights.
-
-Researchers may rely on librarians to upload their research outputs to a repository, meaning an increased workload for librarians.
-
-Many repositories are lacking in uploads of articles, chapters and books, so librarians may need to seek an efficient institutional platform, to protect their workload.
-
-Library staff can also help their institutions to recognise, showcase, and reward high impact data sets which have been shared openly and reused by other researchers. Colleagues who work with bibliometrics can help develop their institution’s understanding of the impact of their research and shared data, especially if more outputs across the research lifecycle are being openly published. This activity can encourage open research practices and help institutions incentivise open practices.
 
 ## Hands-on activity and other self-guided tutorial(s)  
 
-<https://www.fosteropenscience.eu/resources>
+[Skills4EOSC](https://www.skills4eosc.eu/) is an EU funded project that started in 2022 and offers "a comprehensive training program designed to equip researchers, data stewards, and other stakeholders with essential skills for navigating the evolving landscape of Open Science and the European Open Science Cloud (EOSC)"". Some training is asynchronous and you can enroll yourself at any time such as [Learning path for (data) librarians: Technical skills are the bridge to reproducible research](https://learning.skills4eosc.eu/enrol/index.php?id=47).
 
-<https://carpentries-incubator.github.io/fair-bio-practice/02-os-introduction/index.html>
+The [Foster Open Science Project](https://www.fosteropenscience.eu/) produced a number of [training materials](https://zenodo.org/communities/foster/records?q=&f=resource_type%3Alesson&l=list&p=1&s=10&sort=newest) which are helpful for librarians wanting to get started in supporting open research.
+
+Though aimed at researchers in biological and biomedical sciences, this Beta [Data Carpentries lesson](https://carpentries-incubator.github.io/fair-bio-practice/index.html) provides a really accessible introduction for anyone interested in FAIR (Findable, Accessible, Interoperable, Reusable) principles for data re-use, and how to practically apply then throughout a projects’ life cycle.  
+
 
 ## Recommended Reading/Viewing  
 
-&nbsp;[**UNESCO Recommendation on Open Science**](https://en.unesco.org/science-sustainable-future/open-science/recommendation) **(2021)**
+Again, we can't recommend enough [LIBER's Open Science Roadmap](https://zenodo.org/records/1303002) produced by the [LIBER Open Access Working Group](https://libereurope.eu/working-group/open-access-working-group/) as an all around guide for libraries getting started in Open Research.
 
-**UKRN resources** <https://www.ukrn.org/open-research-resources/> & UKRN resources on Open Science applied to each discipline <https://www.ukrn.org/disciplines/>
+[UKRN Open Research Resources](https://www.ukrn.org/open-research-resources/) is also an excellent resource for getting to grips with supporting open research. They provide helpful animations, primers, videos and training materials as well as [discipline specific case studies of open research](https://www.ukrn.org/disciplines/) including [Library and Information Science](https://www.ukrn.org/library-information-science/) related examples.
 
-The Community Sourced Open Research glossary is a good place to start to find out more about the terminology connected to Open Research, which can be sometimes overwhelming and confusing:
+[UNESCO Recommendation on Open Science](https://en.unesco.org/science-sustainable-future/open-science/recommendation) (2021)
 
-_Parsons, S., Azevedo, F., Elsherif, M. M., Guay, S., Shahim, O. N., Govaart, G. H., … & Aczel, B. (2022). A Community-Sourced Glossary of Open Scholarship Terms. Nature human behaviour, 6(3), 312-318._ [_https://doi.org/10.1038/s41562-021-01269-4_](https://doi.org/10.1038/s41562-021-01269-4)
+The [Community Sourced Open Research glossary](https://www.researchgate.net/publication/358753577_A_community-sourced_glossary_of_open_scholarship_terms) is a good place to start to find out more about the terminology connected to Open Research, which can be sometimes overwhelming and confusing
 
-If you prefer podcasts, I can recommend:
+If you prefer podcasts, we can recommend:
 
-- [Everything Hertz](https://everythinghertz.com/) (in particular podcast 57 & 176) & [Orion Open Science](https://orionopenscience.podbean.com/) will give you a perspective or Open research from different fields and
+- [Everything Hertz](https://everythinghertz.com/) (in particular podcast 57 & 176) & [Orion Open Science](https://orionopenscience.podbean.com/) will give you a perspective or Open research from different fields 
 - The first few episodes of [ReproducibilitiTea](https://soundcloud.com/reproducibilitea) are an excellent introduction to Open research
 
-UKRN has also providing discipline specific case studies: [UKRN case studies for different disciplines](https://www.ukrn.org/disciplines/)
+
 
 ## Finding Communities of Practice
 
-Learning about Open Research can be overwhelming at first, especially if you are new to it, I would suggest looking at the Open Research or Open Science strategy of your institution first. As it covers the entire research life cycle, you might find you might already know quite a lot about some areas!
-
-LIBER's [Open Access Working Group](https://libereurope.eu/working-group/open-access-working-group/) is also a great community to join as they are playing an important role in the [Open Research Europe (ORE) Project - LIBER Europe](https://libereurope.eu/project/open-research-europe-ore/#:~:text=LIBER%20plays%20a%20crucial%20role%20in%20the%20Open%20Research%20Europe) and have many members well versed in this topic!
+Learning about Open Research can be overwhelming at first especially if you are new to it! LIBER's [Open Access Working Group](https://libereurope.eu/working-group/open-access-working-group/) is a great community to join as they are playing an important role in the [Open Research Europe (ORE) Project - LIBER Europe](https://libereurope.eu/project/open-research-europe-ore/#:~:text=LIBER%20plays%20a%20crucial%20role%20in%20the%20Open%20Research%20Europe) and have many members well versed in this topic!
