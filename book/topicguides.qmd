@@ -3,10 +3,34 @@ format:
   pdf: default
   html:
     embed-resources: true
+
+accordion:
+  - many-items:
+    - header: Item 1
+      body: This is the body content for item 1
+    - header: Item 2
+      body: This is the body content for item 2
+    - header: Item 3
+      body: This is the body content for item 3
+    - header: Item 4
+      body: This is the body content for item 4
+filters:
+  - accordion
+---
+
+
 ---
 # **Topic Guides** {.unnumbered .unlisted}
 
 Written by [LIBER](https://libereurope.eu/) professionals working in research libraries across Europe, the aim of each guide is to provide a gentle and concise introduction to practical applications of digital scholarship and data science to the work of libraries today, and share personal recommendations for useful tutorials, recommended reading, and communities of practice to help colleagues on their learning journey.  
+
+**Topic A**
+
+{{< accordion ac-1 >}}
+
+**Topic B**
+
+{{< accordion ac-2 >}}
 
 <div class="card text-white bg-primary mb-3" style="max-width: 20rem;">
   <div class="card-header">Where do I start?</div>
