@@ -8,7 +8,7 @@ format:
      toc: false
 ---
 
-![](book/logo/Liber-DS-logo-long-blue.png)
+![](logo/Liber-DS-logo-long-blue.png)
 
 Over the past few decades, the development of excellent self-paced tutorials and training materials for undertaking digital scholarship and data science in libraries have proliferated online. 
 
