@@ -2,17 +2,17 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.6.43">
+<meta name="generator" content="quarto-1.7.31">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 <meta name="author" content="Nora McGregor">
 <meta name="author" content="Liam Green-Hughes">
 <meta name="author" content="Liam O’Dwyer">
-<meta name="dcterms.date" content="2024-06-04">
-<meta name="keywords" content="TBD, TBD">
+<meta name="dcterms.date" content="2025-05-20">
+<meta name="keywords" content="GitHub, Git">
 
-<title>GitHub: How to navigate and contribute to Git-based projects – Digital Scholarship &amp; Data Science Topic Guides for Library Professionals</title>
+<title>GitHub: How to navigate and contribute to Git-based projects – DS Topic Guides</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -34,16 +34,17 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-search/fuse.min.js"></script>
 <script src="site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="./">
-<link href="./images/Favicon.png" rel="icon" type="image/png">
-<script src="site_libs/quarto-html/quarto.js"></script>
+<link href=".//logo/favicon.ico" rel="icon">
+<script src="site_libs/quarto-html/quarto.js" type="module"></script>
+<script src="site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="site_libs/quarto-html/anchor.min.js"></script>
 <link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-d4d76bf8491c20bad77d141916dc28e1.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-e1a5c8363afafaef2c763b6775fbf3ca.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-33d6adf5f19697a09c0b73dbf90b40ed.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-2f2d25baed01f537e47ba79a10188149.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -84,7 +85,7 @@ gtag('config', 'G-54HL7T1Z2K', { 'anonymize_ip': true});
 
 </head>
 
-<body class="nav-sidebar docked nav-fixed">
+<body class="nav-sidebar docked nav-fixed quarto-light">
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
@@ -92,10 +93,10 @@ gtag('config', 'G-54HL7T1Z2K', { 'anonymize_ip': true});
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
     <a href="./index.html" class="navbar-brand navbar-brand-logo">
-    <img src="./Favicon.png" alt="" class="navbar-logo">
+    <img src="./logo/LIBER-DS-Favicon.png" alt="" class="navbar-logo">
     </a>
     <a class="navbar-brand" href="./index.html">
-    <span class="navbar-title">Digital Scholarship &amp; Data Science Topic Guides for Library Professionals</span>
+    <span class="navbar-title">DS Topic Guides</span>
     </a>
   </div>
             <div id="quarto-search" class="" title="Search"></div>
@@ -106,15 +107,15 @@ gtag('config', 'G-54HL7T1Z2K', { 'anonymize_ip': true});
             <ul class="navbar-nav navbar-nav-scroll ms-auto">
   <li class="nav-item">
     <a class="nav-link active" href="./topicguides.html" aria-current="page"> 
-<span class="menu-text">TOPIC GUIDES</span></a>
+<span class="menu-text">Topic Guides</span></a>
   </li>  
   <li class="nav-item">
     <a class="nav-link" href="./project-overview.html"> 
-<span class="menu-text">ABOUT</span></a>
+<span class="menu-text">About</span></a>
   </li>  
   <li class="nav-item dropdown ">
     <a class="nav-link dropdown-toggle" href="#" id="nav-menu-contribute" role="link" data-bs-toggle="dropdown" aria-expanded="false">
- <span class="menu-text">CONTRIBUTE</span>
+ <span class="menu-text">Contribute</span>
     </a>
     <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="nav-menu-contribute">    
         <li>
@@ -147,17 +148,25 @@ gtag('config', 'G-54HL7T1Z2K', { 'anonymize_ip': true});
         </a>
     </div>
   </nav>
+  <div id="quarto-announcement" data-announcement-id="675e2e632a00682b592b5ce049bb8201" class="alert alert-light hidden"><i class="bi bi-info-circle quarto-announcement-icon"></i><div class="quarto-announcement-content">
+<p><strong>Currently under construction</strong> - we’re hard at work finalising the content of <em>DS Topic Guides</em> ahead of our July 4 launch at the LIBER Annual 2025 conference! Stay tuned!</p>
+</div><i class="bi bi-x-lg quarto-announcement-action"></i></div>
 </header>
 <!-- content -->
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
   <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation docked overflow-auto">
+    <div class="pt-lg-2 mt-2 text-left sidebar-header sidebar-header-stacked">
+      <a href="./index.html" class="sidebar-logo-link">
+      <img src="./logo/Liber-DS-logo-sq-white.png" alt="" class="sidebar-logo py-0 d-lg-inline d-none">
+      </a>
+      </div>
     <div class="sidebar-menu-container"> 
     <ul class="list-unstyled mt-1">
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./topicguides.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><strong>TOPIC GUIDES</strong></span></a>
+ <span class="menu-text"><strong>Topic Guides</strong></span></a>
   </div>
 </li>
         <li class="px-0"><hr class="sidebar-divider hi "></li>
@@ -233,6 +242,13 @@ gtag('config', 'G-54HL7T1Z2K', { 'anonymize_ip': true});
         <li class="px-0"><hr class="sidebar-divider hi "></li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
+  <a href="./digitisation.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Digitisation: Imaging, 3D and RTI</span></a>
+  </div>
+</li>
+        <li class="px-0"><hr class="sidebar-divider hi "></li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
   <a href="./github.html" class="sidebar-item-text sidebar-link active">
  <span class="menu-text">GitHub: How to navigate and contribute to Git-based projects</span></a>
   </div>
@@ -262,7 +278,7 @@ gtag('config', 'G-54HL7T1Z2K', { 'anonymize_ip': true});
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./openresearch.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Open Research (Open Science)</span></a>
+ <span class="menu-text">Supporting Open Research (Open Science)</span></a>
   </div>
 </li>
         <li class="px-0"><hr class="sidebar-divider hi "></li>
@@ -348,14 +364,14 @@ gtag('config', 'G-54HL7T1Z2K', { 'anonymize_ip': true});
     <div>
     <div class="quarto-title-meta-heading">Published</div>
     <div class="quarto-title-meta-contents">
-      <p class="date">June 4, 2024</p>
+      <p class="date">May 20, 2025</p>
     </div>
   </div>
   
     <div>
     <div class="quarto-title-meta-heading">Modified</div>
     <div class="quarto-title-meta-contents">
-      <p class="date-modified">February 10, 2025</p>
+      <p class="date-modified">May 20, 2025</p>
     </div>
   </div>
     
@@ -371,7 +387,7 @@ gtag('config', 'G-54HL7T1Z2K', { 'anonymize_ip': true});
 <div>
   <div class="keywords">
     <div class="block-title">Keywords</div>
-    <p>TBD, TBD</p>
+    <p>GitHub, Git</p>
   </div>
 </div>
 
@@ -380,7 +396,7 @@ gtag('config', 'G-54HL7T1Z2K', { 'anonymize_ip': true});
 
 <section id="introduction" class="level2">
 <h2 class="anchored" data-anchor-id="introduction">Introduction</h2>
-<p><a href="https://github.com/">GitHub</a> is a collaborative software development platform. Like a kind of google docs for coders, it began as a tool for them to collaboratively work on software development projects, ie, allowing different coders to contribute to parts of an overall project, asynchronously and across teams and even international borders, keeping track of changes all the while to make sure the end result is one cohesive software.</p>
+<p><a href="https://github.com/">GitHub</a> is a collaborative software development platform. Like a kind of Google Docs for coders, it began as a tool for them to collaboratively work on software development projects, ie, allowing different coders to contribute to parts of an overall project, asynchronously and across teams and even international borders, keeping track of changes all the while to make sure the end result is one cohesive software.</p>
 <p>GitHub today however is used for many more different purposes by people in all different fields, not just software developers and software projects, to:</p>
 <ul>
 <li>record and share information on a collaborative project</li>
@@ -389,15 +405,15 @@ gtag('config', 'G-54HL7T1Z2K', { 'anonymize_ip': true});
 <li>build a public website for a project</li>
 </ul>
 <p>GitHub allows people to collaboratively work on and share projects (called ‘repositories’) so that others can copy them, either to adapt or to contribute back to the original project. That’s because any ‘public’ repository of files on GitHub is accessible via the web. (Note that public repositories are created by default when you start a project, but it is also possible to <a href="https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/managing-repository-settings/setting-repository-visibility">make your repositories private</a> if you like in the settings).</p>
-<p>Repositories may be filled with code, but they may also be filled with pages of text written in <a href="https://www.markdownguide.org/getting-started/">markdown</a> and this markdown can be rendered by browsers as webpages. This very website you’re reading from right now is <a href="https://github.com/libereurope/ds-topic-guides">being hosted on GitHub</a>!</p>
+<p>Repositories may be filled with code, but they may also be filled with pages of text written in <a href="https://www.markdownguide.org/getting-started/">markdown</a> and this markdown can be rendered by static site generators such as <a href="https://jekyllrb.com/">Jekyll</a> or <a href="https://gohugo.io/">Hugo</a> into <a href="https://developer.mozilla.org/en-US/docs/Web/HTML">HTML</a> that is understood by the browser. This very website you’re reading from right now is <a href="https://github.com/libereurope/ds-topic-guides">being hosted on GitHub</a>!</p>
 <p>This guide will help you to understand how to practically navigate and contribute to projects like this one hosted via GitHub, and will demystify some of the basic actions and jargon around using GitHub along the way.</p>
 <section id="git-github-and-github-pages" class="level3">
 <h3 class="anchored" data-anchor-id="git-github-and-github-pages">Git, GitHub and GitHub Pages</h3>
 <p>Before we begin, it can be helpful to first grasp what Git, GitHub and GitHub Pages each are and how they relate to each other:</p>
 <ul>
-<li><strong>Git</strong> is a distributed open source version control system. Version control allows you to track changes in a set of files. It does this by taking snapshots of repositories at each stage of development - in Git these snapshots are known as ‘commits’. In software development this means things can be tested and rolled back, and enables sharing of stages of development. Git can be used on its own but when used with GitHub has more potential for collaborative projects. You can <a href="https://git-scm.com/downloads">download</a> and install Git on your own machine. It runs in the command line or there are <a href="https://desktop.github.com/">desktop GUIs</a> available. <a href="https://www.youtube.com/watch?v=eWxxfttcMts">Git for Humans</a> (Alice Bartlett talk at UX Brighton 2016) is a nicely accessible introduction to the purpose and uses of Git.</li>
+<li><strong>Git</strong> is a distributed open source version control system. Version control allows you to track changes in a set of files. It does this by taking snapshots of repositories at each stage of development - in Git these snapshots are known as ‘commits’. In software development this means things can be tested and rolled back, and enables sharing of stages of development. Git can be used on its own but when used with GitHub has more potential for collaborative projects. You can <a href="https://git-scm.com/downloads">download</a> and install Git on your own machine. It runs in the command line and there are <a href="https://desktop.github.com/">desktop GUIs</a> available. <a href="https://www.youtube.com/watch?v=eWxxfttcMts">Git for Humans</a> (Alice Bartlett talk at UX Brighton 2016) is a nicely accessible introduction to the purpose and uses of Git.</li>
 <li><strong>GitHub</strong> is a web-based software development platform. It has many of Git’s features and can host Git repositories but also provides a web interface and additional functionalities. You can view millions of repositories hosted there. Many are openly licensed, meaning you can freely copy (or <em>fork</em>) them, either to adapt for yourself or to contribute back to the original project. By default the files and folders in a repository you create are public, and with a little bit of extra code, a repository can also be turned into a more public-facing project website, blog or wiki using a feature called GitHub Pages.</li>
-<li><strong>GitHub Pages</strong> is a feature within GitHub to turn any repository or project into a website. GitHub can also be used to host a site that has been created using other software packages. One example of such a software is <strong>RStudio</strong>, a visual editor for <strong>Quarto</strong> Markdown which is what we use for this DS Essentials project!</li>
+<li><strong>GitHub Pages</strong> is a feature within GitHub to turn any repository or project into a website. GitHub can also be used to host a site that has been created using other software packages. One example of such a software is <strong>RStudio</strong>, a visual editor for <strong>Quarto</strong> Markdown which is what we use for this <em>DS Topic Guides</em> project!</li>
 </ul>
 </section>
 <section id="the-language-of-github" class="level3">
@@ -427,11 +443,12 @@ gtag('config', 'G-54HL7T1Z2K', { 'anonymize_ip': true});
 <li><a href="https://github.com/omeka">Omeka</a> exhibit platform and related <a href="https://github.com/omeka/PythonOmekaApiToCsv">plugins</a></li>
 <li>Digital projects of <a href="https://github.com/LibraryOfCongress">Library of Congress</a></li>
 <li><a href="https://github.com/collectionbuilder/">Collection Builder</a></li>
+<li><a href="https://github.com/topics/code4lib">350+ repositories tagged with #code4lib</a></li>
 </ul></li>
 <li>Distributing OCR’d text extracted from digitised materials for collections-as-data analysis [<a href="https://github.com/UMiamiLibraries/collections-as-data">example</a>] [<a href="https://github.com/marriott-library/collections-as-data">example</a>] [<a href="https://github.com/NLS-Digital-Scholarship/collections-as-data">example</a>]</li>
 <li>Storing scripts for executing metadata ingests and transformations [<a href="https://github.com/utlib/dspace-exams-ingest-scripts">example</a>, <a href="https://github.com/preservica/metadata-management">example</a>, [<a href="https://github.com/Digital-Repository-of-Ireland/dri-open-refine-split">example</a>]</li>
 <li>Archiving the source texts of open educational resources [<a href="https://github.com/moderndive/ModernDive_book">example</a>]</li>
-<li>Websites for library workshops, to share course material or sample datasets [<a href="https://github.com/librarycarpentry/lc-git/">example</a>, <a href="https://github.com/NCSU-Libraries/digital-scholarship-workshops/tree/master">example</a>, <a href="https://dculibrary.github.io/open-refine-workshop/">example</a>],</li>
+<li>Websites for library workshops, to share course material or sample datasets [<a href="https://github.com/librarycarpentry/lc-git/">Library Carpentry example</a>, <a href="https://github.com/NCSU-Libraries/digital-scholarship-workshops">NCSU Digital Scholarship Workshops example</a>, <a href="https://dculibrary.github.io/open-refine-workshop/">DCU Library example</a>],</li>
 <li>Collaborating on and contributing to a project <a href="https://libereurope.github.io/ds-topic-guides/">Digital Scholarship &amp; Data Science Essentials for Library Professionals</a></li>
 </ul>
 <p>Let’s look more closely at some practical ways you can get started navigating GitHub and contributing and making use of GitHub based projects for your library work!</p>
@@ -447,6 +464,7 @@ gtag('config', 'G-54HL7T1Z2K', { 'anonymize_ip': true});
 <li>Have a look through the previous issues to make sure that what you are experiencing has not been raised before. If it has then consider adding details to that ticket and clicking on “Subscribe” under Notifications to be kept up to date with any fixes or changes.</li>
 <li>You can raise issues for a variety of reasons, not just faults. You can also ask for new functionality or make a suggestion. Be clear, if you can, on the type of request you are making as the project maintainers may have different processes for different request types.</li>
 <li>Remember that what is obvious to you might not be obvious to a project maintainer, so explain fully and be patient with those trying to address the issue.</li>
+<li>Some repositories apply labels to categorize the issue (e.g.&nbsp;bug, feature request, documentation, backend, frontend etc.). If you are enable to label the issue you created please consider the available categories.</li>
 </ul>
 </section>
 <section id="reporting-bugs" class="level4">
@@ -456,7 +474,7 @@ gtag('config', 'G-54HL7T1Z2K', { 'anonymize_ip': true});
 <li>A full description of what happened, including:
 <ul>
 <li>Any error messages or codes</li>
-<li>Where you were in the project (e.g.&nbsp;for a web application what page you were on)</li>
+<li>Where you were in the project (for examples, for a web application the URL of the page you were on, or if it is not available, the stream of actions to get there)</li>
 <li>What you were trying to do</li>
 </ul></li>
 <li>What did you expect to happen? Including:
@@ -470,8 +488,12 @@ gtag('config', 'G-54HL7T1Z2K', { 'anonymize_ip': true});
 <li>The time of day the error occurred</li>
 <li>Which browser you use</li>
 <li>If you have experienced any similar errors with other sites</li>
+<li>Which operating system you use</li>
+<li>Provide screenshot (if applicable)</li>
+<li>Provide version number of the software (if applicable)</li>
 </ul></li>
 </ul>
+<p>Some projects provide issue templates that ask specific questions relevant for the project (for example see the <a href="https://github.com/IQSS/dataverse/blob/develop/.github/ISSUE_TEMPLATE/bug_report.md">bug report template</a> for Dataverse).</p>
 </section>
 <section id="requesting-new-features" class="level4">
 <h4 class="anchored" data-anchor-id="requesting-new-features"><strong>Requesting new features</strong></h4>
@@ -497,10 +519,10 @@ gtag('config', 'G-54HL7T1Z2K', { 'anonymize_ip': true});
 </section>
 <section id="contributing-contentcode-to-an-existing-project" class="level3">
 <h3 class="anchored" data-anchor-id="contributing-contentcode-to-an-existing-project"><strong>2. Contributing content/code to an existing project</strong></h3>
-<p>As you now know, GitHub hosts many open-licensed projects and by clicking the <em>fork</em> button, any <a href="https://docs.github.com/en/get-started/start-your-journey/creating-an-account-on-github">GitHub user</a> can instantaneously create their own fully independent copy of that project to work on without affecting the original. This copy or <em>forked</em> project can then be used to work out new features in a piece of software (or in our case, writing new content for a project website) that can eventually be merged back into the original project. Let’s walk through a simplified example using the example of contributing substantial edits to one of the pages of DS Essentials. Let’s say you’d like to write up a new use case on one of the Topic Guides. That process may look a little like this:</p>
+<p>As you now know, GitHub hosts many open-licensed projects and by clicking the <em>fork</em> button, any <a href="https://docs.github.com/en/get-started/start-your-journey/creating-an-account-on-github">GitHub user</a> can instantaneously create their own fully independent copy of that project to work on without affecting the original. This copy or <em>forked</em> project can then be used to work out new features in a piece of software (or in our case, writing new content for a project website) that can eventually be merged back into the original project. Let’s walk through a simplified example using the example of contributing substantial edits to one of the pages of <em>DS Topic Guides</em>. Let’s say you’d like to write up a new use case on one of the DS Topic Guides. That process may look a little like this:</p>
 <section id="find-the-github-repositorysource-code-behind-the-website" class="level4">
 <h4 class="anchored" data-anchor-id="find-the-github-repositorysource-code-behind-the-website"><strong>1. Find the GitHub repository/source code behind the website</strong></h4>
-<p>On the web version of DS Essentials, look for the GitHub logo in order to be taken to the GitHub repository behind it.</p>
+<p>On the web version of <em>DS Topic Guides</em>, look for the GitHub logo in order to be taken to the GitHub repository behind it.</p>
 <p><img src="images/GitHub2.png" class="img-fluid"></p>
 </section>
 <section id="make-your-own-copy-of-the-project-repository-to-work-on" class="level4">
@@ -510,21 +532,21 @@ gtag('config', 'G-54HL7T1Z2K', { 'anonymize_ip': true});
 </section>
 <section id="find-the-file-you-would-like-to-change-and-make-your-edits" class="level4">
 <h4 class="anchored" data-anchor-id="find-the-file-you-would-like-to-change-and-make-your-edits"><strong>3. Find the file you would like to change and make your edits</strong></h4>
-<p>Navigate to the file you would like to edit in your own copy of the DSEssentials project and click the pencil icon to edit. (Note that one way you’ll know you’re working in your own copy is by seeing your personal GitHub username ahead of the repository name). Let’s say the Topic Guide on AI &amp; ML in Libraries Literacies needs an update. To find the right file in the directory you can do a search or look for a markdown file in the list which corresponds to the url on the website version and has the file extension .md. Note, because this website was built using Quarto, the file extension in this example is .qmd. For instance if ml-ai.html is the web version, you would look for ml-ai.qmd in the file directory on GitHub.</p>
+<p>Navigate to the file you would like to edit in your own copy of the DSEssentials project and click the pencil icon to edit. (Note that one way you’ll know you’re working in your own copy is by seeing your personal GitHub username ahead of the repository name). Let’s say the Topic Guide on AI &amp; ML in Libraries Literacies needs an update. To find the right file in the directory you can do a search or look for a markdown file in the list which corresponds to the URL on the website version and has the file extension .md. Note, because this website was built using Quarto, the file extension in this example is .qmd. For instance if ml-ai.html is the web version, you would look for ml-ai.qmd in the file directory on GitHub.</p>
 <p><img src="images/GitHub4.png" class="img-fluid"></p>
-<p>Click on the little pencil icon to edit this file in markdown. Markdown is a simple system for marking sections of text that should be stylised in a certain way, e.g.&nbsp;made bold or appear in a list of bullet points. Markdown files have the file extension “md” and can be edited in GitHub or with a text editor like Notepad. One common file in GitHub repositories that you will find in the markdown format is the “README.md” file which usually covers the purpose of the repository and how to get up and running.</p>
+<p>Click on the little pencil icon to edit this file in markdown. Markdown is a simple system for marking sections of text that should be stylised in a certain way, e.g.&nbsp;made bold or appear in a list of bullet points. Markdown files have the file extension “.md” and can be edited in GitHub or with a text editor like Notepad. One common file in GitHub repositories that you will find in the markdown format is the “README.md” file which usually covers the purpose of the repository and how to get up and running.</p>
 <p>Markdown works by using certain text characters to indicate styles. For example, placing a “#” in front of a line will make it a first level header. Placing “##” before the line makes it a second level header. Putting an asterisk around a piece of text, like this “*my text”, will cause that text to be italicised as <em>my text</em>. You can see more markdown commands and experiment with it on the site <a href="https://markdownlivepreview.com/">Markdown Live Preview</a>.</p>
 </section>
 <section id="commit-your-changes" class="level4">
 <h4 class="anchored" data-anchor-id="commit-your-changes"><strong>4. Commit your changes</strong></h4>
-<p>Whenever you are working in a repository that you have forked, you are the Owner of this copy of the original project and can <em>commit</em> (save) any changes and edits you make to files directly to this copy of the project without needing any approval. Committing builds up a history of changes that you can roll back as needed along the way. Each time you commit you have an option of writing a comment as to what has changed which is a useful tool to use and habit to get into for going back in time if you need to reverse something.</p>
+<p>Whenever you are working in a repository that you have forked, you are the Owner of this copy of the original project and can <em>commit</em> (save) any changes and edits you make to files directly to this copy of the project without needing any approval. Committing builds up a history of changes that you can roll back as needed along the way. Each time you commit you have an option of writing a comment as to what has changed which is a useful tool to use and habit to get into for going back in time if you need to reverse something. You can even refer to the related issue with <code>#&lt;issue number&gt;</code> in the commit message, and Github will cross reference the issue and the commit on the web interface.</p>
 <p><img src="images/GitHub5.png" class="img-fluid"></p>
 </section>
 <section id="contribute-your-changes-back-to-the-originalmain-project" class="level4">
 <h4 class="anchored" data-anchor-id="contribute-your-changes-back-to-the-originalmain-project"><strong>5. Contribute your changes back to the original/main project</strong></h4>
-<p>When you are finished with your changes and would like to share your new updated copy with the original project (in this example, incorporating your new text on Generative AI into the main DS Essentials Topic Guide on AI &amp; ML in Libraries) this is when you will start a <a href="https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/creating-a-pull-request-from-a-fork"><em>pull request</em></a>. Navigate to the Pull Requests section of your forked project (repository) and click on New pull request to start that process.</p>
+<p>When you are finished with your changes and would like to share your new updated copy with the original project (in this example, incorporating your new text on Generative AI into the main <em>DS Topic Guide</em> on AI &amp; ML in Libraries) this is when you will start a <a href="https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/creating-a-pull-request-from-a-fork"><em>pull request</em></a>. Navigate to the Pull Requests section of your forked project (repository) and click on “New pull request” to start that process.</p>
 <p><img src="images/GitHub6.png" class="img-fluid"></p>
-<p>This will take you to back to the original project you forked from, where you can then formally “create a pull request”. Once this has been made your pull request notifies the maintainers of the original project that you have made changes to their project that they may like to consider <em>merging</em> into theirs. Your pull request will show up under their project where you can discuss and review the changes you’re suggesting. Once the review has been completed and everyone is happy with the changes suggested the maintainer of the project will merge your pull request and you will have officially contributed!</p>
+<p>This will take you to back to the original project you forked from, where you can then formally “create a pull request”. Once this has been made your pull request notifies the maintainers of the original project that you have made changes to their project that they may like to consider <em>merging</em> into theirs. Your pull request will show up under their project where you can discuss and review the changes you’re suggesting. Once the review has been completed and everyone is happy with the changes suggested, the maintainer of the project will merge your pull request and you will have officially contributed (and your profile’s icon will be listed among the contributors)!</p>
 <p><img src="images/GitHub7.png" class="img-fluid"></p>
 </section>
 </section>
@@ -576,243 +598,249 @@ gtag('config', 'G-54HL7T1Z2K', { 'anonymize_ip': true});
 </section>
 <section id="finding-communities-of-practice" class="level2">
 <h2 class="anchored" data-anchor-id="finding-communities-of-practice">Finding Communities of Practice</h2>
-<p>The best way to understand GitHub is to have a play yourself and if you get into trouble we’ve found that asking questions over on the <a href="https://github.com/community">GitHub Community Hub</a> is a great way to get connected with other users. You can also join networks like <a href="https://sites.google.com/view/ai4lam">AI4LAM</a> and ask questions of members of the very engaged and helpful community on their <a href="https://join.slack.com/t/ai4lam/shared_invite/zt-1omthldn8-9vrGySjIRdija1nKQm0ltA">slack</a>.</p>
+<p>The best way to understand GitHub is to have a play yourself and if you get into trouble we’ve found that asking questions over on the <a href="https://github.com/community">GitHub Community Hub</a> is a great way to get connected with other users. You can also join networks like <a href="https://sites.google.com/view/ai4lam">AI4LAM</a> and ask questions of members of the very engaged and helpful community on their <a href="https://join.slack.com/t/ai4lam/shared_invite/zt-1omthldn8-9vrGySjIRdija1nKQm0ltA">slack channel</a>.</p>
 
 
 </section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
-window.document.addEventListener("DOMContentLoaded", function (event) {
-  const toggleBodyColorMode = (bsSheetEl) => {
-    const mode = bsSheetEl.getAttribute("data-mode");
-    const bodyEl = window.document.querySelector("body");
-    if (mode === "dark") {
-      bodyEl.classList.add("quarto-dark");
-      bodyEl.classList.remove("quarto-light");
-    } else {
-      bodyEl.classList.add("quarto-light");
-      bodyEl.classList.remove("quarto-dark");
-    }
-  }
-  const toggleBodyColorPrimary = () => {
-    const bsSheetEl = window.document.querySelector("link#quarto-bootstrap");
-    if (bsSheetEl) {
-      toggleBodyColorMode(bsSheetEl);
-    }
-  }
-  toggleBodyColorPrimary();  
-  const icon = "";
-  const anchorJS = new window.AnchorJS();
-  anchorJS.options = {
-    placement: 'right',
-    icon: icon
-  };
-  anchorJS.add('.anchored');
-  const isCodeAnnotation = (el) => {
-    for (const clz of el.classList) {
-      if (clz.startsWith('code-annotation-')) {                     
-        return true;
-      }
-    }
-    return false;
-  }
-  const onCopySuccess = function(e) {
-    // button target
-    const button = e.trigger;
-    // don't keep focus
-    button.blur();
-    // flash "checked"
-    button.classList.add('code-copy-button-checked');
-    var currentTitle = button.getAttribute("title");
-    button.setAttribute("title", "Copied!");
-    let tooltip;
-    if (window.bootstrap) {
-      button.setAttribute("data-bs-toggle", "tooltip");
-      button.setAttribute("data-bs-placement", "left");
-      button.setAttribute("data-bs-title", "Copied!");
-      tooltip = new bootstrap.Tooltip(button, 
-        { trigger: "manual", 
-          customClass: "code-copy-button-tooltip",
-          offset: [0, -8]});
-      tooltip.show();    
-    }
-    setTimeout(function() {
-      if (tooltip) {
-        tooltip.hide();
-        button.removeAttribute("data-bs-title");
-        button.removeAttribute("data-bs-toggle");
-        button.removeAttribute("data-bs-placement");
-      }
-      button.setAttribute("title", currentTitle);
-      button.classList.remove('code-copy-button-checked');
-    }, 1000);
-    // clear code selection
-    e.clearSelection();
-  }
-  const getTextToCopy = function(trigger) {
-      const codeEl = trigger.previousElementSibling.cloneNode(true);
-      for (const childEl of codeEl.children) {
-        if (isCodeAnnotation(childEl)) {
-          childEl.remove();
-        }
-      }
-      return codeEl.innerText;
-  }
-  const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
-    text: getTextToCopy
-  });
-  clipboard.on('success', onCopySuccess);
-  if (window.document.getElementById('quarto-embedded-source-code-modal')) {
-    const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
-      text: getTextToCopy,
-      container: window.document.getElementById('quarto-embedded-source-code-modal')
-    });
-    clipboardModal.on('success', onCopySuccess);
-  }
-    var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
-    var mailtoRegex = new RegExp(/^mailto:/);
-      var filterRegex = new RegExp("https:\/\/noramcgregor\.github\.io\/ds-essentials\/");
-    var isInternal = (href) => {
-        return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
-    }
-    // Inspect non-navigation links and adorn them if external
- 	var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
-    for (var i=0; i<links.length; i++) {
-      const link = links[i];
-      if (!isInternal(link.href)) {
-        // undo the damage that might have been done by quarto-nav.js in the case of
-        // links that we want to consider external
-        if (link.dataset.originalHref !== undefined) {
-          link.href = link.dataset.originalHref;
-        }
-      }
-    }
-  function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
-    const config = {
-      allowHTML: true,
-      maxWidth: 500,
-      delay: 100,
-      arrow: false,
-      appendTo: function(el) {
-          return el.parentElement;
-      },
-      interactive: true,
-      interactiveBorder: 10,
-      theme: 'quarto',
-      placement: 'bottom-start',
+  window.document.addEventListener("DOMContentLoaded", function (event) {
+    const icon = "";
+    const anchorJS = new window.AnchorJS();
+    anchorJS.options = {
+      placement: 'right',
+      icon: icon
     };
-    if (contentFn) {
-      config.content = contentFn;
-    }
-    if (onTriggerFn) {
-      config.onTrigger = onTriggerFn;
-    }
-    if (onUntriggerFn) {
-      config.onUntrigger = onUntriggerFn;
-    }
-    window.tippy(el, config); 
-  }
-  const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
-  for (var i=0; i<noterefs.length; i++) {
-    const ref = noterefs[i];
-    tippyHover(ref, function() {
-      // use id or data attribute instead here
-      let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
-      try { href = new URL(href).hash; } catch {}
-      const id = href.replace(/^#\/?/, "");
-      const note = window.document.getElementById(id);
-      if (note) {
-        return note.innerHTML;
-      } else {
-        return "";
-      }
-    });
-  }
-  const xrefs = window.document.querySelectorAll('a.quarto-xref');
-  const processXRef = (id, note) => {
-    // Strip column container classes
-    const stripColumnClz = (el) => {
-      el.classList.remove("page-full", "page-columns");
-      if (el.children) {
-        for (const child of el.children) {
-          stripColumnClz(child);
+    anchorJS.add('.anchored');
+    const isCodeAnnotation = (el) => {
+      for (const clz of el.classList) {
+        if (clz.startsWith('code-annotation-')) {                     
+          return true;
         }
       }
+      return false;
     }
-    stripColumnClz(note)
-    if (id === null || id.startsWith('sec-')) {
-      // Special case sections, only their first couple elements
-      const container = document.createElement("div");
-      if (note.children && note.children.length > 2) {
-        container.appendChild(note.children[0].cloneNode(true));
-        for (let i = 1; i < note.children.length; i++) {
-          const child = note.children[i];
-          if (child.tagName === "P" && child.innerText === "") {
-            continue;
-          } else {
-            container.appendChild(child.cloneNode(true));
-            break;
+    const onCopySuccess = function(e) {
+      // button target
+      const button = e.trigger;
+      // don't keep focus
+      button.blur();
+      // flash "checked"
+      button.classList.add('code-copy-button-checked');
+      var currentTitle = button.getAttribute("title");
+      button.setAttribute("title", "Copied!");
+      let tooltip;
+      if (window.bootstrap) {
+        button.setAttribute("data-bs-toggle", "tooltip");
+        button.setAttribute("data-bs-placement", "left");
+        button.setAttribute("data-bs-title", "Copied!");
+        tooltip = new bootstrap.Tooltip(button, 
+          { trigger: "manual", 
+            customClass: "code-copy-button-tooltip",
+            offset: [0, -8]});
+        tooltip.show();    
+      }
+      setTimeout(function() {
+        if (tooltip) {
+          tooltip.hide();
+          button.removeAttribute("data-bs-title");
+          button.removeAttribute("data-bs-toggle");
+          button.removeAttribute("data-bs-placement");
+        }
+        button.setAttribute("title", currentTitle);
+        button.classList.remove('code-copy-button-checked');
+      }, 1000);
+      // clear code selection
+      e.clearSelection();
+    }
+    const getTextToCopy = function(trigger) {
+        const codeEl = trigger.previousElementSibling.cloneNode(true);
+        for (const childEl of codeEl.children) {
+          if (isCodeAnnotation(childEl)) {
+            childEl.remove();
           }
         }
-        if (window.Quarto?.typesetMath) {
-          window.Quarto.typesetMath(container);
+        return codeEl.innerText;
+    }
+    const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+      text: getTextToCopy
+    });
+    clipboard.on('success', onCopySuccess);
+    if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+      const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+        text: getTextToCopy,
+        container: window.document.getElementById('quarto-embedded-source-code-modal')
+      });
+      clipboardModal.on('success', onCopySuccess);
+    }
+      var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+      var mailtoRegex = new RegExp(/^mailto:/);
+        var filterRegex = new RegExp("https:\/\/noramcgregor\.github\.io\/ds-essentials\/");
+      var isInternal = (href) => {
+          return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+      }
+      // Inspect non-navigation links and adorn them if external
+     var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+      for (var i=0; i<links.length; i++) {
+        const link = links[i];
+        if (!isInternal(link.href)) {
+          // undo the damage that might have been done by quarto-nav.js in the case of
+          // links that we want to consider external
+          if (link.dataset.originalHref !== undefined) {
+            link.href = link.dataset.originalHref;
+          }
         }
-        return container.innerHTML
+      }
+    function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+      const config = {
+        allowHTML: true,
+        maxWidth: 500,
+        delay: 100,
+        arrow: false,
+        appendTo: function(el) {
+            return el.parentElement;
+        },
+        interactive: true,
+        interactiveBorder: 10,
+        theme: 'quarto',
+        placement: 'bottom-start',
+      };
+      if (contentFn) {
+        config.content = contentFn;
+      }
+      if (onTriggerFn) {
+        config.onTrigger = onTriggerFn;
+      }
+      if (onUntriggerFn) {
+        config.onUntrigger = onUntriggerFn;
+      }
+      window.tippy(el, config); 
+    }
+    const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+    for (var i=0; i<noterefs.length; i++) {
+      const ref = noterefs[i];
+      tippyHover(ref, function() {
+        // use id or data attribute instead here
+        let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+        try { href = new URL(href).hash; } catch {}
+        const id = href.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note) {
+          return note.innerHTML;
+        } else {
+          return "";
+        }
+      });
+    }
+    const xrefs = window.document.querySelectorAll('a.quarto-xref');
+    const processXRef = (id, note) => {
+      // Strip column container classes
+      const stripColumnClz = (el) => {
+        el.classList.remove("page-full", "page-columns");
+        if (el.children) {
+          for (const child of el.children) {
+            stripColumnClz(child);
+          }
+        }
+      }
+      stripColumnClz(note)
+      if (id === null || id.startsWith('sec-')) {
+        // Special case sections, only their first couple elements
+        const container = document.createElement("div");
+        if (note.children && note.children.length > 2) {
+          container.appendChild(note.children[0].cloneNode(true));
+          for (let i = 1; i < note.children.length; i++) {
+            const child = note.children[i];
+            if (child.tagName === "P" && child.innerText === "") {
+              continue;
+            } else {
+              container.appendChild(child.cloneNode(true));
+              break;
+            }
+          }
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(container);
+          }
+          return container.innerHTML
+        } else {
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(note);
+          }
+          return note.innerHTML;
+        }
       } else {
+        // Remove any anchor links if they are present
+        const anchorLink = note.querySelector('a.anchorjs-link');
+        if (anchorLink) {
+          anchorLink.remove();
+        }
         if (window.Quarto?.typesetMath) {
           window.Quarto.typesetMath(note);
         }
-        return note.innerHTML;
-      }
-    } else {
-      // Remove any anchor links if they are present
-      const anchorLink = note.querySelector('a.anchorjs-link');
-      if (anchorLink) {
-        anchorLink.remove();
-      }
-      if (window.Quarto?.typesetMath) {
-        window.Quarto.typesetMath(note);
-      }
-      if (note.classList.contains("callout")) {
-        return note.outerHTML;
-      } else {
-        return note.innerHTML;
+        if (note.classList.contains("callout")) {
+          return note.outerHTML;
+        } else {
+          return note.innerHTML;
+        }
       }
     }
-  }
-  for (var i=0; i<xrefs.length; i++) {
-    const xref = xrefs[i];
-    tippyHover(xref, undefined, function(instance) {
-      instance.disable();
-      let url = xref.getAttribute('href');
-      let hash = undefined; 
-      if (url.startsWith('#')) {
-        hash = url;
-      } else {
-        try { hash = new URL(url).hash; } catch {}
-      }
-      if (hash) {
-        const id = hash.replace(/^#\/?/, "");
-        const note = window.document.getElementById(id);
-        if (note !== null) {
-          try {
-            const html = processXRef(id, note.cloneNode(true));
-            instance.setContent(html);
-          } finally {
-            instance.enable();
-            instance.show();
+    for (var i=0; i<xrefs.length; i++) {
+      const xref = xrefs[i];
+      tippyHover(xref, undefined, function(instance) {
+        instance.disable();
+        let url = xref.getAttribute('href');
+        let hash = undefined; 
+        if (url.startsWith('#')) {
+          hash = url;
+        } else {
+          try { hash = new URL(url).hash; } catch {}
+        }
+        if (hash) {
+          const id = hash.replace(/^#\/?/, "");
+          const note = window.document.getElementById(id);
+          if (note !== null) {
+            try {
+              const html = processXRef(id, note.cloneNode(true));
+              instance.setContent(html);
+            } finally {
+              instance.enable();
+              instance.show();
+            }
+          } else {
+            // See if we can fetch this
+            fetch(url.split('#')[0])
+            .then(res => res.text())
+            .then(html => {
+              const parser = new DOMParser();
+              const htmlDoc = parser.parseFromString(html, "text/html");
+              const note = htmlDoc.getElementById(id);
+              if (note !== null) {
+                const html = processXRef(id, note);
+                instance.setContent(html);
+              } 
+            }).finally(() => {
+              instance.enable();
+              instance.show();
+            });
           }
         } else {
-          // See if we can fetch this
-          fetch(url.split('#')[0])
+          // See if we can fetch a full url (with no hash to target)
+          // This is a special case and we should probably do some content thinning / targeting
+          fetch(url)
           .then(res => res.text())
           .then(html => {
             const parser = new DOMParser();
             const htmlDoc = parser.parseFromString(html, "text/html");
-            const note = htmlDoc.getElementById(id);
+            const note = htmlDoc.querySelector('main.content');
             if (note !== null) {
-              const html = processXRef(id, note);
+              // This should only happen for chapter cross references
+              // (since there is no id in the URL)
+              // remove the first header
+              if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+                note.children[0].remove();
+              }
+              const html = processXRef(null, note);
               instance.setContent(html);
             } 
           }).finally(() => {
@@ -820,185 +848,161 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
             instance.show();
           });
         }
-      } else {
-        // See if we can fetch a full url (with no hash to target)
-        // This is a special case and we should probably do some content thinning / targeting
-        fetch(url)
-        .then(res => res.text())
-        .then(html => {
-          const parser = new DOMParser();
-          const htmlDoc = parser.parseFromString(html, "text/html");
-          const note = htmlDoc.querySelector('main.content');
-          if (note !== null) {
-            // This should only happen for chapter cross references
-            // (since there is no id in the URL)
-            // remove the first header
-            if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
-              note.children[0].remove();
-            }
-            const html = processXRef(null, note);
-            instance.setContent(html);
-          } 
-        }).finally(() => {
-          instance.enable();
-          instance.show();
-        });
-      }
-    }, function(instance) {
-    });
-  }
-      let selectedAnnoteEl;
-      const selectorForAnnotation = ( cell, annotation) => {
-        let cellAttr = 'data-code-cell="' + cell + '"';
-        let lineAttr = 'data-code-annotation="' +  annotation + '"';
-        const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
-        return selector;
-      }
-      const selectCodeLines = (annoteEl) => {
-        const doc = window.document;
-        const targetCell = annoteEl.getAttribute("data-target-cell");
-        const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
-        const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
-        const lines = annoteSpan.getAttribute("data-code-lines").split(",");
-        const lineIds = lines.map((line) => {
-          return targetCell + "-" + line;
-        })
-        let top = null;
-        let height = null;
-        let parent = null;
-        if (lineIds.length > 0) {
-            //compute the position of the single el (top and bottom and make a div)
-            const el = window.document.getElementById(lineIds[0]);
-            top = el.offsetTop;
-            height = el.offsetHeight;
-            parent = el.parentElement.parentElement;
-          if (lineIds.length > 1) {
-            const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
-            const bottom = lastEl.offsetTop + lastEl.offsetHeight;
-            height = bottom - top;
-          }
-          if (top !== null && height !== null && parent !== null) {
-            // cook up a div (if necessary) and position it 
-            let div = window.document.getElementById("code-annotation-line-highlight");
-            if (div === null) {
-              div = window.document.createElement("div");
-              div.setAttribute("id", "code-annotation-line-highlight");
-              div.style.position = 'absolute';
-              parent.appendChild(div);
-            }
-            div.style.top = top - 2 + "px";
-            div.style.height = height + 4 + "px";
-            div.style.left = 0;
-            let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
-            if (gutterDiv === null) {
-              gutterDiv = window.document.createElement("div");
-              gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
-              gutterDiv.style.position = 'absolute';
-              const codeCell = window.document.getElementById(targetCell);
-              const gutter = codeCell.querySelector('.code-annotation-gutter');
-              gutter.appendChild(gutterDiv);
-            }
-            gutterDiv.style.top = top - 2 + "px";
-            gutterDiv.style.height = height + 4 + "px";
-          }
-          selectedAnnoteEl = annoteEl;
-        }
-      };
-      const unselectCodeLines = () => {
-        const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
-        elementsIds.forEach((elId) => {
-          const div = window.document.getElementById(elId);
-          if (div) {
-            div.remove();
-          }
-        });
-        selectedAnnoteEl = undefined;
-      };
-        // Handle positioning of the toggle
-    window.addEventListener(
-      "resize",
-      throttle(() => {
-        elRect = undefined;
-        if (selectedAnnoteEl) {
-          selectCodeLines(selectedAnnoteEl);
-        }
-      }, 10)
-    );
-    function throttle(fn, ms) {
-    let throttle = false;
-    let timer;
-      return (...args) => {
-        if(!throttle) { // first call gets through
-            fn.apply(this, args);
-            throttle = true;
-        } else { // all the others get throttled
-            if(timer) clearTimeout(timer); // cancel #2
-            timer = setTimeout(() => {
-              fn.apply(this, args);
-              timer = throttle = false;
-            }, ms);
-        }
-      };
-    }
-      // Attach click handler to the DT
-      const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
-      for (const annoteDlNode of annoteDls) {
-        annoteDlNode.addEventListener('click', (event) => {
-          const clickedEl = event.target;
-          if (clickedEl !== selectedAnnoteEl) {
-            unselectCodeLines();
-            const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
-            if (activeEl) {
-              activeEl.classList.remove('code-annotation-active');
-            }
-            selectCodeLines(clickedEl);
-            clickedEl.classList.add('code-annotation-active');
-          } else {
-            // Unselect the line
-            unselectCodeLines();
-            clickedEl.classList.remove('code-annotation-active');
-          }
-        });
-      }
-  const findCites = (el) => {
-    const parentEl = el.parentElement;
-    if (parentEl) {
-      const cites = parentEl.dataset.cites;
-      if (cites) {
-        return {
-          el,
-          cites: cites.split(' ')
-        };
-      } else {
-        return findCites(el.parentElement)
-      }
-    } else {
-      return undefined;
-    }
-  };
-  var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
-  for (var i=0; i<bibliorefs.length; i++) {
-    const ref = bibliorefs[i];
-    const citeInfo = findCites(ref);
-    if (citeInfo) {
-      tippyHover(citeInfo.el, function() {
-        var popup = window.document.createElement('div');
-        citeInfo.cites.forEach(function(cite) {
-          var citeDiv = window.document.createElement('div');
-          citeDiv.classList.add('hanging-indent');
-          citeDiv.classList.add('csl-entry');
-          var biblioDiv = window.document.getElementById('ref-' + cite);
-          if (biblioDiv) {
-            citeDiv.innerHTML = biblioDiv.innerHTML;
-          }
-          popup.appendChild(citeDiv);
-        });
-        return popup.innerHTML;
+      }, function(instance) {
       });
     }
-  }
-});
-</script>
+        let selectedAnnoteEl;
+        const selectorForAnnotation = ( cell, annotation) => {
+          let cellAttr = 'data-code-cell="' + cell + '"';
+          let lineAttr = 'data-code-annotation="' +  annotation + '"';
+          const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+          return selector;
+        }
+        const selectCodeLines = (annoteEl) => {
+          const doc = window.document;
+          const targetCell = annoteEl.getAttribute("data-target-cell");
+          const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+          const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+          const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+          const lineIds = lines.map((line) => {
+            return targetCell + "-" + line;
+          })
+          let top = null;
+          let height = null;
+          let parent = null;
+          if (lineIds.length > 0) {
+              //compute the position of the single el (top and bottom and make a div)
+              const el = window.document.getElementById(lineIds[0]);
+              top = el.offsetTop;
+              height = el.offsetHeight;
+              parent = el.parentElement.parentElement;
+            if (lineIds.length > 1) {
+              const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+              const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+              height = bottom - top;
+            }
+            if (top !== null && height !== null && parent !== null) {
+              // cook up a div (if necessary) and position it 
+              let div = window.document.getElementById("code-annotation-line-highlight");
+              if (div === null) {
+                div = window.document.createElement("div");
+                div.setAttribute("id", "code-annotation-line-highlight");
+                div.style.position = 'absolute';
+                parent.appendChild(div);
+              }
+              div.style.top = top - 2 + "px";
+              div.style.height = height + 4 + "px";
+              div.style.left = 0;
+              let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+              if (gutterDiv === null) {
+                gutterDiv = window.document.createElement("div");
+                gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+                gutterDiv.style.position = 'absolute';
+                const codeCell = window.document.getElementById(targetCell);
+                const gutter = codeCell.querySelector('.code-annotation-gutter');
+                gutter.appendChild(gutterDiv);
+              }
+              gutterDiv.style.top = top - 2 + "px";
+              gutterDiv.style.height = height + 4 + "px";
+            }
+            selectedAnnoteEl = annoteEl;
+          }
+        };
+        const unselectCodeLines = () => {
+          const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+          elementsIds.forEach((elId) => {
+            const div = window.document.getElementById(elId);
+            if (div) {
+              div.remove();
+            }
+          });
+          selectedAnnoteEl = undefined;
+        };
+          // Handle positioning of the toggle
+      window.addEventListener(
+        "resize",
+        throttle(() => {
+          elRect = undefined;
+          if (selectedAnnoteEl) {
+            selectCodeLines(selectedAnnoteEl);
+          }
+        }, 10)
+      );
+      function throttle(fn, ms) {
+      let throttle = false;
+      let timer;
+        return (...args) => {
+          if(!throttle) { // first call gets through
+              fn.apply(this, args);
+              throttle = true;
+          } else { // all the others get throttled
+              if(timer) clearTimeout(timer); // cancel #2
+              timer = setTimeout(() => {
+                fn.apply(this, args);
+                timer = throttle = false;
+              }, ms);
+          }
+        };
+      }
+        // Attach click handler to the DT
+        const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+        for (const annoteDlNode of annoteDls) {
+          annoteDlNode.addEventListener('click', (event) => {
+            const clickedEl = event.target;
+            if (clickedEl !== selectedAnnoteEl) {
+              unselectCodeLines();
+              const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+              if (activeEl) {
+                activeEl.classList.remove('code-annotation-active');
+              }
+              selectCodeLines(clickedEl);
+              clickedEl.classList.add('code-annotation-active');
+            } else {
+              // Unselect the line
+              unselectCodeLines();
+              clickedEl.classList.remove('code-annotation-active');
+            }
+          });
+        }
+    const findCites = (el) => {
+      const parentEl = el.parentElement;
+      if (parentEl) {
+        const cites = parentEl.dataset.cites;
+        if (cites) {
+          return {
+            el,
+            cites: cites.split(' ')
+          };
+        } else {
+          return findCites(el.parentElement)
+        }
+      } else {
+        return undefined;
+      }
+    };
+    var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+    for (var i=0; i<bibliorefs.length; i++) {
+      const ref = bibliorefs[i];
+      const citeInfo = findCites(ref);
+      if (citeInfo) {
+        tippyHover(citeInfo.el, function() {
+          var popup = window.document.createElement('div');
+          citeInfo.cites.forEach(function(cite) {
+            var citeDiv = window.document.createElement('div');
+            citeDiv.classList.add('hanging-indent');
+            citeDiv.classList.add('csl-entry');
+            var biblioDiv = window.document.getElementById('ref-' + cite);
+            if (biblioDiv) {
+              citeDiv.innerHTML = biblioDiv.innerHTML;
+            }
+            popup.appendChild(citeDiv);
+          });
+          return popup.innerHTML;
+        });
+      }
+    }
+  });
+  </script>
 </div> <!-- /content -->
 <footer class="footer">
   <div class="nav-footer">
