@@ -26,7 +26,7 @@ website:
     pinned: true
     search: true
     type: overlay
-    logo: /logo/Liber-DS-logo-long-white.png
+    logo: medium
     
     right:
       - text: "Topic Guides"
