@@ -16,7 +16,7 @@ For library professionals who are relatively new to this area however, it can be
 
 _Digital Scholarship & Data Science Topic Guides for Library Professionals_ (**_DS Topic Guides_**) are written for and by research library professionals across [LIBER](https://libereurope.eu/) to help share some of our experience and knowledge and lower those barriers to entry for others!
 
-[Take me to the Topic Guides](topicguides.qmd){.btn .btn-outline-primary .btn role="button"} 
+[**Take me to the Topic Guides**](topicguides.qmd){.btn .btn-outline-primary .btn role="button"} 
 
 
  
