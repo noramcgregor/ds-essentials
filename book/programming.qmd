@@ -24,8 +24,9 @@ author:
 abstract: > 
   This guide aims to provide library professionals with some guidance on how and where to begin their journey into learning a programming language.
 keywords:
-  - TBD
-  - TBD
+  - Python
+  - R
+  - Programming
 license: "CC BY"
 citation: 
   container-title: Digital Scholarship & Data Science Topic Guides for Library Professionals
