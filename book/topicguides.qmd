@@ -15,6 +15,12 @@ Written by [LIBER](https://libereurope.eu/) professionals working in research li
   <div class="card-header">Where to begin?</div>
 <div class="card-body">Our [Getting Started in DS](gettingstarted.qmd) guide provides an overview of the world of digital scholarship and data science and its connection to our library work, </div>
 </div>
+
+<div class="card text-white bg-success mb-3" style="max-width: 20rem;">
+  <div class="card-header">Group Study</div>
+  <div class="card-body">The materials here can also be utilised in group study, as part of a reading group or even a hands-on workshop. See our _DS Topic Guide_ on how to [Start your own training programme](dstp.qmd) for some tips and tricks from British Library Digital Research Team colleagues on utilising the materials referenced here at your own library or within your network.</div>
+</div>
+
 :::
 
 ::: {.g-col-8}
@@ -32,67 +38,6 @@ Written by [LIBER](https://libereurope.eu/) professionals working in research li
 
 :::
 
-This resource has a dual purpose; it is written as a tool for self-study and quick reference, but also as a guide for individuals and institutions interested in establishing their own local training programmes. 
-
-<div class="card text-white bg-success mb-3" style="max-width: 20rem;">
-  <div class="card-header">Group Study</div>
-  <div class="card-body">The materials here can also be utilised in group study, as part of a reading group or even a hands-on workshop. See our _DS Topic Guide_ on how to [Start your own training programme](dstp.qmd) for some tips and tricks from British Library Digital Research Team colleagues on utilising the materials referenced here at your own library or within your network.</div>
-</div>
 
 
-### Use in teaching or your own local training programme
 
-The materials here can also be utilised in group study, as part of a reading group or even a hands-on workshop. See our Topic Guide on how to [Start your own training programme](dstp.qmd) for some tips and tricks from British Library Digital Research Team colleagues on utilising the materials referenced here at your own library or within your network.
-
-As a self-study resource, we hope it can serve as a useful first point of entry into complex topics in digital scholarship and data science and their application in the library world. It is not meant to be completed in any particular order, rather, learners are invited to jump in and out of individual topic guides as personal curiosity or practical need dictates.
-
- <div class="row mt-5">
-          <div class="col-lg-12">
-            <h2>Accordions</h2>
-          </div>
-        </div>
-
-        <div class="row">
-          <div class="col-lg-4">
-            <div class="bs-component">
-              <div class="accordion" id="accordionExample">
-                <div class="accordion-item">
-                  <h2 class="accordion-header" id="headingOne">
-                    <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                      Accordion Item #1
-                    </button>
-                  </h2>
-                  <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
-                    <div class="accordion-body">
-                      <strong>This is the first item's accordion body.</strong> It is shown by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
-                    </div>
-                  </div>
-                </div>
-                <div class="accordion-item">
-                  <h2 class="accordion-header" id="headingTwo">
-                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                      Accordion Item #2
-                    </button>
-                  </h2>
-                  <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
-                    <div class="accordion-body">
-                      <strong>This is the second item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
-                    </div>
-                  </div>
-                </div>
-                <div class="accordion-item">
-                  <h2 class="accordion-header" id="headingThree">
-                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                      Accordion Item #3
-                    </button>
-                  </h2>
-                  <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
-                    <div class="accordion-body">
-                      <strong>This is the third item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
