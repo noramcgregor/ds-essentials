@@ -20,12 +20,9 @@ color:
     
 logo: 
   small: logo/LIBER-DS-Favicon.png 
-  medium: 
-    light: logo/Liber-DS-logo-sq-white.png 
-    dark: logo/Liber-DS-logo-sq-blue.png
-  large: 
-    light: logo/Liber-DS-logo-long-white.png 
-    dark: logo/Liber-DS-logo-long-blue.png
+  medium: logo/Liber-DS-logo-sq-blue.png
+  large: logo/Liber-DS-logo-sq-blue.png
+             
          
 typography:
   fonts:
