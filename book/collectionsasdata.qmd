@@ -14,8 +14,8 @@ author:
 abstract: > 
   A quick overview of the Collections as Data movement and what it can do for your library, along with some practical advice on how to take steps to transform your own library collections. 
 keywords:
-  - TBD
-  - TBD
+  - Collections
+  - Data
 license: "CC BY"
 citation: 
   container-title: Digital Scholarship & Data Science Topic Guides for Library Professionals
