@@ -4,7 +4,6 @@ date: 2025-01-28
 date-modified: 2025-01-28
 author:
   - name: Harry Lloyd
-    id: jc
     orcid: 0009-0009-3519-171X
     email: digitalresearch@bl.uk
     affiliation: 
@@ -15,11 +14,13 @@ author:
 abstract: > 
   Demystifying the process behind visualising data and offering practical tips on how anyone can get started in their your own library.
 keywords:
-  - TBD
-  - TBD
+  - Data visualisation
+  - Charts
+  - Graphs
+  - Plots
 license: "CC BY"
 citation: 
-  container-title: Digital Scholarship & Data Science Essentials
+  container-title: Digital Scholarship & Data Science Topic Guides for Library Professionals
   volume: 1
   issue: 1
   doi: 10.5555/12345678
