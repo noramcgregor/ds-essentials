@@ -24,11 +24,12 @@ author:
 abstract: > 
   This guide aims to provide library professionals at European research institutions, particularly those supporting or undertaking activities that combines AI tools and methods and digital cultural heritage collections and data, with a brief overview of the current copyright and licensing context for such research today.
 keywords:
-  - TBD
-  - TBD
+  - Copyright Law
+  - TDM
+  - EU AI Act
 license: "CC BY"
 citation: 
-  container-title: Digital Scholarship & Data Science Essentials
+  container-title: Digital Scholarship & Data Science Topic Guides for Library Professionals
   volume: 1
   issue: 1
   doi: TBD
