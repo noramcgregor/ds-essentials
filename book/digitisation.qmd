@@ -13,13 +13,13 @@ author:
         country: UK
         url: "https://www.lib.cam.ac.uk/research-institute/people/andy-corrigan"
 abstract: > 
-  "A quick guide to help navigate the terrific topic of digitisation."
+  A quick guide to help navigate the terrific topic of digitisation.
 keywords:
   - TBD
   - TBD
 license: "CC BY"
 citation: 
-  container-title: Digital Scholarship & Data Science Essentials
+  container-title: Digital Scholarship & Data Science Topic Guides for Library Professionals
   volume: 1
   issue: 1
   doi: 10.5555/12345678
