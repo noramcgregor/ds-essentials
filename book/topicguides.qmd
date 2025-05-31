@@ -10,7 +10,7 @@ Written by [LIBER](https://libereurope.eu/) professionals working in research li
 
 ::: {.grid}
 ::: {.g-col-4}
-<div class="card text-white bg-success mb-3" style="max-width: 20rem;">
+<div class="card text-gray-700 bg-success mb-3" style="max-width: 20rem;">
   <div class="card-header">**Where to begin?**</div>
 <div class="card-body">Our [Getting Started in DS](gettingstarted.qmd) guide provides an overview of the world of digital scholarship and data science and its connection to our library work,  </div>
 </div>
