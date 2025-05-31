@@ -10,15 +10,12 @@ format:
 
 ![](logo/Liber-DS-logo-long-blue.png){fig-align="center" width=80%}
 
-Over the past few decades, the development of excellent self-paced tutorials and training materials for undertaking digital scholarship and data science in libraries have proliferated online. 
+Over the past few years, the development of excellent self-paced tutorials and training materials for undertaking digital scholarship and data science in libraries have proliferated online. 
 
 For library professionals who are relatively new to this area however, it can be hard to know where to begin! Without knowing a little bit about the context of how new technologies and methodologies are being deployed in research libraries, this dearth of resources can seem quite daunting. Even if you might have an idea of what learning you’d like to undertake, it can be difficult and time consuming to try and navigate the wealth of individual training resources out there on your own.
 
-_Digital Scholarship & Data Science Topic Guides for Library Professionals_ (**_DS Topic Guides_**) are written for and by research library professionals across [LIBER](https://libereurope.eu/) to help share some of our experience and knowledge and lower those barriers to entry for others!
+**_Digital Scholarship & Data Science Topic Guides for Library Professionals_** (**_DS Topic Guides_**) are written for and by research library professionals across [LIBER](https://libereurope.eu/) to help share some of our experience and knowledge and lower those barriers to entry for others!
 
 [**Take me to the Topic Guides**](topicguides.qmd){.btn .btn-outline-primary .btn role="button"} 
-
-
- 
 
 
