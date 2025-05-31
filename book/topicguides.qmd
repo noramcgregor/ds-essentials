@@ -24,7 +24,7 @@ Written by [LIBER](https://libereurope.eu/) professionals working in research li
 :::
 
 ::: {.g-col-8}
-<div class="card text-white bg-secondary mb-3" style="max-width: 20rem;">
+<div class="card text-white bg-secondary mb-3">
   <div class="card-header">Self-study & Quick Reference</div>
   <div class="card-body">As a self-study resource, we hope it can serve as a useful first point of entry into complex topics in digital scholarship and data science and their application in the library world. It is not meant to be completed in any particular order, rather, learners are invited to jump in and out of individual topic guides as personal curiosity or practical need dictates. Each _DS Topic Guide_ is designed to make it easy to quickly find the information you might need: 
 
