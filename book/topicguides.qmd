@@ -8,13 +8,13 @@ format:
 
 Written by [LIBER](https://libereurope.eu/) professionals working in research libraries across Europe, the aim of each guide is to provide a gentle and concise introduction to practical applications of digital scholarship and data science to the work of libraries today, and share personal recommendations for useful tutorials, recommended reading, and communities of practice to help colleagues on their learning journey. 
 
-This is a playground for Quarto.
-
-
 ::: {.grid style="border: 1px solid #ccc;"}
 
 ::: {.g-col-4 style="border: 1px solid #22b222;"}
-{{< lipsum 1 >}}
+<div class="card text-white bg-primary mb-3" style="max-width: 20rem;">
+  <div class="card-header">Where to begin?</div>
+<div class="card-body">Our [Getting Started in DS](gettingstarted.qmd) guide provides an overview of the world of digital scholarship and data science and its connection to our library work, </div>
+</div>
 :::
 
 ::: {.g-col-8 style="border: 1px solid #b22222;"}
@@ -26,10 +26,7 @@ This is a playground for Quarto.
 
 
 
-<div class="card text-white bg-primary mb-3" style="max-width: 20rem;">
-  <div class="card-header">Where to begin?</div>
-<div class="card-body">Our [Getting Started in DS](gettingstarted.qmd) guide provides an overview of the world of digital scholarship and data science and its connection to our library work, </div>
-</div>
+
 
 This resource has a dual purpose; it is written as a tool for self-study and quick reference, but also as a guide for individuals and institutions interested in establishing their own local training programmes. 
 
