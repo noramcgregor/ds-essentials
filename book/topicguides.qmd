@@ -10,21 +10,21 @@ Written by [LIBER](https://libereurope.eu/) professionals working in research li
 
 ::: {.grid}
 ::: {.g-col-4}
-<div class="card text-gray bg-success mb-3" style="max-width: 20rem;">
+<div class="card text-white bg-primary mb-3" style="max-width: 20rem;">
   <div class="card-header">**Where to begin?**</div>
 <div class="card-body">Our [Getting Started in DS](gettingstarted.qmd) guide provides a helpful starting point for understanding digital scholarship and data science in the context of research libraries! </div>
 </div>
 
-<div class="card text-white bg-primary mb-3" style="max-width: 20rem;">
+<div class="card text-white bg-secondary mb-3" style="max-width: 20rem;">
   <div class="card-header">**Group Study**</div>
-  <div class="card-body">The materials here can also be utilised in group study, as part of a reading group or even a hands-on workshop. See our _DS Topic Guide_ on how to [Start your own training programme](dstp.qmd) for some tips and tricks from British Library Digital Research Team colleagues on utilising the materials referenced here at your own library or within your network.</div>
+  <div class="card-body">Use the materials recommended here to start up a reading group, or hold a hands-on workshop. See our _DS Topic Guide_ on how to [Start your own training programme](dstp.qmd) for some tips and tricks from British Library Digital Research Team colleagues on using these guides support group learning opportunities at your own library or network.</div>
 </div>
 :::
 
 ::: {.g-col-8}
-<div class="card text-white bg-secondary mb-3">
+<div class="card text-white bg-success mb-3">
   <div class="card-header">**Self-study & Quick Reference**</div>
-  <div class="card-body">DS Topic Guides aim to be a useful first point of entry into complex topics in digital scholarship and data science and their application in the library world. They are not meant to be completed in any particular order however and learners are invited to jump in and out of individual topic guides as personal curiosity or practical need dictates. 
+  <div class="card-body">The guides here aim to be a useful first point of entry into complex topics in digital scholarship and data science and their application in the library world. They are not meant to be read in any particular order however and learners are invited to jump in and out of individual topic guides as personal curiosity or practical need dictates. 
 
 Each _DS Topic Guide_ is designed to make it easy to quickly find the information you might need: 
 
