@@ -12,7 +12,7 @@ Written by [LIBER](https://libereurope.eu/) professionals working in research li
 ::: {.g-col-4}
 <div class="card text-black bg-success mb-3" style="max-width: 20rem;">
   <div class="card-header">**Where to begin?**</div>
-<div class="card-body">Our [Getting Started in DS](gettingstarted.qmd) guide provides an overview of the world of digital scholarship and data science and its connection to our library work,  </div>
+<div class="card-body">Our [Getting Started in DS](gettingstarted.qmd) guide provides a helpful starting point for understanding digital scholarship and data science in the context of research libraries! </div>
 </div>
 
 <div class="card text-white bg-primary mb-3" style="max-width: 20rem;">
