@@ -1,23 +1,104 @@
-<header id="title-block-header">
-$if(title)$<h1 class="title">$title$</h1>$endif$
-$if(subtitle)$
-<p class="subtitle">$subtitle$</p>
-$endif$
-$for(author)$
-<p class="author">$author$</p>
-$endfor$
+<header id="title-block-header" class="quarto-title-block default">
+  <div class="quarto-title">
+    $if(title)$
+    <h1 class="title">$title$</h1>
+    $endif$
+    $if(subtitle)$
+    <p class="subtitle lead">$subtitle$</p>
+    $endif$
+    $if(categories)$
+    $if(quarto-template-params.title-block-categories)$
+    <div class="quarto-categories">
+      $for(categories)$
+      <div class="quarto-category">$categories$</div>
+      $endfor$
+    </div>
+    $endif$
+    $endif$
+  </div>
+  $if(hide-description)$
+  $elseif(description)$
+  <div>
+    <div class="description">
+      $description$
+    </div>
+  </div>
+  $endif$
+  <div class="quarto-title-meta">
+    $if(author)$
+    <div class="quarto-title-meta-author">
+      $if(labels.author-title)$
+      <div class="quarto-title-meta-heading">$labels.author-title$</div>
+      $else$
+      <div class="quarto-title-meta-heading">Authors</div>
+      $endif$
+      <div class="quarto-title-meta-contents">
+        $for(author)$
+        <p class="author">
+          $if(author.name)$
+          $author.name$
+          $endif$
+          $if(author.orcid)$
+          <a href="$author.orcid.url$" class="orcid" aria-label="ORCID">
+            <i class="ai ai-orcid"></i>
+          </a>
+          $endif$
+          $if(author.email)$
+          <a href="mailto:$author.email$" class="email" aria-label="Email">
+            <i class="fa-solid fa-envelope"></i>
+          </a>
+          $endif$
+        </p>
+        $for(author.affiliations)$
+        <p class="affiliation">$author.affiliations$</p>
+        $endfor$
+        $endfor$
+      </div>
+    </div>
+    $endif$
 
-$if(reviewed-by)$
-<p class="reviewed-by">Reviewed by: $reviewed-by$</p>
-$endif$
+    $if(reviewed-by)$
+    <div class="quarto-title-meta-reviewed-by">
+      <div class="quarto-title-meta-heading">Reviewed By</div>
+      <div class="quarto-title-meta-contents">
+        <p>$reviewed-by$</p>
+      </div>
+    </div>
+    $endif$
 
-$if(date)$
-<p class="date">$date$</p>
-$endif$
-$if(abstract)$
-<div class="abstract">
-<div class="abstract-title">$abstract-title$</div>
-$abstract$
-</div>
-$endif$
+    $if(published-title)$
+    <div class="quarto-title-meta-date">
+      <div class="quarto-title-meta-heading">$labels.published-title$</div>
+      <div class="quarto-title-meta-contents">
+        <p class="date">$date$</p>
+      </div>
+    </div>
+    $endif$
+    $if(doi)$
+    <div class="quarto-title-meta-doi">
+      <div class="quarto-title-meta-heading">DOI</div>
+      <div class="quarto-title-meta-contents">
+        <p class="doi">$doi$</p>
+      </div>
+    </div>
+    $endif$
+    $if(keywords)$
+    <div class="quarto-title-meta-keywords">
+      <div class="quarto-title-meta-heading">Keywords</div>
+      <div class="quarto-title-meta-contents">
+        <div class="text-keywords">
+          $for(keywords)$
+          <p class="keyword">$keywords$</p>
+          $endfor$
+        </div>
+      </div>
+    </div>
+    $endif$
+  </div>
+  $if(abstract)$
+  <div class="abstract">
+    <div class="abstract-title">$abstract-title$</div>
+    $abstract$
+  </div>
+  $endif$
 </header>
