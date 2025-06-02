@@ -79,19 +79,22 @@
       </div>
     </div>
     $endif$
-    $if(keywords)$
-    <div class="quarto-title-meta-keywords">
-      <div class="quarto-title-meta-heading">Keywords</div>
-      <div class="quarto-title-meta-contents">
-        <div class="text-keywords">
-          <p>$for(keywords)$$keywords$$sep$, $endfor$</p>
-        </div>
-      </div>
     </div>
-    $endif$
-  </div>
   $if(abstract)$
-  <div class="abstract"> <div class="quarto-title-meta-heading">$abstract-title$</div> <div class="quarto-title-meta-contents"> $abstract$
+  <div class="abstract">
+    <div class="quarto-title-meta-heading">$abstract-title$</div>
+    <div class="quarto-title-meta-contents">
+      $abstract$
+    </div>
+  </div>
+  $endif$
+  $if(keywords)$
+  <div class="quarto-title-meta-keywords">
+    <div class="quarto-title-meta-heading">Keywords</div>
+    <div class="quarto-title-meta-contents">
+      <div class="text-keywords">
+        <p>$for(keywords)$$keywords$$sep$, $endfor$</p>
+      </div>
     </div>
   </div>
   $endif$
