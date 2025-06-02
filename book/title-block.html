@@ -54,9 +54,9 @@
     </div>
     $endif$
 
-    $if(published-title)$
+    $if(date)$
     <div class="quarto-title-meta-date">
-      <div class="quarto-title-meta-heading">$labels.published-title$</div>
+      <div class="quarto-title-meta-heading">$if(labels.published-title)$$labels.published-title$$else$Published$endif$</div>
       <div class="quarto-title-meta-contents">
         <p class="date">$date$</p>
       </div>
