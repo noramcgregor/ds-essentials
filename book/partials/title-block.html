@@ -49,8 +49,7 @@
           </a>
           $endif$
         </p>
-        $for(author.affiliations)$
-        <p class="affiliation">$author.affiliations.name$$if(author.affiliations.city)$<span>, $author.affiliations.city$</span>$endif$$if(author.affiliations.state)$<span>, $author.affiliations.state$</span>$endif$$if(author.affiliations.country)$<span>, $author.affiliations.country$</span>$endif$$if(author.affiliations.url)$<br><a href="$author.affiliations.url$">$author.affiliations.url$</a>$endif$</p>
+        $for(author.affiliation)$ <p class="affiliation">$it.name$$if(it.city)$<span>, $it.city$</span>$endif$$if(it.state)$<span>, $it.state$</span>$endif$$if(it.country)$<span>, $it.country$</span>$endif$$if(it.url)$<br><a href="$it.url$">$it.url$</a>$endif$</p>
         $endfor$
         $endfor$
       </div>
@@ -91,6 +90,24 @@
           <p class="keyword">$keywords$</p>
           $endfor$
         </div>
+      </div>
+    </div>
+    $endif$
+    $if(license)$
+    <div class="quarto-title-meta-license">
+      <div class="quarto-title-meta-heading">License</div>
+      <div class="quarto-title-meta-contents">
+        <p>$license$</p>
+      </div>
+    </div>
+    $endif$
+    $if(citation)$
+    <div class="quarto-title-meta-citation">
+      <div class="quarto-title-meta-heading">Citation</div>
+      <div class="quarto-title-meta-contents">
+        $if(citation.container-title)$<p>In: <em>$citation.container-title$</em></p>$endif$
+        $if(citation.volume)$<p>Volume: $citation.volume$$if(citation.issue)$, Issue: $citation.issue$$endif$</p>$endif$
+        $if(citation.doi)$<p>DOI: $citation.doi$</p>$endif$
       </div>
     </div>
     $endif$
