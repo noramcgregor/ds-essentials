@@ -33,8 +33,10 @@
       <div class="quarto-title-meta-heading">Authors</div>
       $endif$
       <div class="quarto-title-meta-contents">
-        $for(author)$ <p class="author">
-          $if(author.name)$   $author.name$
+        $for(author)$
+        <p class="author">
+          $if(author.name)$
+          $author.name$
           $endif$
           $if(author.orcid)$
           <a href="$author.orcid.url$" class="orcid" aria-label="ORCID">
@@ -47,7 +49,8 @@
           </a>
           $endif$
         </p>
-        $for(affiliation in author.affiliation)$ <p class="affiliation">$affiliation.name$$if(affiliation.city)$<span>, $affiliation.city$</span>$endif$$if(affiliation.state)$<span>, $affiliation.state$</span>$endif$$if(affiliation.country)$<span>, $affiliation.country$</span>$endif$$if(affiliation.url)$<br><a href="$affiliation.url$">$affiliation.url$</a>$endif$</p>
+        $for(affiliation in author.affiliation)$
+        <p class="affiliation">$affiliation.name$$if(affiliation.city)$<span>, $affiliation.city$</span>$endif$$if(affiliation.state)$<span>, $affiliation.state$</span>$endif$$if(affiliation.country)$<span>, $affiliation.country$</span>$endif$$if(affiliation.url)$<br><a href="$affiliation.url$">$affiliation.url$</a>$endif$</p>
         $endfor$
         $endfor$
       </div>
