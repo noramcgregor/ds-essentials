@@ -25,7 +25,8 @@
   </div>
   $endif$
   <div class="quarto-title-meta">
-    $if(author)$
+
+    $if(by-author)$
     <div class="quarto-title-meta-author">
       $if(labels.author-title)$
       <div class="quarto-title-meta-heading">$labels.author-title$</div>
@@ -33,30 +34,17 @@
       <div class="quarto-title-meta-heading">Authors</div>
       $endif$
       <div class="quarto-title-meta-contents">
-        $for(author)$
+        $for(by-author)$
         <p class="author">
-          $if(author.name)$
-          $author.name$
-          $endif$
-          $if(author.orcid)$
-          <a href="$author.orcid.url$" class="orcid" aria-label="ORCID">
-            <i class="ai ai-orcid"></i>
-          </a>
-          $endif$
-          $if(author.email)$
-          <a href="mailto:$author.email$" class="email" aria-label="Email">
-            <i class="fa-solid fa-envelope"></i>
-          </a>
-          $endif$
+          $_title-meta-author.html()$
         </p>
-        $for(affiliation in author.affiliation)$
+        $for(affiliation in by-author.affiliation)$
         <p class="affiliation">$affiliation.name$$if(affiliation.city)$<span>, $affiliation.city$</span>$endif$$if(affiliation.state)$<span>, $affiliation.state$</span>$endif$$if(affiliation.country)$<span>, $affiliation.country$</span>$endif$$if(affiliation.url)$<br><a href="$affiliation.url$">$affiliation.url$</a>$endif$</p>
         $endfor$
         $endfor$
       </div>
     </div>
     $endif$
-
     $if(reviewed-by)$
     <div class="quarto-title-meta-reviewed-by">
       <div class="quarto-title-meta-heading">Reviewed By</div>
