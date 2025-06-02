@@ -97,9 +97,8 @@ format:
     toc-title: Jump to...
     toc-depth: 2
 
-    template-path: partials
     template-partials:
-      - title-block.html
+      - partials/title-block.html
 
 
 
