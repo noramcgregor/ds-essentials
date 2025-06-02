@@ -33,23 +33,22 @@
       <div class="quarto-title-meta-heading">Authors</div>
       $endif$
       <div class="quarto-title-meta-contents">
-        $for(author)$
-        <p class="author">
-          $if(author.name)$
-          $author.name$
+        $for(current_author in author)$ <p class="author">
+          $if(current_author.name)$
+          $current_author.name$
           $endif$
-          $if(author.orcid)$
-          <a href="$author.orcid.url$" class="orcid" aria-label="ORCID">
+          $if(current_author.orcid)$
+          <a href="$current_author.orcid.url$" class="orcid" aria-label="ORCID">
             <i class="ai ai-orcid"></i>
           </a>
           $endif$
-          $if(author.email)$
-          <a href="mailto:$author.email$" class="email" aria-label="Email">
+          $if(current_author.email)$
+          <a href="mailto:$current_author.email$" class="email" aria-label="Email">
             <i class="fa-solid fa-envelope"></i>
           </a>
           $endif$
         </p>
-        $for(author.affiliation)$ <p class="affiliation">$it.name$$if(it.city)$<span>, $it.city$</span>$endif$$if(it.state)$<span>, $it.state$</span>$endif$$if(it.country)$<span>, $it.country$</span>$endif$$if(it.url)$<br><a href="$it.url$">$it.url$</a>$endif$</p>
+        $for(current_affiliation in current_author.affiliation)$ <p class="affiliation">$current_affiliation.name$$if(current_affiliation.city)$<span>, $current_affiliation.city$</span>$endif$$if(current_affiliation.state)$<span>, $current_affiliation.state$</span>$endif$$if(current_affiliation.country)$<span>, $current_affiliation.country$</span>$endif$$if(current_affiliation.url)$<br><a href="$current_affiliation.url$">$current_affiliation.url$</a>$endif$</p>
         $endfor$
         $endfor$
       </div>
