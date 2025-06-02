@@ -74,7 +74,8 @@
       </div>
     </div>
     $endif$
-    $if(date-modified)$ <div class="quarto-title-meta-modified-date">
+    $if(date-modified)$
+    <div class="quarto-title-meta-modified-date">
       <div class="quarto-title-meta-heading">Modified</div>
       <div class="quarto-title-meta-contents">
         <p class="date-modified">$date-modified$</p>
@@ -94,28 +95,8 @@
       <div class="quarto-title-meta-heading">Keywords</div>
       <div class="quarto-title-meta-contents">
         <div class="text-keywords">
-          $for(keywords)$
-          <p class="keyword">$keywords$</p>
-          $endfor$
+          <p>$for(keywords)$$keywords$$sep$, $endfor$</p>
         </div>
-      </div>
-    </div>
-    $endif$
-    $if(license)$
-    <div class="quarto-title-meta-license">
-      <div class="quarto-title-meta-heading">License</div>
-      <div class="quarto-title-meta-contents">
-        <p>$license$</p>
-      </div>
-    </div>
-    $endif$
-    $if(citation)$
-    <div class="quarto-title-meta-citation">
-      <div class="quarto-title-meta-heading">Citation</div>
-      <div class="quarto-title-meta-contents">
-        $if(citation.container-title)$<p>In: <em>$citation.container-title$</em></p>$endif$
-        $if(citation.volume)$<p>Volume: $citation.volume$$if(citation.issue)$, Issue: $citation.issue$$endif$</p>$endif$
-        $if(citation.doi)$<p>DOI: $citation.doi$</p>$endif$
       </div>
     </div>
     $endif$
