@@ -27,7 +27,7 @@
   <div class="quarto-title-meta">
 
     $if(by-author)$
-    <div class="quarto-title-meta-author" style="display: block; width: 100%; margin-left: 0; padding-left: 0; box-sizing: border-box; grid-column: 1 / -1; justify-self: start; text-align: left;">
+    <div class="quarto-title-meta-author">
       $if(labels.author-title)$
       <div class="quarto-title-meta-heading">$labels.author-title$</div>
       $else$
@@ -35,20 +35,27 @@
       $endif$
       <div class="quarto-title-meta-contents">
         $for(by-author)$
-          $_title-meta-author.html()$ $endfor$
-      </div>
-    </div>
-    $endif$
-    $if(secondary-authors)$
-    <div class="quarto-title-meta-reviewed-by">
-      <div class="quarto-title-meta-heading">Reviewed By</div>
-      <div class="quarto-title-meta-contents">
-        $for(secondary-authors)$ $_title-meta-author.html()$
+        <p class="author">
+          $_title-meta-author.html()$
+        </p>
+        $for(by-author.affiliation)$
+        <p class="affiliation">$name$$if(city)$<span>, $city$</span>$endif$$if(state)$<span>, $state$</span>$endif$$if(country)$<span>, $country$</span>$endif$$if(url)$<br><a href="$url$">$url$</a>$endif$</p>
+        $endfor$
         $endfor$
       </div>
     </div>
     $endif$
-    $if(date)$
+    $if(reviewed-by)$
+    <div class="quarto-title-meta-reviewed-by">
+      <div class="quarto-title-meta-heading">Reviewed By</div>
+      <div class="quarto-title-meta-contents">
+        $for(reviewed-by)$ <p class="reviewed-by-name">
+          $_title-meta-author.html()$ </p>
+        $endfor$
+      </div>
+    </div>
+    $endif$
+    $if(published-title)$
     <div class="quarto-title-meta-date">
       <div class="quarto-title-meta-heading">$if(labels.published-title)$$labels.published-title$$else$Published$endif$</div>
       <div class="quarto-title-meta-contents">
@@ -72,23 +79,21 @@
       </div>
     </div>
     $endif$
+    $if(keywords)$
+    <div class="quarto-title-meta-keywords">
+      <div class="quarto-title-meta-heading">Keywords</div>
+      <div class="quarto-title-meta-contents">
+        <div class="text-keywords">
+          <p>$for(keywords)$$keywords$$sep$, $endfor$</p>
+        </div>
+      </div>
+    </div>
+    $endif$
   </div>
   $if(abstract)$
   <div class="abstract">
-    <div class="quarto-title-meta-heading">$abstract-title$</div>
-    <div class="quarto-title-meta-contents">
-      $abstract$
-    </div>
-  </div>
-  $endif$
-  $if(keywords)$
-  <div class="quarto-title-meta-keywords">
-    <div class="quarto-title-meta-heading">Keywords</div>
-    <div class="quarto-title-meta-contents">
-      <div class="text-keywords">
-        <p>$for(keywords)$$keywords$$sep$, $endfor$</p>
-      </div>
-    </div>
+    <div class="abstract-title">$abstract-title$</div>
+    $abstract$
   </div>
   $endif$
 </header>
