@@ -1,10 +1,26 @@
 $if(secondary-authors)$
-<div class="quarto-title-meta-reviewed-by">
+<div class="quarto-title-meta-item quarto-title-meta-secondary-authors">
   <div class="quarto-title-meta-heading">Reviewed By</div>
   <div class="quarto-title-meta-contents">
-    <ul>
+    <ul class="list-unstyled">
     $for(secondary-authors)$
-      <li>$name$ – $email$</li>
+      <li>
+        $if(secondary-authors.name)$
+          <span class="secondary-author-name">$secondary-authors.name$</span>
+        $endif$
+        $if(secondary-authors.email)$
+          $if(secondary-authors.name)$ – $endif$
+          <a href="mailto:$secondary-authors.email$" class="secondary-author-email">$secondary-authors.email$</a>
+        $endif$
+        $if(secondary-authors.orcid)$
+          <a href="https://orcid.org/$secondary-authors.orcid$" target="_blank" class="secondary-author-orcid" aria-label="ORCID for $secondary-authors.name$">
+             (ORCID: $secondary-authors.orcid$)
+          </a>
+        $endif$
+        $if(secondary-authors.affiliation)$
+          <span class="secondary-author-affiliation">($secondary-authors.affiliation$)</span>
+        $endif$
+      </li>
     $endfor$
     </ul>
   </div>
