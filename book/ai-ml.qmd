@@ -12,7 +12,7 @@ author:
         city: London
         country: UK
         url: https://libereurope.eu/member/nora-mcgregor/
-reviewed-by:
+secondary-authors:
   - name: Stephen McGregor
     orcid: 0000-0001-6560-5586
     email: semcgregor@hotmail.com
