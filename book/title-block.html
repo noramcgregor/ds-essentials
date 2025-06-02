@@ -27,13 +27,13 @@
   <div class="quarto-title-meta">
 
     $if(by-author)$
-    <div class="quarto-title-meta-author">
-      $if(labels.author-title)$
+    <div class="quarto-title-meta-author" style="display: block; width: 100%; margin-left: 0; padding-left: 0; box-sizing: border-box; grid-column: 1 / -1; justify-self: start; text-align: left;"> $if(labels.author-title)$
       <div class="quarto-title-meta-heading">$labels.author-title$</div>
       $else$
       <div class="quarto-title-meta-heading">Authors</div>
       $endif$
-      <div class="quarto-title-meta-contents" style="margin-left: 0; padding-left: 0;"> $for(by-author)$
+      <div class="quarto-title-meta-contents">
+        $for(by-author)$
         <p class="author">
           $_title-meta-author.html()$
         </p>
