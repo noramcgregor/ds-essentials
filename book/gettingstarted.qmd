@@ -73,9 +73,9 @@ Not quite. Data science, also an interdisciplinary academic field, is more speci
 * an assistant curator attending meetings of an international knowledge exchange networks (such as [International GLAM Labs Community](https://glamlabs.io/)) 
 * a reference librarian pointing a researcher to datasets that might help them with their research enquiry
 * an imaging technician creating a 3D model of a collection item
-* a licensing manager keeping up to date on the latest uses of Text and Data Mining (TDM) and AI in research so that digital collections meets the needs of library users and staff who want to work with them at scale
+* a licensing manager keeping up to date on the latest uses of Text and Data Mining (TDM) and AI in research so that digital collections meet the needs of library users and staff who want to work with them at scale
 * a project manager leading a major [interdisciplinary research project](https://livingwithmachines.ac.uk/) using the latest technologies to ask research questions of digital heritage collections 
-* a curator creating [an interactive online exhibit](https://www.exhibit.so/) with annotations
+* a curator creating [an interactive online exhibit](https://www.exhibit.so/) with image annotations
 * a research software engineer using a machine learning model to identify genre of digitised texts
 * an assistant librarian attending a [summer school on working with cultural heritage data](https://www.cdh.cam.ac.uk/dataschools/)  
 
