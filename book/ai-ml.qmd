@@ -6,11 +6,17 @@ author:
   - name: Nora McGregor
     orcid: 0000-0001-6560-5586
     email: Digitalresearch@bl.uk
+    url: https://libereurope.eu/member/nora-mcgregor/
     affiliation: 
       - name: British Library
         city: London
         country: UK
         url: https://libereurope.eu/member/nora-mcgregor/
+reviewed-by: 
+  - name: Stephen McGregor
+    orcid: 0000-0001-6560-5586
+    email: Digitalresearch@bl.uk
+    url: https://libereurope.eu/member/nora-mcgregor/
 abstract: > 
   A gentle introduction to AI & Machine Learning demystifying concepts and technologies through the examples of practical applications in library work today.
 keywords:
@@ -20,7 +26,7 @@ keywords:
   - Computer Vision
   - Deep Learning
   - Named Entity Recognition
-reviewed-by: Stephen McGregor
+
 
 license: "CC BY"
 citation: 
