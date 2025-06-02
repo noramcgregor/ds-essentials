@@ -11,10 +11,6 @@ author:
         city: London
         country: UK
         url: https://libereurope.eu/member/nora-mcgregor/
-  - name: Stephen McGregor
-    roles: "Reviewer"
-  - name: Greete Veesalu
-    roles: "Reviewer"
 abstract: > 
   A gentle introduction to AI & Machine Learning demystifying concepts and technologies through the examples of practical applications in library work today.
 keywords:
@@ -24,6 +20,8 @@ keywords:
   - Computer Vision
   - Deep Learning
   - Named Entity Recognition
+reviewed-by: Stephen McGregor
+
 license: "CC BY"
 citation: 
   container-title: Digital Scholarship & Data Science Topic Guides for Library Professionals
