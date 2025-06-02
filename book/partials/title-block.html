@@ -49,8 +49,8 @@
           </a>
           $endif$
         </p>
-        $for(author.affiliations)$
-        <p class="affiliation">$author.affiliations$</p>
+        $for(affiliation in author.affiliation)$
+        <p class="affiliation">$affiliation.name$$if(affiliation.city)$<span>, $affiliation.city$</span>$endif$$if(affiliation.state)$<span>, $affiliation.state$</span>$endif$$if(affiliation.country)$<span>, $affiliation.country$</span>$endif$$if(affiliation.url)$<br><a href="$affiliation.url$">$affiliation.url$</a>$endif$</p>
         $endfor$
         $endfor$
       </div>
@@ -74,6 +74,13 @@
       </div>
     </div>
     $endif$
+    $if(date-modified)$ <div class="quarto-title-meta-modified-date">
+      <div class="quarto-title-meta-heading">Modified</div>
+      <div class="quarto-title-meta-contents">
+        <p class="date-modified">$date-modified$</p>
+      </div>
+    </div>
+    $endif$
     $if(doi)$
     <div class="quarto-title-meta-doi">
       <div class="quarto-title-meta-heading">DOI</div>
@@ -91,6 +98,24 @@
           <p class="keyword">$keywords$</p>
           $endfor$
         </div>
+      </div>
+    </div>
+    $endif$
+    $if(license)$
+    <div class="quarto-title-meta-license">
+      <div class="quarto-title-meta-heading">License</div>
+      <div class="quarto-title-meta-contents">
+        <p>$license$</p>
+      </div>
+    </div>
+    $endif$
+    $if(citation)$
+    <div class="quarto-title-meta-citation">
+      <div class="quarto-title-meta-heading">Citation</div>
+      <div class="quarto-title-meta-contents">
+        $if(citation.container-title)$<p>In: <em>$citation.container-title$</em></p>$endif$
+        $if(citation.volume)$<p>Volume: $citation.volume$$if(citation.issue)$, Issue: $citation.issue$$endif$</p>$endif$
+        $if(citation.doi)$<p>DOI: $citation.doi$</p>$endif$
       </div>
     </div>
     $endif$
