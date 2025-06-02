@@ -33,22 +33,24 @@
       <div class="quarto-title-meta-heading">Authors</div>
       $endif$
       <div class="quarto-title-meta-contents">
-        $for(current_author in author)$ <p class="author">
-          $if(current_author.name)$
-          $current_author.name$
+        $for(author)$
+        <p class="author">
+          $if(author.name)$
+          $author.name$
           $endif$
-          $if(current_author.orcid)$
-          <a href="$current_author.orcid.url$" class="orcid" aria-label="ORCID">
+          $if(author.orcid)$
+          <a href="$author.orcid.url$" class="orcid" aria-label="ORCID">
             <i class="ai ai-orcid"></i>
           </a>
           $endif$
-          $if(current_author.email)$
-          <a href="mailto:$current_author.email$" class="email" aria-label="Email">
+          $if(author.email)$
+          <a href="mailto:$author.email$" class="email" aria-label="Email">
             <i class="fa-solid fa-envelope"></i>
           </a>
           $endif$
         </p>
-        $for(current_affiliation in current_author.affiliation)$ <p class="affiliation">$current_affiliation.name$$if(current_affiliation.city)$<span>, $current_affiliation.city$</span>$endif$$if(current_affiliation.state)$<span>, $current_affiliation.state$</span>$endif$$if(current_affiliation.country)$<span>, $current_affiliation.country$</span>$endif$$if(current_affiliation.url)$<br><a href="$current_affiliation.url$">$current_affiliation.url$</a>$endif$</p>
+        $for(author.affiliations)$
+        <p class="affiliation">$author.affiliations.name$$if(author.affiliations.city)$<span>, $author.affiliations.city$</span>$endif$$if(author.affiliations.state)$<span>, $author.affiliations.state$</span>$endif$$if(author.affiliations.country)$<span>, $author.affiliations.country$</span>$endif$$if(author.affiliations.url)$<br><a href="$author.affiliations.url$">$author.affiliations.url$</a>$endif$</p>
         $endfor$
         $endfor$
       </div>
@@ -63,23 +65,6 @@
       </div>
     </div>
     $endif$
-
-    $if(published-title)$
-    <div class="quarto-title-meta-date">
-      <div class="quarto-title-meta-heading">$labels.published-title$</div>
-      <div class="quarto-title-meta-contents">
-        <p class="date">$date$</p>
-      </div>
-    </div>
-    $endif$
-    $if(doi)$
-    <div class="quarto-title-meta-doi">
-      <div class="quarto-title-meta-heading">DOI</div>
-      <div class="quarto-title-meta-contents">
-        <p class="doi">$doi$</p>
-      </div>
-    </div>
-    $endif$
     $if(keywords)$
     <div class="quarto-title-meta-keywords">
       <div class="quarto-title-meta-heading">Keywords</div>
@@ -89,24 +74,6 @@
           <p class="keyword">$keywords$</p>
           $endfor$
         </div>
-      </div>
-    </div>
-    $endif$
-    $if(license)$
-    <div class="quarto-title-meta-license">
-      <div class="quarto-title-meta-heading">License</div>
-      <div class="quarto-title-meta-contents">
-        <p>$license$</p>
-      </div>
-    </div>
-    $endif$
-    $if(citation)$
-    <div class="quarto-title-meta-citation">
-      <div class="quarto-title-meta-heading">Citation</div>
-      <div class="quarto-title-meta-contents">
-        $if(citation.container-title)$<p>In: <em>$citation.container-title$</em></p>$endif$
-        $if(citation.volume)$<p>Volume: $citation.volume$$if(citation.issue)$, Issue: $citation.issue$$endif$</p>$endif$
-        $if(citation.doi)$<p>DOI: $citation.doi$</p>$endif$
       </div>
     </div>
     $endif$
