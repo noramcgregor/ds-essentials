@@ -38,7 +38,7 @@
         <p class="author">
           $_title-meta-author.html()$
         </p>
-        $for(affiliation in by-author.affiliation)$
+        $for(affiliation in by-author.affiliation)$ 
         <p class="affiliation">$affiliation.name$$if(affiliation.city)$<span>, $affiliation.city$</span>$endif$$if(affiliation.state)$<span>, $affiliation.state$</span>$endif$$if(affiliation.country)$<span>, $affiliation.country$</span>$endif$$if(affiliation.url)$<br><a href="$affiliation.url$">$affiliation.url$</a>$endif$</p>
         $endfor$
         $endfor$
