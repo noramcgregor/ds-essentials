@@ -39,12 +39,11 @@
       </div>
     </div>
     $endif$
-    $if(reviewed-by)$
-    <div class="quarto-title-meta-reviewed-by">
+    $if(secondary-authors)$ <div class="quarto-title-meta-reviewed-by">
       <div class="quarto-title-meta-heading">Reviewed By</div>
       <div class="quarto-title-meta-contents">
-        $for(reviewed-by)$
-          DEBUG: Reviewer Name Check: "$name$". URL: "$url$". $_title-meta-author.html()$ $endfor$
+        $for(secondary-authors)$ $_title-meta-author.html()$
+        $endfor$
       </div>
     </div>
     $endif$
