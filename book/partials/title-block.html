@@ -25,7 +25,8 @@
   </div>
   $endif$
   <div class="quarto-title-meta">
-    $if(author)$
+
+    $if(by-author)$
     <div class="quarto-title-meta-author">
       $if(labels.author-title)$
       <div class="quarto-title-meta-heading">$labels.author-title$</div>
@@ -33,34 +34,17 @@
       <div class="quarto-title-meta-heading">Authors</div>
       $endif$
       <div class="quarto-title-meta-contents">
-        $for(author)$
+        $for(by-author)$
         <p class="author">
-          $if(author.name)$
-          $author.name$
-          $endif$
-          $if(author.orcid)$
-          <a href="$author.orcid.url$" class="orcid" aria-label="ORCID">
-            <i class="ai ai-orcid"></i>
-          </a>
-          $endif$
-          $if(author.email)$
-          <a href="mailto:$author.email$" class="email" aria-label="Email">
-            <i class="fa-solid fa-envelope"></i>
-          </a>
-          $endif$
+          $_title-meta-author.html()$
         </p>
-        $for(author.affiliation)$ <p class="affiliation">
-          $it.name$
-          $if(it.city)$<span>, $it.city$</span>$endif$
-          $if(it.country)$<span>, $it.country$</span>$endif$
-          $if(it.url)$<br><a href="$it.url$">$it.url$</a>$endif$
-        </p>
+        $for(affiliation in by-author.affiliation)$
+        <p class="affiliation">$affiliation.name$$if(affiliation.city)$<span>, $affiliation.city$</span>$endif$$if(affiliation.state)$<span>, $affiliation.state$</span>$endif$$if(affiliation.country)$<span>, $affiliation.country$</span>$endif$$if(affiliation.url)$<br><a href="$affiliation.url$">$affiliation.url$</a>$endif$</p>
         $endfor$
         $endfor$
       </div>
     </div>
     $endif$
-
     $if(reviewed-by)$
     <div class="quarto-title-meta-reviewed-by">
       <div class="quarto-title-meta-heading">Reviewed By</div>
@@ -78,6 +62,14 @@
       </div>
     </div>
     $endif$
+    $if(date-modified)$
+    <div class="quarto-title-meta-modified-date">
+      <div class="quarto-title-meta-heading">Modified</div>
+      <div class="quarto-title-meta-contents">
+        <p class="date-modified">$date-modified$</p>
+      </div>
+    </div>
+    $endif$
     $if(doi)$
     <div class="quarto-title-meta-doi">
       <div class="quarto-title-meta-heading">DOI</div>
@@ -91,9 +83,7 @@
       <div class="quarto-title-meta-heading">Keywords</div>
       <div class="quarto-title-meta-contents">
         <div class="text-keywords">
-          $for(keywords)$
-          <p class="keyword">$keywords$</p>
-          $endfor$
+          <p>$for(keywords)$$keywords$$sep$, $endfor$</p>
         </div>
       </div>
     </div>
