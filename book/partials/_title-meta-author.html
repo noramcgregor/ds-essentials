@@ -1,2 +1,13 @@
-$name$
+$if(secondary-authors)$
+<div class="quarto-title-meta-reviewed-by">
+  <div class="quarto-title-meta-heading">Reviewed By</div>
+  <div class="quarto-title-meta-contents">
+    <ul>
+    $for(secondary-authors)$
+      <li>$name$ – $email$</li>
+    $endfor$
+    </ul>
+  </div>
+</div>
+$endif$
 
