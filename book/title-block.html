@@ -38,9 +38,6 @@
         <p class="author">
           $_title-meta-author.html()$
         </p>
-        $for(by-author.affiliation)$
-        <p class="affiliation">$name$$if(city)$<span>, $city$</span>$endif$$if(state)$<span>, $state$</span>$endif$$if(country)$<span>, $country$</span>$endif$$if(url)$<br><a href="$url$">$url$</a>$endif$</p>
-        $endfor$
         $endfor$
       </div>
     </div>
@@ -79,7 +76,7 @@
       </div>
     </div>
     $endif$
-    </div>
+  </div>
   $if(abstract)$
   <div class="abstract">
     <div class="quarto-title-meta-heading">$abstract-title$</div>
