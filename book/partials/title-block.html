@@ -49,12 +49,8 @@
           </a>
           $endif$
         </p>
-        $for(author.affiliation)$ <p class="affiliation">
-          $it.name$
-          $if(it.city)$<span>, $it.city$</span>$endif$
-          $if(it.country)$<span>, $it.country$</span>$endif$
-          $if(it.url)$<br><a href="$it.url$">$it.url$</a>$endif$
-        </p>
+        $for(author.affiliations)$
+        <p class="affiliation">$author.affiliations.name$$if(author.affiliations.city)$<span>, $author.affiliations.city$</span>$endif$$if(author.affiliations.state)$<span>, $author.affiliations.state$</span>$endif$$if(author.affiliations.country)$<span>, $author.affiliations.country$</span>$endif$$if(author.affiliations.url)$<br><a href="$author.affiliations.url$">$author.affiliations.url$</a>$endif$</p>
         $endfor$
         $endfor$
       </div>
