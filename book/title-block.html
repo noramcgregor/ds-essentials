@@ -49,12 +49,13 @@
     <div class="quarto-title-meta-reviewed-by">
       <div class="quarto-title-meta-heading">Reviewed By</div>
       <div class="quarto-title-meta-contents">
-        <p>$reviewed-by$</p>
+        $for(reviewed-by)$ <p class="reviewed-by-name">
+          $_title-meta-author.html()$ </p>
+        $endfor$
       </div>
     </div>
     $endif$
-
-    $if(date)$
+    $if(published-title)$
     <div class="quarto-title-meta-date">
       <div class="quarto-title-meta-heading">$if(labels.published-title)$$labels.published-title$$else$Published$endif$</div>
       <div class="quarto-title-meta-contents">
