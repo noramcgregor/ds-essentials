@@ -33,10 +33,8 @@
       <div class="quarto-title-meta-heading">Authors</div>
       $endif$
       <div class="quarto-title-meta-contents">
-        $for(author)$
-        <p class="author">
-          $if(author.name)$
-          $author.name$
+        $for(author)$ <p class="author">
+          $if(author.name)$   $author.name$
           $endif$
           $if(author.orcid)$
           <a href="$author.orcid.url$" class="orcid" aria-label="ORCID">
@@ -49,8 +47,7 @@
           </a>
           $endif$
         </p>
-        $for(author.affiliations)$
-        <p class="affiliation">$author.affiliations.name$$if(author.affiliations.city)$<span>, $author.affiliations.city$</span>$endif$$if(author.affiliations.state)$<span>, $author.affiliations.state$</span>$endif$$if(author.affiliations.country)$<span>, $author.affiliations.country$</span>$endif$$if(author.affiliations.url)$<br><a href="$author.affiliations.url$">$author.affiliations.url$</a>$endif$</p>
+        $for(affiliation in author.affiliation)$ <p class="affiliation">$affiliation.name$$if(affiliation.city)$<span>, $affiliation.city$</span>$endif$$if(affiliation.state)$<span>, $affiliation.state$</span>$endif$$if(affiliation.country)$<span>, $affiliation.country$</span>$endif$$if(affiliation.url)$<br><a href="$affiliation.url$">$affiliation.url$</a>$endif$</p>
         $endfor$
         $endfor$
       </div>
@@ -62,6 +59,23 @@
       <div class="quarto-title-meta-heading">Reviewed By</div>
       <div class="quarto-title-meta-contents">
         <p>$reviewed-by$</p>
+      </div>
+    </div>
+    $endif$
+
+    $if(published-title)$
+    <div class="quarto-title-meta-date">
+      <div class="quarto-title-meta-heading">$labels.published-title$</div>
+      <div class="quarto-title-meta-contents">
+        <p class="date">$date$</p>
+      </div>
+    </div>
+    $endif$
+    $if(doi)$
+    <div class="quarto-title-meta-doi">
+      <div class="quarto-title-meta-heading">DOI</div>
+      <div class="quarto-title-meta-contents">
+        <p class="doi">$doi$</p>
       </div>
     </div>
     $endif$
