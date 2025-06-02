@@ -26,7 +26,7 @@ keywords:
   - Computer Vision
   - Deep Learning
   - Named Entity Recognition
-doi: TBD
+doi: 10.23636/vn89-g618
 
 license: "CC BY"
 citation: 
