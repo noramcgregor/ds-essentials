@@ -43,11 +43,8 @@
     <div class="quarto-title-meta-reviewed-by">
       <div class="quarto-title-meta-heading">Reviewed By</div>
       <div class="quarto-title-meta-contents">
-        <ul>
-        $for(secondary-authors)$
-          <li>$name$ – $email$</li>
+        $for(secondary-authors)$ $_title-meta-author.html()$
         $endfor$
-        </ul>
       </div>
     </div>
     $endif$
