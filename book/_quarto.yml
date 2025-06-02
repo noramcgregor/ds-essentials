@@ -100,6 +100,7 @@ format:
 
     template-partials:
       - partials/title-block.html
+      - partials/_title-meta-author.html
 
 
 
