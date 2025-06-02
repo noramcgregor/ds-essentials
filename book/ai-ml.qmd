@@ -15,8 +15,8 @@ author:
 reviewed-by: 
   - name: Stephen McGregor
     orcid: 0000-0001-6560-5586
-    email: Digitalresearch@bl.uk
-    url: https://libereurope.eu/member/nora-mcgregor/
+    email: semcgregor@hotmail.com
+    url: https://www.tenfive.ai
 abstract: > 
   A gentle introduction to AI & Machine Learning demystifying concepts and technologies through the examples of practical applications in library work today.
 keywords:
