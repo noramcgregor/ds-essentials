@@ -1,30 +1,39 @@
-$if(secondary-authors)$
-<div class="quarto-title-meta-item quarto-title-meta-secondary-authors">
-  <div class="quarto-title-meta-heading">Reviewed By</div>
-  <div class="quarto-title-meta-contents">
-    <ul class="list-unstyled">
-    $for(secondary-authors)$
-      <li>
-        $if(secondary-authors.name)$
-          <span class="secondary-author-name">$secondary-authors.name$</span>
-        $endif$
-        $if(secondary-authors.email)$
-          $if(secondary-authors.name)$ – $endif$
-          <a href="mailto:$secondary-authors.email$" class="secondary-author-email">$secondary-authors.email$</a>
-        $endif$
-        $if(secondary-authors.orcid)$
-          <a href="https://orcid.org/$secondary-authors.orcid$" target="_blank" class="secondary-author-orcid" aria-label="ORCID for $secondary-authors.name$">
-             (ORCID: $secondary-authors.orcid$)
-          </a>
-        $endif$
-        $if(secondary-authors.affiliation)$
-          <span class="secondary-author-affiliation">($secondary-authors.affiliation$)</span>
-        $endif$
-      </li>
-    $endfor$
-    </ul>
+<div class="quarto-author">
+  <div class="author-name">
+    $if(name)$
+      $name$
+    $else if(literal)$
+      $literal$
+    $endif$
   </div>
+  $if(orcid)$
+  <div class="author-orcid">
+    <a href="https://orcid.org/$orcid$" target="_blank" rel="noopener noreferrer">
+      <i class="ai ai-orcid"></i> ORCID: $orcid$
+    </a>
+  </div>
+  $endif$
+  $if(email)$
+  <div class="author-email">
+    <a href="mailto:$email$">$email$</a>
+  </div>
+  $endif$
+  $if(url)$
+  <div class="author-url">
+    <a href="$url$" target="_blank" rel="noopener noreferrer">
+      Website
+    </a>
+  </div>
+  $endif$
+  $if(affiliation)$
+  <div class="author-affiliation">
+    $for(affiliation)$
+      $name$
+      $if(city)$<span class="author-affiliation-city">, $city$</span>$endif$
+      $if(state)$<span class="author-affiliation-state">, $state$</span>$endif$
+      $if(country)$<span class="author-affiliation-country">, $country$</span>$endif$
+    $endfor$
+  </div>
+  $endif$
 </div>
-$endif$
 
-$if(it.url)$<a href="$it.url$">$endif$$it.name.literal$$if(it.degrees)$, $for(it.degrees)$$it$$sep$, $endfor$$endif$$if(it.url)$</a>$endif$$if(it.email)$ <a href="mailto:$it.email$" class="quarto-title-author-email"><i class="bi bi-envelope"></i></a>$endif$ $if(it.orcid)$<a href="https://orcid.org/$it.orcid$" class="quarto-title-author-orcid"> <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAA2ZpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuMC1jMDYwIDYxLjEzNDc3NywgMjAxMC8wMi8xMi0xNzozMjowMCAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wTU09Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9tbS8iIHhtbG5zOnN0UmVmPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvc1R5cGUvUmVzb3VyY2VSZWYjIiB4bWxuczp4bXA9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC8iIHhtcE1NOk9yaWdpbmFsRG9jdW1lbnRJRD0ieG1wLmRpZDo1N0NEMjA4MDI1MjA2ODExOTk0QzkzNTEzRjZEQTg1NyIgeG1wTU06RG9jdW1lbnRJRD0ieG1wLmRpZDozM0NDOEJGNEZGNTcxMUUxODdBOEVCODg2RjdCQ0QwOSIgeG1wTU06SW5zdGFuY2VJRD0ieG1wLmlpZDozM0NDOEJGM0ZGNTcxMUUxODdBOEVCODg2RjdCQ0QwOSIgeG1wOkNyZWF0b3JUb29sPSJBZG9iZSBQaG90b3Nob3AgQ1M1IE1hY2ludG9zaCI+IDx4bXBNTTpEZXJpdmVkRnJvbSBzdFJlZjppbnN0YW5jZUlEPSJ4bXAuaWlkOkZDN0YxMTc0MDcyMDY4MTE5NUZFRDc5MUM2MUUwNEREIiBzdFJlZjpkb2N1bWVudElEPSJ4bXAuZGlkOjU3Q0QyMDgwMjUyMDY4MTE5OTRDOTM1MTNGNkRBODU3Ii8+IDwvcmRmOkRlc2NyaXB0aW9uPiA8L3JkZjpSREY+IDwveDp4bXBtZXRhPiA8P3hwYWNrZXQgZW5kPSJyIj8+84NovQAAAR1JREFUeNpiZEADy85ZJgCpeCB2QJM6AMQLo4yOL0AWZETSqACk1gOxAQN+cAGIA4EGPQBxmJA0nwdpjjQ8xqArmczw5tMHXAaALDgP1QMxAGqzAAPxQACqh4ER6uf5MBlkm0X4EGayMfMw/Pr7Bd2gRBZogMFBrv01hisv5jLsv9nLAPIOMnjy8RDDyYctyAbFM2EJbRQw+aAWw/LzVgx7b+cwCHKqMhjJFCBLOzAR6+lXX84xnHjYyqAo5IUizkRCwIENQQckGSDGY4TVgAPEaraQr2a4/24bSuoExcJCfAEJihXkWDj3ZAKy9EJGaEo8T0QSxkjSwORsCAuDQCD+QILmD1A9kECEZgxDaEZhICIzGcIyEyOl2RkgwAAhkmC+eAm0TAAAAABJRU5ErkJggg=="></a>$endif$
