@@ -2,7 +2,7 @@
 title: "Getting Started in DS"
 date: 2025-05-13
 date-modified: 2025-05-13
-doi: TBD
+doi: 10.23636/vn89-g618
 author:
   - name: Nora McGregor
     orcid: 0000-0001-6560-5586
@@ -24,22 +24,17 @@ author:
         
 secondary-authors:
   - name: 
-      literal:
-    orcid: 
-    email:
-    url: 
+      literal: Cosima Wagner
+    orcid: 0000-0003-4957-3478
+    email: cosima.wagner@FU-BERLIN.DE
+    url: https://libereurope.eu/member/cosima-wagner/
 abstract: > 
   This guide aims to define Digital Scholarship & Data Science in a research library context and provide an overview of the key competency frameworks, reports, networks and communities of practice for library professionals to explore and learn more.
 keywords:
   - Digital Scholarship
   - Data Science
   - Digital Skills Frameworks 
-license: "CC BY"
-citation: 
-  container-title: Digital Scholarship & Data Science Topic Guides for Library Professionals
-  volume: 1
-  issue: 1
-  doi: TBD
+license: "CC BY 4.0"
 format:
   pdf: default
   html: default
