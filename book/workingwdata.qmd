@@ -2,23 +2,33 @@
 title: "Working with Data"
 date: 2025-05-21
 date-modified: 2025-05-21
+doi: TBD
 author:
   - name: Niamh Malin
     orcid: 0000-0002-4735-2113
     email: MalinNiamh@gmail.com 
+    url: 
     affiliation: 
       - name: University of Cambridge
         city: Cambridge
         country: UK
-        url: https://osc.cam.ac.uk/contact-us
+        
   - name: Nora McGregor
     orcid: 0000-0001-6560-5586
     email: Digitalresearch@bl.uk
+    url: https://libereurope.eu/member/nora-mcgregor/
     affiliation: 
       - name: British Library
         city: London
         country: UK
-        url: https://libereurope.eu/member/nora-mcgregor/
+        
+
+secondary-authors:
+  - name: 
+      literal:
+    orcid: 
+    email:
+    url: 
 abstract: > 
   This guide explores the use of data within libraries through presenting questions to think through when undertaking your own data tasks, alongside practical examples from libraries around the world.
 
