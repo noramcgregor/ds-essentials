@@ -2,6 +2,7 @@
 title: "Computer Vision"
 date: 2025-05-22
 date-modified: 2025-05-22
+doi: TBD
 author:
   - name: Greete Veesalu
     orcid: 0009-0002-6742-1873
