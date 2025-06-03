@@ -7,11 +7,12 @@ author:
   - name: Nora McGregor
     orcid: 0000-0001-6560-5586
     email: Digitalresearch@bl.uk
+    url: https://libereurope.eu/member/nora-mcgregor/
     affiliation: 
       - name: British Library
         city: London
         country: UK
-        url: https://libereurope.eu/member/nora-mcgregor/
+        
   - name: Eleonora Gandolfi
     orcid: 0000-0001-8544-1670
     email: openresearch@surrey.ac.uk
