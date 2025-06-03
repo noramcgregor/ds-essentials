@@ -2,15 +2,26 @@
 title: "Data Visualisation"
 date: 2025-01-28
 date-modified: 2025-01-28
+doi: tbd
 author:
   - name: Harry Lloyd
     orcid: 0009-0009-3519-171X
     email: digitalresearch@bl.uk
+    url: https://www.bl.uk/
     affiliation: 
       - name: British Library
         city: London
         country: UK
-        url: https://www.bl.uk/
+        
+
+secondary-authors:
+  - name: 
+      literal:
+    orcid: 
+    email:
+    url: 
+
+
 abstract: > 
   Demystifying the process behind visualising data and offering practical tips on how anyone can get started in their your own library.
 keywords:
