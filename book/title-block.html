@@ -34,11 +34,11 @@
       <div class="quarto-title-meta-heading">Authors</div>
       $endif$
       <div class="quarto-title-meta-contents">
-        $for(by-author)$ $_title-meta-author.html()$ $endfor$
+        $for(by-author)$
+          $_title-meta-author.html()$ $endfor$
       </div>
     </div>
     $endif$
-
     $if(secondary-authors)$ <div class="quarto-title-meta-reviewed-by">
       <div class="quarto-title-meta-heading">Reviewed By</div>
       <div class="quarto-title-meta-contents">
@@ -90,4 +90,4 @@
     </div>
   </div>
   $endif$
-</header>
+  </header>
