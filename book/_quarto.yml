@@ -99,7 +99,7 @@ format:
 
     template-partials:
       - title-block.html
-      - partials/
+      - partials/_title-meta-author.html
 
 
 
