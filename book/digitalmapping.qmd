@@ -2,7 +2,7 @@
 title: "Digital Mapping"
 date: 2025-01-27
 date-modified: 2025-01-27
-doi: 10.5555/12345678
+doi: 10.23636/vn89-g618
 author:
   - name: Valentina Vavassori
     orcid: 0000-0003-1130-642X
