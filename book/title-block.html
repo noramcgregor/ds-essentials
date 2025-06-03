@@ -26,6 +26,19 @@
   $endif$
   <div class="quarto-title-meta">
 
+    $if(by-author)$
+    <div class="quarto-title-meta-author" style="display: block; width: 100%; margin-left: 0; padding-left: 0; box-sizing: border-box; grid-column: 1 / -1; justify-self: start; text-align: left;">
+      $if(labels.author-title)$
+      <div class="quarto-title-meta-heading">$labels.author-title$</div>
+      $else$
+      <div class="quarto-title-meta-heading">Authors</div>
+      $endif$
+      <div class="quarto-title-meta-contents">
+        $for(by-author)$ $_title-meta-author.html()$ $endfor$
+      </div>
+    </div>
+    $endif$
+
     $if(secondary-authors)$ <div class="quarto-title-meta-reviewed-by">
       <div class="quarto-title-meta-heading">Reviewed By</div>
       <div class="quarto-title-meta-contents">
