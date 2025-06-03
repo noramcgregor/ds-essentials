@@ -2,34 +2,43 @@
 title: "GitHub: How to navigate and contribute to Git-based projects"
 date: 2025-05-20
 date-modified: 2025-05-20
+doi: tbd
 author:
   - name: Nora McGregor
-    id: jc
     orcid: 0000-0001-6560-5586
     email: Digitalresearch@bl.uk
+    url: https://libereurope.eu/member/nora-mcgregor/
     affiliation: 
       - name: British Library
         city: London
         country: UK
-        url: https://libereurope.eu/member/nora-mcgregor/
+
   - name: Liam Green-Hughes
-    id: jc
     orcid: 0000-0002-3852-5879
     email: labs@bl.uk
+    url: https://www.bl.uk
     affiliation: 
       - name: British Library
         city: London
         country: UK
-        url: https://www.bl.uk
+       
   - name: Liam O'Dwyer
-    id: jc
     orcid: 0009-0006-8875-1002
     email: liam.odwyer@dcu.ie
+    url: https://libereurope.eu/member/liam-odwyer/
     affiliation: 
       - name: Dublin City University
         city: Dublin 
         country: Ireland
-        url: https://libereurope.eu/member/liam-odwyer/
+        
+secondary-authors:
+  - name: 
+      literal:
+    orcid: 
+    email:
+    url: 
+
+
 abstract: > 
   A practical introduction to navigating the GitHub interface with tips on how to use it for contributing and creating projects relevant to library work.
 keywords:
