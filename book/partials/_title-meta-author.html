@@ -2,10 +2,12 @@
   <div class="author-name">
     $if(url)$
       <a href="$url$" target="_blank" rel="noopener noreferrer">$name$</a>
-    $else if(name)$
-      $name$
-    $else if(literal)$
-      $literal$
+    $else$ $if(name)$
+        $name$
+      $else$ $if(literal)$
+          $literal$
+        $endif$
+      $endif$
     $endif$
   </div>
   $if(affiliation)$
@@ -25,12 +27,6 @@
   $endif$
   $if(orcid)$
   <div class="author-orcid">
-    <a href="https://orcid.org/$orcid$" target="_blank" rel="noopener noreferrer">
-      <i class="ai ai-orcid"></i> ORCID: $orcid$
-    </a>
-  </div>
-  $endif$
-</div>
     <a href="https://orcid.org/$orcid$" target="_blank" rel="noopener noreferrer">
       <i class="ai ai-orcid"></i> ORCID: $orcid$
     </a>
