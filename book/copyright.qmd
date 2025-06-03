@@ -5,7 +5,6 @@ date-modified: 2025-02-10
 doi: TBD
 author:
   - name: Alex Fenlon
-    id: jc
     orcid: 0000-0003-0059-6855
     email: a.fenlon@bham.ac.uk
     url: https://libereurope.eu/member/alex-fenlon/
@@ -15,7 +14,6 @@ author:
         country: UK
         
   - name: Maria Rehbinder
-    id: jc
     orcid: 0000-0001-8427-9421
     email: maria.rehbinder@aalto.fi
     url: https://libereurope.eu/member/maria-rehbinder/
