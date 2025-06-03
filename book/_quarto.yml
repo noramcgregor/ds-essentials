@@ -99,6 +99,7 @@ format:
 
     template-partials:
       - title-block.html
+      - partials/
 
 
 
