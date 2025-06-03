@@ -2,7 +2,7 @@
 title: "Digitisation: Imaging, 3D and RTI"
 date: 2025-03-25
 date-modified: 2025-03-25
-doi: tbd
+doi: 10.23636/vn89-g618
 author:
   - name: Andy Corrigan
     orcid: 0000-0002-3896-2489
@@ -12,13 +12,13 @@ author:
       - name: Cambridge University Library
         city: Cambridge
         country: UK
-        
+ 
 secondary-authors:
   - name: 
-      literal:
-    orcid: 
-    email:
-    url: 
+      literal: Liam Green-Hughes
+    orcid: 0000-0002-3852-5879
+    email: labs@bl.uk
+    url: https://www.bl.uk
 
 
 
@@ -31,12 +31,8 @@ keywords:
   - 3D
   - RTI
   - Digitisation
-license: "CC BY"
-citation: 
-  container-title: Digital Scholarship & Data Science Topic Guides for Library Professionals
-  volume: 1
-  issue: 1
-  doi: 
+license: "CC BY 4.0"
+
 format:
   pdf: default
   html: default
