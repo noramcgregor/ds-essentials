@@ -2,6 +2,7 @@
 title: "APIs: A starter guide for Librarians"
 date: 2025-05-20
 date-modified: 2025-05-20
+doi: 10.23636/vn89-g618
 author:
   - name: Liam Green-Hughes
     orcid: 0000-0002-3852-5879
@@ -13,22 +14,18 @@ author:
         country: UK        
 secondary-authors:
   - name: 
-      literal:
-    orcid: 
-    email:
-    url: 
+      literal: Annika Lindh
+    orcid: 0000-0001-9991-8708
+    email: annika.lindh@mu.ie
+    url: https://libereurope.eu/member/annika-lindh/
 abstract: > 
   A short guide explaining what an API is, how they work and examples of practical uses in library work today.
 keywords:
  - API
  - application programming interface
  - REST
-license: "CC BY"
-citation: 
-  container-title: Digital Scholarship & Data Science Topic Guides for Library Professionals
-  volume: 1
-  issue: 1
-  doi: TBD
+license: "CC BY 4.0"
+
 format:
   pdf: default
   html: default
