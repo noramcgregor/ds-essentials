@@ -2,16 +2,24 @@
 title: "Linked Open Data in Library Use Today"
 date: 2025-05-20
 date-modified: 2025-05-20
+doi: tbd
 author:
   - name: Gustavo Candela
-    id: jc
     orcid: 0000-0001-6122-0777
     email: gcandela@ua.es
+    url: https://libereurope.eu/member/gustavo-candela/
     affiliation: 
       - name: University of Alicante
         city: Alicante
         country: Spain
-        url: https://libereurope.eu/member/gustavo-candela/
+
+secondary-authors:
+  - name: 
+      literal:
+    orcid: 
+    email:
+    url: 
+
 abstract: > 
   A quick overview of Linked Open Data, what it can do for your library, along with some practical advice on how to take steps to transform your own library collections. 
 keywords:
