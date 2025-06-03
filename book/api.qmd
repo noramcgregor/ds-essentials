@@ -4,14 +4,19 @@ date: 2025-05-20
 date-modified: 2025-05-20
 author:
   - name: Liam Green-Hughes
-    id: jc
     orcid: 0000-0002-3852-5879
     email: labs@bl.uk
+    url: https://www.bl.uk
     affiliation: 
       - name: British Library
         city: London
-        country: UK
-        url: https://www.bl.uk
+        country: UK        
+secondary-authors:
+  - name: 
+      literal:
+    orcid: 
+    email:
+    url: 
 abstract: > 
   A short guide explaining what an API is, how they work and examples of practical uses in library work today.
 keywords:
