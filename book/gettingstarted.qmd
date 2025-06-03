@@ -2,6 +2,7 @@
 title: "Getting Started in DS"
 date: 2025-05-13
 date-modified: 2025-05-13
+doi: TBD
 author:
   - name: Nora McGregor
     orcid: 0000-0001-6560-5586
@@ -14,12 +15,18 @@ author:
   - name: Eleonora Gandolfi
     orcid: 0000-0001-8544-1670
     email: openresearch@surrey.ac.uk
+    url: https://www.surrey.ac.uk/library/open-research/teams-advance-open-research-surrey
     affiliation: 
       - name: University of Surrey
         city: Guildford
         country: UK
-        url: https://www.surrey.ac.uk/library/open-research/teams-advance-open-research-surrey
-
+        
+secondary-authors:
+  - name: 
+      literal:
+    orcid: 
+    email:
+    url: 
 abstract: > 
   This guide aims to define Digital Scholarship & Data Science in a research library context and provide an overview of the key competency frameworks, reports, networks and communities of practice for library professionals to explore and learn more.
 keywords:
