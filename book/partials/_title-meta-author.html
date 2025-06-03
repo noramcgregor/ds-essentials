@@ -8,4 +8,26 @@
       $literal$
     $endif$
   </div>
+  $if(affiliation)$
+  <div class="author-affiliation">
+    $for(affiliation)$
+      $name$
+      $if(city)$<span class="author-affiliation-city">, $city$</span>$endif$
+      $if(state)$<span class="author-affiliation-state">, $state$</span>$endif$
+      $if(country)$<span class="author-affiliation-country">, $country$</span>$endif$
+    $endfor$
   </div>
+  $endif$
+  $if(email)$
+  <div class="author-email">
+    <a href="mailto:$email$"><i class="bi bi-envelope-fill"></i> $email$</a>
+  </div>
+  $endif$
+  $if(orcid)$
+  <div class="author-orcid">
+    <a href="https://orcid.org/$orcid$" target="_blank" rel="noopener noreferrer">
+      <i class="ai ai-orcid"></i> ORCID: $orcid$
+    </a>
+  </div>
+  $endif$
+</div>
