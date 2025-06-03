@@ -29,6 +29,11 @@ secondary-authors:
     email: digitalresearch@bl.uk
     url: https://www.bl.uk/
 
+  - name: 
+      literal: Greete Veesalu
+    orcid: 0009-0002-6742-1873
+    email: greete.veesalu@rara.ee
+    url: https://libereurope.eu/member/greete-veesalu/
 
 abstract: > 
   This guide aims to provide library professionals with some guidance on how and where to begin their journey into learning a programming language.
@@ -36,7 +41,7 @@ keywords:
   - Python
   - R
   - Programming
-license: "CC BY"
+license: "CC BY 4.0"
 format:
   pdf: default
   html: default
