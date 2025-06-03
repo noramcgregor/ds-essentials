@@ -2,7 +2,7 @@
 title: "Programming for Librarians: Where to begin"
 date: 2025-05-14
 date-modified: 2025-05-14
-doi: tbd
+doi: 10.23636/vn89-g618
 author:
   - name: Péter Király 
     orcid: 0000-0002-8749-4597
@@ -24,10 +24,10 @@ author:
 
 secondary-authors:
   - name: 
-      literal:
-    orcid: 
-    email:
-    url: 
+      literal: Harry Lloyd
+    orcid: 0009-0009-3519-171X
+    email: digitalresearch@bl.uk
+    url: https://www.bl.uk/
 
 
 abstract: > 
@@ -37,11 +37,6 @@ keywords:
   - R
   - Programming
 license: "CC BY"
-citation: 
-  container-title: Digital Scholarship & Data Science Topic Guides for Library Professionals
-  volume: 1
-  issue: 1
-  doi: TBD
 format:
   pdf: default
   html: default
