@@ -1,7 +1,7 @@
 <div class="quarto-author">
   <div class="author-name">
-    $if(name)$
-      $name$
+    $if(url)$ <a href="$url$" target="_blank" rel="noopener noreferrer">$name$</a>
+    $else if(name)$ $name$
     $else if(literal)$
       $literal$
     $endif$
@@ -16,13 +16,6 @@
   $if(email)$
   <div class="author-email">
     <a href="mailto:$email$">$email$</a>
-  </div>
-  $endif$
-  $if(url)$
-  <div class="author-url">
-    <a href="$url$" target="_blank" rel="noopener noreferrer">
-      Website
-    </a>
   </div>
   $endif$
   $if(affiliation)$
