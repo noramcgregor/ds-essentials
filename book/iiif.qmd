@@ -2,7 +2,7 @@
 title: "IIIF"
 date: 2025-05-13
 date-modified: 2025-05-13
-doi: tbd
+doi: 10.23636/vn89-g618
 author:
   - name: Nora McGregor
     orcid: 0000-0001-6560-5586
@@ -14,11 +14,11 @@ author:
         country: UK
 
 secondary-authors:
-  - name: 
-      literal:
-    orcid: 
-    email:
-    url: 
+ - name: 
+      literal: Greete Veesalu
+    orcid: 0009-0002-6742-1873
+    email: greete.veesalu@rara.ee
+    url: https://libereurope.eu/member/greete-veesalu/
 
 
 abstract: > 
@@ -27,12 +27,7 @@ keywords:
   - IIIF
   - Digital Collections
   - Interoperability
-license: "CC BY"
-citation: 
-  container-title: Digital Scholarship & Data Science Topic Guides for Library Professionals
-  volume: 1
-  issue: 1
-  doi: TBD
+license: "CC BY 4.0"
 format:
   pdf: default
   html: default
