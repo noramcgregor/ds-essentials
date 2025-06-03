@@ -2,16 +2,26 @@
 title: "Automatic Text Recognition (OCR/HTR)"
 date: 2025-05-14
 date-modified: 2025-05-14
+doi: TBD
 author:
   - name: Adi Keinan-Schoonbaert
-    id: jc
     orcid: 0000-0002-4382-3328
     email: digitalresearch@bl.uk
+    url: https://libereurope.eu/member/adi-keinan-schoonbaert/
     affiliation: 
       - name: British Library
         city: London
         country: UK
-        url: https://libereurope.eu/member/adi-keinan-schoonbaert/
+        
+secondary-authors:
+  - name: 
+      literal:
+    orcid: 
+    email:
+    url: 
+
+
+
 abstract: > 
   Demystifying the process behind automatic text recognition and offering practical tips on how anyone can get started in their your own library.
 keywords:
