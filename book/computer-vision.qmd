@@ -6,11 +6,20 @@ author:
   - name: Greete Veesalu
     orcid: 0009-0002-6742-1873
     email: greete.veesalu@rara.ee
+    url: https://libereurope.eu/member/greete-veesalu/
     affiliation: 
       - name: National Library of Estonia
         city: Tallin
         country: Estonia
-        url: https://libereurope.eu/member/greete-veesalu/
+        
+secondary-authors:
+  - name: 
+      literal:
+    orcid: 
+    email:
+    url: 
+
+
 abstract: > 
   An overview of computer vision, how it works and it's various uses in making digital collections more accessible...
 keywords:
