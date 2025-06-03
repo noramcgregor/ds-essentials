@@ -2,7 +2,7 @@
 title: "Working with Data"
 date: 2025-05-21
 date-modified: 2025-05-21
-doi: TBD
+doi: 10.23636/vn89-g618
 author:
   - name: Niamh Malin
     orcid: 0000-0002-4735-2113
@@ -21,14 +21,13 @@ author:
       - name: British Library
         city: London
         country: UK
-        
-
+      
 secondary-authors:
   - name: 
-      literal:
-    orcid: 
-    email:
-    url: 
+      literal: Harry Lloyd
+    orcid: 0009-0009-3519-171X
+    email: digitalresearch@bl.uk
+    url: https://www.bl.uk/
 abstract: > 
   This guide explores the use of data within libraries through presenting questions to think through when undertaking your own data tasks, alongside practical examples from libraries around the world.
 
@@ -38,11 +37,6 @@ keywords:
   - Data management
   - Collections as Data
 license: "CC BY"
-citation: 
-  container-title: Digital Scholarship & Data Science Essentials
-  volume: 1
-  issue: 1
-  doi: TBD
 format:
   pdf: default
   html: default
