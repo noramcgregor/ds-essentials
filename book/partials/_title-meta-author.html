@@ -1,1 +1,11 @@
-!!! CUSTOM AUTHOR PARTIAL HAS BEEN LOADED !!!
+<div class="quarto-author">
+  <div class="author-name">
+    $if(url)$
+      <a href="$url$" target="_blank" rel="noopener noreferrer">$name$</a>
+    $else if(name)$
+      $name$
+    $else if(literal)$
+      $literal$
+    $endif$
+  </div>
+  </div>
