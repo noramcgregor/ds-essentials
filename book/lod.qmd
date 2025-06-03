@@ -2,7 +2,7 @@
 title: "Linked Open Data in Library Use Today"
 date: 2025-05-20
 date-modified: 2025-05-20
-doi: tbd
+doi: 10.23636/vn89-g618
 author:
   - name: Gustavo Candela
     orcid: 0000-0001-6122-0777
@@ -15,22 +15,18 @@ author:
 
 secondary-authors:
   - name: 
-      literal:
+      literal: Corine Deliot
     orcid: 
-    email:
-    url: 
+    email: corine.deliot@bl.uk
+    url: https://pro.europeana.eu/person/corine-deliot
 
 abstract: > 
   A quick overview of Linked Open Data, what it can do for your library, along with some practical advice on how to take steps to transform your own library collections. 
 keywords:
   - Linked Open Data
   - RDF
-license: "CC BY"
-citation: 
-  container-title: Digital Scholarship & Data Science Topic Guides for Library Professionals
-  volume: 1
-  issue: 1
-  doi: TBD
+license: "CC BY 4.0"
+
 format:
   pdf: default
   html: default
