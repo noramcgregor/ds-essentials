@@ -2,7 +2,7 @@
 title: "Computer Vision"
 date: 2025-05-22
 date-modified: 2025-05-22
-doi: TBD
+doi: 10.23636/vn89-g618
 author:
   - name: Greete Veesalu
     orcid: 0009-0002-6742-1873
@@ -15,10 +15,10 @@ author:
         
 secondary-authors:
   - name: 
-      literal:
-    orcid: 
-    email:
-    url: 
+      literal: Andy Corrigan
+    orcid: 0000-0002-3896-2489
+    email: cudl@lib.cam.ac.uk
+    url: https://libereurope.eu/member/andy-corrigan 
 
 
 abstract: > 
@@ -26,12 +26,8 @@ abstract: >
 keywords:
   - Computer Vision
   - Convolutional Neural Networks
-license: "CC BY"
-citation: 
-  container-title: Digital Scholarship & Data Science Topic Guides for Library Professionals
-  volume: 1
-  issue: 1
-  doi: TBD
+license: "CC BY 4.0"
+
 format:
   pdf: default
   html: default
