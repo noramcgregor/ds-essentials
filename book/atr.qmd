@@ -2,7 +2,7 @@
 title: "Automatic Text Recognition (OCR/HTR)"
 date: 2025-05-14
 date-modified: 2025-05-14
-doi: "CC BY 4.0"
+doi: 10.23636/vn89-g618
 author:
   - name: Adi Keinan-Schoonbaert
     orcid: 0000-0002-4382-3328
