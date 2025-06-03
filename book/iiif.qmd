@@ -2,16 +2,25 @@
 title: "IIIF"
 date: 2025-05-13
 date-modified: 2025-05-13
+doi: tbd
 author:
   - name: Nora McGregor
-    id: jc
     orcid: 0000-0001-6560-5586
     email: digitalresearch@bl.uk
+    url: https://libereurope.eu/member/nora-mcgregor/
     affiliation: 
       - name: British Library
         city: London
         country: UK
-        url: https://libereurope.eu/member/nora-mcgregor/
+
+secondary-authors:
+  - name: 
+      literal:
+    orcid: 
+    email:
+    url: 
+
+
 abstract: > 
   A one page guide introducing the basics of the IIIF standard with case studies and practical advice for getting started.
 keywords:
