@@ -24,12 +24,8 @@ abstract: >
 keywords:
   - Crowdsourcing
   - Citizen Science
-license: "CC BY"
-citation: 
-  container-title: Digital Scholarship & Data Science Topic Guides for Library Professionals
-  volume: 1
-  issue: 1
-  doi:  
+license: "CC BY 4.0"
+
 format:
   pdf: default
   html: default
