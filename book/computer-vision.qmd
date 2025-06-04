@@ -2,26 +2,32 @@
 title: "Computer Vision"
 date: 2025-05-22
 date-modified: 2025-05-22
+doi: 10.23636/vn89-g618
 author:
   - name: Greete Veesalu
     orcid: 0009-0002-6742-1873
     email: greete.veesalu@rara.ee
+    url: https://libereurope.eu/member/greete-veesalu/
     affiliation: 
       - name: National Library of Estonia
         city: Tallin
         country: Estonia
-        url: https://libereurope.eu/member/greete-veesalu/
+        
+secondary-authors:
+  - name: 
+      literal: Andy Corrigan
+    orcid: 0000-0002-3896-2489
+    email: cudl@lib.cam.ac.uk
+    url: https://libereurope.eu/member/andy-corrigan 
+
+
 abstract: > 
   An overview of computer vision, how it works and it's various uses in making digital collections more accessible...
 keywords:
   - Computer Vision
   - Convolutional Neural Networks
-license: "CC BY"
-citation: 
-  container-title: Digital Scholarship & Data Science Topic Guides for Library Professionals
-  volume: 1
-  issue: 1
-  doi: TBD
+license: "CC BY 4.0"
+
 format:
   pdf: default
   html: default

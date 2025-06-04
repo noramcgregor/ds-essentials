@@ -97,9 +97,11 @@ format:
     toc-title: Jump to...
     toc-depth: 2
 
-
     template-partials:
+      - title-block.html
       - partials/_title-meta-author.html
+
+
 
 
 

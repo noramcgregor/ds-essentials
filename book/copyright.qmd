@@ -2,37 +2,43 @@
 title: "Copyright & Licensing: Current context and considerations for researchers and libraries using AI in research today"
 date: 2024-06-04
 date-modified: 2025-02-10
+doi: 10.23636/vn89-g618
 author:
   - name: Alex Fenlon
-    id: jc
     orcid: 0000-0003-0059-6855
     email: a.fenlon@bham.ac.uk
+    url: https://libereurope.eu/member/alex-fenlon/
     affiliation: 
       - name: University of Birmingham
         city: Birmingham
         country: UK
-        url: https://libereurope.eu/member/alex-fenlon/
+        
   - name: Maria Rehbinder
-    id: jc
     orcid: 0000-0001-8427-9421
     email: maria.rehbinder@aalto.fi
+    url: https://libereurope.eu/member/maria-rehbinder/
     affiliation: 
       - name: Aalto University
         city: Helsinki
         country: Finland
-        url: https://libereurope.eu/member/maria-rehbinder/
+      
+secondary-authors:
+  - name: 
+      literal: Jodie Double 
+    orcid: 0000-0002-7152-3947
+    email: J.L.Double@leeds.ac.uk
+    url: https://libereurope.eu/member/jodie-double/
+
+
+
 abstract: > 
   This guide aims to provide library professionals at European research institutions, particularly those supporting or undertaking activities that combines AI tools and methods and digital cultural heritage collections and data, with a brief overview of the current copyright and licensing context for such research today.
 keywords:
   - Copyright Law
   - TDM
   - EU AI Act
-license: "CC BY"
-citation: 
-  container-title: Digital Scholarship & Data Science Topic Guides for Library Professionals
-  volume: 1
-  issue: 1
-  doi: TBD
+license: "CC BY 4.0"
+
 format:
   pdf: default
   html: default

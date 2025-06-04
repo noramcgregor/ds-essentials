@@ -2,16 +2,24 @@
 title: "Digital Mapping"
 date: 2025-01-27
 date-modified: 2025-01-27
+doi: 10.23636/vn89-g618
 author:
   - name: Valentina Vavassori
-    id: jc
     orcid: 0000-0003-1130-642X
     email: digitalresearch@bl.uk
+    url: https://libereurope.eu/member/valentina-vavassori/
     affiliation: 
       - name: British Library
         city: London
         country: UK
-        url: https://libereurope.eu/member/valentina-vavassori/
+   
+secondary-authors:
+  - name: 
+      literal: Adi Keinan-Schoonbaert
+    orcid: 0000-0002-4382-3328
+    email: digitalresearch@bl.uk
+    url: https://libereurope.eu/member/adi-keinan-schoonbaert/
+
 abstract: > 
   A brief overview of digital mapping and practical tips on how anyone can get started in their your own library.
 keywords:
@@ -20,12 +28,8 @@ keywords:
   - Geodata
   - Georeference
   - GIS
-license: "CC BY"
-citation: 
-  container-title: Digital Scholarship & Data Science Topic Guides for Library Professionals
-  volume: 1
-  issue: 1
-  doi: 10.5555/12345678
+license: "CC BY 4.0"
+
 format:
   pdf: default
   html: default

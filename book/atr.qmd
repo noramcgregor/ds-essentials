@@ -2,16 +2,24 @@
 title: "Automatic Text Recognition (OCR/HTR)"
 date: 2025-05-14
 date-modified: 2025-05-14
+doi: 10.23636/vn89-g618
 author:
   - name: Adi Keinan-Schoonbaert
-    id: jc
     orcid: 0000-0002-4382-3328
     email: digitalresearch@bl.uk
+    url: https://libereurope.eu/member/adi-keinan-schoonbaert/
     affiliation: 
       - name: British Library
         city: London
         country: UK
-        url: https://libereurope.eu/member/adi-keinan-schoonbaert/
+   
+secondary-authors:
+  - name: 
+      literal: Valentina Vavassori
+    orcid: 0000-0003-1130-642X
+    email: digitalresearch@bl.uk
+    url: https://libereurope.eu/member/valentina-vavassori/
+
 abstract: > 
   Demystifying the process behind automatic text recognition and offering practical tips on how anyone can get started in their your own library.
 keywords:
@@ -20,12 +28,8 @@ keywords:
   - OCR
   - HTR
   - ATR
-license: "CC BY"
-citation: 
-  container-title: Digital Scholarship & Data Science Topic Guides for Library Professionals
-  volume: 1
-  issue: 1
-  doi: 10.5555/12345678
+license: "CC BY 4.0"
+
 format:
   pdf: default
   html: default

@@ -2,19 +2,28 @@
 title: "AI & Machine Learning in Libraries"
 date: 2025-05-13
 date-modified: 2025-05-13
+doi: https://doi.org/10.23636/vn89-g618
 author:
   - name: Nora McGregor
     orcid: 0000-0001-6560-5586
     email: Digitalresearch@bl.uk
+    url: https://libereurope.eu/member/nora-mcgregor/
     affiliation: 
       - name: British Library
         city: London
         country: UK
-        url: https://libereurope.eu/member/nora-mcgregor/
-  - name: Stephen McGregor
-    roles: "Reviewer"
-  - name: Greete Veesalu
-    roles: "Reviewer"
+secondary-authors:
+  - name: 
+      literal: Stephen McGregor
+    orcid: 0000-0001-6560-5586
+    email: semcgregor@hotmail.com
+    url: https://www.tenfive.ai
+  - name: 
+      literal: Greete Veesalu
+    orcid: 0009-0002-6742-1873
+    email: greete.veesalu@rara.ee
+    url: https://libereurope.eu/member/greete-veesalu/
+
 abstract: > 
   A gentle introduction to AI & Machine Learning demystifying concepts and technologies through the examples of practical applications in library work today.
 keywords:
@@ -24,12 +33,9 @@ keywords:
   - Computer Vision
   - Deep Learning
   - Named Entity Recognition
-license: "CC BY"
-citation: 
-  container-title: Digital Scholarship & Data Science Topic Guides for Library Professionals
-  volume: 1
-  issue: 1
-  doi: TBD
+
+license: "CC BY 4.0"
+
 format:
   pdf: default
   html: default

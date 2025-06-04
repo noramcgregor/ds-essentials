@@ -2,15 +2,25 @@
 title: "Data Visualisation"
 date: 2025-01-28
 date-modified: 2025-01-28
+doi: 10.23636/vn89-g618
 author:
   - name: Harry Lloyd
     orcid: 0009-0009-3519-171X
     email: digitalresearch@bl.uk
+    url: https://www.bl.uk/
     affiliation: 
       - name: British Library
         city: London
         country: UK
-        url: https://www.bl.uk/
+        
+secondary-authors:
+  - name: 
+      literal: Annika Lindh
+    orcid: 0000-0001-9991-8708
+    email: annika.lindh@mu.ie
+    url: https://libereurope.eu/member/annika-lindh/
+
+
 abstract: > 
   Demystifying the process behind visualising data and offering practical tips on how anyone can get started in their your own library.
 keywords:
@@ -18,12 +28,8 @@ keywords:
   - Charts
   - Graphs
   - Plots
-license: "CC BY"
-citation: 
-  container-title: Digital Scholarship & Data Science Topic Guides for Library Professionals
-  volume: 1
-  issue: 1
-  doi: 10.5555/12345678
+license: "CC BY 4.0"
+
 format:
   pdf: default
   html: default

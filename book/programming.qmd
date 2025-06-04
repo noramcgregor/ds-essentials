@@ -2,37 +2,46 @@
 title: "Programming for Librarians: Where to begin"
 date: 2025-05-14
 date-modified: 2025-05-14
+doi: 10.23636/vn89-g618
 author:
   - name: Péter Király 
-    id: jc
     orcid: 0000-0002-8749-4597
     email: peter.kiraly@gwdg.de
+    url: https://libereurope.eu/member/peter-kiraly-phd/
     affiliation: 
       - name: Göttingen eResearch Alliance
         city: Göttingen
         country: Germany
-        url: https://libereurope.eu/member/peter-kiraly-phd/
+
   - name: Peter Verhaar
-    id: jc
     orcid: 0000-0002-8469-6804
     email: P.A.F.Verhaar@library.leidenuniv.nl
+    url: https://libereurope.eu/member/peter_verhaar/
     affiliation: 
       - name: Leiden University Centre for Digital Scholarship
         city: Leiden
         country: Netherlands
-        url: https://libereurope.eu/member/peter_verhaar/
+
+secondary-authors:
+  - name: 
+      literal: Harry Lloyd
+    orcid: 0009-0009-3519-171X
+    email: digitalresearch@bl.uk
+    url: https://www.bl.uk/
+
+  - name: 
+      literal: Greete Veesalu
+    orcid: 0009-0002-6742-1873
+    email: greete.veesalu@rara.ee
+    url: https://libereurope.eu/member/greete-veesalu/
+
 abstract: > 
   This guide aims to provide library professionals with some guidance on how and where to begin their journey into learning a programming language.
 keywords:
   - Python
   - R
   - Programming
-license: "CC BY"
-citation: 
-  container-title: Digital Scholarship & Data Science Topic Guides for Library Professionals
-  volume: 1
-  issue: 1
-  doi: TBD
+license: "CC BY 4.0"
 format:
   pdf: default
   html: default

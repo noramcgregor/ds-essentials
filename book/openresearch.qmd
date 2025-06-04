@@ -2,36 +2,47 @@
 title: "Supporting Open Research (Open Science)"
 date: 2025-02-10
 date-modified: 2025-02-10
+doi: 10.23636/vn89-g618
 author:
   - name: Eleonora Gandolfi
-    id: jc
     orcid: 0000-0001-8544-1670
     email: openresearch@surrey.ac.uk
+    url: https://www.surrey.ac.uk/library/open-research/teams-advance-open-research-surrey
     affiliation: 
       - name: University of Surrey
         city: Guildford
         country: UK
-        url: https://www.surrey.ac.uk/library/open-research/teams-advance-open-research-surrey
+
   - name: Jodie Double 
-    id: jc
     orcid: 0000-0002-7152-3947
     email: J.L.Double@leeds.ac.uk
+    url: https://libereurope.eu/member/jodie-double/
     affiliation: 
       - name: University of Leeds
         city: Leeds
         country: UK
-        url: https://libereurope.eu/member/jodie-double/
+
+secondary-authors:
+  - name: 
+      literal: Ilkay Holt
+    orcid: 0000-0001-6858-9083
+    email: ilkay.holt@bl.uk
+    url: https://libereurope.eu/member/ilkay-holt/
+
+  - name: 
+      literal: Sofie Wennström
+    orcid: 0000-0003-1229-7019
+    email: Sofie.Wennstrom@su.se
+    url: https://libereurope.eu/member/sofie-wennstrom/
+      
+      
 abstract: > 
   A short guide explaining how libraries can get started in supporting Open Research (Open Science).
 keywords:
   - TBD
   - TBD
-license: "CC BY"
-citation: 
-  container-title: Digital Scholarship & Data Science Essentials
-  volume: 1
-  issue: 1
-  doi: TBD
+license: "CC BY 4.0"
+
 format:
   pdf: default
   html: default

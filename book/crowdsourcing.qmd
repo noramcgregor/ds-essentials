@@ -2,26 +2,30 @@
 title: "Crowdsourcing and Citizen Science in Cultural Heritage"
 date: 2025-05-21
 date-modified: 2025-05-21
+doi: https://doi.org/10.23636/vn89-g618
 author:
   - name: Mia Ridge
     orcid: 0000-0003-3733-8120
     email: digitalresearch@bl.uk
+    url: https://libereurope.eu/member/mia-ridge/
     affiliation: 
       - name: British Library
         city: London
         country: UK
-        url: https://libereurope.eu/member/mia-ridge/
+        
+secondary-authors:
+  - name: 
+      literal: Andy Corrigan
+    orcid: 0000-0002-3896-2489
+    email: cudl@lib.cam.ac.uk
+    url: https://libereurope.eu/member/andy-corrigan
 abstract: > 
   A quick guide offering practical tips on how anyone can get started with crowdsourcing in their own library or cultural heritage institution.
 keywords:
   - Crowdsourcing
   - Citizen Science
-license: "CC BY"
-citation: 
-  container-title: Digital Scholarship & Data Science Topic Guides for Library Professionals
-  volume: 1
-  issue: 1
-  doi: 10.5555/12345678
+license: "CC BY 4.0"
+
 format:
   pdf: default
   html: default
