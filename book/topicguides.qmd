@@ -5,7 +5,9 @@ format:
     embed-resources: true
     toc: false
 ---
-Written by [LIBER](https://libereurope.eu/) professionals working in research libraries across Europe, each guide provides a short introduction to practical applications of digital scholarship and data science to the work of libraries today. In each guide, authors share their personal recommendations for useful tutorials, recommended reading, and communities of practice to help colleagues on their learning journey. 
+
+Authored by [LIBER](https://libereurope.eu/) professionals, these guides offer short introductions to applying digital scholarship and data science in modern library work. Each guide includes the authors' personal recommendations for tutorials, further reading, and communities of practice to support your learning journey.
+
 
 ::: {.grid}
 ::: {.g-col-4}
@@ -25,7 +27,7 @@ Written by [LIBER](https://libereurope.eu/) professionals working in research li
   <div class="card-header">**Self-study & Quick Reference**</div>
   <div class="card-body">The guides aim to be a useful first point of entry into complex topics in digital scholarship and data science and their application in the library world. They are not meant to be read in any particular order and learners are invited to jump in and out of individual guides as personal curiosity or practical need dictates. 
 
-Each _DS Topic Guide_ is designed to make it easy to quickly find the information you might need: 
+Each _DS Topic Guide_ is structured to make it easy to quickly find the information you might need: 
 
 - Introduction to the topic
 - Relevance to the library sector (case studies/use cases)
