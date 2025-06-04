@@ -16,7 +16,7 @@ Authored by [LIBER](https://libereurope.eu/) professionals, these guides offer s
 
 <div class="card text-white bg-secondary mb-3" style="max-width: 20rem;">
   <div class="card-header">**Group Study**</div>
-  <div class="card-body">The materials recommended here can be used to start up a reading group, or hold a hands-on workshop! See our _DS Topic Guide_ on how to [Start your own training programme](dstp.qmd). It has tons of tips and tricks from British Library Digital Research Team colleagues on using these guides support group learning opportunities at your own library or network.</div>
+  <div class="card-body">You can use these materials to kickstart a reading group or host a hands-on workshop. For guidance on setting up your own program, check out our [Start your own training programme](dstp.qmd). It's packed with tips and tricks from the British Library's Digital Research Team on how to leverage these guides for group learning within your library or network.</div>
 </div>
 :::
 
