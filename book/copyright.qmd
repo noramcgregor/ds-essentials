@@ -50,7 +50,7 @@ This guide aims to provide library professionals at European research institutio
 
 If it’s been awhile since you’ve had a look at copyright rules closely, let’s take a minute to cover the basics so we have a good foundation for understanding the more complex considerations of copyright in an AI context today. 
 
-Equally, if you feel well versed in the basics already and are keen to dive straight into the AI context, **feel free to hop on down to the [Relevance to the Library section](#relevance-to-the-library-sector-case-studiesuse-cases)**.
+Equally, if you feel well versed in the basics already and are keen to dive straight into the AI context, feel free to hop straight to that area of the guide. [Skip the basics](#relevance-to-the-library-sector-case-studiesuse-cases){.btn .btn-outline-primary .btn role="button"}
 
 ### Copyright basics
 
@@ -76,8 +76,6 @@ When copyright expires it becomes Public Domain however given the differences in
 
 For example, Canada has a copyright duration of 50 years after death for literary works whereas in France it’s 70. In Canada the work would not require permission for certain uses but in France those same uses would still require a licence or an exception.
 
-Another example is the UK. “Some works are protected in the UK until 31st December 2039, even where the author died perhaps hundreds of years ago. This is also known as the ‘2039’ rule and applies to literary, dramatic and musical works, but not artistic works other than photographs and engravings. Other rules apply for photographs, films and sound recordings.”
-
 When a work enters the Public Domain it is free to be used by anyone in any way without the permission of the owner. When copyright expires also the moral rights of the creator expire, so works can be altered and used without crediting the author. However, many countries have given public authorities, such as the Ministry of Education/ Culture the possibility to protect the ‘educational and cultural value’ of works that are in the public domain, Italy for example.
 
 #### **Ownership**
@@ -94,7 +92,7 @@ Copyright ownership is granted to the creator of the work in the EU automaticall
 
 Owners of copyright works are able to apply any licensing conditions they wish to their work, however research funders may make it a condition of a grant that certain outputs arising from funded research must be released openly. Where this is the case, they will communicate their preferred licensing choice.
 
-The most common licences used are Creative Commons licences. Creative Commons licences are intended to pre-approve certain uses meaning a user can make use of a work within the terms of those licence conditions. If a user wishes to make other uses they will need to contact the owner in the usual way and negotiate separate permissions. If a user breaches the Creative Commons terms they can be sued for infringement by the owner.
+The most common licences used are [Creative Commons](https://creativecommons.org/) licences. Creative Commons licences are intended to pre-approve certain uses meaning a user can make use of a work within the terms of those licence conditions. If a user wishes to make other uses they will need to contact the owner in the usual way and negotiate separate permissions. If a user breaches the Creative Commons terms they can be sued for infringement by the owner.
 
 Creative Commons licences do not impact on the ownership status of the work- they are simply licences. Only the copyright owner of a work has the authority to grant a Creative Commons licence.
 
@@ -151,6 +149,10 @@ _Ethical authorship_
 
 Copyright authorship and who are authors in a scientific publication differ. When listing authors and those persons who have contributed to the research and to the publication should be mentioned, contributor roles should be defined, and a tool for this is the [CRediT – Contributor Role Taxonomy (niso.org)](https://credit.niso.org/).
 
+_UK 2039 rule_ 
+
+Some works are protected in the UK until 31st December 2039, even where the author died perhaps hundreds of years ago. This is also known as [the ‘2039’ rule](https://www.gov.uk/government/publications/copyright-notice-duration-of-copyright-term/copyright-notice-duration-of-copyright-term#refexceptions-to-the-general-rules) and applies to literary, dramatic and musical works, but not artistic works other than photographs and engravings. Other rules apply for photographs, films and sound recordings.”
+
 ### Licensing basics  
 
 Licensing agreements are a central type of legal contract concerning copyright works. Use of published content within institutions will be covered by licences. Access to ebooks, e-journals, databases etc are all covered by licences. It is important to know and understand the terms under which access to content is provided so that users can use the content without risk of breaching the licence terms.
@@ -205,7 +207,7 @@ While the mandatory exception would cover the collection and analysis of the dat
 
 ### AI Act and Copyright
 
-The [EU AI Act](https://www.europarl.europa.eu/doceo/document/TA-9-2024-0138-FNL-COR01_EN.pdf) legislates obligations for providers and deployers of artificial intelligence (AI) systems and AI models and includes articles concerning the copyright protected content as training data of AI models. The AI Act confirms that text and data mining exceptions [support the use of content for training AI models](https://copyrightblog.kluweriplaw.com/2023/12/11/a-first-look-at-the-copyright-relevant-parts-in-the-final-ai-act-compromise/). AI Act Article 53 contains obligations for providers of general-purpose AI models:
+The [EU AI Act](https://www.europarl.europa.eu/doceo/document/TA-9-2024-0138-FNL-COR01_EN.pdf) legislates obligations for providers and deployers of artificial intelligence (AI) systems and AI models and includes articles concerning the copyright protected content as training data of AI models. The AI Act confirms that text and data mining exceptions [support the use of content for training AI models](https://copyrightblog.kluweriplaw.com/2023/12/11/a-first-look-at-the-copyright-relevant-parts-in-the-final-ai-act-compromise/). [AI Act Article 53](https://artificialintelligenceact.eu/article/53/) contains obligations for providers of general-purpose AI models:
 
 >- Article 53(c) _the provider of a general purpose AI model must put in place a policy to comply with Union law on copyright and related rights, and in particular to identify and comply with, including through state-of-the-art technologies, a reservation of rights (opt-out) expressed in Article 4(3) of Directive (EU) 2019/790 (DSM directive)._
 >- Article 53(d) _the provider of a general purpose AI model must draw up and make publicly available a sufficiently detailed summary about the content used for training of the general-purpose AI model, according to a template that will be provided by the_ [_EU AI Office_](https://digital-strategy.ec.europa.eu/en/policies/ai-office)_._
