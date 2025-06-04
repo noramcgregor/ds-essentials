@@ -25,7 +25,7 @@ Authored by [LIBER](https://libereurope.eu/) professionals, these guides offer s
   <div class="card-header">**Self-study & Quick Reference**</div>
   <div class="card-body">These guides offer an initial dive into complex digital scholarship and data science topics, specifically how they apply in libraries. Feel free to explore them in any order, jumping to guides that spark your curiosity or meet your practical needs.
 
-Each _DS Topic Guide_ is designed to make it easy to quickly find the information you might need: 
+Each _DS Topic Guide_ is structured to make it easy to quickly find the information you might need: 
 
 - Introduction to the topic
 - Relevance to the library sector (case studies/use cases)
