@@ -23,7 +23,7 @@ Authored by [LIBER](https://libereurope.eu/) professionals, these guides offer s
 ::: {.g-col-8}
 <div class="card text-white bg-success mb-3">
   <div class="card-header">**Self-study & Quick Reference**</div>
-  <div class="card-body">The guides aim to be a useful first point of entry into complex topics in digital scholarship and data science and their application in the library world. They are not meant to be read in any particular order and learners are invited to jump in and out of individual guides as personal curiosity or practical need dictates. 
+  <div class="card-body">These guides offer an initial dive into complex digital scholarship and data science topics, specifically how they apply in libraries. Feel free to explore them in any order, jumping to guides that spark your curiosity or meet your practical needs. 
 
 Each _DS Topic Guide_ is structured to make it easy to quickly find the information you might need: 
 
