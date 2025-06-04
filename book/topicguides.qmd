@@ -5,7 +5,7 @@ format:
     embed-resources: true
     toc: false
 ---
-Written by [LIBER](https://libereurope.eu/) professionals working in research libraries across Europe, each guide provides a short introduction to practical applications of digital scholarship and data science to the work of libraries today. In each guide, authors share their personal recommendations for useful tutorials, recommended reading, and communities of practice to help colleagues on their learning journey. 
+Authored by [LIBER](https://libereurope.eu/) professionals, these guides offer short introductions to applying digital scholarship and data science in modern library work. Each guide includes the authors' personal recommendations for tutorials, further reading, and communities of practice to support your learning journey.
 
 ::: {.grid}
 ::: {.g-col-4}
