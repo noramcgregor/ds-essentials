@@ -42,7 +42,7 @@ Deep Learning uses neural networks to model complex patterns within data. These 
 
 Convolutional Neural Networks (CNN) have become a cornerstone of image recognition as these neural networks are particularly well-suited for processing grid-like data, such as images. CNNs use convolutional layers that extract local features from the input image (edges, corners, etc.), which are then combined to form more complex representations in subsequent layers, allowing the network to learn hierarchical representations of the image content.
 
-![A diagram showing a convolutional neural network for image classification, progressing from input image to feature learning, flattening, classification, and output probabilities.](images/c-v_CNN_architecture.png)
+![A diagram showing a convolutional neural network for image classification, progressing from input image to feature learning, flattening, classification, and output probabilities.](images/c-v_CNN.jpg)
 
 ### Key functions of Computer Vision include:
 * Image processing - Preparation of input images to enhance them, e.g., noise reduction, sharpening, filtering, extraction of colour, etc.
